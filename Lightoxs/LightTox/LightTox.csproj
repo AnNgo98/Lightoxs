@@ -368,6 +368,7 @@
     <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
     <Content Include="Images\Untitled-2-Recovered.psd" />
     <Content Include="Areas\User\Views\ThietBi\Index.cshtml" />
+    <Content Include="Areas\User\Views\DuocPham\Purience.cshtml" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="Scripts\paritcals.json" />

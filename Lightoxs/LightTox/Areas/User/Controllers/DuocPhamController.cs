@@ -13,5 +13,9 @@ namespace LightTox.Areas.User.Controllers
         {
             return View();
         }
+        public ActionResult Purience()
+        {
+            return View();
+        }
     }
 }
