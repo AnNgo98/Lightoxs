@@ -5551,3 +5551,31 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 }*/
 /*PRODUCT 2 LAYER*/
 /*Viết*/
+
+
+
+
+
+/*Xuan Thuy*/
+.videoInno {
+    padding: 40px 0 40px 0;
+}
+
+.videoInno iframe {
+    width: 100%;
+
+}
+
+.inno_girl h1 {
+    position: absolute;
+    padding-left: 15%;
+    padding-top: 10%;
+    font-size: 500%;
+}
+
+.inno_girl img {
+    margin-left: auto;
+    margin-right: 10%;
+    height: auto;
+    width: 50%;
+}

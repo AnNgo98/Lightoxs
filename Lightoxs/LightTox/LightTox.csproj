@@ -253,6 +253,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Content\upload.css" />
     <Content Include="Content\VideoSlide.css" />
+    <Content Include="Images\inno_girl.png" />
+    <Content Include="Images\inno_logo.png" />
     <Content Include="Images\product_01.png" />
     <Content Include="Images\product_02.png" />
     <Content Include="Images\vital-barier.png" />
