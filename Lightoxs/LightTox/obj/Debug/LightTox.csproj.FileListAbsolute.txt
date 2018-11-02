@@ -359,6 +359,7 @@ C:\Users\Thuy Dao Xuan\Desktop\Lightoxs\Downloads\NhoTim\Lightoxs\LightTox\obj\D
 C:\Users\Thuy Dao Xuan\Desktop\Lightoxs\Downloads\NhoTim\Lightoxs\LightTox\obj\Debug\LightTox.csproj.CopyComplete
 C:\Users\Thuy Dao Xuan\Desktop\Lightoxs\Downloads\NhoTim\Lightoxs\LightTox\obj\Debug\Lightoxs.dll
 C:\Users\Thuy Dao Xuan\Desktop\Lightoxs\Downloads\NhoTim\Lightoxs\LightTox\obj\Debug\Lightoxs.pdb
+<<<<<<< HEAD
 C:\Users\Thuy Dao Xuan\Desktop\TTTN\Lightoxs Project\Lightoxs\Lightoxs\LightTox\bin\ApplicationInsights.config
 C:\Users\Thuy Dao Xuan\Desktop\TTTN\Lightoxs Project\Lightoxs\Lightoxs\LightTox\bin\Lightoxs.dll.config
 C:\Users\Thuy Dao Xuan\Desktop\TTTN\Lightoxs Project\Lightoxs\Lightoxs\LightTox\bin\Lightoxs.dll
@@ -432,3 +433,78 @@ C:\Users\Thuy Dao Xuan\Desktop\TTTN\Lightoxs Project\Lightoxs\Lightoxs\LightTox\
 C:\Users\Thuy Dao Xuan\Desktop\TTTN\Lightoxs Project\Lightoxs\Lightoxs\LightTox\obj\Debug\LightTox.csproj.CopyComplete
 C:\Users\Thuy Dao Xuan\Desktop\TTTN\Lightoxs Project\Lightoxs\Lightoxs\LightTox\obj\Debug\Lightoxs.dll
 C:\Users\Thuy Dao Xuan\Desktop\TTTN\Lightoxs Project\Lightoxs\Lightoxs\LightTox\obj\Debug\Lightoxs.pdb
+=======
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\ApplicationInsights.config
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Lightoxs.dll.config
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Lightoxs.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Lightoxs.pdb
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\csc.exe
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\csc.exe.config
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\csc.rsp
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\csi.exe
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\csi.rsp
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\System.AppContext.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\vbc.exe
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\vbc.exe.config
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\vbc.rsp
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\VBCSCompiler.exe
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Antlr3.Runtime.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\EntityFramework.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\EntityFramework.SqlServer.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.AI.Web.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.ApplicationInsights.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Newtonsoft.Json.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.Helpers.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.Mvc.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.Optimization.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.Razor.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.WebPages.Deployment.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.WebPages.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.WebPages.Razor.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\WebGrease.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\EntityFramework.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\EntityFramework.SqlServer.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.Helpers.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.Mvc.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.Optimization.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.Razor.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.WebPages.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.WebPages.Deployment.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\System.Web.WebPages.Razor.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Antlr3.Runtime.pdb
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Newtonsoft.Json.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.ApplicationInsights.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\bin\Microsoft.AI.Web.xml
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\obj\Debug\LightTox.csprojAssemblyReference.cache
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\obj\Debug\LightTox.csproj.CoreCompileInputs.cache
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\obj\Debug\LightTox.csproj.CopyComplete
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\obj\Debug\Lightoxs.dll
+C:\Users\16110\Documents\GitHub\Lightoxs\Lightoxs\LightTox\obj\Debug\Lightoxs.pdb
+>>>>>>> 6e7fe3a486fda2171a946a34add25c2b315fc254
