@@ -5434,7 +5434,6 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 
 /*PRODUCT 2 LAYER*/
 /*Viết*/
-<<<<<<< HEAD
 
 
 
@@ -5462,10 +5461,9 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     margin-right: 10%;
     height: auto;
     width: 50%;
-=======
+}
 /*Xem chi tiết*/
 .anhpurience {
     width : 100%;
     height : 200px;
->>>>>>> 6e7fe3a486fda2171a946a34add25c2b315fc254
 }
