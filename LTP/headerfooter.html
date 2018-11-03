@@ -1,0 +1,160 @@
+﻿@using LightTox.Helper
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Lightoxs Việt Nam</title>
+    <link href="~/Content/ANZCore.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="bg-second header1">
+            <div class="con">
+                <div class="r-n-g pt-3 pb-3">
+                    <div class="c-12 c-s-8  ">
+                        <div class="d-f flex-row align-content-center f-s-90 justify-content-center justify-content-sm-start">
+
+                            <span class="text-white"><i class="fa fa-clock-o pr-2 text-white" aria-hidden="true"></i>Giờ mở cửa: T2 - T7 8h00 - 16h00</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="StickyHeader">
+            <nav class="bg-primary header3">
+                <div class="con">
+                    <div class="r-n-g ">
+                        <div class="c-a d-b d-l-n mr-auto">
+                            <ul class="main-menu-mobile">
+                                <li> <a> <span class="menu-icon-bars"> <span class="menu-icon-bar"></span> <span class="menu-icon-bar"></span> <span class="menu-icon-bar"></span> </span> </a> </li>
+                            </ul>
+                        </div>
+                        <div class="c-a d-n d-l-b mr-auto">
+                            <ul class="desktop-menu d-f flex-row">
+                                <li><a href="/">Trang chủ</a></li>
+                                <li><a href="/DuoxcPham">Chăm sóc da</a></li>
+                                <li><a href="/ThietBi">Thiết bị y tế</a></li>
+                                <li><a href="/GioiThieu">Giới thiệu</a></li>
+                                <li><a href="/TinTuc">Tin tức</a></li>
+                                <li><a href="/LienHe">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="c-a align-self-center">
+                            <div class="tool-search">
+                                <input type="text" name="search" placeholder="Search Here">
+                                <a href="javascript:void(0)" class="d-f justify-content-center align-items-center"><i class="fa fa-search"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="mobile-menu" class="d-l-n d-x-n" style="display: none">
+        <ul class="navbar-nav" style="display: block;">
+            <li class="nav-item"> <a class="nav-link" href="/">Trang chủ</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="/">Chăm sóc da</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="/">Thiết bị y tế</a> </li>
+            <li class="nav-item nav-menu-item has-dropdown-menu">
+                <a href="javascript:void(0)" class="nav-link">Sản phẩm</a>
+                <ul class="dropdown-menu sub1 p-0 m-0">
+                    <li class="nav-item has-dropdown-menu">
+                        <a href="javascript:void(0)" class="nav-link">ABC</a>
+                        <ul class="dropdown-menu sub2  p-0 m-0">
+                            <li class="nav-item"> <a href="#">sadasd asd asd asdas</a> </li>
+                            <li c="" lass="nav-item"> <a href="#">sadasd asd asd asdas</a> </li>
+                            <li class="nav-item"> <a href="#">sadasd asd asd asdas</a> </li>
+                        </ul>
+
+                    </li>
+
+                </ul>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="/GioiThieu">Giới thiệu</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="/TinTuc">Tin tức</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="/LienHe">Liên hệ</a> </li>
+        </ul>
+    </div>
+    <content>
+
+        @RenderBody()
+    </content>
+    <footer class="pt-2">
+        <div class="bg-primary1">
+            <div class="con">
+                <div class="r-n-g">
+                    <div class="c-s-6 c-m-6 c-l-2 pb-3">
+                        <div class="d-f flex-column">
+                            <div class="box-image">
+                                <a href="./" class="align-self-center">
+                                    <img src="/Images/logo.png" alt="">
+                                </a>
+                            </div>
+                            <span class="pt-4 pb-4 text-lighdark text-justify">Lorem ipsum dlor amet, consetetur sadipscing esed dia nonumy eirmod tempor invidunt.</span>
+                            <div class="d-f flex-row">
+                                <a class="bg-link-1" href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                <a class="bg-link-1" href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                                <a class="bg-link-1" href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                <a class="bg-link-1" href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="c-s-12 c-m-6 c-l-2">
+
+                        <div class="d-f flex-column pl-0 pl-m-5 pt-3">
+                            <h2 class="text-white mb-2">Sản phẩm</h2>
+
+                            <a class="mt-2 mb-2">Chăm sóc da</a>
+
+                            <a class="mt-2 mb-2">Thiết bị y tế</a>
+                        </div>
+                    </div>-->
+                    <div class="c-s-6 c-m-6 c-l-5 pl-5 pb-3">
+                        <div class="d-f flex-column pl-m-0 pl-l-5">
+                            <h2 class="text-white">Liên hệ</h2>
+                            <div class="d-f flex-row mt-3 align-content-center">
+                                <i class="fa fa-map-marker text-white" aria-hidden="true"></i>
+                                <span class="ml-3 text-lighdark">205D Khu công nghệ phần mềm</span>
+                            </div>
+                            <div class="d-f flex-row mt-3 align-content-center">
+                                <i class="fa fa-phone text-white" aria-hidden="true"></i>
+                                <span class="ml-3 text-lighdark">+84 932 692 540</span>
+                            </div>
+                            <div class="d-f flex-row mt-3 align-content-center">
+                                <i class="fa fa-envelope text-white" aria-hidden="true"></i>
+                                <span class="ml-3 text-lighdark">andytra.anzamtech@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-s-12 c-m-12 c-l-5 pb-3">
+
+                        <div class="c-s-12 c-m-12 c-l-12">
+                            <div style="width: 100%;margin-bottom:0px;">
+                                <iframe style="width:100%;height:250px;" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDG4fjpb1PrLgtUzGtCvrpBeyBD3PERh4w&amp;q=ANZAMTECH,+JSC" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-primary2">
+            <div class="con">
+                <div class="r-n-g justify-content-center">
+                    <span class="m-3 text-white">Copyright Nho Tim Company 2018</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="~/Scripts/ANZCore.js" defer=""></script>
+    @RenderSection("Scripts", false)
+
+</body>
+</html>
