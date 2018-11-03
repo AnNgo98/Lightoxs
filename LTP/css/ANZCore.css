@@ -3890,7 +3890,7 @@ footer .bg-primary1 {
 
 .box {
     border-width: 2px;
-    border-style: solid;
+    /*border-style: solid;*/
 }
 
 .box-icon i {
@@ -4058,20 +4058,17 @@ footer .bg-primary1 {
 }
 
 .inooject-top {
-    position: absolute;
-    z-index: -3;
-    background-image: url(/Images/bg-innojector.png);
+    position: relative;
+    background-image: url(../images/bg-innojector.png);
     background-position: left top;
-    top: 0;
-    bottom: 55%;
-    left: 0;
-    right: 0;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 
 .inooject-bot {
     position: absolute;
     z-index: -4;
-    background-image: url(/Images/bg-innojector.png);
+    background-image: url(/images/bg-innojector.png);
     background-position: left bottom;
     top: 70%;
     bottom: 0;
@@ -4099,10 +4096,9 @@ footer .bg-primary1 {
 }
 
 .customers {
-    background-image: url(/Images/bg-cust.png);
+    background-image: url(../images/bg-cust.png);
     background-position: top left;
     position: relative;
-    padding: 120px 0;
 }
 
 .face {
@@ -4664,7 +4660,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     }
 
 .breadcrumb-area {
-    background-image: url(/Images/features.jpg);
+    background-image: url(/images/features.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -5449,21 +5445,33 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 
 }
 
-.inno_girl h1 {
-    position: absolute;
+.logo_inno {
     padding-left: 15%;
-    padding-top: 10%;
+    padding-top: 6%;
     font-size: 500%;
+    width: 80%;
+    float: right;
+}
+.inno_img {
+    padding-top: 10%;
+    float: right;
+    margin-right: 20%;
+    width: 30%;
+    height: auto;
 }
 
-.inno_girl img {
+.inno_girl {
     margin-left: auto;
     margin-right: 10%;
     height: auto;
-    width: 50%;
+    width: 76%;
 }
 /*Xem chi tiết*/
 .anhpurience {
     width : 100%;
     height : 200px;
+}
+
+.inno_middle {
+    width: 100%;
 }
