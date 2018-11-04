@@ -5270,8 +5270,27 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     background-color: #d44d3b;
     color: white;
 }
+.imageLT {
+    position: absolute;
+    bottom: -11%;
+    left:-9%;
+    display: block;
+}
+.hinh0 {
+    width: 90%;
+    height: auto;
+}
+.txtLT {
+    position: absolute;
+    display: block;
+    bottom: 60%;
+    left: 50%;
+    color:#d3e0f7;
+}
+.btn_LT {
+    font-size: 200%;
+}
 .btn-ct {
-    position: relative;
     position: absolute;
     bottom: 30%;
     right: 18%;
@@ -5424,7 +5443,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     }
 }
 .background3{
-    background-color: #DCDCDC;
+    background-color: #E6E6FA;
 }
 /*PRODUCT 2 LAYER*/
 /*Viết*/
