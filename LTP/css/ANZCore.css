@@ -5238,23 +5238,22 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 /*PRODUCT 3 LAYER*/
 /*PRODUCT 2 LAYER*/
 .bottom-right {
-    position: relative;
-    position: absolute;
-    bottom: 30px;
-    right: 16px;
+    padding-top: 20%;
+    padding-left: 20%;
     color: black;
+    font-size: 120%;
 }
 
 .bottom-right1 {
-    position: relative;
-    position: absolute;
-    bottom: 30px;
-    right: 16px;
+    padding-right: 10%;
+    padding-top: 20%;
     color: black;
+    font-size: 120%;
 }
 .btn-second1 {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-    color: blue;
+    background-color: #d44d3b;
+    color: white;
 }
 
     .btn-second:hover {
@@ -5262,8 +5261,9 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         color: white;
     }
 .btn-second2 {
+    background-color: #d44d3b;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-    color: blue;
+    color: white;
 }
 
 .btn-second:hover {
@@ -5278,17 +5278,13 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     display: block;
 }
 .btn-ct1 {
-    position: relative;
-    position: absolute;
-    bottom: 70%;
-    right: 12%;
+    padding-left: 45%;
+    padding-top: 15%;
     display: block;
 }
 .btn-ct2 {
-    position: relative;
-    position: absolute;
-    bottom: 42%;
-    right: 18%;
+    padding-left: 50%;
+    padding-top: 10%;
     display: block;
 }
 .btn-ct3 {
@@ -5427,7 +5423,9 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         display: block;
     }
 }
-
+.background3{
+    background-color: #DCDCDC;
+}
 /*PRODUCT 2 LAYER*/
 /*Viết*/
 
