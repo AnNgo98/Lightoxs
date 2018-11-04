@@ -31,27 +31,27 @@ $(document).ready(function () {
         }
     });
     var currentHeight = $(".header3").height();
-    /*    $(window).scroll(function () {
-            var sticky = $('header'),
-                scroll = $(window).scrollTop();
-    
-            if (scroll >= 150 && sticky.hasClass("fixed")) {
-                $(".header3").addClass("animation");
-                $("#mobile-menu").addClass("fixed");
-            }
-            if (scroll >= 70 && !sticky.hasClass("fixed")) {
-    
-                sticky.addClass('fixed')
-                // sticky.css("display", "none");
-    
-            }
-            if (scroll < 70 && sticky.hasClass("fixed")) {
-                sticky.removeClass('fixed');
-                $("#mobile-menu").removeClass("fixed");
-    
-            }
-        });
-        */
+/*    $(window).scroll(function () {
+        var sticky = $('header'),
+            scroll = $(window).scrollTop();
+
+        if (scroll >= 150 && sticky.hasClass("fixed")) {
+            $(".header3").addClass("animation");
+            $("#mobile-menu").addClass("fixed");
+        }
+        if (scroll >= 70 && !sticky.hasClass("fixed")) {
+
+            sticky.addClass('fixed')
+            // sticky.css("display", "none");
+
+        }
+        if (scroll < 70 && sticky.hasClass("fixed")) {
+            sticky.removeClass('fixed');
+            $("#mobile-menu").removeClass("fixed");
+
+        }
+    });
+    */
 
     $("#mobile-menu > .navbar-nav").on("click", function (e) {
         var curr = $(e.target);
@@ -118,10 +118,8 @@ function myFunction() {
         header.classList.add("sticky");
         body.classList.add("stickyBody");
     } else {
-        if (header != null) {
-            header.classList.remove("sticky");
-            body.classList.remove("stickyBody");
-        }
+        header.classList.remove("sticky");
+        body.classList.remove("stickyBody");
     }
 
     //if (window.pageYOffset + $(window).height() >= product1.offsetTop) {
@@ -146,5 +144,3 @@ function myFunction() {
 
 // Initiate the wowjs animation library
 new WOW().init();
-
-
