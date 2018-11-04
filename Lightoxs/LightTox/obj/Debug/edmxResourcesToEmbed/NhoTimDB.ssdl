@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NhoTimModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Brand">
+    <Key>
+      <PropertyRef Name="BrandID" />
+    </Key>
+    <Property Name="BrandID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="ntext" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CategoryNTP">
+    <Key>
+      <PropertyRef Name="CatID" />
+    </Key>
+    <Property Name="CatID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Departments">
+    <Key>
+      <PropertyRef Name="DepID" />
+    </Key>
+    <Property Name="DepID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Emp_Dep">
+    <Key>
+      <PropertyRef Name="DepID" />
+      <PropertyRef Name="EmpID" />
+    </Key>
+    <Property Name="DepID" Type="int" Nullable="false" />
+    <Property Name="EmpID" Type="int" Nullable="false" />
+    <Property Name="PosID" Type="int" Nullable="false" />
+    <Property Name="Description" Type="ntext" />
+  </EntityType>
+  <EntityType Name="Employee_Group">
+    <Key>
+      <PropertyRef Name="EmpID" />
+      <PropertyRef Name="GroupID" />
+    </Key>
+    <Property Name="EmpID" Type="int" Nullable="false" />
+    <Property Name="GroupID" Type="int" Nullable="false" />
+    <Property Name="DateCreate" Type="datetime" Nullable="false" />
+    <Property Name="ModifyDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="EmpID" />
+    </Key>
+    <Property Name="EmpID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FolderID" Type="int" Nullable="false" />
+    <Property Name="ManagerID" Type="int" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="NgaySinh" Type="datetime" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="Distric" Type="nvarchar" MaxLength="10" />
+    <Property Name="Ward" Type="nvarchar" MaxLength="10" />
+    <Property Name="Province" Type="nvarchar" MaxLength="25" />
+    <Property Name="Username" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="TrangThai" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Files">
+    <Key>
+      <PropertyRef Name="FileID" />
+    </Key>
+    <Property Name="FileID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FolderID" Type="int" Nullable="false" />
+    <Property Name="Type" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Tag" Type="ntext" Nullable="false" />
+    <Property Name="Path" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="TypeFile" Type="int" Nullable="false" />
+    <Property Name="CSS" Type="text" Nullable="false" />
+    <Property Name="Description" Type="ntext" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Folders">
+    <Key>
+      <PropertyRef Name="FolderID" />
+    </Key>
+    <Property Name="FolderID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubFolderID" Type="int" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Path" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="GroupID" />
+    </Key>
+    <Property Name="GroupID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MetaTag">
+    <Key>
+      <PropertyRef Name="MetaID" />
+    </Key>
+    <Property Name="MetaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MetaTag" Type="varchar" MaxLength="50" />
+    <Property Name="MetaName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="MaxLength" Type="int" />
+  </EntityType>
+  <EntityType Name="Pages_Meta_NTP">
+    <Key>
+      <PropertyRef Name="PageID" />
+      <PropertyRef Name="MetaID" />
+    </Key>
+    <Property Name="PageID" Type="int" Nullable="false" />
+    <Property Name="MetaID" Type="int" Nullable="false" />
+    <Property Name="Value" Type="ntext" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PagesNTP">
+    <Key>
+      <PropertyRef Name="PageID" />
+    </Key>
+    <Property Name="PageID" Type="int" Nullable="false" />
+    <Property Name="PageName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PageTitle" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="FolderID" Type="int" />
+    <Property Name="PageChild" Type="int" />
+  </EntityType>
+  <EntityType Name="Position">
+    <Key>
+      <PropertyRef Name="PosID" />
+    </Key>
+    <Property Name="PosID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Post_TagNTP">
+    <Key>
+      <PropertyRef Name="PostID" />
+      <PropertyRef Name="TagID" />
+    </Key>
+    <Property Name="PostID" Type="int" Nullable="false" />
+    <Property Name="TagID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PostCatNTP">
+    <Key>
+      <PropertyRef Name="CatID" />
+    </Key>
+    <Property Name="CatID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PostPinNTP">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PostID" Type="int" Nullable="false" />
+    <Property Name="Count" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PostsNTP">
+    <Key>
+      <PropertyRef Name="PostID" />
+    </Key>
+    <Property Name="PostID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FolderID" Type="int" Nullable="false" />
+    <Property Name="EmpID" Type="int" Nullable="false" />
+    <Property Name="CatID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Content" Type="ntext" Nullable="false" />
+    <Property Name="LinkFB" Type="text" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductsNTP">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubID" Type="int" Nullable="false" />
+    <Property Name="BrandID" Type="int" Nullable="false" />
+    <Property Name="EmpID" Type="int" Nullable="false" />
+    <Property Name="FolderID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SEO" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="LinkFB" Type="text" Nullable="false" />
+    <Property Name="ShortContent" Type="text" Nullable="false" />
+    <Property Name="Content" Type="text" Nullable="false" />
+    <Property Name="Status" Type="int" />
+  </EntityType>
+  <EntityType Name="Rule_Group">
+    <Key>
+      <PropertyRef Name="RuleID" />
+      <PropertyRef Name="GroupID" />
+    </Key>
+    <Property Name="RuleID" Type="int" Nullable="false" />
+    <Property Name="GroupID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rules">
+    <Key>
+      <PropertyRef Name="RuleID" />
+    </Key>
+    <Property Name="RuleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SubCategoryNTP">
+    <Key>
+      <PropertyRef Name="SubID" />
+    </Key>
+    <Property Name="SubID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CatID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TagsNTP">
+    <Key>
+      <PropertyRef Name="TagID" />
+    </Key>
+    <Property Name="TagID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Emp_Dep_Departments">
+    <End Role="Departments" Type="Self.Departments" Multiplicity="1" />
+    <End Role="Emp_Dep" Type="Self.Emp_Dep" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departments">
+        <PropertyRef Name="DepID" />
+      </Principal>
+      <Dependent Role="Emp_Dep">
+        <PropertyRef Name="DepID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Emp_Dep_Employees">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="1" />
+    <End Role="Emp_Dep" Type="Self.Emp_Dep" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpID" />
+      </Principal>
+      <Dependent Role="Emp_Dep">
+        <PropertyRef Name="EmpID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Emp_Dep_Position">
+    <End Role="Position" Type="Self.Position" Multiplicity="1" />
+    <End Role="Emp_Dep" Type="Self.Emp_Dep" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Position">
+        <PropertyRef Name="PosID" />
+      </Principal>
+      <Dependent Role="Emp_Dep">
+        <PropertyRef Name="PosID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Group_Employees">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="1" />
+    <End Role="Employee_Group" Type="Self.Employee_Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpID" />
+      </Principal>
+      <Dependent Role="Employee_Group">
+        <PropertyRef Name="EmpID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Group_Group">
+    <End Role="Group" Type="Self.Group" Multiplicity="1" />
+    <End Role="Employee_Group" Type="Self.Employee_Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="GroupID" />
+      </Principal>
+      <Dependent Role="Employee_Group">
+        <PropertyRef Name="GroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employees_Employees">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="Employees1" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpID" />
+      </Principal>
+      <Dependent Role="Employees1">
+        <PropertyRef Name="ManagerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employees_Folders">
+    <End Role="Folders" Type="Self.Folders" Multiplicity="1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Folders">
+        <PropertyRef Name="FolderID" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="FolderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Files_Folders">
+    <End Role="Folders" Type="Self.Folders" Multiplicity="1" />
+    <End Role="Files" Type="Self.Files" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Folders">
+        <PropertyRef Name="FolderID" />
+      </Principal>
+      <Dependent Role="Files">
+        <PropertyRef Name="FolderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Folders_Folders">
+    <End Role="Folders" Type="Self.Folders" Multiplicity="0..1" />
+    <End Role="Folders1" Type="Self.Folders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Folders">
+        <PropertyRef Name="FolderID" />
+      </Principal>
+      <Dependent Role="Folders1">
+        <PropertyRef Name="SubFolderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pages_Folders">
+    <End Role="Folders" Type="Self.Folders" Multiplicity="0..1" />
+    <End Role="PagesNTP" Type="Self.PagesNTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Folders">
+        <PropertyRef Name="FolderID" />
+      </Principal>
+      <Dependent Role="PagesNTP">
+        <PropertyRef Name="FolderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pages_Meta_MetaTag">
+    <End Role="MetaTag" Type="Self.MetaTag" Multiplicity="1" />
+    <End Role="Pages_Meta_NTP" Type="Self.Pages_Meta_NTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MetaTag">
+        <PropertyRef Name="MetaID" />
+      </Principal>
+      <Dependent Role="Pages_Meta_NTP">
+        <PropertyRef Name="MetaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pages_Meta_Pages">
+    <End Role="PagesNTP" Type="Self.PagesNTP" Multiplicity="1" />
+    <End Role="Pages_Meta_NTP" Type="Self.Pages_Meta_NTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PagesNTP">
+        <PropertyRef Name="PageID" />
+      </Principal>
+      <Dependent Role="Pages_Meta_NTP">
+        <PropertyRef Name="PageID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PagesNTP_PagesNTP">
+    <End Role="PagesNTP" Type="Self.PagesNTP" Multiplicity="0..1" />
+    <End Role="PagesNTP1" Type="Self.PagesNTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PagesNTP">
+        <PropertyRef Name="PageID" />
+      </Principal>
+      <Dependent Role="PagesNTP1">
+        <PropertyRef Name="PageChild" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Post_Tag_Posts">
+    <End Role="PostsNTP" Type="Self.PostsNTP" Multiplicity="1" />
+    <End Role="Post_TagNTP" Type="Self.Post_TagNTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PostsNTP">
+        <PropertyRef Name="PostID" />
+      </Principal>
+      <Dependent Role="Post_TagNTP">
+        <PropertyRef Name="PostID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Post_Tag_Tags">
+    <End Role="TagsNTP" Type="Self.TagsNTP" Multiplicity="1" />
+    <End Role="Post_TagNTP" Type="Self.Post_TagNTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TagsNTP">
+        <PropertyRef Name="TagID" />
+      </Principal>
+      <Dependent Role="Post_TagNTP">
+        <PropertyRef Name="TagID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Posts_Employees">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="1" />
+    <End Role="PostsNTP" Type="Self.PostsNTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpID" />
+      </Principal>
+      <Dependent Role="PostsNTP">
+        <PropertyRef Name="EmpID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Posts_Folders">
+    <End Role="Folders" Type="Self.Folders" Multiplicity="1" />
+    <End Role="PostsNTP" Type="Self.PostsNTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Folders">
+        <PropertyRef Name="FolderID" />
+      </Principal>
+      <Dependent Role="PostsNTP">
+        <PropertyRef Name="FolderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Posts_PostCat">
+    <End Role="PostCatNTP" Type="Self.PostCatNTP" Multiplicity="1" />
+    <End Role="PostsNTP" Type="Self.PostsNTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PostCatNTP">
+        <PropertyRef Name="CatID" />
+      </Principal>
+      <Dependent Role="PostsNTP">
+        <PropertyRef Name="CatID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Brand">
+    <End Role="Brand" Type="Self.Brand" Multiplicity="1" />
+    <End Role="ProductsNTP" Type="Self.ProductsNTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Brand">
+        <PropertyRef Name="BrandID" />
+      </Principal>
+      <Dependent Role="ProductsNTP">
+        <PropertyRef Name="BrandID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Employees">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="1" />
+    <End Role="ProductsNTP" Type="Self.ProductsNTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmpID" />
+      </Principal>
+      <Dependent Role="ProductsNTP">
+        <PropertyRef Name="EmpID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_SubCategory">
+    <End Role="SubCategoryNTP" Type="Self.SubCategoryNTP" Multiplicity="1" />
+    <End Role="ProductsNTP" Type="Self.ProductsNTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubCategoryNTP">
+        <PropertyRef Name="SubID" />
+      </Principal>
+      <Dependent Role="ProductsNTP">
+        <PropertyRef Name="SubID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rule_Group_Group">
+    <End Role="Group" Type="Self.Group" Multiplicity="1" />
+    <End Role="Rule_Group" Type="Self.Rule_Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="GroupID" />
+      </Principal>
+      <Dependent Role="Rule_Group">
+        <PropertyRef Name="GroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rule_Group_Rules">
+    <End Role="Rules" Type="Self.Rules" Multiplicity="1" />
+    <End Role="Rule_Group" Type="Self.Rule_Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rules">
+        <PropertyRef Name="RuleID" />
+      </Principal>
+      <Dependent Role="Rule_Group">
+        <PropertyRef Name="RuleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SubCategory_Category">
+    <End Role="CategoryNTP" Type="Self.CategoryNTP" Multiplicity="1" />
+    <End Role="SubCategoryNTP" Type="Self.SubCategoryNTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CategoryNTP">
+        <PropertyRef Name="CatID" />
+      </Principal>
+      <Dependent Role="SubCategoryNTP">
+        <PropertyRef Name="CatID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NhoTimModelStoreContainer">
+    <EntitySet Name="Brand" EntityType="Self.Brand" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CategoryNTP" EntityType="Self.CategoryNTP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Departments" EntityType="Self.Departments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Emp_Dep" EntityType="Self.Emp_Dep" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee_Group" EntityType="Self.Employee_Group" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Files" EntityType="Self.Files" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Folders" EntityType="Self.Folders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Group" EntityType="Self.Group" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MetaTag" EntityType="Self.MetaTag" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pages_Meta_NTP" EntityType="Self.Pages_Meta_NTP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PagesNTP" EntityType="Self.PagesNTP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Position" EntityType="Self.Position" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Post_TagNTP" EntityType="Self.Post_TagNTP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PostCatNTP" EntityType="Self.PostCatNTP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PostPinNTP" EntityType="Self.PostPinNTP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PostsNTP" EntityType="Self.PostsNTP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductsNTP" EntityType="Self.ProductsNTP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rule_Group" EntityType="Self.Rule_Group" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rules" EntityType="Self.Rules" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SubCategoryNTP" EntityType="Self.SubCategoryNTP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TagsNTP" EntityType="Self.TagsNTP" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Emp_Dep_Departments" Association="Self.FK_Emp_Dep_Departments">
+      <End Role="Departments" EntitySet="Departments" />
+      <End Role="Emp_Dep" EntitySet="Emp_Dep" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Emp_Dep_Employees" Association="Self.FK_Emp_Dep_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Emp_Dep" EntitySet="Emp_Dep" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Emp_Dep_Position" Association="Self.FK_Emp_Dep_Position">
+      <End Role="Position" EntitySet="Position" />
+      <End Role="Emp_Dep" EntitySet="Emp_Dep" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Group_Employees" Association="Self.FK_Employee_Group_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Employee_Group" EntitySet="Employee_Group" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Group_Group" Association="Self.FK_Employee_Group_Group">
+      <End Role="Group" EntitySet="Group" />
+      <End Role="Employee_Group" EntitySet="Employee_Group" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employees_Employees" Association="Self.FK_Employees_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Employees1" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employees_Folders" Association="Self.FK_Employees_Folders">
+      <End Role="Folders" EntitySet="Folders" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Files_Folders" Association="Self.FK_Files_Folders">
+      <End Role="Folders" EntitySet="Folders" />
+      <End Role="Files" EntitySet="Files" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Folders_Folders" Association="Self.FK_Folders_Folders">
+      <End Role="Folders" EntitySet="Folders" />
+      <End Role="Folders1" EntitySet="Folders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pages_Folders" Association="Self.FK_Pages_Folders">
+      <End Role="Folders" EntitySet="Folders" />
+      <End Role="PagesNTP" EntitySet="PagesNTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pages_Meta_MetaTag" Association="Self.FK_Pages_Meta_MetaTag">
+      <End Role="MetaTag" EntitySet="MetaTag" />
+      <End Role="Pages_Meta_NTP" EntitySet="Pages_Meta_NTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pages_Meta_Pages" Association="Self.FK_Pages_Meta_Pages">
+      <End Role="PagesNTP" EntitySet="PagesNTP" />
+      <End Role="Pages_Meta_NTP" EntitySet="Pages_Meta_NTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PagesNTP_PagesNTP" Association="Self.FK_PagesNTP_PagesNTP">
+      <End Role="PagesNTP" EntitySet="PagesNTP" />
+      <End Role="PagesNTP1" EntitySet="PagesNTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Post_Tag_Posts" Association="Self.FK_Post_Tag_Posts">
+      <End Role="PostsNTP" EntitySet="PostsNTP" />
+      <End Role="Post_TagNTP" EntitySet="Post_TagNTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Post_Tag_Tags" Association="Self.FK_Post_Tag_Tags">
+      <End Role="TagsNTP" EntitySet="TagsNTP" />
+      <End Role="Post_TagNTP" EntitySet="Post_TagNTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Posts_Employees" Association="Self.FK_Posts_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="PostsNTP" EntitySet="PostsNTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Posts_Folders" Association="Self.FK_Posts_Folders">
+      <End Role="Folders" EntitySet="Folders" />
+      <End Role="PostsNTP" EntitySet="PostsNTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Posts_PostCat" Association="Self.FK_Posts_PostCat">
+      <End Role="PostCatNTP" EntitySet="PostCatNTP" />
+      <End Role="PostsNTP" EntitySet="PostsNTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Brand" Association="Self.FK_Products_Brand">
+      <End Role="Brand" EntitySet="Brand" />
+      <End Role="ProductsNTP" EntitySet="ProductsNTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Employees" Association="Self.FK_Products_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="ProductsNTP" EntitySet="ProductsNTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_SubCategory" Association="Self.FK_Products_SubCategory">
+      <End Role="SubCategoryNTP" EntitySet="SubCategoryNTP" />
+      <End Role="ProductsNTP" EntitySet="ProductsNTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rule_Group_Group" Association="Self.FK_Rule_Group_Group">
+      <End Role="Group" EntitySet="Group" />
+      <End Role="Rule_Group" EntitySet="Rule_Group" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rule_Group_Rules" Association="Self.FK_Rule_Group_Rules">
+      <End Role="Rules" EntitySet="Rules" />
+      <End Role="Rule_Group" EntitySet="Rule_Group" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SubCategory_Category" Association="Self.FK_SubCategory_Category">
+      <End Role="CategoryNTP" EntitySet="CategoryNTP" />
+      <End Role="SubCategoryNTP" EntitySet="SubCategoryNTP" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

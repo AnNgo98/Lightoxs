@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NhoTimModelStoreContainer" CdmEntityContainer="NhoTimEntities">
+    <EntitySetMapping Name="Brands">
+      <EntityTypeMapping TypeName="NhoTimModel.Brand">
+        <MappingFragment StoreEntitySet="Brand">
+          <ScalarProperty Name="BrandID" ColumnName="BrandID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CategoryNTPs">
+      <EntityTypeMapping TypeName="NhoTimModel.CategoryNTP">
+        <MappingFragment StoreEntitySet="CategoryNTP">
+          <ScalarProperty Name="CatID" ColumnName="CatID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="NhoTimModel.Department">
+        <MappingFragment StoreEntitySet="Departments">
+          <ScalarProperty Name="DepID" ColumnName="DepID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Emp_Dep">
+      <EntityTypeMapping TypeName="NhoTimModel.Emp_Dep">
+        <MappingFragment StoreEntitySet="Emp_Dep">
+          <ScalarProperty Name="DepID" ColumnName="DepID" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="PosID" ColumnName="PosID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee_Group">
+      <EntityTypeMapping TypeName="NhoTimModel.Employee_Group">
+        <MappingFragment StoreEntitySet="Employee_Group">
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="NhoTimModel.Employee">
+        <MappingFragment StoreEntitySet="Employees">
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="FolderID" ColumnName="FolderID" />
+          <ScalarProperty Name="ManagerID" ColumnName="ManagerID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Distric" ColumnName="Distric" />
+          <ScalarProperty Name="Ward" ColumnName="Ward" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Files">
+      <EntityTypeMapping TypeName="NhoTimModel.File">
+        <MappingFragment StoreEntitySet="Files">
+          <ScalarProperty Name="FileID" ColumnName="FileID" />
+          <ScalarProperty Name="FolderID" ColumnName="FolderID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Tag" ColumnName="Tag" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="TypeFile" ColumnName="TypeFile" />
+          <ScalarProperty Name="CSS" ColumnName="CSS" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Folders">
+      <EntityTypeMapping TypeName="NhoTimModel.Folder">
+        <MappingFragment StoreEntitySet="Folders">
+          <ScalarProperty Name="FolderID" ColumnName="FolderID" />
+          <ScalarProperty Name="SubFolderID" ColumnName="SubFolderID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Groups">
+      <EntityTypeMapping TypeName="NhoTimModel.Group">
+        <MappingFragment StoreEntitySet="Group">
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MetaTags">
+      <EntityTypeMapping TypeName="NhoTimModel.MetaTag">
+        <MappingFragment StoreEntitySet="MetaTag">
+          <ScalarProperty Name="MetaID" ColumnName="MetaID" />
+          <ScalarProperty Name="MetaTag1" ColumnName="MetaTag" />
+          <ScalarProperty Name="MetaName" ColumnName="MetaName" />
+          <ScalarProperty Name="MaxLength" ColumnName="MaxLength" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pages_Meta_NTP">
+      <EntityTypeMapping TypeName="NhoTimModel.Pages_Meta_NTP">
+        <MappingFragment StoreEntitySet="Pages_Meta_NTP">
+          <ScalarProperty Name="PageID" ColumnName="PageID" />
+          <ScalarProperty Name="MetaID" ColumnName="MetaID" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PagesNTPs">
+      <EntityTypeMapping TypeName="NhoTimModel.PagesNTP">
+        <MappingFragment StoreEntitySet="PagesNTP">
+          <ScalarProperty Name="PageID" ColumnName="PageID" />
+          <ScalarProperty Name="PageName" ColumnName="PageName" />
+          <ScalarProperty Name="PageTitle" ColumnName="PageTitle" />
+          <ScalarProperty Name="FolderID" ColumnName="FolderID" />
+          <ScalarProperty Name="PageChild" ColumnName="PageChild" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Positions">
+      <EntityTypeMapping TypeName="NhoTimModel.Position">
+        <MappingFragment StoreEntitySet="Position">
+          <ScalarProperty Name="PosID" ColumnName="PosID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PostCatNTPs">
+      <EntityTypeMapping TypeName="NhoTimModel.PostCatNTP">
+        <MappingFragment StoreEntitySet="PostCatNTP">
+          <ScalarProperty Name="CatID" ColumnName="CatID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PostPinNTPs">
+      <EntityTypeMapping TypeName="NhoTimModel.PostPinNTP">
+        <MappingFragment StoreEntitySet="PostPinNTP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PostID" ColumnName="PostID" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PostsNTPs">
+      <EntityTypeMapping TypeName="NhoTimModel.PostsNTP">
+        <MappingFragment StoreEntitySet="PostsNTP">
+          <ScalarProperty Name="PostID" ColumnName="PostID" />
+          <ScalarProperty Name="FolderID" ColumnName="FolderID" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="CatID" ColumnName="CatID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="LinkFB" ColumnName="LinkFB" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductsNTPs">
+      <EntityTypeMapping TypeName="NhoTimModel.ProductsNTP">
+        <MappingFragment StoreEntitySet="ProductsNTP">
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="SubID" ColumnName="SubID" />
+          <ScalarProperty Name="BrandID" ColumnName="BrandID" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="FolderID" ColumnName="FolderID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SEO" ColumnName="SEO" />
+          <ScalarProperty Name="LinkFB" ColumnName="LinkFB" />
+          <ScalarProperty Name="ShortContent" ColumnName="ShortContent" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rules">
+      <EntityTypeMapping TypeName="NhoTimModel.Rule">
+        <MappingFragment StoreEntitySet="Rules">
+          <ScalarProperty Name="RuleID" ColumnName="RuleID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubCategoryNTPs">
+      <EntityTypeMapping TypeName="NhoTimModel.SubCategoryNTP">
+        <MappingFragment StoreEntitySet="SubCategoryNTP">
+          <ScalarProperty Name="SubID" ColumnName="SubID" />
+          <ScalarProperty Name="CatID" ColumnName="CatID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="NhoTimModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TagsNTPs">
+      <EntityTypeMapping TypeName="NhoTimModel.TagsNTP">
+        <MappingFragment StoreEntitySet="TagsNTP">
+          <ScalarProperty Name="TagID" ColumnName="TagID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Post_TagNTP" TypeName="NhoTimModel.Post_TagNTP" StoreEntitySet="Post_TagNTP">
+      <EndProperty Name="PostsNTP">
+        <ScalarProperty Name="PostID" ColumnName="PostID" />
+      </EndProperty>
+      <EndProperty Name="TagsNTP">
+        <ScalarProperty Name="TagID" ColumnName="TagID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Rule_Group" TypeName="NhoTimModel.Rule_Group" StoreEntitySet="Rule_Group">
+      <EndProperty Name="Group">
+        <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+      </EndProperty>
+      <EndProperty Name="Rules">
+        <ScalarProperty Name="RuleID" ColumnName="RuleID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
