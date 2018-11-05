@@ -4068,14 +4068,56 @@ footer .bg-primary1 {
 .inooject-bot {
     position: absolute;
     z-index: -4;
-    background-image: url(/images/bg-innojector.png);
-    background-position: left bottom;
+    background-image: url(../images/bg-innojector.png);
+    background-position: top left;
     top: 70%;
     bottom: 0;
     left: 0;
     right: 0;
     opacity: 0.5;
 }
+
+.background_girl {
+    background-image: url("../images/background_inno.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.my-container {
+    position: relative;
+    background: #008FD5;
+    overflow: hidden;
+}
+.my-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    background-image: url("../images/background_inno.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.my-container img {
+    z-index: 2;
+    position: relative;
+    color: #fff;
+} 
 
 @media (min-width: 895px) {
     .inooject-top {
