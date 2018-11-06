@@ -5283,12 +5283,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 .txtLT {
     position: absolute;
     display: block;
+    width:51%;
     bottom: 60%;
-    left: 50%;
+    left: 43%;
     color:#d3e0f7;
 }
 .btn_LT {
     font-size: 200%;
+    color: rgba(125,165,170,097);
+}
+.background3{
+    background-color:white;
+}
+.background4{
+    background-color: white;
 }
 .btn-ct {
     position: absolute;
@@ -5442,9 +5450,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         display: block;
     }
 }
-.background3{
-    background-color: #E6E6FA;
-}
+
 /*PRODUCT 2 LAYER*/
 /*Viết*/
 
