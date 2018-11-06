@@ -3802,7 +3802,6 @@ footer .bg-primary1 {
 
 .text-center_img {
     text-align: center !important;
-    padding-left: 14%;
     font-size: 169%;
 }
 
@@ -3878,6 +3877,11 @@ footer .bg-primary1 {
 /**ANZ Control User*/
 .pop-box:hover i {
     color: #e64631;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box-image {
@@ -5527,6 +5531,67 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+#table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table tr {
+    background-color: #ffffff;
+}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.bgset04 img {
+    padding-bottom: 1px; 
+    width: 100%; 
+    height: auto;
+}
+
+.img_badgirl {
+    float: initial;
+    margin-right: auto;
+    width: 70%;
+    margin-left: auto;
+}
+
+div.imgMinhHoa {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.imgMinhHoa img:hover {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+div.imgMinhHoa img {
+    width: 275px;
+    height: 150px;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 
