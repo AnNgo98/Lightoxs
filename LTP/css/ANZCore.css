@@ -3800,6 +3800,12 @@ footer .bg-primary1 {
     text-align: center !important;
 }
 
+.text-center_img {
+    text-align: center !important;
+    padding-left: 14%;
+    font-size: 169%;
+}
+
 @media (min-width: 576px) {
     .text-sm-left {
         text-align: left !important;
@@ -3880,7 +3886,6 @@ footer .bg-primary1 {
 
     .box-image img {
         width: 100%;
-        opacity: 0.8;
         transition: all .35s ease-in;
     }
 
@@ -4066,7 +4071,6 @@ footer .bg-primary1 {
 }
 
 .inooject-bot {
-    position: absolute;
     z-index: -4;
     background-image: url(../images/bg-innojector.png);
     background-position: top left;
@@ -4074,7 +4078,6 @@ footer .bg-primary1 {
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: 0.5;
 }
 
 .background_girl {
@@ -5132,7 +5135,6 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 .box-rounded {
     float: right;
     width: 60%;
-    opacity: 0.8;
 }
 
     .box-rounded:hover {
@@ -5261,7 +5263,6 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     .box-rounded {
         float: right;
         width: 65%;
-        opacity: 0.8;
     }
 
         .box-rounded:hover {
@@ -5517,6 +5518,18 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 .inno_middle {
     width: 100%;
 }
+
+.small_image img {
+    width: 300px;
+}
+
+.small_image2 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
 /*Xem chi tiết*/
 .hinh123 {
     width :80%;
