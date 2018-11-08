@@ -5571,28 +5571,28 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 }
 .vetmot{
     position: absolute;
-    bottom: 78%;
+    bottom: 7%;
     margin-left: 16%;
-    font-size: 180%;
+    font-size: 190%;
     font-family: cursive;
 }
-img#vitalmodel
+.vitalmodel
 {
-    height: 368px;
+    height: auto;
     width: 30%;
     position: relative;
     padding-right: 0px;
     padding-bottom: -43%;
-    right: 5%;
-    bottom: -8px;
+    right: 3%;
+    bottom: -30px;
 }
-img#vitalbarrier{
+ .vitalbarrier{
     position: relative;
     right: 593px;
     top: 439px;
     width: 90%;
     height: auto;
-}
+} 
 .vethai{
     position: absolute;
     bottom: 47%;
@@ -5615,8 +5615,132 @@ img#vitalbarrier{
 .param3{
     margin-left: 29%;
 }
+/*Mobile-Vitalmodel*/
+@media all and (min-width: 320px) {
+    img#vitalmodel{
+    height: 288px;
+    width: 30%;
+    position: relative;
+    padding-right: 0px;
+    padding-bottom: -43%;
+    right: 3%;
+    bottom: -8px;
+    }
+}
+@media only screen and (max-width : 410px){
+    .vitalbarrier {
+        height: 288px;
+    width: 30%;
+    position: relative;
+    padding-right: 0px;
+    padding-bottom: -43%;
+    right: 3%;
+    bottom: -8px;
+    }
+}
+/*Mobile-VitalBarrier*/
+@media only screen and (max-width: 411px) {
+    img#vitalbarrier{
+    position: relative;
+    right: 68%;
+    width: 66%;
+    height: auto;
+    top: 286px;
+    }
+}
+/*VitalBarrier*/
+@media screen and (max-width: 321px) {
+    .vitalbarrier {
+        position: absolute;
+        bottom: 85%;
+        margin-left: 15%;
+        font-size: 61%;
+        font-family: cursive;
+    }
+}
+@media screen and (min-width:455px) and (max-width: 500px) {
+    .vitalbarrier {
+        position: absolute;
+        bottom: 84%;
+        margin-left: 15%;
+        font-size: 65%;
+        font-family: cursive;
+    }
+}
+@media screen and (min-width:500px) and (max-width: 600px) {
+    .vitalbarrier {
+        position: absolute;
+        bottom: 82%;
+        margin-left: 15%;
+        font-size: 83%;
+        font-family: cursive;
+    }
+}
+@media screen and (min-width:600px) and (max-width: 700px) {
+    .vitalbarrier {
+        position: absolute;
+    bottom: 81%;
+    margin-left: 14%;
+    font-size: 97%;
+    font-family: cursive;
+    }
+}
+@media screen and (min-width:700px) and (max-width: 800px) {
+    .vitalbarrier {
+        position: absolute;
+    bottom: 80%;
+    margin-left: 14%;
+    font-size: 110%;
+    font-family: cursive;
+    }
+}
+@media screen and (min-width:800px) and (max-width: 900px) {
+    .vitalbarrier {
+        position: absolute;
+        bottom: 79%;
+        margin-left: 14%;
+        font-size: 118%;
+        font-family: cursive;
+    }
+}
+@media screen and (min-width:900px) and (max-width: 1000px) {
+    .vitalbarrier {
+        position: absolute;
+        bottom: 79%;
+        margin-left: 14%;
+        font-size: 133%;
+        font-family: cursive;
+    }
+}
+@media screen and (min-width:1000px) and (max-width: 1100px) {
+    .vitalbarrier {
+        position: absolute;
+    bottom: 78%;
+    margin-left: 14%;
+    font-size: 146%;
+    font-family: cursive;
+    }
+}
+@media screen and (min-width:1100px) and (max-width: 1200px) {
+    .vitalbarrier {
+        position: absolute;
+    bottom: 78%;
+    margin-left: 14%;
+    font-size: 156%;
+    font-family: cursive;
+    }
+}
+@media screen and (min-width:1200px) and (max-width: 1300px) {
+    .vitalbarrier {
+        position: absolute;
+        bottom: 78%;
+        margin-left: 14%;
+        font-size: 168%;
+        font-family: cursive;
+    }
+}   
 /*VetMot*/
-@media screen and (max-width: 454px) {
+@media only screen and (max-width: 454px) {
     .vetmot {
         position: absolute;
         bottom: 85%;
