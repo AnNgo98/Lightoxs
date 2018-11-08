@@ -5239,7 +5239,13 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 /*PRODUCT 2 LAYER*/
 
 
-
+.bottom-right3 {
+    position: absolute;
+    bottom: 20%;
+    right: 6%;
+    font-size: 250%;
+    font-family: cursive;
+}
 
 .btn-second2 {
     background-color: #d44d3b;
@@ -5316,8 +5322,30 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         right: 12%;
         font-size: 65%;
     }
+    .bottom-right3 {
+        position: absolute;
+        bottom: 20%;
+        right: 7%;
+        font-size: 75%;
+        font-family: cursive;
+    }
 }
-
+@media only screen and (min-width:451px) and (max-width:576px) {
+    .btn-ct {
+        position: relative;
+        position: absolute;
+        bottom: 30%;
+        right: 12%;
+        font-size: 65%;
+    }
+    .bottom-right3 {
+        position: absolute;
+        bottom: 20%;
+        right: 6%;
+        font-size: 100%;
+        font-family: cursive;
+    }
+}
 @media only screen and (max-width:576px) {
     .btn-ct3 {
         position: relative;
@@ -5395,15 +5423,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
             display: block;
         }
 }
-@media only screen and (min-width:451px) and (max-width:576px) {
-    .btn-ct {
-        position: relative;
-        position: absolute;
-        bottom: 30%;
-        right: 12%;
-        font-size: 65%;
-    }
-}
+
 
 @media only screen and (min-width : 576px) and (max-width:768px) {
     .btn-ct {
@@ -5648,7 +5668,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 12%;
         padding-left: 20%;
         color: black;
-        font-size: 170%;
+        font-size: 169%;
         font-family:cursive;
     }
     .btn-ct2 {
@@ -5684,7 +5704,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-right: 10%;
         padding-top: 11%;
         color: black;
-        font-size: 165%;
+        font-size: 164%;
         font-family: cursive;
         text-align: right !important;
     }
@@ -5716,13 +5736,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     margin-left:auto;
     margin-right:auto;
 }
-.bottom-right3 {
-    position: absolute;
-    bottom: 20%;
-    right: 6%;
-    font-size: 250%;
-    font-family: cursive;
-}
+
 #return-to-top {
     position: fixed;
     bottom: 20px;
@@ -5774,12 +5788,17 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 
 /* purien */
 .vet1 {
-
+width : 80%;
+height : auto;
 }
 .vet2 {
+    width : 80%;
+ height : auto;
  float : right;
 }
 .vet3 {
+    width : 80%;
+    height : auto;
 
 }
 .noidung1 {
@@ -5853,4 +5872,8 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 
 .inno_middle {
     width: 100%;
+}
+.congan{
+    width: 100%;
+    height: 100%;
 }
