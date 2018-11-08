@@ -5385,7 +5385,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 6%;
         display: block;
         font-size: 80%;
-        opacity: 0.5;
+        /* opacity: 0.5; */
     }
     .btn-second2:hover{
         background-color: red;
@@ -5478,7 +5478,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 6%;
         display: block;
         font-size: 90%;
-        opacity: 0.5;
+        /* opacity: 0.5; */
     }
     .btn-second2:hover{
         background-color: red;
@@ -5548,7 +5548,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 8%;
         display: block;
         font-size: 88%;
-        opacity: 0.5;
+        /* opacity: 0.5; */
     }
     .btn-second2:hover{
         background-color: red;
@@ -5684,7 +5684,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
             padding-left: 50%;
             padding-top: 8%;
             display: block;
-            opacity: 0.5;
+            /* opacity: 0.5; */
         }
         .btn-second2:hover{
             background-color: red;
@@ -5702,7 +5702,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-left: 50%;
         padding-top: 12%;
         display: block;
-        opacity: 0.5;
+        /* opacity: 0.5; */
     }
     .btn-second2:hover{
         background-color: red;
@@ -5758,32 +5758,16 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 }
 /*Xem chi tiết*/
 .hinh123 {
-    width :80%;
-    height : 500px;
+    width :100%;
+    height : auto;
     margin-left:auto;
     margin-right:auto;
 }
 .bottom-right3 {
     position: absolute;
-    bottom: 21%;
-    right: 16%;
-    font-size: 200%;
-}
-.PU1{
-    background-color:#dcb6dd;
-    width :70%;
-    height:auto;
-}
-.PU2{
-    background-color:#77c8db;
-    float : right;
-    width :70%;
-    height:auto;
-}
-.PU3 {
-    background-color: #dcb6dd;
-    width: 70%;
-    height: 80%;
+    bottom: 20%;
+    right: 6%;
+    font-size: 250%;
 }
 #return-to-top {
     position: fixed;
@@ -5830,11 +5814,41 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 }
 
 /* Extra Things */
-body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
+body{font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
 
 ::-webkit-scrollbar{
     display: none;
 }
+
+/* purien */
+.vet1 {
+
+}
+.vet2 {
+ float : right;
+}
+.vet3 {
+
+}
+.noidung1 {
+    position: absolute;
+    font-size: 150%;
+    bottom: 37%;
+    left:12%;
+}
+.noidung2 {
+    position: absolute;
+    font-size: 140%;
+    left:40%;
+    top : 31%;
+}
+.noidung3{
+    position: absolute;
+    font-size: 150%;
+    bottom: 28%;
+    left: 20%;
+}
+
 /*PRODUCT 2 LAYER*/
 /*Viết*/
 
