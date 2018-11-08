@@ -5571,9 +5571,9 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 }
 .vetmot{
     position: absolute;
-    bottom: 81%;
+    bottom: 78%;
     margin-left: 16%;
-    font-size: x-large;
+    font-size: 180%;
     font-family: cursive;
 }
 img#vitalmodel
@@ -5697,13 +5697,13 @@ img#vitalbarrier{
     font-family: cursive;
     }
 }
-@media screen and (min-width:1200px) and (max-width: 1300) {
+@media screen and (min-width:1200px) and (max-width: 1300px) {
     .vetmot {
         position: absolute;
-    bottom: 76%;
-    margin-left: 14%;
-    font-size: 160%;
-    font-family: cursive;
+        bottom: 78%;
+        margin-left: 14%;
+        font-size: 168%;
+        font-family: cursive;
     }
 }   
 /*VetHai*/
