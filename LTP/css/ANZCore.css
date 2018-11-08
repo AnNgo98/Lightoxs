@@ -4175,6 +4175,8 @@ content {
     width: 60px;
 }
 
+
+
 .sticky {
     position: fixed;
     top: 0;
@@ -5813,7 +5815,6 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 }
 
 /* Extra Things */
-body{font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
 
 ::-webkit-scrollbar{
     display: none;
@@ -5847,13 +5848,7 @@ body{font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;
     bottom: 28%;
     left: 20%;
 }
-.btn-second5 {
-    background-color: rebeccapurple;
-}
-.btn-ct4 {
-    padding-left: 80%;
-    padding-bottom: 2%;
-}
+
 /*PRODUCT 2 LAYER*/
 /*Viết*/
 
