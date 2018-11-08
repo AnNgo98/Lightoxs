@@ -5971,8 +5971,8 @@ div.imgMinhHoa img {
 
 /*Xem chi tiết*/
 .hinh123 {
-    width :80%;
-    height : 500px;
+    width: 100%;
+    height : auto;
     margin-left:auto;
     margin-right:auto;
 }
