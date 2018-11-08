@@ -8,6 +8,10 @@ div.title2
    margin: auto;
 }
 */
+.bg-primary {
+    color: #fff;
+    background-color: black;
+}
 img.intro 
 {
     width: 100%;
