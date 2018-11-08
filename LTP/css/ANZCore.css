@@ -5721,6 +5721,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     bottom: 20%;
     right: 6%;
     font-size: 250%;
+    font-family: cursive;
 }
 #return-to-top {
     position: fixed;
@@ -5767,8 +5768,6 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 }
 
 /* Extra Things */
-body{font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
-
 ::-webkit-scrollbar{
     display: none;
 }
