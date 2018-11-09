@@ -5239,13 +5239,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 /*PRODUCT 2 LAYER*/
 
 
-.bottom-right3 {
-    position: absolute;
-    bottom: 20%;
-    right: 6%;
-    font-size: 250%;
-    font-family: cursive;
-}
+
 
 .btn-second2 {
     background-color: #d44d3b;
@@ -5313,6 +5307,79 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         background-color: #d44d3b;
         color: white;
     }
+    .vet1 {
+        width : 80%;
+        height : auto;
+        }
+        .vet2 {
+            width : 90%;
+            height : 120%;
+            float : right;
+        }
+        .vet3 {
+            width : 80%;
+            height : auto;
+        
+        }
+        
+@media only screen and (max-width:500px) {
+    .backgroundvet2 {
+        margin-bottom: 6%;
+    }
+    .btn-ct4 {
+        padding-left: 68%;
+        padding-bottom: 2%;
+        font-size: 80%;
+    }
+    .noidung3{
+        position: absolute;
+        font-size: 73%;
+        left:13%;
+        top : 19%;
+    }
+    .noidung2 {
+        position: absolute;
+        font-size: 68%;
+        bottom: 7%;
+        left: 23%;
+        
+    }
+    .noidung1 {
+        position: absolute;
+        font-size: 85%;
+        bottom: 30%;
+        left:7%;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:576px){
+    .backgroundvet2 {
+        margin-bottom: 6%;
+    }
+    .btn-ct4 {
+        padding-left: 70%;
+        padding-bottom: 2%;
+        font-size: 90%;
+    }
+    .noidung3{
+        position: absolute;
+        font-size: 90%;
+        left:14%;
+        top : 20%;
+    }
+    .noidung2 {
+        position: absolute;
+        font-size: 80%;
+        bottom: 10%;
+        left: 23%;
+        
+    }
+    .noidung1 {
+        position: absolute;
+        font-size: 87%;
+        bottom: 33%;
+        left:11%;
+    }
+}
 @media only screen and (max-width:450px) {
 
     .btn-ct {
@@ -5347,6 +5414,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     }
 }
 @media only screen and (max-width:576px) {
+    
     .btn-ct3 {
         position: relative;
         position: absolute;
@@ -5426,6 +5494,45 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 
 
 @media only screen and (min-width : 576px) and (max-width:768px) {
+    .backgroundvet2 {
+        margin-bottom: 4%;
+    }
+    .bottom-right3 {
+        position: absolute;
+        bottom: 20%;
+        right: 6%;
+        font-size: 125%;
+        font-family: cursive;
+    }
+    .vet2 {
+        width : 80%;
+        height : 120%;
+        float : right;
+    }
+    .btn-ct4 {
+        padding-left: 73%;
+        padding-bottom: 2%;
+        font-size: 100%;
+    }
+    .noidung3{
+        position: absolute;
+        font-size: 100%;
+        left:16%;
+        top : 26%;
+    }
+    .noidung2 {
+        position: absolute;
+        font-size: 90%;
+        bottom: 8%;
+        left: 33%;
+        
+    }
+    .noidung1 {
+        position: absolute;
+        font-size: 110%;
+        bottom: 36%;
+        left:14%;
+    }
     .btn-ct {
         position: relative;
         position: absolute;
@@ -5509,6 +5616,45 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:768px) and (max-width:992px) {
+    .backgroundvet2 {
+        margin-bottom: 3%;
+    }
+    .bottom-right3 {
+        position: absolute;
+        bottom: 20%;
+        right: 7%;
+        font-size: 150%;
+        font-family: cursive;
+    }
+    .vet2 {
+        width : 80%;
+        height : 120%;
+        float : right;
+    }
+    .btn-ct4 {
+        padding-left: 80%;
+        padding-bottom: 2%;
+        font-size: 100%;
+    }
+    .noidung3{
+        position: absolute;
+        font-size: 138%;
+        left:16%;
+        top : 25%;
+    }
+    .noidung2 {
+        position: absolute;
+        font-size: 110%;
+        bottom: 11%;
+        left: 33%;
+        
+    }
+    .noidung1 {
+        position: absolute;
+        font-size: 140%;
+        bottom: 36%;
+        left:14%;
+    }
     .bottom-right {
         padding-top: 7%;
         padding-left: 20%;
@@ -5590,7 +5736,45 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:992px) and (max-width:1200px) {
-
+    .backgroundvet2 {
+        margin-bottom: 3%;
+    }
+    .bottom-right3 {
+        position: absolute;
+        bottom: 20%;
+        right: 7%;
+        font-size: 190%;
+        font-family: cursive;
+    }
+    .vet2 {
+        width : 80%;
+        height : 120%;
+        float : right;
+    }
+    .btn-ct4 {
+        padding-left: 83%;
+        padding-bottom: 2%;
+        font-size: 110%;
+    }
+    .noidung3{
+        position: absolute;
+        font-size: 160%;
+        left:16%;
+        top : 26%;
+    }
+    .noidung2 {
+        position: absolute;
+        font-size: 140%;
+        bottom: 9%;
+        left: 33%;
+        
+    }
+    .noidung1 {
+        position: absolute;
+        font-size: 170%;
+        bottom: 36%;
+        left:14%;
+    }
     .btn-ct {
         position: relative;
         position: absolute;
@@ -5664,6 +5848,54 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:1200px){
+    .backgroundvet2 {
+        margin-bottom: 3%;
+    }
+    .vet1 {
+        width : 65%;
+        height : auto;
+        }
+        .vet3 {
+            width : 65%;
+            height : auto;
+        
+        }
+    .vet2 {
+        width : 65%;
+        height : 120%;
+        float : right;
+    }
+    .btn-ct4 {
+        padding-left: 84%;
+        padding-bottom: 2%;
+        font-size: 120%;
+    }
+    .bottom-right3 {
+        position: absolute;
+        bottom: 20%;
+        right: 5%;
+        font-size: 250%;
+        font-family: cursive;
+    }
+    .noidung3{
+        position: absolute;
+        font-size: 150%;
+        left:13%;
+        top : 27%;
+    }
+    .noidung2 {
+        position: absolute;
+        font-size: 130%;
+        bottom: 12%;
+        left: 46%;
+        
+    }
+    .noidung1 {
+        position: absolute;
+        font-size: 150%;
+        bottom: 32%;
+        left:14%;
+    }
     .bottom-right {
         padding-top: 12%;
         padding-left: 20%;
@@ -5787,45 +6019,13 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 }
 
 /* purien */
-.vet1 {
-width : 80%;
-height : auto;
-}
-.vet2 {
-    width : 80%;
- height : auto;
- float : right;
-}
-.vet3 {
-    width : 80%;
-    height : auto;
 
-}
-.noidung1 {
-    position: absolute;
-    font-size: 150%;
-    bottom: 37%;
-    left:12%;
-}
-.noidung2 {
-    position: absolute;
-    font-size: 140%;
-    left:40%;
-    top : 31%;
-}
-.noidung3{
-    position: absolute;
-    font-size: 150%;
-    bottom: 28%;
-    left: 20%;
-}
+
+
 .btn-second5 {
     background-color: rebeccapurple;
 }
-.btn-ct4 {
-    padding-left: 80%;
-    padding-bottom: 2%;
-}
+
 /*PRODUCT 2 LAYER*/
 /*Viết*/
 
