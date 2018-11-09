@@ -5321,7 +5321,14 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
             height : auto;
         
         }
-        
+.readmore_purience1{
+    background-image: url(../images/background_readmore_purience.jpg);
+    width: 100%;
+    height: auto;
+}
+.img_readmore{
+    position: absolute;
+}
 @media only screen and (max-width:500px) {
     .backgroundvet2 {
         margin-bottom: 6%;
