@@ -31,27 +31,6 @@ $(document).ready(function () {
         }
     });
     var currentHeight = $(".header3").height();
-    /*    $(window).scroll(function () {
-            var sticky = $('header'),
-                scroll = $(window).scrollTop();
-    
-            if (scroll >= 150 && sticky.hasClass("fixed")) {
-                $(".header3").addClass("animation");
-                $("#mobile-menu").addClass("fixed");
-            }
-            if (scroll >= 70 && !sticky.hasClass("fixed")) {
-    
-                sticky.addClass('fixed')
-                // sticky.css("display", "none");
-    
-            }
-            if (scroll < 70 && sticky.hasClass("fixed")) {
-                sticky.removeClass('fixed');
-                $("#mobile-menu").removeClass("fixed");
-    
-            }
-        });
-        */
 
     $("#mobile-menu > .navbar-nav").on("click", function (e) {
         var curr = $(e.target);
@@ -99,22 +78,6 @@ $(document).ready(function () {
         }, 500);
     });
 });
-/*
-function ANZCore() {
-    this.RenderPartial = function () {
-        setTimeout(function a() {
-            if (particlesJS === 'undefined') {
-                setTimeout(a, 100);
-            } else {
-                particlesJS.load('particles-js', '/Scripts/paritcals.json', function () {
-                    // console.log('callback - particles.js config loaded');
-                });
-            }
-        }, 100);
-    };
-}
-*/
-// var ANZ = new ANZCore();
 
 
 // Sticky Header
@@ -126,6 +89,7 @@ var sticky = header.offsetTop;
 //var product1 = document.getElementById("ani_product3");
 
 function myFunction() {
+
     if (window.pageYOffset >= sticky) {
         header.classList.add("sticky");
         body.classList.add("stickyBody");
@@ -135,32 +99,39 @@ function myFunction() {
             body.classList.remove("stickyBody");
         }
     }
-
-    //if (window.pageYOffset + $(window).height() >= product1.offsetTop) {
-    //    product1.classList.add("slideInLeft");
-    //    document.getElementById("ani_product4").classList.add("slideInLeft");
-    //    document.getElementById("ani_innojector").classList.add("slideInUp");
-    //    document.getElementById("ani_product_logo").classList.add("slideInRight");
-    //}
 }
-
-
-//$(window).ready(function () {
-//    if (window.outerHeight >= product1.offsetTop) {
-//        product1.classList.add("slideInLeft");
-//        document.getElementById("ani_product4").classList.add("slideInLeft");
-//        document.getElementById("ani_innojector").classList.add("bounceInDown");
-//        document.getElementById("ani_product_logo").classList.add("slideInRight");
-//    }
-//});
-
-
-/***** Back To Top *****/
 
 // Initiate the wowjs animation library
 new WOW().init();
 
 
 
+/// scroll down
 
+function smoothScroll(target) {
 
+    $( "#main-menu-mobile" ).click();
+
+    var scrollContainer = target;
+    do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+
+    var targetY = 0;
+    do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+
+    targetY -= 120;
+
+    scroll = function (c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function () { scroll(c, a, b, i); }, 10);
+    }
+    // start scrolling
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}
