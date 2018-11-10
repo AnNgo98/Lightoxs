@@ -2,6 +2,23 @@
 .doimau {
     background-color: black;
 }
+.anhPhu {
+    position: absolute;
+    z-index: 3;
+    width: 13%;
+    margin-top: -49%;
+    margin-left: 12%;
+}
+.btn-primary {
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 20px;
+    font-size: 19px;
+    position: absolute;
+    z-index: 2;
+    top: -53px;
+}
 img.t
 {
     width: 100%;
@@ -16,15 +33,14 @@ img.t
 	position:relative;
 	z-index:2;
 }
-.pThanLightox
-{
-	position: absolute;
+.pThanLightox {
+    position: absolute;
     right: 24%;
     top: 31%;
-    width: 72%;
+    width: 60%;
     text-align: center;
     font-weight: normal;
-    font-size: 300%;
+    font-size: 201%;
     z-index: 2;
 }
 .imgThanLightox {
@@ -276,8 +292,50 @@ animation: animationFrames03 linear 9s;
 {
 	.pThanLightox 
 	{
-		font-size: 137%;
+		font-size: 137%;	
+	}
+}
+@media only screen and (max-width: 1312px)
+{
+	.brandSection4 .list ul li.li2 {
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 1107px)
+{
+	.brandSection4 .list ul li.li2 {
+		margin-left: -12%;
 	}
 }
 
+@media only screen and (max-width: 907px)
+{
+	.brandSection4 .list ul li.li2 {
+		margin-left: -28%;
+	}
+	.brandSection4 .list ul li.li1 {
+	
+		margin-left: -338px;
+	}
+}
+@media only screen and (max-width: 716px)
+{
+	.brandSection4 .list ul li.li1 {
+		margin-left: -214px
+	}
+	.brandSection4 .list ul li h3 {
+		font-size: 20px;
+	}
+	.brandSection4 .list ul li .desc {
+		
+		font-size: 14px;
+	}
+	.brandSection4 .list ul li.li3 {
+		top: 551px;
+		margin-left: -201px;
+	}
+	.brandSection4 .list ul li.li2 {
+		margin-left: -43%;
+	}
+}
 
