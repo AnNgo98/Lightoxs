@@ -5321,13 +5321,92 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
             height : auto;
         
         }
+        .hihi {
+            position: relative;
+        }
 .readmore_purience1{
-    background-image: url(../images/background_readmore_purience.jpg);
+    background-image: url(../images/background_purience.jpg);
+    width: 100%;
+    height: 720px;
+}
+.pu_img_3{
+    width : 60%;
+    height : auto;
+}
+.pu_img_4 {
+    width :50%;
+    height : auto;
+}
+/* .ct2 {
+    background-color: aliceblue;
+}
+.ct1 {
+    background-color: aliceblue;
+}
+.ct3{
+    background-color: aliceblue;
+} */
+.background_pu{
+    background-color: aliceblue;
+}
+.three_pu{
+    width : 100%;
+    height :auto;
+}
+.img_pu_3 {
     width: 100%;
     height: auto;
 }
+.img_pu_5 {
+    width: 100%;
+    height: auto;
+}
+.img_pu_6 {
+    width: 100%;
+    height: auto;
+}
+.pure {
+    font-size: 100%;
+}
+.autophagy {
+    font-size: 100%;
+}
+.img_pu_1 {
+    width: 100%;
+    height: auto;
+}
+.img_pu_0 {
+    width: 100%;
+    height: auto;
+}
+.text_pu_0{
+    padding-top: 15%;
+}
+.text_pu_1{
+    padding-top: 15%;
+}
+.text_pu_2{
+    padding-top: 10%;
+}
+.text_pu_3{
+    padding-top: 10%;
+}
 .img_readmore{
     position: absolute;
+}
+.img_pu_51 {
+    padding-left: 10%;
+}
+.img_pu_52 {
+    padding-left: 10%;
+}
+.noidungct{
+    background-color: #feeded;
+}
+.pu_img_2 {
+    margin-left: 30%;
+    width :40%;
+    height :auto;
 }
 @media only screen and (max-width:500px) {
     .backgroundvet2 {
@@ -5339,20 +5418,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-size: 80%;
     }
     .noidung3{
-        position: absolute;
+        /* position: absolute; */
         font-size: 73%;
         left:13%;
         top : 19%;
     }
     .noidung2 {
-        position: absolute;
+        /* position: absolute; */
         font-size: 68%;
         bottom: 7%;
         left: 23%;
         
     }
     .noidung1 {
-        position: absolute;
+        /* position: absolute; */
         font-size: 85%;
         bottom: 30%;
         left:7%;
@@ -5368,20 +5447,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-size: 90%;
     }
     .noidung3{
-        position: absolute;
-        font-size: 90%;
+        /* position: absolute; */
+        font-size: 150%;
         left:14%;
         top : 20%;
     }
     .noidung2 {
-        position: absolute;
+        /* position: absolute; */
         font-size: 80%;
         bottom: 10%;
         left: 23%;
         
     }
     .noidung1 {
-        position: absolute;
+        /* position: absolute; */
         font-size: 87%;
         bottom: 33%;
         left:11%;
@@ -5522,23 +5601,23 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-size: 100%;
     }
     .noidung3{
-        position: absolute;
+        /* position: absolute; */
         font-size: 100%;
         left:16%;
         top : 26%;
     }
     .noidung2 {
-        position: absolute;
+        /* position: absolute; */
         font-size: 90%;
         bottom: 8%;
         left: 33%;
         
     }
     .noidung1 {
-        position: absolute;
+        /* position: absolute; */
         font-size: 110%;
-        bottom: 36%;
-        left:14%;
+        /* bottom: 36%;
+        left:14%; */
     }
     .btn-ct {
         position: relative;
@@ -5644,21 +5723,21 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-size: 100%;
     }
     .noidung3{
-        position: absolute;
-        font-size: 138%;
+        /* position: absolute; */
+        font-size: 170%;
         left:16%;
         top : 25%;
     }
     .noidung2 {
-        position: absolute;
-        font-size: 110%;
+        /* position: absolute; */
+        font-size: 170%;
         bottom: 11%;
         left: 33%;
         
     }
     .noidung1 {
-        position: absolute;
-        font-size: 140%;
+        /* position: absolute; */
+        font-size: 170%;
         bottom: 36%;
         left:14%;
     }
@@ -5764,20 +5843,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-size: 110%;
     }
     .noidung3{
-        position: absolute;
+        /* position: absolute; */
         font-size: 160%;
         left:16%;
         top : 26%;
     }
     .noidung2 {
-        position: absolute;
+        /* position: absolute; */
         font-size: 140%;
         bottom: 9%;
         left: 33%;
         
     }
     .noidung1 {
-        position: absolute;
+        /* position: absolute; */
         font-size: 170%;
         bottom: 36%;
         left:14%;
@@ -5885,23 +5964,27 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-family: cursive;
     }
     .noidung3{
-        position: absolute;
+        /* position: absolute; */
         font-size: 150%;
-        left:13%;
-        top : 27%;
+        padding-left: 14%;
+        /* left:13%;
+        top : 27%; */
     }
     .noidung2 {
-        position: absolute;
-        font-size: 130%;
-        bottom: 12%;
-        left: 46%;
+        /* position: absolute; */
+        padding-top: 5%;
+        font-size: 150%;
+        float :right;
+        /* bottom: 12%;
+        left: 46%; */
         
     }
     .noidung1 {
-        position: absolute;
+        /* position: absolute; */
         font-size: 150%;
-        bottom: 32%;
-        left:14%;
+        padding-left: 14%;
+        /* bottom: 32%;
+        left:14%; */
     }
     .bottom-right {
         padding-top: 12%;
