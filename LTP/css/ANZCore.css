@@ -6399,25 +6399,14 @@ div.imgMinhHoa img {
     height: auto;
      padding-top: 68px; /*Chữa cháy */
 }
-.bavet{
+ .bavet{
     height: auto;
-    width: 70%;
-    background-repeat: no-repeat;
-    text-indent: 10px;
-    text-align: left;
-    color: black;
-    z-index: -1;
-    float:left;
-}
+    width: 100%;
+} 
 .bavet1{
     height: auto;
-    width: 86%;
-    background-repeat: no-repeat;
-    text-indent: 10px;
-    text-align: left;
+    width: 100%;
     color: black;
-    z-index: -1;
-    margin-left: 19%;
 }
 .bavet2{
     height: auto;
@@ -6453,40 +6442,32 @@ div.imgMinhHoa img {
 }
 .vetmot{
     position: absolute;
-    bottom: 78%;
-    margin-left: 16%;
-    font-size: 180%;
+    bottom: 26%;
+    margin-left: 20%;
+    font-size: 184%;
     font-family: cursive;
-}
-img#vitalmodel
-{
-    height: 368px;
-    width: 30%;
-    position: relative;
-    padding-right: 0px;
-    padding-bottom: -43%;
-    right: 5%;
-    bottom: -8px;
-}
-img#vitalbarrier{
-    position: relative;
-    right: 593px;
-    top: 439px;
-    width: 90%;
-    height: auto;
 }
 .vethai{
     position: absolute;
-    bottom: 47%;
-    margin-left: 36%;
+    bottom: 34%;
+    margin-left: 19%;
     font-family: cursive;
-}
+} 
 .vetba{
     position: absolute;
-    bottom: 9%;
+    bottom: 33%;
     margin-left: 9%;
     font-size: 149%;
     font-family: cursive;
+}
+.vitalmodel
+{
+    height: auto;
+    width: 100%;
+} 
+.vitalbarrier{
+    width: 100%;
+    height: auto;
 }
 .param1{
     margin-left: 3%;
@@ -6553,248 +6534,157 @@ img#vitalbarrier{
     }
 }
 @media screen and (min-width:600px) and (max-width: 700px) {
+@media only screen and (max-width: 576px) {
+    .vetmot {
+    position: absolute;
+    bottom: 26%;
+    margin-left: 22%;
+    font-size: 93%;
+    font-family: cursive;
+    }
+    img.vitalmodel{
+        width: 80%;
+    }
+    .vethai{
+        position: absolute;
+        bottom: 15%;
+        margin-left: 18%;
+        font-size: 57%;
+        font-family: cursive;
+    }
+    img.vitalbarrier{
+        width:80%;
+    }
+    .vetba{
+        position: absolute;
+        bottom: 34%;
+        margin-left: 9%;
+        font-size: 56%;
+        font-family: cursive;
+    }
+}
+@media screen and (min-width:576px) and (max-width: 650px) {
     .vetmot {
         position: absolute;
-    bottom: 81%;
-    margin-left: 14%;
+    bottom: 22%;
+    margin-left: 19%;
+    font-size: 87%;
+    font-family: cursive;
+    }
+    img.vitalmodel{
+        width: 80%;
+    }
+    .vethai{
+        position: absolute;
+        bottom: 15%;
+        margin-left: 18%;
+        font-size: 57%;
+        font-family: cursive;
+    }
+    img.vitalbarrier{
+        width:85%;
+    }
+    .vetba{
+        position: absolute;
+        bottom: 34%;
+        margin-left: 9%;
+        font-size: 56%;
+        font-family: cursive;
+    }
+}
+@media screen and (min-width:650px) and (max-width: 768px) {
+    .vetmot {
+        position: absolute;
+        bottom: 22%;
+        margin-left: 20%;
+        font-size: 103%;
+        font-family: cursive;
+    }
+    .vethai{
+        position: absolute;
+        bottom: 15%;
+        margin-left: 18%;
+        font-size: 57%;
+        font-family: cursive;
+    }
+    img.vitalbarrier{
+        width:86%;
+    }
+    .vetba{
+        position: absolute;
+        bottom: 34%;
+        margin-left: 9%;
+        font-size: 77%;
+        font-family: cursive;
+    }
+}
+@media screen and (min-width:768px) and (max-width: 900px) {
+    .vetmot {
+        position: absolute;
+        bottom: 23%;
+        margin-left: 20%;
+        font-size: 119%;
+        font-family: cursive;
+    }
+    .vethai{
+        position: absolute;
+    bottom: 31%;
+    margin-left: 18%;
+    font-size: 62%;
+    font-family: cursive;
+}
+    .vetba{
+        position: absolute;
+    bottom: 36%;
+    margin-left: 9%;
     font-size: 97%;
     font-family: cursive;
     }
 }
-@media screen and (min-width:700px) and (max-width: 800px) {
+@media screen and (min-width:900px) and (max-width: 1100px) {
     .vetmot {
         position: absolute;
-    bottom: 80%;
-    margin-left: 14%;
-    font-size: 110%;
+    bottom: 23%;
+    margin-left: 22%;
+    font-size: 142%;
+    font-family: cursive;
+    }
+    .vethai{
+        position: absolute;
+        bottom: 31%;
+        margin-left: 18%;
+        font-size: 80%;
+        font-family: cursive;
+}
+    .vetba{
+        position: absolute;
+    bottom: 36%;
+    margin-left: 9%;
+    font-size: 97%;
     font-family: cursive;
     }
 }
-@media screen and (min-width:800px) and (max-width: 900px) {
+@media screen and (min-width:1100px) and (max-width: 1250px){
     .vetmot {
         position: absolute;
-        bottom: 79%;
-        margin-left: 14%;
-        font-size: 118%;
+        bottom: 24%;
+        margin-left: 22%;
+        font-size: 165%;
         font-family: cursive;
     }
-}
-@media screen and (min-width:900px) and (max-width: 1000px) {
-    .vetmot {
+    .vethai{
         position: absolute;
-        bottom: 79%;
-        margin-left: 14%;
-        font-size: 133%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:1000px) and (max-width: 1100px) {
-    .vetmot {
-        position: absolute;
-    bottom: 78%;
-    margin-left: 14%;
-    font-size: 146%;
+    bottom: 31%;
+    margin-left: 18%;
+    font-size: 91%;
     font-family: cursive;
-    }
 }
-@media screen and (min-width:1100px) and (max-width: 1200px) {
-    .vetmot {
+    .vetba{
         position: absolute;
-    bottom: 78%;
-    margin-left: 14%;
-    font-size: 156%;
+    bottom: 35%;
+    margin-left: 9%;
+    font-size: 128%;
     font-family: cursive;
-    }
-}
-@media screen and (min-width:1200px) and (max-width: 1300px) {
-    .vetmot {
-        position: absolute;
-        bottom: 78%;
-        margin-left: 14%;
-        font-size: 168%;
-        font-family: cursive;
-    }
-}   
-/*VetHai*/
-@media screen and (max-width: 454px) {
-    .vethai {
-    position: absolute;
-    bottom: 29%;
-    margin-left: 34%;
-    font-size: 44%;
-    font-family: cursive;
-    }
-}
-@media screen and (min-width:455px) and (max-width: 500px) {
-    .vethai {
-        position: absolute;
-        bottom: 29%;
-        margin-left: 34%;
-        font-size: 44%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:500px) and (max-width: 600px) {
-    .vethai {
-        position: absolute;
-        bottom: 32%;
-        margin-left: 34%;
-        font-size: 47%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:600px) and (max-width: 700px) {
-    .vethai {
-        position: absolute;
-    bottom: 34%;
-    margin-left: 34%;
-    font-size: 65%;
-    font-family: cursive;
-    }
-}
-@media screen and (min-width:700px) and (max-width: 800px) {
-    .vethai {
-        position: absolute;
-    bottom: 37%;
-    margin-left: 34%;
-    font-size: 71%;
-    font-family: cursive;
-    }
-}
-@media screen and (min-width:800px) and (max-width: 900px) {
-    .vethai {
-        position: absolute;
-        bottom: 39%;
-        margin-left: 33%;
-        font-size: 78%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:900px) and (max-width: 1000px) {
-    .vethai {
-        position: absolute;
-        bottom: 40%;
-        margin-left: 34%;
-        font-size: 93%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:1000px) and (max-width: 1100px) {
-    .vethai {
-        position: absolute;
-    bottom: 42%;
-    margin-left: 34%;
-    font-size: 102%;
-    font-family: cursive;
-    }
-}
-@media screen and (min-width:1100px) and (max-width: 1200px) {
-    .vethai {
-        position: absolute;
-    bottom: 44%;
-    margin-left: 34%;
-    font-size: 99%;
-    font-family: cursive;
-    }
-}
-@media screen and (min-width:1200px) and (max-width: 1300) {
-    .vethai {
-        position: absolute;
-        bottom: 29%;
-    margin-left: 34%;
-        font-size: 133%;
-        font-family: cursive;
-    }
-}
-/*VetBa*/
-@media screen and (max-width: 454px) {
-    .vetba {
-        position: absolute;
-        bottom: 7%;
-        margin-left: 9%;
-        font-size: 44%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:455px) and (max-width: 500px) {
-    .vetba {
-        position: absolute;
-        bottom: 7%;
-        margin-left: 9%;
-        font-size: 47%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:500px) and (max-width: 600px) {
-    .vetba {
-        position: absolute;
-        bottom: 7%;
-        margin-left: 9%;
-        font-size: 57%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:600px) and (max-width: 700px) {
-    .vetba {
-        position: absolute;
-        bottom: 7%;
-        margin-left: 9%;
-        font-size: 70%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:700px) and (max-width: 800px) {
-    .vetba {
-        position: absolute;
-        bottom: 7%;
-        margin-left: 9%;
-        font-size: 75%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:800px) and (max-width: 900px) {
-    .vetba {
-        position: absolute;
-        bottom: 7%;
-        margin-left: 9%;
-        font-size: 92%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:900px) and (max-width: 1000px) {
-    .vetba {
-        position: absolute;
-        bottom: 7%;
-        margin-left: 9%;
-        font-size: 103%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:1000px) and (max-width: 1100px) {
-    .vetba {
-        position: absolute;
-        bottom: 7%;
-        margin-left: 9%;
-        font-size: 116%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:1100px) and (max-width: 1200px) {
-    .vetba {
-        position: absolute;
-        bottom: 7%;
-        margin-left: 9%;
-        font-size: 126%;
-        font-family: cursive;
-    }
-}
-@media screen and (min-width:1200px) and (max-width: 1300) {
-    .vetba {
-        position: absolute;
-        bottom: 7%;
-        margin-left: 9%;
-        font-size: 133%;
-        font-family: cursive;
     }
 }
 /*ReadMore*/
@@ -6808,7 +6698,7 @@ img#vitalbarrier{
     padding: 10px;
     font-size: x-small;
     }
-}
+} 
 @media screen and (min-width:500px)and (max-width: 800px){
     .button#readmore{
     border-radius: 20px;
@@ -6824,10 +6714,112 @@ img#vitalbarrier{
     width: 100px;
     height: auto;;
 }
-
 /*Màu nền*/
 .wrap{
     background-color: #f1f1f1;
+}
+
+/*Vital Detail*/
+
+div#vdmain {
+    margin: 0px 110px;
+    border: 1px solid whitesmoke;
+    /* background-image: url("https://media.istockphoto.com/photos/floral-greeting-card-for-the-spring-holidays-with-copy-space-delicate-picture-id907575748?k=6&m=907575748&s=612x612&w=0&h=zBFtOsR7OQWxqFF01pUFnUFMbIsbiJyNr8UxwDrwu54=");
+    background-repeat: repeat-x; */
+    background-color: whitesmoke;
+    
+}
+div#vitaldetail{
+    background-image: url("http://www.medibless.co.kr/resources/images/common/BG_subTitle.gif")
+}
+.vd-info{
+    padding: 14%;
+}
+div#vd_img1 {
+    /* border: 1px solid whitesmoke; */
+    padding: 40px 0px 0px 0px;
+    margin: 0px 5px;
+}
+#vd_param{
+    text-align: center;
+    color:#3dc4e1;
+    font-size: 170%;
+    padding: 20px 0px;
+}
+div#vd_param1 {
+    text-align: center;
+}
+div#vd_param2 {
+    padding: 0px 1%;
+}
+p#param2_1 {
+    color:#3dc4e1;
+    font-size: 145%;
+    padding-left: 1%;
+}
+p#param2_2 {
+    color:#3dc4e1;
+    font-size: 145%;
+    padding-left: 2%;
+}
+.dotvt {
+    height: 100px;
+    width: 100px;
+    background-color: #3dc4e1;
+    border-radius: 50%;
+    margin-bottom: 7px;
+    font-size: 96%;    
+  }
+p.param2_3{
+    margin: 28% 6%;
+    text-align: center;
+    color: white;
+}
+p.param2_4{
+    margin: 28% 6%;
+    text-align: center;
+    color: white;
+}
+p.param2_5{
+    margin: 28% 6%;
+    text-align: center;
+    color: white;
+}
+p.param2_6{
+    margin: 28% 6%;
+    text-align: center;
+    color: white;
+}
+p.param2_7{
+    margin: 28% 6%;
+    text-align: center;
+    color: white;
+}
+p.param2_8{
+    margin: 28% 6%;
+    text-align: center;
+    color: white;
+}
+div#param2_9 {
+    font-size: -webkit-xxx-large;
+    padding-top: 82%;
+}
+div#param2_10 {
+    font-size: xx-large;
+}
+div#vt_right{
+    margin-left: 8%;
+}
+div#baylo{
+    text-align: center;
+    color: #3dc4e1;
+    font-size: 144%;
+    margin-left: 37%;
+}
+img.hinhbaylo {
+    width: 85%;
+    margin-left: -120px;
+    margin-right: 5px;
 }
 
 
