@@ -8,10 +8,19 @@ div.title2
    margin: auto;
 }
 */
+div#DoiTuongbackground {
+    background-color: #f5f4f2;
+    
+    
+}
+.bg-primary {
+    color: #fff;
+    background-color: black;
+}
 img.intro 
 {
     width: 100%;
-    margin-top: 20px;
+   
 }
 ul.listInfo {
     padding-top: 25%;
@@ -108,7 +117,7 @@ img.stepTrai {
     font-size: 125%;
 }
 div#background {
-    background-color: #f1f1f1;
+    background-color: #f5f4f2;
 }
 .ContainCL {
     background-color: white;
@@ -116,4 +125,48 @@ div#background {
 .anhKhacBiet
 {
     
+}
+#effectblack
+{
+    padding-top: 36%;
+}
+@media only screen and (max-width: 763px)
+{
+    .target
+    {
+        font-size: 16px;
+    }
+    .ChiTietSD {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 990px)
+{
+        #effectblack
+     {
+        padding-top: 36%;
+    }
+}
+@media only screen and (max-width: 767px)
+{
+        #effectblack
+     {
+        padding-top: 3%;
+    }
+}
+@media only screen and (max-width: 991px)
+{
+    ul.listInfo 
+    {
+        padding-top: 2%;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 767px)
+{
+    ul.listInfo 
+    {
+        padding-top: 2%;
+        font-size: 15px;
+    }
 }
