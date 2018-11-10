@@ -5376,6 +5376,86 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         background-color: #d44d3b;
         color: white;
     }
+    .vet1 {
+        width : 80%;
+        height : auto;
+        }
+        .vet2 {
+            width : 90%;
+            height : 120%;
+            float : right;
+        }
+        .vet3 {
+            width : 80%;
+            height : auto;
+        
+        }
+.readmore_purience1{
+    background-image: url(../images/background_readmore_purience.jpg);
+    width: 100%;
+    height: auto;
+}
+.img_readmore{
+    position: absolute;
+}
+@media only screen and (max-width:500px) {
+    .backgroundvet2 {
+        margin-bottom: 6%;
+    }
+    .btn-ct4 {
+        padding-left: 68%;
+        padding-bottom: 2%;
+        font-size: 80%;
+    }
+    .noidung3{
+        position: absolute;
+        font-size: 73%;
+        left:13%;
+        top : 19%;
+    }
+    .noidung2 {
+        position: absolute;
+        font-size: 68%;
+        bottom: 7%;
+        left: 23%;
+        
+    }
+    .noidung1 {
+        position: absolute;
+        font-size: 85%;
+        bottom: 30%;
+        left:7%;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:576px){
+    .backgroundvet2 {
+        margin-bottom: 6%;
+    }
+    .btn-ct4 {
+        padding-left: 70%;
+        padding-bottom: 2%;
+        font-size: 90%;
+    }
+    .noidung3{
+        position: absolute;
+        font-size: 90%;
+        left:14%;
+        top : 20%;
+    }
+    .noidung2 {
+        position: absolute;
+        font-size: 80%;
+        bottom: 10%;
+        left: 23%;
+        
+    }
+    .noidung1 {
+        position: absolute;
+        font-size: 87%;
+        bottom: 33%;
+        left:11%;
+    }
+}
 @media only screen and (max-width:450px) {
 
     .btn-ct {
@@ -5385,9 +5465,32 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         right: 12%;
         font-size: 65%;
     }
+    .bottom-right3 {
+        position: absolute;
+        bottom: 20%;
+        right: 7%;
+        font-size: 75%;
+        font-family: cursive;
+    }
 }
-
+@media only screen and (min-width:451px) and (max-width:576px) {
+    .btn-ct {
+        position: relative;
+        position: absolute;
+        bottom: 30%;
+        right: 12%;
+        font-size: 65%;
+    }
+    .bottom-right3 {
+        position: absolute;
+        bottom: 20%;
+        right: 6%;
+        font-size: 100%;
+        font-family: cursive;
+    }
+}
 @media only screen and (max-width:576px) {
+    
     .btn-ct3 {
         position: relative;
         position: absolute;
@@ -5464,17 +5567,48 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
             display: block;
         }
 }
-@media only screen and (min-width:451px) and (max-width:576px) {
-    .btn-ct {
-        position: relative;
-        position: absolute;
-        bottom: 30%;
-        right: 12%;
-        font-size: 65%;
-    }
-}
+
 
 @media only screen and (min-width : 576px) and (max-width:768px) {
+    .backgroundvet2 {
+        margin-bottom: 4%;
+    }
+    .bottom-right3 {
+        position: absolute;
+        bottom: 20%;
+        right: 6%;
+        font-size: 125%;
+        font-family: cursive;
+    }
+    .vet2 {
+        width : 80%;
+        height : 120%;
+        float : right;
+    }
+    .btn-ct4 {
+        padding-left: 73%;
+        padding-bottom: 2%;
+        font-size: 100%;
+    }
+    .noidung3{
+        position: absolute;
+        font-size: 100%;
+        left:16%;
+        top : 26%;
+    }
+    .noidung2 {
+        position: absolute;
+        font-size: 90%;
+        bottom: 8%;
+        left: 33%;
+        
+    }
+    .noidung1 {
+        position: absolute;
+        font-size: 110%;
+        bottom: 36%;
+        left:14%;
+    }
     .btn-ct {
         position: relative;
         position: absolute;
@@ -5570,6 +5704,45 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:768px) and (max-width:992px) {
+    .backgroundvet2 {
+        margin-bottom: 3%;
+    }
+    .bottom-right3 {
+        position: absolute;
+        bottom: 20%;
+        right: 7%;
+        font-size: 150%;
+        font-family: cursive;
+    }
+    .vet2 {
+        width : 80%;
+        height : 120%;
+        float : right;
+    }
+    .btn-ct4 {
+        padding-left: 80%;
+        padding-bottom: 2%;
+        font-size: 100%;
+    }
+    .noidung3{
+        position: absolute;
+        font-size: 138%;
+        left:16%;
+        top : 25%;
+    }
+    .noidung2 {
+        position: absolute;
+        font-size: 110%;
+        bottom: 11%;
+        left: 33%;
+        
+    }
+    .noidung1 {
+        position: absolute;
+        font-size: 140%;
+        bottom: 36%;
+        left:14%;
+    }
     .bottom-right {
         padding-top: 7%;
         padding-right: 10%;
@@ -5652,7 +5825,45 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:992px) and (max-width:1200px) {
-
+    .backgroundvet2 {
+        margin-bottom: 3%;
+    }
+    .bottom-right3 {
+        position: absolute;
+        bottom: 20%;
+        right: 7%;
+        font-size: 190%;
+        font-family: cursive;
+    }
+    .vet2 {
+        width : 80%;
+        height : 120%;
+        float : right;
+    }
+    .btn-ct4 {
+        padding-left: 83%;
+        padding-bottom: 2%;
+        font-size: 110%;
+    }
+    .noidung3{
+        position: absolute;
+        font-size: 160%;
+        left:16%;
+        top : 26%;
+    }
+    .noidung2 {
+        position: absolute;
+        font-size: 140%;
+        bottom: 9%;
+        left: 33%;
+        
+    }
+    .noidung1 {
+        position: absolute;
+        font-size: 170%;
+        bottom: 36%;
+        left:14%;
+    }
     .btn-ct {
         position: relative;
         position: absolute;
@@ -5726,6 +5937,54 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:1200px){
+    .backgroundvet2 {
+        margin-bottom: 3%;
+    }
+    .vet1 {
+        width : 65%;
+        height : auto;
+        }
+        .vet3 {
+            width : 65%;
+            height : auto;
+        
+        }
+    .vet2 {
+        width : 65%;
+        height : 120%;
+        float : right;
+    }
+    .btn-ct4 {
+        padding-left: 84%;
+        padding-bottom: 2%;
+        font-size: 120%;
+    }
+    .bottom-right3 {
+        position: absolute;
+        bottom: 20%;
+        right: 5%;
+        font-size: 250%;
+        font-family: cursive;
+    }
+    .noidung3{
+        position: absolute;
+        font-size: 150%;
+        left:13%;
+        top : 27%;
+    }
+    .noidung2 {
+        position: absolute;
+        font-size: 130%;
+        bottom: 12%;
+        left: 46%;
+        
+    }
+    .noidung1 {
+        position: absolute;
+        font-size: 150%;
+        bottom: 32%;
+        left:14%;
+    }
     .bottom-right {
         padding-top: 12%;
         padding-right: 10%;
@@ -5770,6 +6029,9 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-size: 165%;
         font-family: cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: left !important;
+        font-size: 164%;
+        font-family: cursive;
+        text-align: right !important;
     }
     .btn-second1 {
         box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
@@ -5799,12 +6061,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     margin-left:auto;
     margin-right:auto;
 }
-.bottom-right3 {
-    position: absolute;
-    bottom: 20%;
-    right: 6%;
-    font-size: 250%;
-}
+
 #return-to-top {
     position: fixed;
     bottom: 20px;
@@ -5856,15 +6113,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 }
 
 /* purien */
-.vet1 {
 
-}
-.vet2 {
- float : right;
-}
-.vet3 {
-
-}
 .noidung1 {
     position: absolute;
     font-size: 150%;
@@ -5882,6 +6131,9 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     font-size: 150%;
     bottom: 28%;
     left: 20%;
+}
+.btn-second5 {
+    background-color: rebeccapurple;
 }
 
 /*PRODUCT 2 LAYER*/
@@ -6498,3 +6750,7 @@ img#vitalbarrier{
 
 
 
+.congan{
+    width: 100%;
+    height: 100%;
+}
