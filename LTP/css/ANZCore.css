@@ -5798,7 +5798,92 @@ div#vitaldetail{
 .vd-info{
     padding: 14%;
 }
-
+div#vd_img1 {
+    /* border: 1px solid whitesmoke; */
+    padding: 40px 0px 0px 0px;
+    margin: 0px 5px;
+}
+#vd_param{
+    text-align: center;
+    color:#3dc4e1;
+    font-size: 170%;
+    padding: 20px 0px;
+}
+div#vd_param1 {
+    text-align: center;
+}
+div#vd_param2 {
+    padding: 0px 1%;
+}
+p#param2_1 {
+    color:#3dc4e1;
+    font-size: 145%;
+    padding-left: 1%;
+}
+p#param2_2 {
+    color:#3dc4e1;
+    font-size: 145%;
+    padding-left: 2%;
+}
+.dotvt {
+    height: 100px;
+    width: 100px;
+    background-color: #3dc4e1;
+    border-radius: 50%;
+    margin-bottom: 7px;
+    font-size: 96%;    
+  }
+p.param2_3{
+    margin: 28% 6%;
+    text-align: center;
+    color: white;
+}
+p.param2_4{
+    margin: 28% 6%;
+    text-align: center;
+    color: white;
+}
+p.param2_5{
+    margin: 28% 6%;
+    text-align: center;
+    color: white;
+}
+p.param2_6{
+    margin: 28% 6%;
+    text-align: center;
+    color: white;
+}
+p.param2_7{
+    margin: 28% 6%;
+    text-align: center;
+    color: white;
+}
+p.param2_8{
+    margin: 28% 6%;
+    text-align: center;
+    color: white;
+}
+div#param2_9 {
+    font-size: -webkit-xxx-large;
+    padding-top: 82%;
+}
+div#param2_10 {
+    font-size: xx-large;
+}
+div#vt_right{
+    margin-left: 8%;
+}
+div#baylo{
+    text-align: center;
+    color: #3dc4e1;
+    font-size: 144%;
+    margin-left: 37%;
+}
+img.hinhbaylo {
+    width: 85%;
+    margin-left: -120px;
+    margin-right: 5px;
+}
 
 
 
