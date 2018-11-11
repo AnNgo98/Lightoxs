@@ -6198,24 +6198,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 
 /* purien */
 
-.noidung1 {
-    position: absolute;
-    font-size: 150%;
-    bottom: 37%;
-    left:12%;
-}
-.noidung2 {
-    position: absolute;
-    font-size: 140%;
-    left:40%;
-    top : 31%;
-}
-.noidung3{
-    position: absolute;
-    font-size: 150%;
-    bottom: 28%;
-    left: 20%;
-}
+
 .btn-second5 {
     background-color: rebeccapurple;
 }
