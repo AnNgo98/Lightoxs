@@ -5535,10 +5535,13 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     color: black;
     z-index: -1;
 }
-.button {
-    background-color: #d0efc0; /* Green */
+a.xemthem {
+    color:white;
+}
+.button_readmore {
+    background-color: #3dc4e1;
     border: none;
-    color: black;
+    color: white;
     padding: 22px 52px;
     text-align: center;
     text-decoration: none;
@@ -5546,8 +5549,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     font-weight: bold;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 #readmore {
     border-radius: 20px;
@@ -5625,6 +5627,8 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-size: 56%;
         font-family: cursive;
     }
+    /*VitalDetail*/
+
 }
 @media screen and (min-width:576px) and (max-width: 650px) {
     .vetmot {
@@ -5654,6 +5658,8 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-size: 56%;
         font-family: cursive;
     }
+    /*VitalDetail*/
+
 }
 @media screen and (min-width:650px) and (max-width: 768px) {
     .vetmot {
@@ -5680,6 +5686,8 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-size: 77%;
         font-family: cursive;
     }
+    /*VitalDetail*/
+
 }
 @media screen and (min-width:768px) and (max-width: 900px) {
     .vetmot {
@@ -5703,6 +5711,8 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     font-size: 97%;
     font-family: cursive;
     }
+    /*VitalDetail*/
+
 }
 @media screen and (min-width:900px) and (max-width: 1100px) {
     .vetmot {
@@ -5726,6 +5736,8 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     font-size: 97%;
     font-family: cursive;
     }
+    /*VitalDetail*/
+
 }
 @media screen and (min-width:1100px) and (max-width: 1250px){
     .vetmot {
@@ -5749,6 +5761,8 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     font-size: 128%;
     font-family: cursive;
     }
+    /*VitalDetail*/
+
 }
 /*ReadMore*/
 @media screen and (max-width: 500px){
@@ -5795,6 +5809,10 @@ div#vdmain {
 div#vitaldetail{
     background-image: url("http://www.medibless.co.kr/resources/images/common/BG_subTitle.gif")
 }
+.vital-avatar{
+width: 100%;
+height: auto;
+}
 .vd-info{
     padding: 14%;
 }
@@ -5811,6 +5829,7 @@ div#vd_img1 {
 }
 div#vd_param1 {
     text-align: center;
+    font-size: 113%;
 }
 div#vd_param2 {
     padding: 0px 1%;
@@ -5826,8 +5845,8 @@ p#param2_2 {
     padding-left: 2%;
 }
 .dotvt {
-    height: 100px;
-    width: 100px;
+    height: auto;
+    width: 100%;
     background-color: #3dc4e1;
     border-radius: 50%;
     margin-bottom: 7px;
@@ -5864,27 +5883,45 @@ p.param2_8{
     color: white;
 }
 div#param2_9 {
-    font-size: -webkit-xxx-large;
-    padding-top: 82%;
+    font-size: 305%;
 }
 div#param2_10 {
-    font-size: xx-large;
+    font-size: 200%;
+} 
+.sixpath{
+    text-align: center;
+    padding-top: 39%;
 }
 div#vt_right{
-    margin-left: 8%;
+    margin-left: 8%;    
 }
-div#baylo{
+div#param7lo {
+    padding: 2% 0%;
     text-align: center;
     color: #3dc4e1;
     font-size: 144%;
-    margin-left: 37%;
 }
-img.hinhbaylo {
-    width: 85%;
-    margin-left: -120px;
-    margin-right: 5px;
+img#vt_7lo{
+    margin: 0% auto;
 }
-
-
-
-
+div#vt_hd{
+    text-align: center;
+    color: #3dc4e1;
+    font-size: 144%
+}
+img.vt_model2{
+width: 100%;
+height: auto;
+}
+.vt_param11 {
+    color: black;
+    text-align: left;
+    padding-left: 7%;
+    font-size: 105%;
+}
+.vt_param12 {
+    font-size: 144%;
+}
+p.vt_param13 {
+    padding: 2%;
+}
