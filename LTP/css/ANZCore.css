@@ -6860,10 +6860,6 @@ img#vt_7lo{
 }
 
 
-.congan{
-    width: 100%;
-    height: 100%;
-}
 div#vt_hd{
     text-align: center;
     color: #3dc4e1;
@@ -6882,6 +6878,6 @@ height: auto;
 .vt_param12 {
     font-size: 144%;
 }
-p.vt_param13 {
+.vt_param13 {
     padding: 2%;
 }
