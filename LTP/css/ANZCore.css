@@ -5398,15 +5398,8 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     width: 100%;
     height: 720px;
 }
-.pu_img_3{
-    width : 60%;
-    height : auto;
-}
-.pu_img_4 {
-    margin-left: 26%;
-    width :34%;
-    height : auto;
-}
+
+
 /* .ct2 {
     background-color: aliceblue;
 }
@@ -5473,39 +5466,12 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 .noidungct{
     background-color: #feeded;
 }
-.pu_img_2 {
-    margin-left: 30%;
-    width :40%;
-    height :auto;
-}
+
 @media only screen and (max-width:500px) {
     .backgroundvet2 {
         margin-bottom: 6%;
     }
-    .btn-ct4 {
-        padding-left: 68%;
-        padding-bottom: 2%;
-        font-size: 80%;
-    }
-    .noidung3{
-        /* position: absolute; */
-        font-size: 73%;
-        left:13%;
-        top : 19%;
-    }
-    .noidung2 {
-        /* position: absolute; */
-        font-size: 68%;
-        bottom: 7%;
-        left: 23%;
-        
-    }
-    .noidung1 {
-        /* position: absolute; */
-        font-size: 85%;
-        bottom: 30%;
-        left:7%;
-    }
+    
 }
 @media only screen and (min-width:500px) and (max-width:576px){
     .backgroundvet2 {
@@ -5570,7 +5536,41 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     }
 }
 @media only screen and (max-width:576px) {
-    
+    .btn-ct4 {
+        padding-left: 68%;
+        padding-bottom: 7%;
+        font-size: 70%;
+    }
+    .noidung3{
+        font-size: 85%;
+        padding-left: 15%;
+        padding-top: 5%;
+    }
+    .noidung2 {
+        font-size: 75%;
+        padding-left: 15%;
+        padding-top: 5%;
+    }
+    .noidung1 {
+        font-size: 85%;
+        padding-left: 22%;
+    }
+    .pu_img_3{
+        margin-left: 16%;
+        width : 75%;
+        height : auto;
+    }
+    .pu_img_2 {
+        padding-top: 2%;
+        margin-left: 24%;
+        width :50%;
+        height :auto;
+    }
+    .pu_img_4 {
+        margin-left: 26%;
+        width :54%;
+        height : auto;
+    }
     .btn-ct3 {
         position: relative;
         position: absolute;
@@ -5667,27 +5667,39 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     }
     .btn-ct4 {
         padding-left: 73%;
-        padding-bottom: 2%;
-        font-size: 100%;
+        padding-bottom: 5%;
+        font-size: 90%;
     }
     .noidung3{
-        /* position: absolute; */
-        font-size: 100%;
-        left:16%;
-        top : 26%;
+        font-size: 130%;
+        padding-left: 20%;
+        padding-top: 5%;
     }
     .noidung2 {
-        /* position: absolute; */
-        font-size: 90%;
-        bottom: 8%;
-        left: 33%;
-        
+        font-size: 110%;
+        padding-top: 5%;
+        padding-left: 17%;
     }
     .noidung1 {
-        /* position: absolute; */
-        font-size: 110%;
-        /* bottom: 36%;
-        left:14%; */
+        font-size: 140%;
+        padding-left: 24%;
+    }
+    .pu_img_3{
+        margin-left: 10%;
+        width : 75%;
+        padding-top: 4%;
+        height : auto;
+    }
+    .pu_img_2 {
+        padding-top: 2%;
+        margin-left: 24%;
+        width :50%;
+        height :auto;
+    }
+    .pu_img_4 {
+        margin-left: 26%;
+        width :54%;
+        height : auto;
     }
     .btn-ct {
         position: relative;
@@ -5802,26 +5814,34 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     .btn-ct4 {
         padding-left: 80%;
         padding-bottom: 2%;
-        font-size: 100%;
+        font-size: 90%;
     }
     .noidung3{
-        /* position: absolute; */
-        font-size: 170%;
-        left:16%;
-        top : 25%;
+        font-size: 145%;
     }
     .noidung2 {
-        /* position: absolute; */
-        font-size: 170%;
-        bottom: 11%;
-        left: 33%;
-        
+        font-size: 145%;
+        padding-top: 5%;
     }
     .noidung1 {
-        /* position: absolute; */
-        font-size: 170%;
-        bottom: 36%;
-        left:14%;
+        font-size: 145%;
+    }
+    .pu_img_3{
+        margin-left: 16%;
+        width : 75%;
+        padding-top: 4%;
+        height : auto;
+    }
+    .pu_img_2 {
+        padding-top: 2%;
+        margin-left: 24%;
+        width :50%;
+        height :auto;
+    }
+    .pu_img_4 {
+        margin-left: 23%;
+        width :54%;
+        height : auto;
     }
     .bottom-right {
         padding-top: 7%;
@@ -5923,23 +5943,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     .btn-ct4 {
         padding-left: 83%;
         padding-bottom: 2%;
-        font-size: 110%;
+        font-size: 100%;
     }
     .noidung3{
-        /* position: absolute; */
         font-size: 160%;
         left:16%;
         top : 26%;
     }
     .noidung2 {
-        /* position: absolute; */
         font-size: 140%;
         bottom: 9%;
         left: 33%;
         
     }
     .noidung1 {
-        /* position: absolute; */
         font-size: 170%;
         bottom: 36%;
         left:14%;
@@ -6015,8 +6032,38 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         .btn-second2:hover{
             background-color: red;
         }
+        .pu_img_3{
+            margin-left: 7%;
+            width : 60%;
+            height : auto;
+        }
+        .pu_img_2 {
+            margin-left: 30%;
+            width :40%;
+            height :auto;
+        }
+        .pu_img_4 {
+            margin-left: 26%;
+            width :34%;
+            height : auto;
+        }
 }
 @media only screen and (min-width:1200px){
+    .pu_img_3{
+        margin-left: 10%;
+        width : 60%;
+        height : auto;
+    }
+    .pu_img_2 {
+        margin-left: 30%;
+        width :40%;
+        height :auto;
+    }
+    .pu_img_4 {
+        margin-left: 26%;
+        width :34%;
+        height : auto;
+    }
     .backgroundvet2 {
         margin-bottom: 3%;
     }
@@ -6037,7 +6084,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     .btn-ct4 {
         padding-left: 84%;
         padding-bottom: 2%;
-        font-size: 120%;
+        font-size: 110%;
     }
     .bottom-right3 {
         position: absolute;
@@ -6047,27 +6094,17 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-family: cursive;
     }
     .noidung3{
-        /* position: absolute; */
         font-size: 150%;
         padding-left: 14%;
-        /* left:13%;
-        top : 27%; */
     }
     .noidung2 {
-        /* position: absolute; */
         padding-top: 5%;
         font-size: 150%;
-        float :right;
-        /* bottom: 12%;
-        left: 46%; */
-        
+        float :right;    
     }
     .noidung1 {
-        /* position: absolute; */
         font-size: 150%;
         padding-left: 14%;
-        /* bottom: 32%;
-        left:14%; */
     }
     .bottom-right {
         padding-top: 12%;
@@ -6350,7 +6387,7 @@ div.imgMinhHoa img {
 .PU1{
     background-color:#dcb6dd;
     width :70%;
-    height:auto;
+    height:auto;    
 }
 .PU2{
     background-color:#77c8db;
@@ -6363,6 +6400,8 @@ div.imgMinhHoa img {
     width: 70%;
     height: 80%;
 }
+
+
 
 /*Content Vital*/
 
