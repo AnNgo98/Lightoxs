@@ -5363,7 +5363,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     padding-top: 15%;
     color: black;
     font-size: 120%;
-    font-family: cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .btn-second1 {
     
@@ -5516,7 +5516,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         bottom: 20%;
         right: 7%;
         font-size: 75%;
-        font-family: cursive;
+        
     }
 }
 @media only screen and (min-width:451px) and (max-width:576px) {
@@ -5532,7 +5532,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         bottom: 20%;
         right: 6%;
         font-size: 100%;
-        font-family: cursive;
+        
     }
 }
 @media only screen and (max-width:576px) {
@@ -5583,7 +5583,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         text-align: right;
         color: black;
         font-size: 120%;
-        font-family: cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .btn-ct2 {
         padding-left: 62%;
@@ -5620,7 +5620,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 8%;
         color: black;
         font-size: 120%;
-        font-family: cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: left !important;
     }
     .btn-second1 {
@@ -5658,7 +5658,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         bottom: 20%;
         right: 6%;
         font-size: 125%;
-        font-family: cursive;
+        
     }
     .vet2 {
         width : 80%;
@@ -5720,7 +5720,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-right: 10%;
         color: black;
         font-size: 130%;
-        font-family:cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .btn-ct2 {
         padding-left: 62%;
@@ -5758,7 +5758,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 5%;
         color: black;
         font-size: 120%;
-        font-family: cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .location_img {
@@ -5804,7 +5804,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         bottom: 20%;
         right: 7%;
         font-size: 150%;
-        font-family: cursive;
+        
     }
     .vet2 {
         width : 80%;
@@ -5849,7 +5849,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         text-align: right;
         color: black;
         font-size: 140%;
-        font-family:cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .btn-ct2 {
         padding-left: 50%;
@@ -5898,7 +5898,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 7%;
         color: black;
         font-size: 122%;
-        font-family: cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: left !important;
     }
     .btn-second1 {
@@ -5933,7 +5933,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         bottom: 20%;
         right: 7%;
         font-size: 190%;
-        font-family: cursive;
+        
     }
     .vet2 {
         width : 80%;
@@ -5973,7 +5973,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         text-align: right;
         color: black;
         font-size: 160%;
-        font-family:cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .txtLT {
         position: absolute;
@@ -6000,7 +6000,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 9%;
         color: black;
         font-size: 142%;
-        font-family: cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: left !important;
     }
     .btn-second1 {
@@ -6091,7 +6091,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         bottom: 20%;
         right: 5%;
         font-size: 250%;
-        font-family: cursive;
+        
     }
     .noidung3{
         font-size: 150%;
@@ -6112,7 +6112,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         text-align: right;
         color: black;
         font-size: 170%;
-        font-family:cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .btn-ct2 {
         padding-left: 50%;
@@ -6148,10 +6148,10 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 11%;
         color: black;
         font-size: 165%;
-        font-family: cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: left !important;
         font-size: 164%;
-        font-family: cursive;
+        
         text-align: right !important;
     }
     .btn-second1 {
@@ -6464,20 +6464,20 @@ a.xemthem {
     bottom: 26%;
     margin-left: 20%;
     font-size: 184%;
-    font-family: cursive;
+    
 }
 .vethai{
     position: absolute;
     bottom: 34%;
     margin-left: 19%;
-    font-family: cursive;
+    
 } 
 .vetba{
     position: absolute;
     bottom: 33%;
     margin-left: 9%;
     font-size: 149%;
-    font-family: cursive;
+    
 }
 .vitalmodel
 {
@@ -6504,7 +6504,7 @@ a.xemthem {
         bottom: 85%;
         margin-left: 15%;
         font-size: 61%;
-        font-family: cursive;
+        
     }
     .location_img {
         order: 0;
@@ -6522,7 +6522,7 @@ a.xemthem {
         bottom: 84%;
         margin-left: 15%;
         font-size: 65%;
-        font-family: cursive;
+        
     }
     .location_img {
         order: 0;
@@ -6540,7 +6540,7 @@ a.xemthem {
         bottom: 82%;
         margin-left: 15%;
         font-size: 83%;
-        font-family: cursive;
+        
     }
     .location_img {
         order: 0;
@@ -6552,14 +6552,13 @@ a.xemthem {
         -webkit-box-ordinal-group: 2;
     }
 }
-@media screen and (min-width:600px) and (max-width: 700px) {
+
 @media only screen and (max-width: 576px) {
     .vetmot {
     position: absolute;
     bottom: 26%;
     margin-left: 22%;
     font-size: 93%;
-    font-family: cursive;
     }
     img.vitalmodel{
         width: 80%;
@@ -6569,7 +6568,6 @@ a.xemthem {
         bottom: 15%;
         margin-left: 18%;
         font-size: 57%;
-        font-family: cursive;
     }
     img.vitalbarrier{
         width:80%;
@@ -6579,7 +6577,6 @@ a.xemthem {
         bottom: 34%;
         margin-left: 9%;
         font-size: 56%;
-        font-family: cursive;
     }
     /*VitalDetail*/
 
@@ -6590,7 +6587,6 @@ a.xemthem {
     bottom: 22%;
     margin-left: 19%;
     font-size: 87%;
-    font-family: cursive;
     }
     img.vitalmodel{
         width: 80%;
@@ -6600,7 +6596,6 @@ a.xemthem {
         bottom: 15%;
         margin-left: 18%;
         font-size: 57%;
-        font-family: cursive;
     }
     img.vitalbarrier{
         width:85%;
@@ -6610,7 +6605,6 @@ a.xemthem {
         bottom: 34%;
         margin-left: 9%;
         font-size: 56%;
-        font-family: cursive;
     }
     /*VitalDetail*/
 
@@ -6621,14 +6615,14 @@ a.xemthem {
         bottom: 22%;
         margin-left: 20%;
         font-size: 103%;
-        font-family: cursive;
+
     }
     .vethai{
         position: absolute;
         bottom: 15%;
         margin-left: 18%;
         font-size: 57%;
-        font-family: cursive;
+
     }
     img.vitalbarrier{
         width:86%;
@@ -6638,7 +6632,7 @@ a.xemthem {
         bottom: 34%;
         margin-left: 9%;
         font-size: 77%;
-        font-family: cursive;
+
     }
     /*VitalDetail*/
 
@@ -6649,21 +6643,19 @@ a.xemthem {
         bottom: 23%;
         margin-left: 20%;
         font-size: 119%;
-        font-family: cursive;
+
     }
     .vethai{
         position: absolute;
     bottom: 31%;
     margin-left: 18%;
     font-size: 62%;
-    font-family: cursive;
 }
     .vetba{
         position: absolute;
     bottom: 36%;
     margin-left: 9%;
     font-size: 97%;
-    font-family: cursive;
     }
     /*VitalDetail*/
 
@@ -6674,21 +6666,18 @@ a.xemthem {
     bottom: 23%;
     margin-left: 22%;
     font-size: 142%;
-    font-family: cursive;
     }
     .vethai{
         position: absolute;
         bottom: 31%;
         margin-left: 18%;
         font-size: 80%;
-        font-family: cursive;
 }
     .vetba{
         position: absolute;
     bottom: 36%;
     margin-left: 9%;
     font-size: 97%;
-    font-family: cursive;
     }
     /*VitalDetail*/
 
@@ -6699,21 +6688,21 @@ a.xemthem {
         bottom: 24%;
         margin-left: 22%;
         font-size: 165%;
-        font-family: cursive;
+        
     }
     .vethai{
         position: absolute;
     bottom: 31%;
     margin-left: 18%;
     font-size: 91%;
-    font-family: cursive;
+    
 }
     .vetba{
         position: absolute;
     bottom: 35%;
     margin-left: 9%;
     font-size: 128%;
-    font-family: cursive;
+    
     }
     /*VitalDetail*/
 
@@ -6749,6 +6738,8 @@ a.xemthem {
 .wrap{
     background-color: #f1f1f1;
 }
+
+/*Vital Detail*/
 
 /*Vital Detail*/
 
@@ -6858,8 +6849,6 @@ div#param7lo {
 img#vt_7lo{
     margin: 0% auto;
 }
-
-
 div#vt_hd{
     text-align: center;
     color: #3dc4e1;
@@ -6878,6 +6867,6 @@ height: auto;
 .vt_param12 {
     font-size: 144%;
 }
-.vt_param13 {
+p.vt_param13 {
     padding: 2%;
 }
