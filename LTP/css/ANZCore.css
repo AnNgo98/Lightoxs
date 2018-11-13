@@ -6979,8 +6979,6 @@ a.xemthem {
         margin-left: 9%;
         font-size: 56%;
     }
-    /*VitalDetail*/
-
 }
 @media screen and (min-width:650px) and (max-width: 768px) {
     .vetmot {
@@ -7117,12 +7115,8 @@ a.xemthem {
 /*Vital Detail*/
 
 div#vdmain {
-    margin: 0px 110px;
     border: 1px solid whitesmoke;
-    /* background-image: url("https://media.istockphoto.com/photos/floral-greeting-card-for-the-spring-holidays-with-copy-space-delicate-picture-id907575748?k=6&m=907575748&s=612x612&w=0&h=zBFtOsR7OQWxqFF01pUFnUFMbIsbiJyNr8UxwDrwu54=");
-    background-repeat: repeat-x; */
     background-color: whitesmoke;
-    
 }
 div#vitaldetail{
     background-image: url("http://www.medibless.co.kr/resources/images/common/BG_subTitle.gif")
@@ -7134,8 +7128,11 @@ height: auto;
 .vd-info{
     padding: 14%;
 }
+.vt_param12 {
+    font-size: 154%;
+    padding-top: 5%;
+}
 div#vd_img1 {
-    /* border: 1px solid whitesmoke; */
     padding: 40px 0px 0px 0px;
     margin: 0px 5px;
 }
@@ -7144,6 +7141,9 @@ div#vd_img1 {
     color:#3dc4e1;
     font-size: 170%;
     padding: 20px 0px;
+}
+p.vt_param13 {
+    padding: 2%;
 }
 div#vd_param1 {
     text-align: center;
@@ -7170,7 +7170,7 @@ p#param2_2 {
     margin-bottom: 7px;
     font-size: 96%;    
   }
-p.param2_3{
+  p.param2_3{
     margin: 28% 6%;
     text-align: center;
     color: white;
@@ -7208,7 +7208,7 @@ div#param2_10 {
 } 
 .sixpath{
     text-align: center;
-    padding-top: 39%;
+    margin: auto;
 }
 div#vt_right{
     margin-left: 8%;    
@@ -7221,6 +7221,7 @@ div#param7lo {
 }
 img#vt_7lo{
     margin: 0% auto;
+    width: 100%;
 }
 div#vt_hd{
     text-align: center;
@@ -7228,8 +7229,9 @@ div#vt_hd{
     font-size: 144%
 }
 img.vt_model2{
-width: 100%;
-height: auto;
+    width: 98%;
+    height: auto;
+    padding-left: 10%;
 }
 .vt_param11 {
     color: black;
@@ -7237,9 +7239,144 @@ height: auto;
     padding-left: 7%;
     font-size: 105%;
 }
-.vt_param12 {
-    font-size: 144%;
+  @media screen and (min-width:1000px)and (max-width: 1200px){
+    .dotvt{
+        height: auto;
+        width: 100%;
+        background-color: #3dc4e1;
+        border-radius: 50%;
+        margin-bottom: 7px;
+        font-size: 86%;    
+    }
+    .vt_param12{
+        font-size: 130%;
+    }
+    p#param2_2{
+        font-size: 130%;
+    }
+    p#param2_1{
+        font-size: 130%;
+    }
 }
 p.vt_param13 {
     padding: 2%;
 }
+@media screen and (min-width:768px) and (max-width:1000px){
+    .dotvt{
+        height: auto;
+        width: 100%;
+        background-color: #3dc4e1;
+        border-radius: 50%;
+        margin-bottom: 7px;
+        font-size: 49%;    
+    }
+    .vt_param12{
+        font-size: 97%;
+    }
+    p#param2_2{
+        font-size: 97%;
+    }
+    p#param2_1{
+        font-size: 97%;
+    }
+}
+    @media screen and (min-width:575px) and (max-width:768px){
+        .dotvt{
+            height: auto;
+            width: 100%;
+            background-color: #3dc4e1;
+            border-radius: 50%;
+            margin-bottom: 9px;
+            font-size: 49%;  
+        }
+        .vd-info{
+            font-size: 84%;
+        }
+        div#param7lo
+        {
+            font-size:120%;
+        }
+        div#vt_hd{
+            font-size: 120%;
+        }
+        .vt_param12{
+            font-size: 95%;
+            padding-top: 0%;
+        }
+        p#param2_2{
+            font-size: 100%;
+        }
+        p#param2_1{
+            font-size: 97%;
+        }
+        .sixpath{
+            font-size: 70%;
+        }
+        p.vt_param14 {
+            font-size: 82%;
+        }       
+        .vt_param11{
+            font-size:80%;
+        }        
+        div#vt_right {
+            margin-left: 8%;
+            padding-top: 6%;
+        }
+        #vd_param{
+            font-size: 120%;
+        }
+        div#vd_param1{
+            font-size: 95%;
+        }
+    }
+    @media screen and (max-width:576px){
+        .dotvt{
+            height: auto;
+            width: 26%;
+            background-color: #3dc4e1;
+            border-radius: 50%;
+            font-size: 75%; 
+            margin-right: 1%;
+        }
+        .vt_param12{
+            font-size: 98%;
+            padding-bottom: 2%;
+        }
+        p#param2_2{
+            font-size: 98%;
+        }
+        p#param2_1{
+            font-size: 98%;
+        }
+        #vd_param{
+        font-size: 135%;
+        }
+        div#vd_param1 {
+            font-size: 98%;
+        }
+        div#param7lo{
+            font-size: 98%;
+        }
+        p.param2_3{
+            margin: 28% 6%;
+            text-align: center;
+            color: white;
+        }
+        p.vt_param13{
+           font-size: 98%;
+        }
+        .vt_param11{
+            font-size: 77%;
+        }
+        p.vt_param14{
+            font-size: 95%;
+        }
+        .sixpath{
+            padding-top: 0%;
+            padding-right: 21%;
+        }
+        img.vt_model2.animated.bounceInLeft.delay-2s{
+            width: 90%;
+            padding-left: 10%;
+        }
+    }
