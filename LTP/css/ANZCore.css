@@ -65,11 +65,11 @@ h1, h2, h3, h4, h5, h6, p, span {
 }
 
 footer .bg-primary1 {
-    background-color: #00425b;
+    background-color: #000000;
 }
 
 .bg-primary2 {
-    background-color: #003346;
+    background-color: #1F203F;
 }
 
 .bg-primary3 {
@@ -4906,7 +4906,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 }
 
     .btn-second:hover {
-        background-color: #d44d3b;
+        background-color: #000000;
         color: white;
     }
 
@@ -5321,7 +5321,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     color: white;
 }
 
-.btn-second:hover {
+.btn-second2:hover {
     background-color: #d44d3b;
     color: white;
 }
@@ -5363,7 +5363,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     padding-top: 15%;
     color: black;
     font-size: 120%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
 }
 .btn-second1 {
     
@@ -5583,7 +5583,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         text-align: right;
         color: black;
         font-size: 120%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
     .btn-ct2 {
         padding-left: 62%;
@@ -5620,7 +5620,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 8%;
         color: black;
         font-size: 120%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
         text-align: left !important;
     }
     .btn-second1 {
@@ -5720,7 +5720,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-right: 10%;
         color: black;
         font-size: 130%;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
     .btn-ct2 {
         padding-left: 62%;
@@ -5758,7 +5758,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 5%;
         color: black;
         font-size: 120%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
 
     .location_img {
@@ -5849,7 +5849,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         text-align: right;
         color: black;
         font-size: 140%;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
     .btn-ct2 {
         padding-left: 50%;
@@ -5898,7 +5898,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 7%;
         color: black;
         font-size: 122%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
         text-align: left !important;
     }
     .btn-second1 {
@@ -5973,7 +5973,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         text-align: right;
         color: black;
         font-size: 160%;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
     .txtLT {
         position: absolute;
@@ -6000,7 +6000,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 9%;
         color: black;
         font-size: 142%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
         text-align: left !important;
     }
     .btn-second1 {
@@ -6112,7 +6112,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         text-align: right;
         color: black;
         font-size: 170%;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
     .btn-ct2 {
         padding-left: 50%;
@@ -6148,7 +6148,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 11%;
         color: black;
         font-size: 165%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
         text-align: left !important;
         font-size: 164%;
         
@@ -6285,9 +6285,9 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     background-position: top left;
 } 
 .shadow {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 10);
-    -moz-box-shadow:0px 0px 10px rgba(0, 0, 0, 10);
-    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 10);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+    -moz-box-shadow:0px 0px 10px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
 }
 
 /*Xem chi tiết*/
@@ -6311,7 +6311,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 }
 
 #table {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     border-collapse: collapse;
 }
 
