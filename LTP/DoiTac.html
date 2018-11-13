@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
-    <title>Trang chủ - Lightoxs Việt Nam</title>
+    <title>INNOJector - Lightoxs Việt Nam</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
@@ -11,6 +11,36 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/ANZCore.css">
     <link rel="stylesheet" href="css/VideoSlide.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/ANZCore.js"></script>
+    <script type="text/javascript" src="js/partical.js"></script>
+
+    <style>
+    </style>
+
+    <script>
+        setTimeout(function a() {
+            if (typeof ANZ == 'undefined') {
+                setTimeout(a, 50);
+            } else {
+                ANZ.RenderPartial();
+            }
+        }, 50);
+
+        wow = new WOW({
+            boxClass: 'wow', // default 
+            animateClass: 'animated', // default 
+            offset: 0, // default 
+            mobile: true, // default 
+            live: true, // default 
+            scrollContainer: '.mdl-layout__content'
+        });
+        wow.init();
+    </script>
 
 </head>
 
@@ -44,7 +74,7 @@
                                 </div>
                                 <li><a href="TinTuc.html">Tin tức</a></li>
                                 <li><a href="DoiTac.html">Đối tác</a></li>
-                                <li><a href="LienHe.html">Liên hệ</a></li>>
+                                <li><a href="LienHe.html">Liên hệ</a></li>
 
                             </ul>
                         </div>
@@ -79,130 +109,17 @@
         </div>
     </header>
 
+
     <content>
-        <div class="container stickyBody" id="vitaldetail" style="margin-top: 58px">
-            <div class="r" id="vdmain">
-                <div class="c-s-5 c-m-5 c-l-5">
-                    <img class="vital-avatar animated bounceInLeft delay-0.8s" src="images/vital-avatar.png">
-                </div>
-                <div class="c-s-7 c-m-7 c-l-7">
-                    <div class="vd-info animated bounceInRight delay-0.8s">
-                        <p><b>MEDIBLESS VITAL BARRIER CREAM 100ml</b><br>Phân loại: Kem dưỡng ẩm da chuyên sâu</b>
-                            <br><br>
-                            <hr><br>Thương hiệu: Medibless<br>
-                            Xuất sứ: Hàn Quốc<br>
-                            Nhà sản xuất: INIST PHARM Co, Ltd<br>
-                            Trang web: http://www.medibless.co.kr/<br>
-                            Dung tích: 100 ml<br>
-                            Loại da: Khô, nhạy cảm<br>
-                            SNS: <br>
-                        </p>
-                    </div>
-                </div>
+
+        <div class="confull r" class="stickyBody" style="margin-top: 56px">
+            <div class="contactInfo">
+                <p class="address"><strong>15F, U-tower, 767, Sinsu-ro, Suji-gu, Yongin-si, Gyeonggi-do, Korea</strong></p>
+                <p class="tel"><a href="tel:0803506500">080.350.6500</a></p>
             </div>
-        </div>
-        <div class="con animated bounceInDown delay-1.5s" id="vitalbarrier">
-            <div id="vd_param">
-                <p><b>VITAL BARRIER CREAM</b></p>
-            </div>
-            <div id="vd_param1">
-                <p>Dòng sản phẩm cấp ẩm gồm sữa dưỡng và kem dưỡng Vital Barrier chứa độ ẩm cao, mang lại
-                    sự chăm sóc chuyên sâu, tăng cường dưỡng ẩm cho da khô, da nhạy cảm, đồng thời sở hữu
-                    công nghệ tiên tiến LCBTM tạo lớp màng với cấu trúc tương tự như làn da tự nhiên, tăng
-                    cường chức năng bảo vệ và phục hồi da hư tổn.</p>
-            </div>
-            <div class="r" id="vd_img1">
-                <div class="c-s-6 c-m-6 c-l-6" id="vd_param2">
-                    <p id="param2_1">Các chứng minh lâm sàng cho thấy sản phẩm có thể cấp ẩm lên đến <b>72</b>
-                        giờ</p><br>
-                    <div class="vt_param12">
-                        <p>Siêu cấp ẩm lên đến 72 giờ</p><br>
-                        <p>Tăng cường chức năng bảo vệ da</p><br>
-                        <p>Làm dịu, cân bằng độ ẩm</p><br>
-                        <p>Duy trì độ căng bóng, mịn màng cho làn da</p><br>
-                    </div>
-                </div>
-                <div class="c-s-6 c-m-6 c-l-6">
-                    <p id="param2_2">Cam kết không chứa các thành phần kích ứng da</p><br>
-                    <div class="r" id="vt_right">
-                        <div class="c-s-3 c-m-3 c-l-3">
-                            <div class="r">
-                                <span class="dotvt">
-                                    <p class="param2_3">Chất tạo màu</p>
-                                </span>
-                            </div>
-                            <div class="r">
-                                <span class="dotvt">
-                                    <p class="param2_4">Ethanol</p>
-                                </span>
-                            </div>
-                            <div class="r">
-                                <span class="dotvt">
-                                    <p class="param2_5">Chất tạo nhũ</p>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="c-s-5 c-m-5 c-l-5">
-                            <div class="sixpath">
-                                <div id="param2_9">
-                                    <p><b>6</b></p>
-                                </div>
-                                <div id="param2_10">
-                                    <p>KHÔNG</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="c-s-3 c-m-3 c-l-3">
-                            <div class="r">
-                                <span class="dotvt">
-                                    <p class="param2_6">Dầu khoáng</p>
-                                </span>
-                            </div>
-                            <div class="r">
-                                <span class="dotvt">
-                                    <p class="param2_7">Mùi nhân tạo</p>
-                                </span>
-                            </div>
-                            <div class="r">
-                                <span class="dotvt">
-                                    <p class="param2_8">Paraben</p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="con animated wow fadeIn delay-1.5s">
-            <div id="param7lo">
-                <p>Sở hữu 7 thành phần chiết xuất tự nhiên</p>
-            </div>
-            <img id="vt_7lo" src="images/6lo.png">
         </div>
 
-        <div class="con" id="vt_hd">
-            <p class="vt_param13">Hướng dẫn sử dụng</p>
-            <div class="r">
-                <div class="c-s-6 c-m-6 c-l-6">
-                    <img src="images/vt_model2.png" class="vt_model2 animated bounceInLeft delay-2s">
-                </div>
-                <div class="c-s-6 c-m-6 c-l-6">
-                    <p>Dùng sản phẩm vào sáng và tối</p><br>
-                    <div class="vt_param11 animated bounceInRight delay-2.5s">
-                        <p>
-                            1. Làm sạch da mặt
-                        </p><br>
-                        <p>
-                            2. Lấy một lượng kem/ sữa dưỡng thoa đều lên các vùng da cần dưỡng ẩm
-                        </p><br>
-                        <p>
-                            3. Massage nhẹ nhàng cho tinh chất thẩm thấu
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
+
     </content>
 
     <footer id="lienhe">
@@ -264,25 +181,6 @@
             </div>
         </div>
     </footer>
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/slider.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/ANZCore.js"></script>
-    <script type="text/javascript" src="js/partical.js"></script>
-    <script src="http://www.youtube.com/player_api"></script>
-
-    <script>
-        setTimeout(function a() {
-            if (typeof ANZ == 'undefined') {
-                setTimeout(a, 50);
-            } else {
-                ANZ.RenderPartial();
-            }
-        }, 50);
-    </script>
 
 </body>
 
