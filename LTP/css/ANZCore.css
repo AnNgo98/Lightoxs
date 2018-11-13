@@ -5536,6 +5536,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     }
 }
 @media only screen and (max-width:576px) {
+    .img_pu_nen_1 {
+        position: absolute;
+        width: 35%;
+        height: auto;
+        bottom: 37%;
+        left: 63%;
+    }
+    .img_pu_nen_2 {
+        position: absolute;
+        width: 70%;
+        height :auto;
+        left: 2%;
+        bottom: 0%;
+    }
     .btn-ct4 {
         padding-left: 68%;
         padding-bottom: 7%;
@@ -5589,7 +5603,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-left: 62%;
         padding-top: 6%;
         display: block;
-        font-size: 80%;
+        font-size: 84%;
         /* opacity: 0.5; */
     }
     .btn-second2:hover{
@@ -5645,11 +5659,26 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
             padding-top: 8%;
             padding-bottom: 5%;
             display: block;
+            font-size: 85%;
         }
 }
 
 
 @media only screen and (min-width : 576px) and (max-width:768px) {
+    .img_pu_nen_1 {
+        position: absolute;
+        width: 35%;
+        height: auto;
+        bottom: 37%;
+        left: 63%;
+    }
+    .img_pu_nen_2 {
+        position: absolute;
+        width: 70%;
+        height :auto;
+        left: 2%;
+        bottom: 0%;
+    }
     .backgroundvet2 {
         margin-bottom: 4%;
     }
@@ -5723,7 +5752,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
     .btn-ct2 {
-        padding-left: 62%;
+        padding-left: 10%;
         padding-top: 6%;
         display: block;
         font-size: 90%;
@@ -5796,6 +5825,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:768px) and (max-width:992px) {
+    .img_pu_nen_1 {
+        position: absolute;
+        width: 35%;
+        height: auto;
+        bottom: 40%;
+        left: 63%;
+    }
+    .img_pu_nen_2 {
+        position: absolute;
+        width: 70%;
+        height :auto;
+        left: 2%;
+        bottom: 0%;
+    }
     .backgroundvet2 {
         margin-bottom: 3%;
     }
@@ -5844,11 +5887,11 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         height : auto;
     }
     .bottom-right {
-        padding-top: 7%;
+        padding-top: 5%;
         padding-right: 10%;
         text-align: right;
         color: black;
-        font-size: 140%;
+        font-size: 122%;
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
     .btn-ct2 {
@@ -5895,7 +5938,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     }
     .bottom-right1 {
         padding-left: 10%;
-        padding-top: 7%;
+        padding-top: 15%;
         color: black;
         font-size: 122%;
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
@@ -5917,14 +5960,28 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
             height: auto;
         }
         .btn-ct1 {
-            padding-left: 54%;
+            padding-left: 50%;
             padding-top: 10%;
             padding-bottom: 5%;
             display: block;
-            font-size: 88%
+            font-size: 87%
         }
 }
 @media only screen and (min-width:992px) and (max-width:1200px) {
+    .img_pu_nen_1 {
+        position: absolute;
+        width: 35%;
+        height: auto;
+        bottom: 40%;
+        left: 63%;
+    }
+    .img_pu_nen_2 {
+        position: absolute;
+        width: 70%;
+        height :auto;
+        left: 2%;
+        bottom: 0%;
+    }
     .backgroundvet2 {
         margin-bottom: 3%;
     }
@@ -5972,7 +6029,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-top: 8%;
         text-align: right;
         color: black;
-        font-size: 160%;
+        font-size: 142%;
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
     .txtLT {
@@ -6018,7 +6075,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
             height: auto;
         }
         .btn-ct1 {
-            padding-left: 5%;
+            padding-left: 50%;
             padding-top: 12%;
             padding-bottom: 5%;
             display: block;
@@ -6049,6 +6106,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:1200px){
+    .img_pu_nen_1 {
+        position: absolute;
+        width: 35%;
+        height: auto;
+        bottom: 40%;
+        left: 63%;
+    }
+    .img_pu_nen_2 {
+        position: absolute;
+        width: 70%;
+        height :auto;
+        left: 2%;
+        bottom: 0%;
+    }
     .pu_img_3{
         margin-left: 10%;
         width : 60%;
@@ -6111,7 +6182,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-right: 10%;
         text-align: right;
         color: black;
-        font-size: 170%;
+        font-size: 165%;
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
     .btn-ct2 {
@@ -6150,7 +6221,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-size: 165%;
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
         text-align: left !important;
-        font-size: 164%;
+        font-size: 165%;
         
         text-align: right !important;
     }
