@@ -5600,7 +5600,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
     .btn-ct2 {
-        padding-left: 62%;
+        padding-left: 10%;
         padding-top: 6%;
         display: block;
         font-size: 84%;
@@ -5786,7 +5786,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         text-align: left;
         padding-top: 5%;
         color: black;
-        font-size: 120%;
+        font-size: 130%;
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
 
