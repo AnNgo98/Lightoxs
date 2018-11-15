@@ -1,8 +1,3 @@
-h3
-{
-    color:red;
-}
-
 
 /*=========================
   Icons
@@ -89,26 +84,14 @@ a.socialIcon:hover, .socialHoverClass {
 .social-circle a {
  background-color: #D3D3D3;   
 }
-.title
-{
-	border: #74b9ff 4px dashed; 
-	border-bottom:#0984e3 4px solid;
-	border-top-style: ridge;
-	text-align: center;
-	padding: 2%;
-	
+#title {
+    font-size: 196%;
+    text-align: center;
+    color: #f0b4b9;
 }
-.dropCaps::first-letter {
-	color: #c69c6d;
-	float: left;
-	font-size: 5em;
-	margin: 0 .2em 0 0;
-  }
-  .dropCaps {
-	
-	width: 100%;
-	max-width: 35em;
-	margin: 0 auto;
-	font-size: 176%;
-  }
-  
+.than {
+    font-size: 140%;
+}
+.noidung {
+    font-style: italic;
+}
