@@ -186,3 +186,8 @@ p {
 img.img-responsive {
 	width: 82%;
 }
+.LienHe {
+	font-size: 10px;
+	font-style: italic;
+	color: gray;
+}

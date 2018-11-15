@@ -23,8 +23,8 @@
 	 font-size: 253%;
 	 color: #4888be;
 	}
-	p.LienHe {
-    font-size: 124%;
+.LienHe {
+    font-size: 14px;
     font-style: italic;
     color: gray;
 }
