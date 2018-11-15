@@ -1,11 +1,12 @@
-h2#title1{
+h2#title{
     text-align: center;
+    color: #3191e6;
 }
 div#list1 {
     padding: 0% 2%;
 }
 #bai1{
-    background-image: url(https://stmed.net/sites/default/files/light-wallpapers-25248-9886303.jpg);
+    background-color: #f0f1f5;
 }
 div#main1{
     background-color: white;

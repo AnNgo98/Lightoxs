@@ -4515,7 +4515,7 @@ header.fixed .header3 {
         margin-top: 40px;
     }
 
-        .blog-three .pagination-box ul li a {
+        .blog-three .pagination-box ul li button {
             font-size: 18px;
             color: #00a3c8;
             width: 40px;
@@ -4527,14 +4527,15 @@ header.fixed .header3 {
             -moz-border-radius: 50%;
             -ms-border-radius: 50%;
             border-radius: 50%;
+            border: none;
         }
 
-            .blog-three .pagination-box ul li a:hover {
+            .blog-three .pagination-box ul li button:hover {
                 background: #00a3c8;
                 color: #fff;
             }
 
-        .blog-three .pagination-box ul li.active a {
+        .blog-three .pagination-box ul li.active button {
             background: #00a3c8;
             color: #fff;
         }
