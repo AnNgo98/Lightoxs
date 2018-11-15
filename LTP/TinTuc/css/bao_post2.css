@@ -1,14 +1,5 @@
-h3
-{
-    color:red;
-}
+/* BEGIN footer social icons */
 
-
-/*=========================
-  Icons
- ================= */
-
-/* footer social icons */
 ul.social-network {
 	list-style: none;
 	display: inline;
@@ -20,8 +11,6 @@ ul.social-network li {
 	margin: 0 5px;
 }
 
-
-/* footer social icons */
 .social-network a.icoRss:hover {
 	background-color: #F56505;
 }
@@ -85,34 +74,120 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
 }
+/*Begin change color lap lanh*/
+
+
+.awesome {
+	
+	font-family: futura;
+	font-style: italic;
+	
+	width:100%;
+	
+	margin: 0 auto;
+	text-align: center;
+	
+	color:#313131;
+	font-size:45px;
+	font-weight: bold;
+	
+	-webkit-animation:colorchange 0.5s infinite alternate;
+	
+	
+  }
+
+  @-webkit-keyframes colorchange {
+	0% {
+	  
+	  color: blue;
+	}
+	
+	10% {
+	  
+	  color: #8e44ad;
+	}
+	
+	20% {
+	  
+	  color: #1abc9c;
+	}
+	
+	30% {
+	  
+	  color: #d35400;
+	}
+	
+	40% {
+	  
+	  color: blue;
+	}
+	
+	50% {
+	  
+	  color: #34495e;
+	}
+	
+	60% {
+	  
+	  color: blue;
+	}
+	
+	70% {
+	  
+	  color: #2980b9;
+	}
+	80% {
+   
+	  color: #f1c40f;
+	}
+	
+	90% {
+   
+	  color: #2980b9;
+	}
+	
+	100% {
+	  
+	  color: pink;
+	}
+  }
+/*End change color lap lanh*/
 
 .social-circle a {
  background-color: #D3D3D3;   
 }
-.title
+/* END footer social icons */
+.brandSection4 .obj 
 {
-	border: #74b9ff 4px dashed; 
-	border-bottom:#0984e3 4px solid;
-	border-top-style: ridge;
-	text-align: center;
-	padding: 2%;
-	
+    position:relative; 
+    width:77%; 
+  
 }
-.dropCaps::first-letter {
-	color: #c69c6d;
-	float: left;
-	font-size: 5em;
-	margin: 0 .2em 0 0;
-  }
-  .dropCaps {
-	
-	width: 100%;
-	max-width: 35em;
-	margin: 0 auto;
-	font-size: 176%;
-  }
-.LienHe {
-    font-size: 14px;
-    font-style: italic;
+.brandSection4 .obj span 
+{
+    position:fixed; 
+}
+.title {
+    text-align: center;
+		font-size: 157%;
+		color: #9b59b6;
+}
+
+p {
+    font-size: 147%;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 152%;
     color: gray;
+}
+
+img.img-responsive {
+	width: 82%;
+}
+.LienHe {
+	font-size: 10px;
+	font-style: italic;
+	color: gray;
 }
