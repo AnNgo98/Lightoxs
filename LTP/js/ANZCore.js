@@ -85,7 +85,9 @@ window.onscroll = function () { myFunction(); };
 
 var header = document.getElementById("StickyHeader");
 var body = document.getElementById("stickyBody");
-var sticky = header.offsetTop;
+if (header != null) {
+    var sticky = header.offsetTop;
+}
 //var product1 = document.getElementById("ani_product3");
 
 function myFunction() {
@@ -95,8 +97,8 @@ function myFunction() {
         body.classList.add("stickyBody");
     } else {
         if (header != null) {
-            header.classList.remove("sticky");
-            body.classList.remove("stickyBody");
+            header.removeClass("sticky");
+            body.removeClass("stickyBody");
         }
     }
 }
@@ -110,7 +112,7 @@ new WOW().init();
 
 function smoothScroll(target) {
 
-    $( "#main-menu-mobile" ).click();
+    $("#main-menu-mobile").click();
 
     var scrollContainer = target;
     do { //find scroll container
@@ -135,3 +137,53 @@ function smoothScroll(target) {
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
+
+
+
+// pagination for News
+$(document).ready(function () {
+    $("#pagenum1").click(function () {
+        $("#page1").show();
+        $("#page2").hide();
+        $("#page3").hide();
+        $("#page4").hide();
+        $("#pagenum1").addClass("active");
+        $("#pagenum2").removeClass("active");
+        $("#pagenum3").removeClass("active");
+        $("#pagenum4").removeClass("active");
+        $("html, body").animate({scrollTop: 0}, 1000);
+    });
+    $("#pagenum2").click(function () {
+        $("#page1").hide();
+        $("#page2").show();
+        $("#page3").hide();
+        $("#page4").hide();
+        $("#pagenum1").removeClass("active");
+        $("#pagenum2").addClass("active");
+        $("#pagenum3").removeClass("active");
+        $("#pagenum4").removeClass("active");
+        $("html, body").animate({scrollTop: 0}, 1000);
+    });
+    $("#pagenum3").click(function () {
+        $("#page1").hide();
+        $("#page2").hide();
+        $("#page3").show();
+        $("#page4").hide();
+        $("#pagenum1").removeClass("active");
+        $("#pagenum2").removeClass("active");
+        $("#pagenum3").addClass("active");
+        $("#pagenum4").removeClass("active");
+        $("html, body").animate({scrollTop: 0}, 1000);
+    });
+    $("#pagenum4").click(function () {
+        $("#page1").hide();
+        $("#page2").hide();
+        $("#page3").hide();
+        $("#page4").show();
+        $("#pagenum1").removeClass("active");
+        $("#pagenum2").removeClass("active");
+        $("#pagenum3").removeClass("active");
+        $("#pagenum4").addClass("active");
+        $("html, body").animate({scrollTop: 0}, 1000);
+    });
+});

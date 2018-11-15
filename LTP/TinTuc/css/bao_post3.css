@@ -1,9 +1,33 @@
-h3
-{
-    color:red;
+
+/*Begin change color lap lanh*/
+
+
+/*Begin drop caps*/
+.dropCaps::first-letter {
+	color: #8b9ca4;
+	float: left;
+	font-size: 5em;
+	margin: 0 .2em 0 0;
+  }
+  .dropCaps {
+	
+	width: 100%;
+	max-width: 35em;
+	
+	font-size: 176%;
+ }
+ /*End drop caps*/
+ #title
+ {
+	 text-align: center;
+	 font-size: 253%;
+	 color: #4888be;
+	}
+.LienHe {
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
 }
-
-
 /*=========================
   Icons
  ================= */
@@ -88,31 +112,4 @@ a.socialIcon:hover, .socialHoverClass {
 
 .social-circle a {
  background-color: #D3D3D3;   
-}
-.title
-{
-	border: #74b9ff 4px dashed; 
-	border-bottom:#0984e3 4px solid;
-	border-top-style: ridge;
-	text-align: center;
-	padding: 2%;
-	
-}
-.dropCaps::first-letter {
-	color: #c69c6d;
-	float: left;
-	font-size: 5em;
-	margin: 0 .2em 0 0;
-  }
-  .dropCaps {
-	
-	width: 100%;
-	max-width: 35em;
-	margin: 0 auto;
-	font-size: 176%;
-  }
-.LienHe {
-    font-size: 14px;
-    font-style: italic;
-    color: gray;
 }
