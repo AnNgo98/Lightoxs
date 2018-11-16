@@ -5515,6 +5515,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     }
 }
 @media only screen and (max-width:576px) {
+    .hinhthem1 {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        bottom:4%;
+        left: 4%;
+    }
+    .hinhthem2{
+        position: absolute;
+        width: 30%;
+        height: auto;
+        bottom:50%;
+        left: 60%;
+    }
     .img_readmore{
         width: 100%;
         height: 100%;
@@ -5731,6 +5745,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 
 
 @media only screen and (min-width : 576px) and (max-width:768px) {
+    .hinhthem1 {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        bottom:4%;
+        left: 4%;
+    }
+    .hinhthem2{
+        position: absolute;
+        width: 30%;
+        height: auto;
+        bottom:50%;
+        left: 60%;
+    }
     .img_readmore{
         width: 90%;
         height: 100%;
@@ -5885,13 +5913,12 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         height : auto;
     }
     .btn-ct {
-        position: relative;
         position: absolute;
         bottom: 30%;
-        right: 13%;
+        right: 14%;
+        font-size: 85%;
     }
     .btn-ct3 {
-        position: relative;
         position: absolute;
         bottom: -3%;
         right: 38%;
@@ -5979,6 +6006,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:768px) and (max-width:992px) {
+    .hinhthem1 {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        bottom:4%;
+        left: 4%;
+    }
+    .hinhthem2{
+        position: absolute;
+        width: 30%;
+        height: auto;
+        bottom:50%;
+        left: 60%;
+    }
     .img_readmore{
         width: 85%;
         height: 100%;
@@ -6184,6 +6225,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:992px) and (max-width:1200px) {
+    .hinhthem1 {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        bottom:4%;
+        left: 4%;
+    }
+    .hinhthem2{
+        position: absolute;
+        width: 30%;
+        height: auto;
+        bottom:50%;
+        left: 60%;
+    }
     .img_readmore{
         width: 75%;
         height: 100%;
@@ -6379,6 +6434,20 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:1200px){  
+    .hinhthem1 {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        bottom:4%;
+        left: 4%;
+    }
+    .hinhthem2{
+        position: absolute;
+        width: 30%;
+        height: auto;
+        bottom:50%;
+        left: 60%;
+    }
     .img_readmore{
         width: 65%;
         height: 100%;
