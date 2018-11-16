@@ -95,3 +95,8 @@ a.socialIcon:hover, .socialHoverClass {
 .noidung {
     font-style: italic;
 }
+.LienHe {
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+}
