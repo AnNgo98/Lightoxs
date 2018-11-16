@@ -1,129 +1,114 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>INNOJector - Lightoxs Việt Nam</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../css/animate.css" />
-    <link rel="stylesheet" href="../css/ANZCore.css" />
-    <link rel="stylesheet" href="../css/VideoSlide.css" />
-    <link rel="stylesheet" href="css/thien.css" />
+<head>
+  <meta charset="utf-8" />
+  <title>INNOJector - Lightoxs Việt Nam</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
-    <script type="text/javascript" src="../js/slider.js"></script>
-    <script type="text/javascript" src="../js/wow.min.js"></script>
-    <script type="text/javascript" src="../js/ANZCore.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/animate.css" />
+  <link rel="stylesheet" href="../css/ANZCore.css" />
+  <link rel="stylesheet" href="../css/VideoSlide.css" />
+  <link rel="stylesheet" href="css/thien.css" />
 
-    <style></style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="../js/slider.js"></script>
+  <script type="text/javascript" src="../js/wow.min.js"></script>
+  <script type="text/javascript" src="../js/ANZCore.js"></script>
 
-    <script>
-      setTimeout(function a() {
-        if (typeof ANZ == "undefined") {
-          setTimeout(a, 50);
-        } else {
-          ANZ.RenderPartial();
-        }
-      }, 50);
+  <style></style>
 
-      wow = new WOW({
-        boxClass: "wow", // default
-        animateClass: "animated", // default
-        offset: 0, // default
-        mobile: true, // default
-        live: true, // default
-        scrollContainer: ".mdl-layout__content"
-      });
-      wow.init();
-    </script>
-  </head>
+  <script>
+    setTimeout(function a() {
+      if (typeof ANZ == "undefined") {
+        setTimeout(a, 50);
+      } else {
+        ANZ.RenderPartial();
+      }
+    }, 50);
 
-  <body style="background-color: #f0f1f5">
-    <header>
-      <div id="StickyHeader" class="sticky">
-        <nav class="bg-primary header3">
-          <div class="con">
-            <div class="r-n-g ">
-              <div class="c-a d-b d-l-n mr-auto">
-                <ul class="main-menu-mobile">
-                  <li>
-                    <a id="main-menu-mobile">
-                      <span class="menu-icon-bars">
-                        <span class="menu-icon-bar"></span>
-                        <span class="menu-icon-bar"></span>
-                        <span class="menu-icon-bar"></span>
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="c-a d-n d-l-b mr-auto">
-                <ul class="desktop-menu d-f flex-row">
-                  <li><a href="index.html">Trang chủ</a></li>
-                  <li><a href="innojector.html">INNOJector</a></li>
-                  <div class="dropdown">
-                    <button class="dropbtn">
-                      Dược Mỹ phẩm <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                      <a href="Lightox.html">Lightoxs</a>
-                      <a href="purience.html">Puriense</a>
-                      <a href="Vital.html">Vital</a>
-                    </div>
-                  </div>
-                  <li><a href="TinTuc.html">Tin tức</a></li>
-                  <li><a href="DoiTac.html">Đối tác</a></li>
-                  <li><a href="LienHe.html">Liên hệ</a></li>
-                </ul>
-              </div>
-              <div class="c-a align-self-center">
-                <a href="index.html"><img src="../images/logo_web.png"/></a>
-              </div>
+    wow = new WOW({
+      boxClass: "wow", // default
+      animateClass: "animated", // default
+      offset: 0, // default
+      mobile: true, // default
+      live: true, // default
+      scrollContainer: ".mdl-layout__content"
+    });
+    wow.init();
+  </script>
+</head>
+
+<body style="background-color: #f0f1f5">
+  <header>
+
+    <div id="StickyHeader" class="sticky">
+      <nav class="bg-primary header3">
+        <div class="con">
+          <div class="r-n-g ">
+            <div class="c-a d-b d-l-n mr-auto">
+              <ul class="main-menu-mobile">
+                <li> <a id="main-menu-mobile"> <span class="menu-icon-bars"> <span class="menu-icon-bar"></span>
+                      <span class="menu-icon-bar"></span>
+                      <span class="menu-icon-bar"></span> </span> </a> </li>
+              </ul>
             </div>
-            <div class="r-n-g">
-              <div
-                id="mobile-menu"
-                class="c-12 d-l-n d-x-n"
-                style="display: none"
-              >
-                <ul class="navbar-nav" style="display: block;">
-                  <a href="index.html">Trang chủ</a>
-                  <a href="innojector.html">INNOJector</a>
-                  <li class="nav-item nav-menu-item has-dropdown-menu">
-                    <a href="javascript:void(0)" class="nav-link"
-                      >Dược Mỹ phẩm</a
-                    >
-                    <ul class="dropdown-menu sub1 p-0 m-0">
-                      <li class="nav-item has-dropdown-menu">
-                        <a href="Lightox.html" class="nav-link">Lightoxs</a>
-                        <a href="purience.html" class="nav-link">Puriense</a>
-                        <a href="Vital.html" class="nav-link">Vital</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <a href="TinTuc.html">Tin tức</a>
-                  <a href="DoiTac.html">Đối tác</a>
-                  <a href="LienHe.html">Liên hệ</a>
-                </ul>
-              </div>
+            <div class="c-a d-n d-l-b mr-auto">
+              <ul class="desktop-menu d-f flex-row">
+                <li><a href="../index.html">Trang chủ</a></li>
+                <li><a href="../innojector.html">INNOJector</a></li>
+                <div class="dropdown">
+                  <button class="dropbtn">Dược Mỹ phẩm
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="../Lightox.html">Lightoxs</a>
+                    <a href="../purience.html">Puriense</a>
+                    <a href="../Vital.html">Vital</a>
+                  </div>
+                </div>
+                <li><a href="../TinTuc.html">Tin tức</a></li>
+                <li><a href="../DoiTac.html">Đối tác</a></li>
+                <li><a href="../LienHe.html">Liên hệ</a></li>
+
+              </ul>
+            </div>
+            <div class="c-a align-self-center">
+              <a href="../index.html"><img src="../images/logo_web.png"></a>
             </div>
           </div>
-        </nav>
-      </div>
-    </header>
-    <br />
+          <div class="r-n-g">
+            <div id="mobile-menu" class="c-12 d-l-n d-x-n" style="display: none">
+              <ul class="navbar-nav" style="display: block;">
+                <a href="../index.html">Trang chủ</a>
+                <a href="../innojector.html">INNOJector</a>
+                <li class="nav-item nav-menu-item has-dropdown-menu">
+                  <a href="javascript:void(0)" class="nav-link">Dược Mỹ phẩm</a>
+                  <ul class="dropdown-menu sub1 p-0 m-0">
+                    <li class="nav-item has-dropdown-menu">
+                      <a href="../Lightox.html" class="nav-link">Lightoxs</a>
+                      <a href="../purience.html" class="nav-link">Puriense</a>
+                      <a href="../Vital.html" class="nav-link">Vital</a>
+                    </li>
 
-    <content>
+                  </ul>
+                </li>
+                <a href="../TinTuc.html">Tin tức</a>
+                <a href="../DoiTac.html">Đối tác</a>
+                <a href="../LienHe.html">Liên hệ</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <br />
+
+  <content>
     <div class="con" id="bai1">
       <div class="stickyBody con" id="stickyBody" style="margin-top: 58px">
         <div class="r">
@@ -172,14 +157,14 @@
             </div>
             <h3>🌿 Mặt nạ dưỡng da:</h3>
             <div style="margin-left:5%">
-            <p>
-              ▪ Kết cấu các sợi cấu tạo có khả năng co dãn lên đến <span class="text-blue">#12_lần</span> so
-              với đường kính vốn có.
-            </p>
-            <p>
-              ▪ Phục hồi và <span class="text-blue">#cân_bằng_da_yếu</span> bởi các tác động từ môi trường.
-            </p>
-            <p>▪ Tăng cường <span class="text-blue">#độ_ẩm</span> cho da.</p>
+              <p>
+                ▪ Kết cấu các sợi cấu tạo có khả năng co dãn lên đến <span class="text-blue">#12_lần</span> so
+                với đường kính vốn có.
+              </p>
+              <p>
+                ▪ Phục hồi và <span class="text-blue">#cân_bằng_da_yếu</span> bởi các tác động từ môi trường.
+              </p>
+              <p>▪ Tăng cường <span class="text-blue">#độ_ẩm</span> cho da.</p>
             </div>
             <p style="text-align:center">=============</p><br>
             <h2 style="text-align: center">
@@ -192,113 +177,99 @@
             <div style="margin-left: 5%">
               <i class="fas fa-phone fa-2x text-blue"></i>Hotline: 0926
               615 258 - 0129 558 3990<br />
-              <i class="fas fa-envelope fa-2x text-blue" ></i> Email:
+              <i class="fas fa-envelope fa-2x text-blue"></i> Email:
               quocbao.trangb@gmail.com<br />
-              <i class="fas fa-dove fa-2x text-blue" > </i> Web:
+              <i class="fas fa-dove fa-2x text-blue"> </i> Web:
               http://gnbvn.com/<br />
               <i class="fas fa-home fa-2x text-blue"></i> Địa chỉ miền
               nam: Phòng 101 Khu công nghệ phần mềm đại học Quốc gia TP.HCM, khu
               phố 6, phường Linh Trung, quận Thủ Đức
             </div>
           </div>
-            <div class="container">
-              <div class="r">
-                  <div class="c-s-12 c-m-6 c-l-6">
-                      <img src="images/thien_tintuc_1.3.png"id="hinh3" width="100%" height="auto" />
-                    </div>
-                      <div class="c-s-12 c-m-6 c-l-6">
-                        <img src="images/thien_tintuc_1.2.png" id="hinh2" width="100%" height="auto" />
-                      </div>
-                      <div class="c-s-12 c-m-6 c-l-6">
-                          <img src="images/thien_tintuc_1.1.png" id="hinh1" width="100%" height="auto" />
-                        </div>
+          <div class="container">
+            <div class="r">
+              <div class="c-s-12 c-m-6 c-l-6">
+                <img src="images/thien_tintuc_1.3.png" id="hinh3" width="100%" height="auto" />
+              </div>
+              <div class="c-s-12 c-m-6 c-l-6">
+                <img src="images/thien_tintuc_1.2.png" id="hinh2" width="100%" height="auto" />
+              </div>
+              <div class="c-s-12 c-m-6 c-l-6">
+                <img src="images/thien_tintuc_1.1.png" id="hinh1" width="100%" height="auto" />
+              </div>
 
-                    <div class="c-s-12 c-m-6 c-l-6">
-                      <img src="images/thien_tintuc_1.4.png" id="hinh4" width="100%" height="auto" />
-                    </div>
-                  </div>
-        </div>
+              <div class="c-s-12 c-m-6 c-l-6">
+                <img src="images/thien_tintuc_1.4.png" id="hinh4" width="100%" height="auto" />
+              </div>
+            </div>
+          </div>
 
         </div>
         <br />
       </div>
 
     </div>
-    </content>
+  </content>
 
-    <footer id="lienhe">
-      <div class="bg-primary1">
-        <div class="con">
-          <div class="r-n-g">
-            <div class="c-s-6 c-m-6 c-l-6 d-f pb-3">
-              <div class="d-f flex-column">
-                <div class="logo_footer box-image center_col">
-                  <a href="index.html" class="align-self-center">
-                    <img src="../images/logo_web.png" />
-                  </a>
-                </div>
+  <footer id="lienhe">
+    <div class="bg-primary1">
+      <div class="con">
+        <div class="r-n-g">
+          <div class="c-s-6 c-m-6 c-l-6 d-f pb-3">
+            <div class="d-f flex-column">
+              <div class="logo_footer box-image center_col">
+                <a href="../index.html" class="align-self-center">
+                  <img src="../images/logo_web.png">
+                </a>
               </div>
-            </div>
-            <div class="c-s-6 c-m-6 c-l-6 pb-3 d-f">
-              <iframe
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDuocMyPhamMedibless%2F&tabs=timeline&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
-                width="340"
-                height="130"
-                style="border:none;overflow:hidden"
-                scrolling="no"
-                frameborder="0"
-                allowTransparency="true"
-                allow="encrypted-media"
-              ></iframe>
             </div>
           </div>
-          <div class="r-n-g">
-            <div class="c-12"><h2 class="text-white">Liên hệ</h2></div>
-            <div class="c-6">
-              <div class="d-f flex-row mt-3 align-content-center">
-                <i
-                  class="fa fa-map-marker text-white center_col"
-                  aria-hidden="true"
-                ></i>
-                <span class="ml-3 text-lighdark"
-                  >101 Khu công nghệ phần mềm<br />KP6, Linh Trung, Thủ Đức,
-                  HCM</span
-                >
-              </div>
-              <div class="d-f flex-row mt-3 align-content-center center_col">
-                <i class="fa fa-envelope text-white" aria-hidden="true"></i>
-                <span class="ml-3 text-lighdark"
-                  >ngocmedibless@gmail.com<br />cuong.anzpharma@gmail.com</span
-                >
-              </div>
+          <div class="c-s-6 c-m-6 c-l-6 pb-3 d-f">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDuocMyPhamMedibless%2F&tabs=timeline&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+              width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+              allowTransparency="true" allow="encrypted-media"></iframe>
+          </div>
+
+        </div>
+        <div class="r-n-g">
+          <div class="c-12">
+            <h2 class="text-white">Liên hệ</h2>
+          </div>
+          <div class="c-6">
+            <div class="d-f flex-row mt-3 align-content-center">
+              <i class="fa fa-map-marker text-white center_col" aria-hidden="true"></i>
+              <span class="ml-3 text-lighdark">101 Khu công nghệ phần mềm<br>KP6, Linh Trung, Thủ
+                Đức, HCM</span>
             </div>
-            <div class="c-6">
-              <div class="d-f flex-row mt-3 align-content-center center_col">
-                <i class="fa fa-phone text-white" aria-hidden="true"></i>
-                <span class="ml-3 text-lighdark">028 6684 6639</span>
-              </div>
-              <div class="d-f flex-row mt-3 align-content-center center_col">
-                <i class="fa fa-mobile-alt text-white" aria-hidden="true"></i>
-                <span class="ml-3 text-lighdark"
-                  >0825 58 39 90 (Ms. Ngọc)<br />0932 69 25 40 (Mr. Cường)</span
-                ><br />
-              </div>
+            <div class="d-f flex-row mt-3 align-content-center center_col">
+              <i class="fa fa-envelope text-white" aria-hidden="true"></i>
+              <span class="ml-3 text-lighdark">ngocmedibless@gmail.com<br>cuong.anzpharma@gmail.com</span>
+            </div>
+          </div>
+          <div class="c-6">
+            <div class="d-f flex-row mt-3 align-content-center center_col">
+              <i class="fa fa-phone text-white" aria-hidden="true"></i>
+              <span class="ml-3 text-lighdark">028 6684 6639</span>
+            </div>
+            <div class="d-f flex-row mt-3 align-content-center center_col">
+              <i class="fa fa-mobile-alt text-white" aria-hidden="true"></i>
+              <span class="ml-3 text-lighdark">0825 58 39 90 (Ms. Ngọc)<br>0932 69 25 40 (Mr. Cường)</span><br>
             </div>
           </div>
         </div>
       </div>
-      <div class="bg-primary2">
-        <div class="con">
-          <div class="r-n-g justify-content-center">
-            <span class="m-3 text-white">Copyright © 2018 Nho Tim Company</span>
-          </div>
-        </div>
-        <div>
-          <a href="javascript:" id="return-to-top">
-            <img class="image_top" src="../images/backtotop.png" />
-          </a>
+    </div>
+    <div class="bg-primary2">
+      <div class="con">
+        <div class="r-n-g justify-content-center">
+          <span class="m-3 text-white">Copyright © 2018 Nho Tim Company</span>
         </div>
       </div>
-    </footer>
-  </body>
+      <div>
+        <a href="javascript:" id="return-to-top"> <img class="image_top" src="../images/backtotop.png"> </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
