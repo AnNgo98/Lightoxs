@@ -1524,6 +1524,11 @@ footer .bg-primary1 {
     align-self: center !important;
 }
 
+.align-self-center > a > img {
+    padding-top: 10px;
+    width: 180px;
+}
+
 .align-self-baseline {
     -ms-flex-item-align: baseline !important;
     align-self: baseline !important;
@@ -4180,7 +4185,7 @@ footer .bg-primary1 {
 }
 
 .logo_footer {
-    width: 130%;
+    width: 50%;
 }
 
 content {

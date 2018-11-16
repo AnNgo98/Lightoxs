@@ -97,8 +97,8 @@ function myFunction() {
         body.classList.add("stickyBody");
     } else {
         if (header != null) {
-            header.removeClass("sticky");
-            body.removeClass("stickyBody");
+            header.classList.remove("sticky");
+            body.classList.remove("stickyBody");
         }
     }
 }
