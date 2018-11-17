@@ -9,3 +9,27 @@
 .abc {
         background-color: white;
 }
+.evt4_1 {
+    border-bottom: groove;
+}
+.img_evt_an_1{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_evt_an_2{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_evt_an_3{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.txt_evt_an_1 {
+    text-align: center;
+}
