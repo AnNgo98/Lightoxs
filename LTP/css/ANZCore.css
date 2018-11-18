@@ -1524,6 +1524,11 @@ footer .bg-primary1 {
     align-self: center !important;
 }
 
+.align-self-center > a > img {
+    padding-top: 10px;
+    width: 180px;
+}
+
 .align-self-baseline {
     -ms-flex-item-align: baseline !important;
     align-self: baseline !important;
@@ -4180,7 +4185,7 @@ footer .bg-primary1 {
 }
 
 .logo_footer {
-    width: 130%;
+    width: 50%;
 }
 
 content {
@@ -5435,9 +5440,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 .text_pu_3{
     padding-top: 10%;
 }
-.img_readmore{
-    position: absolute;
-}
+
 .img_pu_51 {
     padding-left: 10%;
 }
@@ -5517,6 +5520,25 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
     }
 }
 @media only screen and (max-width:576px) {
+    .hinhthem1 {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        bottom:4%;
+        left: 4%;
+    }
+    .hinhthem2{
+        position: absolute;
+        width: 30%;
+        height: auto;
+        bottom:50%;
+        left: 60%;
+    }
+    .img_readmore{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
     .img_pu_nen_1 {
         position: absolute;
         width: 35%;
@@ -5728,6 +5750,25 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
 
 
 @media only screen and (min-width : 576px) and (max-width:768px) {
+    .hinhthem1 {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        bottom:4%;
+        left: 4%;
+    }
+    .hinhthem2{
+        position: absolute;
+        width: 30%;
+        height: auto;
+        bottom:50%;
+        left: 60%;
+    }
+    .img_readmore{
+        width: 90%;
+        height: 100%;
+        position: absolute;
+    }
     .img_pu_nen_1 {
         position: absolute;
         width: 35%;
@@ -5877,13 +5918,12 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         height : auto;
     }
     .btn-ct {
-        position: relative;
         position: absolute;
         bottom: 30%;
-        right: 13%;
+        right: 14%;
+        font-size: 85%;
     }
     .btn-ct3 {
-        position: relative;
         position: absolute;
         bottom: -3%;
         right: 38%;
@@ -5971,6 +6011,25 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:768px) and (max-width:992px) {
+    .hinhthem1 {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        bottom:4%;
+        left: 4%;
+    }
+    .hinhthem2{
+        position: absolute;
+        width: 30%;
+        height: auto;
+        bottom:50%;
+        left: 60%;
+    }
+    .img_readmore{
+        width: 85%;
+        height: 100%;
+        position: absolute;
+    }
     .img_pu_nen_1 {
         position: absolute;
         width: 35%;
@@ -6171,6 +6230,25 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:992px) and (max-width:1200px) {
+    .hinhthem1 {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        bottom:4%;
+        left: 4%;
+    }
+    .hinhthem2{
+        position: absolute;
+        width: 30%;
+        height: auto;
+        bottom:50%;
+        left: 60%;
+    }
+    .img_readmore{
+        width: 75%;
+        height: 100%;
+        position: absolute;
+    }
     .img_pu_nen_1 {
         position: absolute;
         width: 35%;
@@ -6361,6 +6439,25 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         }
 }
 @media only screen and (min-width:1200px){  
+    .hinhthem1 {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        bottom:4%;
+        left: 4%;
+    }
+    .hinhthem2{
+        position: absolute;
+        width: 30%;
+        height: auto;
+        bottom:50%;
+        left: 60%;
+    }
+    .img_readmore{
+        width: 65%;
+        height: 100%;
+        position: absolute;
+    }
     .img_pu_nen_1 {
         position: absolute;
         width: 35%;
@@ -6805,7 +6902,7 @@ div.imgMinhHoa img {
 }
 .bavet2{
     height: auto;
-    width: 80%;
+    width: 85%;
     background-repeat: no-repeat;
     text-indent: 10px;
     text-align: left;
@@ -6852,10 +6949,9 @@ a.xemthem {
 } 
 .vetba{
     position: absolute;
-    bottom: 33%;
+    bottom: 39%;
     margin-left: 9%;
-    font-size: 149%;
-    
+    font-size: 138%;    
 }
 .vitalmodel
 {
@@ -6876,7 +6972,7 @@ a.xemthem {
     margin-left: 29%;
 }
 /*VetMot*/
-@media screen and (max-width: 454px) {
+/* @media screen and (max-width: 454px) {
     .vetmot {
         position: absolute;
         bottom: 85%;
@@ -6888,11 +6984,11 @@ a.xemthem {
         order: 0;
         -webkit-box-ordinal-group: 1;
     }
-
     .location_text {
         order: 1;
         -webkit-box-ordinal-group: 2;
     }
+    
 }
 @media screen and (min-width:455px) and (max-width: 500px) {
     .vetmot {
@@ -6929,7 +7025,7 @@ a.xemthem {
         order: 1;
         -webkit-box-ordinal-group: 2;
     }
-}
+} */
 
 @media only screen and (max-width: 576px) {
     .vetmot {
@@ -6939,25 +7035,42 @@ a.xemthem {
     font-size: 93%;
     }
     img.vitalmodel{
-        width: 80%;
+        width: 67%;
+        margin: auto;
+    }
+    .bavet1{
+        order: 0;
+        -webkit-box-ordinal-group: 1;
+        height: auto;
+        width: 100%;
+        color: black;
     }
     .vethai{
         position: absolute;
         bottom: 15%;
         margin-left: 18%;
         font-size: 57%;
+        order: 0;
+        -webkit-box-ordinal-group: 1;
+    }
+    #Chai{
+        order: 1;
+        -webkit-box-ordinal-group: 2;
     }
     img.vitalbarrier{
-        width:80%;
+        width:67%;    
+        margin-left: 10%;  
     }
     .vetba{
         position: absolute;
-        bottom: 34%;
-        margin-left: 9%;
-        font-size: 56%;
+    bottom: 47%;
+    margin-left: 9%;
+    font-size: 48%;
     }
-    /*VitalDetail*/
-
+    #readmore{
+        padding: 3% 4%;
+    font-size: 80%;
+    }
 }
 @media screen and (min-width:576px) and (max-width: 650px) {
     .vetmot {
@@ -6973,16 +7086,20 @@ a.xemthem {
         position: absolute;
         bottom: 15%;
         margin-left: 18%;
-        font-size: 57%;
+        font-size: 53%;
     }
     img.vitalbarrier{
         width:85%;
     }
     .vetba{
         position: absolute;
-        bottom: 34%;
+        bottom: 44%;
         margin-left: 9%;
-        font-size: 56%;
+        font-size: 60%;
+    }
+    #readmore{
+        padding: 3% 4%;
+    font-size: 80%;
     }
 }
 @media screen and (min-width:650px) and (max-width: 768px) {
@@ -7005,13 +7122,14 @@ a.xemthem {
     }
     .vetba{
         position: absolute;
-        bottom: 34%;
+        bottom: 39%;
         margin-left: 9%;
-        font-size: 77%;
-
+        font-size: 72%;
     }
-    /*VitalDetail*/
-
+    #readmore{
+        padding: 2% 4%;
+        font-size: 80%;
+    }
 }
 @media screen and (min-width:768px) and (max-width: 900px) {
     .vetmot {
@@ -7031,10 +7149,13 @@ a.xemthem {
         position: absolute;
     bottom: 36%;
     margin-left: 9%;
-    font-size: 97%;
+    font-size: 94%;
     }
     /*VitalDetail*/
-
+    #readmore{
+        padding: 2% 4%;
+        font-size: 80%;
+    }
 }
 @media screen and (min-width:900px) and (max-width: 1100px) {
     .vetmot {
@@ -7053,7 +7174,11 @@ a.xemthem {
         position: absolute;
     bottom: 36%;
     margin-left: 9%;
-    font-size: 97%;
+    font-size: 103%;
+    }
+    #readmore{
+        padding: 2% 4%;
+        font-size: 80%;
     }
     /*VitalDetail*/
 
@@ -7063,25 +7188,21 @@ a.xemthem {
         position: absolute;
         bottom: 24%;
         margin-left: 22%;
-        font-size: 165%;
-        
+        font-size: 165%;        
     }
     .vethai{
         position: absolute;
     bottom: 31%;
     margin-left: 18%;
-    font-size: 91%;
-    
-}
+    font-size: 91%;    
+    }
     .vetba{
         position: absolute;
-    bottom: 35%;
-    margin-left: 9%;
-    font-size: 128%;
+        bottom: 40%;
+        margin-left: 9%;
+        font-size: 110%;
     
     }
-    /*VitalDetail*/
-
 }
 /*ReadMore*/
 @media screen and (max-width: 500px){
