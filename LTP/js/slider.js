@@ -29,8 +29,8 @@ function onYouTubeIframeAPIReady() {
             'autohide': 1,
             'showinfo': 0, // <- This part here
             'modestbranding' : 0,
-            'wmode': 'opaque',
-            'rel': 0
+            'wmod': 'opaque',
+            rel: 0
         },
         videoId: 'c8E2j2slRk0',
         events: {
