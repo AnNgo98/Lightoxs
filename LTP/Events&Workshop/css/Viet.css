@@ -12,19 +12,14 @@
 }
 .title{
     text-align: center;
-    color: #25cbd3
+    color: #25cbd3;
 }
 #time{
     color: black;
-    font-size: .7em;
-}
-#smalltitle{
-font-size: .7em;
-}
-#bigtitle{
-    font-size: 1.7em;
-    line-height: 1.3;
 }
 #bodyevent{
-    line-height: 1.7;
+   background-color: white;
+}
+.tintuc1 {
+    background-color: #F0F1F5;
 }
