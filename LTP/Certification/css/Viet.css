@@ -1,37 +1,26 @@
-/* title and container */
-.container {
-    padding-left: 0;
-    padding-right: 0;
-}
-.section-title{
-    position: relative;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
+/*Cer4*/
+#cer4{
     width: 100%;
+    height: auto;
+    padding-bottom: 1%;
 }
-.section-title b {
-    display: block;
-    -ms-flex: 1;
-    flex: 1;
-    height: 2px;
-    opacity: .1;
-    background-color: currentColor;
-}
-.section-title-center span, .section-title-bold-center span{
+.title{
     text-align: center;
+    color: #25cbd3;
 }
-.section-title-center span {
-    margin: 0 15px;
+#time{
+    font-size: small;
+    padding-bottom: 1%;
 }
+
+
 /*Begin Badge*/
 /* CSS KHUNG CHỮ */
 .badge.post-date {
-    top: 7%;
+    top: 17%;
 }
 .badge.top {
-    left: 0;
+    left: 0.5%;
 }
 .absolute {
     position: absolute !important;
@@ -74,49 +63,3 @@
     color: black;
 }
 /*End Badges */
-.img_cer
-{
-    width: 100%;
-    height: 100%;
-    transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s;
-}
-._1khoi {
-    border: 1pt solid #b2abab;
-
-}
-.noiDung
-{
-    text-align: center;
-}
-.img_cer:hover
-{
-    opacity: 0.5;
-    filter: grayscale(100%);
-}
-._1khoi
-{
-    
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-    background: white;
-    transition: transform 0.2s;
-}
-._1khoi:hover 
-{
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);                
-    transform: scale(1.05); 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
