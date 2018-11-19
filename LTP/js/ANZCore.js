@@ -93,12 +93,14 @@ if (header != null) {
 function myFunction() {
 
     if (window.pageYOffset >= sticky) {
+        header.classList.remove("StickyHeader");
         header.classList.add("sticky");
         body.classList.add("stickyBody");
     } else {
         if (header != null) {
             header.classList.remove("sticky");
             body.classList.remove("stickyBody");
+            header.classList.add("StickyHeader");
         }
     }
 }
