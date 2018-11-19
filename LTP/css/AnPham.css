@@ -77,8 +77,11 @@
 .img_cer
 {
     width: 100%;
-    height: 100%;
+    height: 450px;
     transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s;
+    object-position: 50% 50%;
+    object-fit: cover;
+
 }
 ._1khoi {
     border: 1pt solid #b2abab;
