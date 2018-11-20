@@ -7590,3 +7590,22 @@ p.vt_param13 {
             padding-left: 10%;
         }
     }
+
+#DTInno{
+width: 100%;
+height: auto;
+}
+#InnoTruoc{
+    margin-top: -11%;
+    margin-left: -4%;
+    font-size: 80%;
+}
+#inno_model{
+    width: 100%;
+    height: 90%;
+    padding: 2% 3%;
+}
+#param_inno{
+    text-align: center;
+    font-size: 80%;
+}

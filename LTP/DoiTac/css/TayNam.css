@@ -12,7 +12,8 @@
     width:13px;
     padding:0
 }
-span
+.mySlides
 {
-    
+    height: 500px;
+    display:none;
 }
