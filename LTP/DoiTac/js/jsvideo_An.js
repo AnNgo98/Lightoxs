@@ -52,7 +52,7 @@ function onPlayerReady(event) {
 function onPlayerStateChange(event) {
   if (event.data == YT.PlayerState.ENDED) {
     player.current_video++;
-    if (player.current_video==2)
+    if (player.current_video==4)
     {
       carousel();
     }
