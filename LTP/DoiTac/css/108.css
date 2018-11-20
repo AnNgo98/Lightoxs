@@ -16,3 +16,10 @@
 {
     height: 500px;
 }
+.w3-large {
+    font-size: 30px!important;
+}
+.w3-section, .w3-code {
+    margin-top: 275px!important;
+    margin-bottom: 275px!important;
+}

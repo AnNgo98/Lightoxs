@@ -31,7 +31,7 @@ function carousel() {
      x[i].style.display = "none";  
   }
   myIndex++;
-  if (myIndex > x.length) {myIndex = 3}    
+  if (myIndex > x.length) {myIndex = 2}    
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 4000); // Change image every 2 seconds
   // settime out là không lưu lại bước đi 
@@ -52,7 +52,7 @@ function onPlayerReady(event) {
 function onPlayerStateChange(event) {
   if (event.data == YT.PlayerState.ENDED) {
     player.current_video++;
-    if (player.current_video==3)
+    if (player.current_video==2)
     {
       carousel();
     }
