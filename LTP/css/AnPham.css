@@ -3,6 +3,16 @@
     padding-left: 0;
     padding-right: 0;
 }
+@font-face {
+    font-family: myriad;
+    src: url(../myriad-hebrew-4.otf)
+}
+.section-title-main
+{
+    color: rebeccapurple;
+    font-family: myriad-hebrew, sans-serif;
+    
+}
 .section-title{
     position: relative;
     display: flex;
