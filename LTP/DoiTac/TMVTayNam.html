@@ -11,19 +11,11 @@
     <link rel="stylesheet" href="../css/animate.css">
     <link rel="stylesheet" href="../css/ANZCore.css">
     <link rel="stylesheet" href="../css/VideoSlide.css">
-    <link rel="stylesheet" href="../Certification/css/Viet.css">
-    <script>
-        $(function () {
-            console.log('da hover');
-            $('._1khoi').hover(function () {
-                $('.txt_cer').css('color', 'red');
-            }, function () {
-                // on mouseout, reset the background colour
-                $('.txt_cer').css('color', 'black');
-            });
-        });
-    </script>
-
+    <link rel="stylesheet" href="../DoiTac/css/TayNam.css">
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -90,29 +82,36 @@
     </header>
 
     <content>
-        <div class="con pt-3">
-            <div class="r">
-                <div class="c-s-2 c-m-2 c-l-2"></div>
-                <div class="c-s-8 c-m-8 c-l-8 pb-1">
-                    <div class="title">
-                        <h4>AESTHETIC PUBLICATION</h4>
-                        <h2>INTERNATIONAL JOURNAL OF DERMATOLOGY</h2>
-                        <hr align="center" width="6%" size="5px" color="lightgray">
-                        <h4 id="time" style="color: black">POSTED ON 23 THÁNG NĂM, 2018 BY ADMIN<h4>
-                    </div>
-                    <img id="cer4" src="../Certification/images/5.png">
-                    <p class="pb-5">Link Pdf xem chi tiết : <a id="pdf4" href="https://demo.wsas.vn/inno/wp-content/uploads/2018/05/Seok_et_al-2016-International_Wound_Journal.pdf">Seok_et_al-2016-Dermatologic_Therapy</a></p>
-                    
-                    <div class="badge absolute top post-date badge-outline">
-                        <div class="badge-inner">
-                            <span class="post-date-day">23</span><br>
-                            <span class="post-date-month is-xsmall">Th5</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="c-s-2 c-m-2 c-l-2"></div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="la.jpg" alt="Los Angeles" width="1100" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="chicago.jpg" alt="Chicago" width="1100" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="ny.jpg" alt="New York" width="1100" height="500">
+              </div>
             </div>
-        </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
     </content>
 
     <footer id="lienhe">
