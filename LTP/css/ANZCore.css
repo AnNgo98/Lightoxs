@@ -4372,6 +4372,71 @@ header.fixed .header3 {
     border-color: #e8e8e8;
 }
 
+#mobile-menu ul, #mobile-menu button {
+    border-top: 1px solid #e8e8e8;
+    line-height: 2.5;
+    border: none;
+}
+
+    #mobile-menu ul li {
+        position: relative;
+    }
+
+        #mobile-menu ul li a, #mobile-menu ul li button{
+            display: block;
+            position: relative;
+            padding: 8px 40px 8px 40px;
+            color: white;
+            background-color: black;
+            border: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 0.9em;
+            transition: color .3s ease-in-out 0s,background .3s ease-in-out 0s,border .3s ease-in-out 0s;
+            -webkit-transition: color .3s ease-in-out 0s,background .3s ease-in-out 0s,border .3s ease-in-out 0s;
+        }
+
+            #mobile-menu ul li a:hover, #mobile-menu ul li button:hover {
+                color: #f88df3;
+                background-color: #2b2b2b;
+                border-color: #e8e8e8;
+            }
+        
+#mobile-menu ul > li > ul > li > button, #mobile-menu ul > li > ul > li > a{
+    margin-left: 40px;
+    line-height: 2;
+    width: 100%;
+    text-align: left;
+}
+
+#mobile-menu ul > li > ul > li > ul {
+    margin-left: 40px;
+    line-height: 2;
+    width: 100%;
+    text-align: left;
+}
+
+    #mobile-menu ul > li.has-dropdown-menu > a:before, #mobile-menu ul > li.has-dropdown-menu > a:after {
+        display: block;
+        position: absolute;
+        content: '';
+        width: 12px;
+        height: 2px;
+        top: 19px;
+        right: 20px;
+        background-color: white;
+        transition: transform .3s ease-in-out 0s;
+        -webkit-transition: transform .3s ease-in-out 0s;
+    }
+
+    #mobile-menu ul > li.has-dropdown-menu > a:after {
+        transform: rotate(90deg);
+    }  
+
+    #mobile-menu ul > li.toggled > a:after {
+        display: none;
+    }
+
 
 .dropdown {
     float: left;
@@ -4439,7 +4504,7 @@ header.fixed .header3 {
 .dropdown-menu.sub1 > li > a {
     font-size: 0.80em !important;
     padding: 8px 40px 8px 48px !important;
-    background-color: #626161 !important;
+    background-color: #000000 !important;
 }
 
 .dropdown-menu.sub2 > li > a {
