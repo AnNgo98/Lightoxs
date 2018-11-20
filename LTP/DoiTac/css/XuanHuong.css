@@ -1,16 +1,18 @@
-#slideshow {
-    margin: 80px auto;
-    position: relative;
-    width: 240px;
-    height: 240px;
-    padding: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  }
-  
-  #slideshow > div {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-  }
+.mySlides 
+{
+    display:none
+}
+.w3-left, .w3-right, .w3-badge 
+{
+    cursor:pointer
+}
+.w3-badge 
+{
+    height:13px;
+    width:13px;
+    padding:0
+}
+.mySlides
+{
+    height: 500px;
+}
