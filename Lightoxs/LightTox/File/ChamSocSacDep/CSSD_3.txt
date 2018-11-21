@@ -1,0 +1,39 @@
+﻿<div class="con background-gray">
+            <div class="r pr-5 pl-5 pt-3 pb-3 mb-3">
+                <div class="c-12">
+                    <h1 class="text-blue">"VỰC DẬY" LÀN DA LÃO HÓA 🌞</h1>
+                    <ul class="d-f ml-3 mb-5">
+                        <li class=""><i class="fa fa-calendar pr-1"></i>Nov 13, 2018</li>
+                        <li class="ml-3"><i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
+                                target="blank">Trà Đức Anh</a></li>
+                    </ul>
+                    <p>
+                        Cùng 3 THÀNH PHẦN lần đầu tiên kết hợp tạo nên CỰC PHẨM #Purience<br>
+                        Nếu các nàng đôi mươi, ba mươi đã để làn da bị chôn vùi quá lâu trong sự lão hóa, sần sùi, thâm
+                        mụn và đang loay hoay tìm kiếm cho mình mọi giải pháp nhưng không có hồi kết.<br><br>
+                        🌸 Hãy để Purience giúp bạn "vực dậy" nguồn năng lượng cho làn da cùng 3 thành phần "kỳ
+                        diệu" <span class="text-blue">#lần_đầu_tiên</span> được kết hợp:<br>
+                        ✔ Công nghệ Autophagy - công nghệ tự thực bào, các tế bào lão hóa sẽ chuyển thành năng lượng
+                        mới cho da<br>
+                        ✔ AQUATIDE 5000 - chống viêm giúp điều trị các vấn đề về mụn thâm<br>
+                        ✔ Beta Glucan - nguyên liệu siêu cấp ẩm chỉ có trong mỹ phẩm cao cấp<br><br>
+                        🌸 Một làn da trong mơ căng mịn, hồng hào và tươi trẻ giờ đây sẽ không còn là "ảo tưởng" đối
+                        với các nàng 30 vì Purience sẽ mang đến hiệu quả trên cả tuyệt vời chỉ sau #7_ngày sử dụng:<br>
+                        ⚡ Cấp nước, dưỡng ẩm giúp da mướt mát, tránh trường hợp khô ráp.<br>
+                        ⚡ Tăng cường se lỗ chân lông, cải thiện tình trạng da thô sần và lấy lại sức sống cho da<br>
+                        ⚡ Xóa bỏ mụn thâm giúp da luôn mịn màng, trắng hồng<br>
+                        ⚡ "Nạp năng lượng" cải thiện nếp nhăn trên da bị lão hóa, nâng tông da, tăng độ đàn hồi và săn
+                        chắc của da.<br><br>
+                        💟 PURIENCE - Mịn màng thuần khiết, thanh khiết làn da
+                    </p>
+                </div>
+                <div class="c-s-12 c-m-6 c-l-6">
+                    <img class="img_news" src="/Images/chamsocsacdep/TinTuc_Thuy_TT3_1.png">
+                    <img class="img_news" src="/Images/chamsocsacdep/TinTuc_Thuy_TT3_2.png">
+                </div>
+                <div class="c-s-12 c-m-6 c-l-6">
+                    <img class="img_news" src="/Images/chamsocsacdep/TinTuc_Thuy_TT3_3.png">
+                    <img class="img_news" src="/Images/chamsocsacdep/TinTuc_Thuy_TT3_4.png">
+                </div>
+            </div>
+        </div>

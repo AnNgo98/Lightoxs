@@ -1,0 +1,96 @@
+h2#title{
+    text-align: center;
+    color: #3191e6;
+}
+div#list1 {
+    padding: 0% 2%;
+}
+#bai1{
+    background-color: #f0f1f5;
+}
+div#main1{
+    background-color: white;
+}
+div#header1 {
+    padding: 0% 10%;
+}
+h3#subtitle {
+    text-align: center;
+}
+img.Hinh1_1 {
+    width: 100%;
+    height: 93%;
+}
+img.purrience_cream{
+    width: 85%;
+    height: 95%;
+    padding-left: 14%;
+    padding-top: 2%;
+}
+div#param1_2{
+    padding: 0% 2%;
+}
+img.purrience_mask{
+    width: 85%;
+    height: 95%;
+    padding-left: 14%;
+    padding-top: 2%;
+}
+div#param1_3{
+    padding: 0% 1%;
+}
+img.Hinh2_1{
+    width: 100%;
+    height: 93%;
+}
+div#param2_1{
+    padding: 0% 1%;
+}
+img.Hinh4 {
+    width: 100%;
+    height: 93%;    
+    padding-top: 2%;
+}
+img.Hinh4_1{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 2% 0%;
+}
+img.Hinh4_2{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 2% 0%;
+}
+#param4{
+    padding: 0% 1%;
+}
+.faq{
+    color: #45A5FB;    
+}
+.banner_faqs{
+    height: 88%;
+    width: 89%;
+    padding: 0% 0% 1% 5%;
+ filter: grayscale(60%);
+}
+#Ques{
+    font-size: x-large;
+    font-family: Myriad;
+}
+#Ans{
+    font-size: medium;
+    color: gray;
+}
+#body_faqs{
+    line-height: 1.6;
+}
+.title_faqs{    
+    position: absolute;
+    top: 34%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    font-size: 150%; 
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}

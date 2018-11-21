@@ -1,0 +1,67 @@
+/*Cer4*/
+#cer4{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1%;
+}
+.title{
+    text-align: center;
+    color: #25cbd3;
+}
+#time{
+    font-size: small;
+    padding-bottom: 1%;
+}
+#pdf4{
+    color: #25cbd3;    
+}
+
+/*Begin Badge*/
+/* CSS KHUNG CHỮ */
+.badge.post-date {
+    top: 17%;
+}
+.badge.top {
+    left: 0.5%;
+}
+.absolute {
+    position: absolute !important;
+}
+.badge-outline, .badge-circle {
+    margin-left: 1%;
+}
+.badge {
+    display: table;
+    z-index: 20;
+    pointer-events: none;
+    height: 2.8em;
+    width: 2.8em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.badge:hover{
+    background-color: black;
+}
+.badge-outline .badge-inner {
+    background-color: #fff;
+    border: 2px solid currentColor;
+}
+.badge-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #446084;
+    line-height: .85;
+    color: #fff;
+    font-weight: bolder;
+    padding: 2px;
+    white-space: nowrap;
+    transition: background-color .3s, color .3s, border .3s;
+}
+.badge-inner {
+    font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman'; 
+    color: black;
+}
+/*End Badges */

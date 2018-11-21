@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+          crossorigin="anonymous">
+    <link href="~/Content/animate.css" rel="stylesheet" />
+    <link href="~/Content/ANZCore.css" rel="stylesheet" />
+    <link href="~/Content/VideoSlide.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div id="trangchu" class="bg-second header1">
+            <div class="con">
+                <div class="r-n-g pt-3 pb-3">
+                    <div class="c-12 c-s-8  ">
+                        <div class="d-f flex-row align-content-center f-s-90 justify-content-center justify-content-sm-start">
+
+                            <span class="text-white">
+                                <i class="fa fa-clock-o pr-2 text-white" aria-hidden="true"></i>Giờ
+                                mở cửa: T2 - T7 8h00 - 16h00
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="StickyHeader" class="StickyHeader">
+            <nav class="bg-primary header3">
+                <div class="con">
+                    <div class="r-n-g ">
+                        <div class="c-a d-b d-l-n mr-auto">
+                            <ul class="main-menu-mobile">
+                                <li>
+                                    <a id="main-menu-mobile">
+                                        <span class="menu-icon-bars">
+                                            <span class="menu-icon-bar"></span>
+                                            <span class="menu-icon-bar"></span>
+                                            <span class="menu-icon-bar"></span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="c-a d-n d-l-b mr-auto">
+                            <ul class="desktop-menu d-f flex-row">
+                                <button type="button" onclick="smoothScroll(document.getElementById('trangchu'))">Trang chủ</button>
+                                <button type="button" onclick="smoothScroll(document.getElementById('product_inno'))">INNOjector</button>
+                                <div class="dropdown">
+                                    <button class="dropbtn">
+                                        Dược Mỹ phẩm <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <button type="button" onclick="smoothScroll(document.getElementById('product_lightoxs'))">Lightoxs</button>
+                                        <button type="button" onclick="smoothScroll(document.getElementById('product_purience'))">Purience</button>
+                                        <button type="button" onclick="smoothScroll(document.getElementById('product_vital'))">Vital</button>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="dropbtn">
+                                        Tin tức
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        @Html.ActionLink("Events & Workshop", "EventsWorkshop", "TinTuc")
+                                        @Html.ActionLink("Ấn phẩm khoa học", "AnPhamKhoaHoc", "TinTuc")
+                                        @Html.ActionLink("Chăm sóc sắc đẹp", "ChamSocSacDep", "TinTuc")
+                                        @Html.ActionLink("Câu hỏi thường gặp", "CauHoiThuongGap", "TinTuc")
+                                    </div>
+                                </div>
+                                <li>@Html.ActionLink("Đối tác", "Index", "DoiTac")</li>
+                                <li>@Html.ActionLink("Liên hệ", "Index", "LienHe")</li>
+
+                            </ul>
+                        </div>
+                        <div class="c-a align-self-center">
+                            <a href="@Url.Action("Index", "Home")"><img src="~/Images/logo_web.png"></a>
+                        </div>
+                    </div>
+                    <div class="r-n-g">
+                        <div id="mobile-menu" class="c-12 d-l-n d-x-n" style="display: none">
+                            <ul class="navbar-nav" style="display: block;">
+                                <button type="button" onclick="smoothScroll(document.getElementById('trangchu'))">
+                                    Trang
+                                    chủ
+                                </button>
+                                <button type="button" onclick="smoothScroll(document.getElementById('product_inno'))">INNOjector</button>
+                                <li class="nav-item nav-menu-item has-dropdown-menu">
+                                    <a href="javascript:void(0)" class="nav-link">Dược Mỹ phẩm</a>
+                                    <ul class="dropdown-menu sub1 p-0 m-0">
+                                        <li class="nav-item has-dropdown-menu">
+                                            <button type="button" onclick="smoothScroll(document.getElementById('product_lightoxs'))">Lightoxs</button>
+                                            <button type="button" onclick="smoothScroll(document.getElementById('product_purience'))">Purience</button>
+                                            <button type="button" onclick="smoothScroll(document.getElementById('product_vital'))">Vital</button>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item nav-menu-item has-dropdown-menu">
+                                    <a href="javascript:void(0)" class="nav-link">Tin tức</a>
+                                    <ul class="dropdown-menu sub1 p-0 m-0">
+                                        <li class="nav-item has-dropdown-menu">
+                                            <ul>@Html.ActionLink("Events & Workshop", "EventsWorkshop", "TinTuc")</ul>
+                                            <ul>@Html.ActionLink("Ấn phẩm khoa học", "AnPhamKhoaHoc", "TinTuc")</ul>
+                                            <ul>@Html.ActionLink("Chăm sóc sắc đẹp", "ChamSocSacDep", "TinTuc")</ul>
+                                            <ul>@Html.ActionLink("Câu hỏi thường gặp", "CauHoiThuongGap", "TinTuc")</ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                @Html.ActionLink("Đối tác", "Index", "DoiTac")
+                                @Html.ActionLink("Liên hệ", "Index", "LienHe")
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <content>
+
+        <!--slide video test Youtube-->
+        <div id="stickyBody">
+            @RenderBody()
+        </div>
+
+    </content>
+    <footer id="lienhe">
+        <div class="bg-primary1">
+            <div class="con">
+                <div class="r-n-g">
+                    <div class="c-s-6 c-m-6 c-l-6 d-f pb-3">
+                        <div class="d-f flex-column">
+                            <div class="logo_footer box-image center_col">
+                                <a href="@Url.Action("Index", "Home")" class="align-self-center">
+                                    <img src="~/Images/logo_web.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-s-6 c-m-6 c-l-6 pb-3 d-f">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDuocMyPhamMedibless%2F&tabs=timeline&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+                                width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                                allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+
+                </div>
+                <div class="r-n-g">
+                    <div class="c-12">
+                        <h2 class="text-white">Liên hệ</h2>
+                    </div>
+                    <div class="c-6">
+                        <div class="d-f flex-row mt-3 align-content-center">
+                            <i class="fa fa-map-marker text-white center_col" aria-hidden="true"></i>
+                            <span class="ml-3 text-lighdark">
+                                101 Khu Công Nghệ Phần Mềm<br>KP6, Linh Trung, Thủ
+                                Đức, HCM
+                            </span>
+                        </div>
+                        <div class="d-f flex-row mt-3 align-content-center center_col">
+                            <i class="fa fa-envelope text-white" aria-hidden="true"></i>
+                            <span class="ml-3 text-lighdark">ngocmedibless@gmail.com<br>cuong.anzpharma@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="c-6">
+                        <div class="d-f flex-row mt-3 align-content-center center_col">
+                            <i class="fa fa-phone text-white" aria-hidden="true"></i>
+                            <span class="ml-3 text-lighdark">028 6684 6639</span>
+                        </div>
+                        <div class="d-f flex-row mt-3 align-content-center center_col">
+                            <i class="fa fa-mobile-alt text-white" aria-hidden="true"></i>
+                            <span class="ml-3 text-lighdark">0825 58 39 90 (Ms. Ngọc)<br>0932 69 25 40 (Mr. Cường)</span><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-primary2">
+            <div class="con">
+                <div class="r-n-g justify-content-center">
+                    <span class="m-3 text-white">
+                        Copyright © @DateTime.Now.Year <a href="https://nhotim.vn/" target="blank">
+                            Nho Tim
+                            Company
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <a href="javascript:" id="return-to-top"> <img class="image_top" src="~/Images/backtotop.png"> </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="~/Scripts/slider.js"></script>
+    <script src="~/Scripts/wow.min.js"></script>
+    <script src="~/Scripts/ANZCore.js"></script>
+    <script src="~/Scripts/partical.js"></script>
+    <script src="https://www.youtube.com/player_api"></script>
+
+    <script>
+        setTimeout(function a() {
+            if (typeof ANZ == 'undefined') {
+                setTimeout(a, 50);
+            } else {
+                ANZ.RenderPartial();
+            }
+        }, 50);
+        wow = new WOW({
+            boxClass: 'wow', // default 
+            animateClass: 'animated', // default 
+            offset: 0, // default 
+            mobile: true, // default 
+            live: true, // default 
+            scrollContainer: '.mdl-layout__content'
+        });
+        wow.init();
+    </script>
+
+</body>
+
+</html>

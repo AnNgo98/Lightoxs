@@ -1,0 +1,54 @@
+﻿<div style="background-color: white;padding-left: 15px;padding-right: 15px;" class="con wow fadeInLeft animated">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xs-12" >
+                    <p id="title" >Dưỡng cấp ẩm tới 72h , bạn tin ko ?</p>
+                    <hr style="width: 30%;border-color: #788a95;border-style: dashed;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-xs-12 location_text">
+                    <p class="dropCaps">Đa số kết cấu nặng như da dầu, da mụn đều rất sợ dưỡng ẩm nhưng với <strong>Vital Barrier</strong> thì không 1 sản phẩm cực nhẹ, và yêu thích nó ngay lần đầu sử dụng. Sản phẩm được kiểm chứng lâm sàng sử dụng an toàn và hiệu quả ngay trên da nhạy cảm. Mỹ phẩm Vital Barrier dưỡng ẩm 72 giờ với công nghệ đạt bằng sáng chê LCB - Liquid Crystal Barrier (bảo vệ tinh thể lỏng) chứa phức hợp gồm: 50.000 PPM Beta Glucan và 7 thành phần làm dịu, chống nhiễm trùng tự nhiên được chứng nhận với cGMP Hàn Quốc
+                        Một sản phẩm từ <strong>Medibless</strong> thuộc tập đoàn dược mỹ phẩm <strong>Inist Hàn Quốc</strong>.</p>
+                </div>
+                <div class="col-lg-5 col-md-5 col-xs-12 location_img">
+                    <img style="width: 100%" src="/Images/chamsocsacdep/vitalbarrier_2.png" alt="">
+                </div>
+             </div>
+             <div class="con">
+                 <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12" >
+                        <p>
+                        </p>
+                    </div>
+                 </div>
+             </div>
+             <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12 LienHe">
+                        <p class="LienHe">
+                            <hr>
+                            Nhà cung cấp thiết bị thẩm mỹ & mỹ phẩm chăm sóc da chuyên sâu: G&BVietNam.,JSC - Global
+                            Business Healthcare <br>
+                            ▪ Liên hệ ngay hoặc để lại thông tin để được tư vấn trực tiếp<br>
+                            ▪ Hotline: 0903.491.910 - 024.2225 0813<br>
+                            ▪ Email: gnb.cosmetic@gmail.com<br>
+                            ▪ Web: http://gnbvn.com/<br>
+                            ▪ Địa chỉ: Tầng 9, tòa nhà Hoàng Ngọc, Ngõ 92 Trần Thái Tông, Phường Dịch Vọng Hậu, Cầu Giấy,
+                            HN
+                        </p>
+                    </div>
+                </div>
+             <div class="con">
+                    <div class="row">
+                       <div class="col-lg-12 col-md-12 col-xs-12" >
+                            <ul class="social-network social-circle">
+                                <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                            <hr style="border: none" >
+                       </div>
+                    </div>
+                </div>
+        </div>

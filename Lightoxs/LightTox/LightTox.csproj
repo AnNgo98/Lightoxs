@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DD331C02-653D-4E2B-8584-B8740F266E5B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lightoxs</RootNamespace>
+    <AssemblyName>Lightoxs</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\User\Controllers\DoiTacController.cs" />
+    <Compile Include="Areas\User\Controllers\HomeController.cs" />
+    <Compile Include="Areas\User\Controllers\LienHeController.cs" />
+    <Compile Include="Areas\User\Controllers\SanPhamController.cs" />
+    <Compile Include="Areas\User\Controllers\TinTucController.cs" />
+    <Compile Include="Areas\User\UserAreaRegistration.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Breadcrumb.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\animate.css" />
+    <Content Include="Content\AnPham.css" />
+    <Content Include="Content\ANZCore.css" />
+    <Content Include="Content\certification\Viet.css" />
+    <Content Include="Content\chamsocsacdep\An.css" />
+    <Content Include="Content\chamsocsacdep\bao_post1.css" />
+    <Content Include="Content\chamsocsacdep\bao_post2.css" />
+    <Content Include="Content\chamsocsacdep\bao_post3.css" />
+    <Content Include="Content\chamsocsacdep\bao_post4.css" />
+    <Content Include="Content\chamsocsacdep\thien.css" />
+    <Content Include="Content\chamsocsacdep\thuy.css" />
+    <Content Include="Content\chamsocsacdep\Viet.css" />
+    <Content Include="Content\DoiTac.css" />
+    <Content Include="Content\doitac\108.css" />
+    <Content Include="Content\doitac\TayNam.css" />
+    <Content Include="Content\doitac\XuanHuong.css" />
+    <Content Include="Content\Events&amp;Workshop.css" />
+    <Content Include="Content\eventsworkshop\An.css" />
+    <Content Include="Content\eventsworkshop\Viet.css" />
+    <Content Include="Content\faqs\Viet.css" />
+    <Content Include="Content\font-contact.css" />
+    <Content Include="Content\ImageSlide.css" />
+    <Content Include="Content\lightoxs.css" />
+    <Content Include="Content\lightoxsOff.css" />
+    <Content Include="Content\NTCore.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\swiper.css" />
+    <Content Include="Content\upload.css" />
+    <Content Include="Content\VideoSlide.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="File\AnPhamKhoaHoc\APKH_2.txt" />
+    <Content Include="File\AnPhamKhoaHoc\APKH_3.txt" />
+    <Content Include="File\AnPhamKhoaHoc\APKH_4.txt" />
+    <Content Include="File\AnPhamKhoaHoc\APKH_5.txt" />
+    <Content Include="File\AnPhamKhoaHoc\APKH_6.txt" />
+    <Content Include="File\AnPhamKhoaHoc\APKH_1.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_2.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_3.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_4.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_5.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_6.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_7.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_8.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_9.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_10.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_11.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_12.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_13.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_14.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_15.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_16.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_17.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_18.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_19.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_20.txt" />
+    <Content Include="File\ChamSocSacDep\CSSD_1.txt" />
+    <Content Include="File\DoiTac\BV108.txt" />
+    <Content Include="File\DoiTac\BVBaoSon.txt" />
+    <Content Include="File\DoiTac\Mekong.txt" />
+    <Content Include="File\DoiTac\TMVTayNam.txt" />
+    <Content Include="File\DoiTac\TMVXuanHuong.txt" />
+    <Content Include="File\EventWorkshop\Event_1.txt" />
+    <Content Include="File\EventWorkshop\Event_2.txt" />
+    <Content Include="File\EventWorkshop\Event_4.txt" />
+    <Content Include="File\EventWorkshop\Event_5.txt" />
+    <Content Include="File\EventWorkshop\Event_7.txt" />
+    <Content Include="File\EventWorkshop\Event_6.txt" />
+    <Content Include="File\EventWorkshop\Event_3.txt" />
+    <Content Include="Global.asax" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\01.jpg" />
+    <Content Include="Images\0819fb80f43c480677c0385b060aebd6.jpg" />
+    <Content Include="Images\6lo.png" />
+    <Content Include="Images\backgroundlightoxs.jpg" />
+    <Content Include="Images\background_inno.jpg" />
+    <Content Include="Images\background_main.jpg" />
+    <Content Include="Images\background_purience.jpg" />
+    <Content Include="Images\background_readmore_purience.jpg" />
+    <Content Include="Images\backtotop.png" />
+    <Content Include="Images\bg-cust.png" />
+    <Content Include="Images\bg-innojector.png" />
+    <Content Include="Images\bgset_04.jpg" />
+    <Content Include="Images\bgset_04.png" />
+    <Content Include="Images\border.png" />
+    <Content Include="Images\Breadcrumb\BC_DUOCPHAM.jpg" />
+    <Content Include="Images\btn_top.png" />
+    <Content Include="Images\certification\1.png" />
+    <Content Include="Images\certification\2.png" />
+    <Content Include="Images\certification\3.png" />
+    <Content Include="Images\certification\4.png" />
+    <Content Include="Images\certification\5.png" />
+    <Content Include="Images\certification\6.png" />
+    <Content Include="Images\certification\cer1.png" />
+    <Content Include="Images\certification\cer2.png" />
+    <Content Include="Images\certification\cer3.png" />
+    <Content Include="Images\certification\cer4.png" />
+    <Content Include="Images\certification\cer5.png" />
+    <Content Include="Images\certification\cer6.png" />
+    <Content Include="Images\chamsocsacdep\An_post_2.png" />
+    <Content Include="Images\chamsocsacdep\An_post_3.png" />
+    <Content Include="Images\chamsocsacdep\An_post_4.png" />
+    <Content Include="Images\chamsocsacdep\An_post_5.png" />
+    <Content Include="Images\chamsocsacdep\An_post_6.png" />
+    <Content Include="Images\chamsocsacdep\An_post_7.png" />
+    <Content Include="Images\chamsocsacdep\baobao\AsianLightoxModels.PNG" />
+    <Content Include="Images\chamsocsacdep\baobao\lightox.png" />
+    <Content Include="Images\chamsocsacdep\baobao\lightoxLuxury.PNG" />
+    <Content Include="Images\chamsocsacdep\baobao\lightoxModels.PNG" />
+    <Content Include="Images\chamsocsacdep\baobao\medibless.jpg" />
+    <Content Include="Images\chamsocsacdep\baobao\medibless.png" />
+    <Content Include="Images\chamsocsacdep\baobao\purience.png" />
+    <Content Include="Images\chamsocsacdep\baobao\uuDiem1.jpg" />
+    <Content Include="Images\chamsocsacdep\baobao\uuDiem2.jpg" />
+    <Content Include="Images\chamsocsacdep\baobao\uuDIem3.jpg" />
+    <Content Include="Images\chamsocsacdep\baobao\vital.png" />
+    <Content Include="Images\chamsocsacdep\faqs.png" />
+    <Content Include="Images\chamsocsacdep\Hinh2_1.png" />
+    <Content Include="Images\chamsocsacdep\purrience_cream.png" />
+    <Content Include="Images\chamsocsacdep\purrience_mask.png" />
+    <Content Include="Images\chamsocsacdep\thien_tintuc_1.1.png" />
+    <Content Include="Images\chamsocsacdep\thien_tintuc_1.2.png" />
+    <Content Include="Images\chamsocsacdep\thien_tintuc_1.3.png" />
+    <Content Include="Images\chamsocsacdep\thien_tintuc_1.4.png" />
+    <Content Include="Images\chamsocsacdep\thien_tintuc_4.1.png" />
+    <Content Include="Images\chamsocsacdep\thien_tintuc_4.2.png" />
+    <Content Include="Images\chamsocsacdep\thien_tintuc_4.3.png" />
+    <Content Include="Images\chamsocsacdep\thien_tintuc_4.4.png" />
+    <Content Include="Images\chamsocsacdep\thuy.png" />
+    <Content Include="Images\chamsocsacdep\Viet1.png" />
+    <Content Include="Images\chamsocsacdep\Viet_4.png" />
+    <Content Include="Images\chamsocsacdep\Viet_4_1.png" />
+    <Content Include="Images\chamsocsacdep\Viet_4_2.png" />
+    <Content Include="Images\chamsocsacdep\wall1.jpg" />
+    <Content Include="Images\con02_img2_1.png" />
+    <Content Include="Images\doitac\108_0.jpg" />
+    <Content Include="Images\doitac\108_1.jpg" />
+    <Content Include="Images\doitac\108_2.png" />
+    <Content Include="Images\doitac\108_3.jpg" />
+    <Content Include="Images\doitac\108_4.jpg" />
+    <Content Include="Images\doitac\108_logo.png" />
+    <Content Include="Images\doitac\BS_0.jpg" />
+    <Content Include="Images\doitac\BS_1.jpg" />
+    <Content Include="Images\doitac\BS_2.jpg" />
+    <Content Include="Images\doitac\BS_3.jpg" />
+    <Content Include="Images\doitac\mk1.jpg" />
+    <Content Include="Images\doitac\mk2.jpg" />
+    <Content Include="Images\doitac\mk3.jpg" />
+    <Content Include="Images\doitac\mk4.jpg" />
+    <Content Include="Images\doitac\mk5.jpg" />
+    <Content Include="Images\doitac\TMVTayNam.jpg" />
+    <Content Include="Images\doitac\TN1.jpg" />
+    <Content Include="Images\doitac\TN10.jpg" />
+    <Content Include="Images\doitac\TN2.jpg" />
+    <Content Include="Images\doitac\TN3.jpg" />
+    <Content Include="Images\doitac\TN4.jpg" />
+    <Content Include="Images\doitac\TN5.jpg" />
+    <Content Include="Images\doitac\TN6.jpg" />
+    <Content Include="Images\doitac\TN7.jpg" />
+    <Content Include="Images\doitac\TN8.jpg" />
+    <Content Include="Images\doitac\TN9.jpg" />
+    <Content Include="Images\doitac\tnam.jpg" />
+    <Content Include="Images\doitac\XH1.jpg" />
+    <Content Include="Images\doitac\XH10.jpg" />
+    <Content Include="Images\doitac\XH11.jpg" />
+    <Content Include="Images\doitac\XH12.jpg" />
+    <Content Include="Images\doitac\XH13.jpg" />
+    <Content Include="Images\doitac\XH14.jpg" />
+    <Content Include="Images\doitac\XH2.jpg" />
+    <Content Include="Images\doitac\XH3.jpg" />
+    <Content Include="Images\doitac\XH4.jpg" />
+    <Content Include="Images\doitac\XH5.jpg" />
+    <Content Include="Images\doitac\XH6.jpg" />
+    <Content Include="Images\doitac\XH7.jpg" />
+    <Content Include="Images\doitac\XH8.jpg" />
+    <Content Include="Images\doitac\XH9.jpg" />
+    <Content Include="Images\DTInno.png" />
+    <Content Include="Images\DT_an_1.png" />
+    <Content Include="Images\DT_an_10.jpg" />
+    <Content Include="Images\DT_an_2.png" />
+    <Content Include="Images\DT_an_3.png" />
+    <Content Include="Images\DT_an_4.png" />
+    <Content Include="Images\DT_an_5.png" />
+    <Content Include="Images\DT_an_6.png" />
+    <Content Include="Images\DT_an_7.png" />
+    <Content Include="Images\DT_an_8.jpg" />
+    <Content Include="Images\DT_an_9.png" />
+    <Content Include="Images\eventsworkshop\event1.png" />
+    <Content Include="Images\eventsworkshop\event1_1.png" />
+    <Content Include="Images\eventsworkshop\event1_2.png" />
+    <Content Include="Images\eventsworkshop\event2.png" />
+    <Content Include="Images\eventsworkshop\event2_1.png" />
+    <Content Include="Images\eventsworkshop\event3.png" />
+    <Content Include="Images\eventsworkshop\event3_1.png" />
+    <Content Include="Images\eventsworkshop\event3_2.png" />
+    <Content Include="Images\eventsworkshop\event3_3.png" />
+    <Content Include="Images\eventsworkshop\img_evt_1.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_10.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_11.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_12.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_13.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_14.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_15.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_16.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_17.png" />
+    <Content Include="Images\eventsworkshop\img_evt_An_2.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_3.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_4.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_6.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_7.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_8.png" />
+    <Content Include="Images\eventsworkshop\img_evt_an_9.png" />
+    <Content Include="Images\eventsworkshop\ing_evt_an_5.png" />
+    <Content Include="Images\faqs.png" />
+    <Content Include="Images\features.jpg" />
+    <Content Include="Images\folder.png" />
+    <Content Include="Images\folderi.png" />
+    <Content Include="Images\ImageLT.png" />
+    <Content Include="Images\img1.png" />
+    <Content Include="Images\img2.png" />
+    <Content Include="Images\img3.png" />
+    <Content Include="Images\img4.jpg" />
+    <Content Include="Images\img4.png" />
+    <Content Include="Images\img_badgirl.png" />
+    <Content Include="Images\img_daudakim.png" />
+    <Content Include="Images\img_daukhongkim.jpg" />
+    <Content Include="Images\img_evt_1.png" />
+    <Content Include="Images\img_evt_2.png" />
+    <Content Include="Images\img_evt_3.png" />
+    <Content Include="Images\img_evt_4.png" />
+    <Content Include="Images\img_evt_5.png" />
+    <Content Include="Images\img_evt_6.png" />
+    <Content Include="Images\img_evt_7.png" />
+    <Content Include="Images\img_pu_1.png" />
+    <Content Include="Images\img_pu_2.png" />
+    <Content Include="Images\img_pu_3.png" />
+    <Content Include="Images\img_pu_4.png" />
+    <Content Include="Images\img_pu_5.png" />
+    <Content Include="Images\img_pu_6.png" />
+    <Content Include="Images\img_pu_index.png" />
+    <Content Include="Images\img_pu_nen.png" />
+    <Content Include="Images\inno1.png" />
+    <Content Include="Images\innojector.png" />
+    <Content Include="Images\inno_girl.png" />
+    <Content Include="Images\inno_logo.png" />
+    <Content Include="Images\inno_MH1.jpg" />
+    <Content Include="Images\inno_MH2.jpg" />
+    <Content Include="Images\inno_MH3.png" />
+    <Content Include="Images\inno_MH4.jpg" />
+    <Content Include="Images\inno_MH5.jpg" />
+    <Content Include="Images\inno_MH6.jpg" />
+    <Content Include="Images\kem.png" />
+    <Content Include="Images\lightox.png" />
+    <Content Include="Images\lightoxs_logo.png" />
+    <Content Include="Images\lightox\background.gif" />
+    <Content Include="Images\lightox\botulinum1.png" />
+    <Content Include="Images\lightox\botulinum2.png" />
+    <Content Include="Images\lightox\botulinum3.png" />
+    <Content Include="Images\lightox\brandSection4_obj1.png" />
+    <Content Include="Images\lightox\brandSection4_obj2.png" />
+    <Content Include="Images\lightox\brandSection4_obj3.png" />
+    <Content Include="Images\lightox\brandSection4_obj4.png" />
+    <Content Include="Images\lightox\brandSection4_obj5.png" />
+    <Content Include="Images\lightox\brandSection4_pdt1.png" />
+    <Content Include="Images\lightox\brandSection4_pdt2.png" />
+    <Content Include="Images\lightox\brandSection4_pdt3.png" />
+    <Content Include="Images\lightox\DoiTuong.jpg" />
+    <Content Include="Images\lightox\LightoxBox.png" />
+    <Content Include="Images\lightox\lightoxHoa.png" />
+    <Content Include="Images\lightox\Lightoxs1.jpg" />
+    <Content Include="Images\lightox\LightoxsBackGround.png" />
+    <Content Include="Images\lightox\lightoxsNghieng.png" />
+    <Content Include="Images\lightox\lightoxStraight.png" />
+    <Content Include="Images\lightox\LoaHoa.png" />
+    <Content Include="Images\lightox\medical1.png" />
+    <Content Include="Images\lightox\medical2.png" />
+    <Content Include="Images\lightox\medical3.png" />
+    <Content Include="Images\lightox\model.png" />
+    <Content Include="Images\lightox\mpa.jpg" />
+    <Content Include="Images\lightox\MTD.png" />
+    <Content Include="Images\lightox\productView.jpg" />
+    <Content Include="Images\lightox\round1.png" />
+    <Content Include="Images\lightox\round2.png" />
+    <Content Include="Images\lightox\round3.png" />
+    <Content Include="Images\lightox\round4.png" />
+    <Content Include="Images\lightox\step1.png" />
+    <Content Include="Images\lightox\step2.png" />
+    <Content Include="Images\lightox\step3.png" />
+    <Content Include="Images\lightox\step4.png" />
+    <Content Include="Images\logo 1.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\logo_inno.png" />
+    <Content Include="Images\logo_web.png" />
+    <Content Include="Images\lokem.png" />
+    <Content Include="Images\lotion1.png" />
+    <Content Include="Images\mainVisual2.jpg" />
+    <Content Include="Images\mainVisual3.jpg" />
+    <Content Include="Images\mask.png" />
+    <Content Include="Images\mat na.png" />
+    <Content Include="Images\NamInno_1.png" />
+    <Content Include="Images\NamInno_2.png" />
+    <Content Include="Images\NamInno_3.png" />
+    <Content Include="Images\NamInno_4.png" />
+    <Content Include="Images\NamInno_5.png" />
+    <Content Include="Images\NamInno_6.png" />
+    <Content Include="Images\nen.png" />
+    <Content Include="Images\phun_1.png" />
+    <Content Include="Images\phun_2.png" />
+    <Content Include="Images\phun_3.png" />
+    <Content Include="Images\phun_4.png" />
+    <Content Include="Images\product_01.png" />
+    <Content Include="Images\product_02.png" />
+    <Content Include="Images\product_3.png" />
+    <Content Include="Images\product_4.png" />
+    <Content Include="Images\product_lightoxs.png" />
+    <Content Include="Images\product_logo.png" />
+    <Content Include="Images\pu_img_4.png" />
+    <Content Include="Images\readmore_purience.png" />
+    <Content Include="Images\readmore_purience1.png" />
+    <Content Include="Images\three_pu.png" />
+    <Content Include="Images\chamsocsacdep\TinTuc_Thuy_TT3_1.png" />
+    <Content Include="Images\chamsocsacdep\TinTuc_Thuy_TT3_2.png" />
+    <Content Include="Images\chamsocsacdep\TinTuc_Thuy_TT3_3.png" />
+    <Content Include="Images\chamsocsacdep\TinTuc_Thuy_TT3_4.png" />
+    <Content Include="Images\vet_1.png" />
+    <Content Include="Images\vet_2.png" />
+    <Content Include="Images\vet_3.png" />
+    <Content Include="Images\vital-avatar.png" />
+    <Content Include="Images\vital-barier.png" />
+    <Content Include="Images\Vitalbarrier.png" />
+    <Content Include="Images\vitalbarrier1.png" />
+    <Content Include="Images\vitalbarrier_2.png" />
+    <Content Include="Images\vitalmodel.png" />
+    <Content Include="Images\vital_1.png" />
+    <Content Include="Images\vital_2.png" />
+    <Content Include="Images\vital_3.png" />
+    <Content Include="Images\vital_banner.jpg" />
+    <Content Include="Images\vt.png" />
+    <Content Include="Images\vt_model2.png" />
+    <Content Include="Scripts\AnPham.js" />
+    <Content Include="Scripts\ANZCore.js" />
+    <Content Include="Scripts\certification\AnPham.js" />
+    <Content Include="Scripts\custom.js" />
+    <Content Include="Scripts\DoiTac.js" />
+    <Content Include="Scripts\doitac\BaoSon.js" />
+    <Content Include="Scripts\doitac\jsvideo_An.js" />
+    <Content Include="Scripts\doitac\slideshow.js" />
+    <Content Include="Scripts\doitac\Viet.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.8.3.min.js" />
+    <Content Include="Scripts\partical.js" />
+    <Content Include="Scripts\slider.js" />
+    <Content Include="Scripts\swiper.min.js" />
+    <Content Include="Scripts\wow.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\User\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\User\Views\web.config" />
+    <Content Include="Areas\User\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\User\Views\Shared\_LayoutHomepage.cshtml" />
+    <Content Include="Areas\User\Views\Home\Index.cshtml" />
+    <Content Include="Areas\User\Views\LienHe\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\UploadLayout.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\User\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\User\Views\SanPham\Innojector.cshtml" />
+    <Content Include="Areas\User\Views\SanPham\Lightoxs.cshtml" />
+    <Content Include="Areas\User\Views\SanPham\LightoxsDetails.cshtml" />
+    <Content Include="Areas\User\Views\SanPham\Purience.cshtml" />
+    <Content Include="Areas\User\Views\SanPham\PurienceDetails.cshtml" />
+    <Content Include="Areas\User\Views\SanPham\Vital.cshtml" />
+    <Content Include="Areas\User\Views\SanPham\VitalDetails.cshtml" />
+    <Content Include="Areas\User\Views\TinTuc\EventsWorkshop.cshtml" />
+    <Content Include="Areas\User\Views\TinTuc\AnPhamKhoaHoc.cshtml" />
+    <Content Include="Areas\User\Views\TinTuc\ChamSocSacDep.cshtml" />
+    <Content Include="Areas\User\Views\TinTuc\CauHoiThuongGap.cshtml" />
+    <Content Include="Areas\User\Views\DoiTac\Index.cshtml" />
+    <Content Include="Areas\User\Views\TinTuc\EventsWorkshop_Details.cshtml" />
+    <Content Include="Areas\User\Views\TinTuc\AnPhamKhoaHoc_Details.cshtml" />
+    <Content Include="Areas\User\Views\TinTuc\ChamSocSacDep_Details.cshtml" />
+    <Content Include="Areas\User\Views\DoiTac\DoiTac_Details.cshtml" />
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <Content Include="Scripts\paritcals.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:65096/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

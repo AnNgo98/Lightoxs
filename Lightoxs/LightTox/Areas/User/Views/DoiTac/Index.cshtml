@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Đối Tác | MEDIBLESS Viet Nam";
+    Layout = "~/Areas/User/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/Content/DoiTac.css">
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="~/Scripts/DoiTac.js"></script>
+
+<div class="abc">
+    <div class="confull">
+        <div class="r">
+            <div class="c-s-12 c-m-12 c-l-12">
+                <img class="DT_an_1" src="~/Images/DT_an_1.png">
+            </div>
+        </div>
+    </div>
+    <div class="con">
+        <div class="r">
+            <div class="c-s-12 c-m-4 c-l-4">
+                <img class="DT_an_2" src="~/Images/DT_an_2.png">
+            </div>
+            <div class="c-s-12 c-m-4 c-l-4">
+                <img class="DT_an_3" src="~/Images/DT_an_3.png">
+            </div>
+            <div class="c-s-12 c-m-4 c-l-4">
+                <img class="DT_an_4" src="~/Images/DT_an_4.png">
+            </div>
+        </div>
+        <div class="r">
+            <div class="c-s-12 c-m-4 c-l-5">
+                <a href="@Url.Action("DoiTac_Details", "DoiTac", new { @nameOfDoiTac = "BV108"})"><img class="DT_an_5" src="~/Images/DT_an_5.png"></a>
+            </div>
+            <div class="c-s-12 c-m-4 c-l-7">
+                <a href="@Url.Action("DoiTac_Details", "DoiTac", new { @nameOfDoiTac = "TMVXuanHuong"})"><img class="DT_an_6" src="~/Images/DT_an_6.png"></a>
+            </div>
+
+        </div>
+        <div class="r">
+            <div class="c-s-12 c-m-4 c-l-4">
+                <a href="@Url.Action("DoiTac_Details", "DoiTac", new { @nameOfDoiTac = "Mekong"})"><img class="DT_an_7" src="~/Images/DT_an_7.png"></a>
+            </div>
+            <div class="c-s-12 c-m-4 c-l-5">
+                <a href="@Url.Action("DoiTac_Details", "DoiTac", new { @nameOfDoiTac = "BVBaoSon"})"><img class="DT_an_8" src="~/Images/DT_an_8.jpg"></a>
+            </div>
+            <div class="c-s-12 c-m-4 c-l-3">
+                <a href="@Url.Action("DoiTac_Details", "DoiTac", new { @nameOfDoiTac = "TMVTayNam"})"><img class="DT_an_8" src="~/Images/doitac/TMVTayNam.jpg"></a>
+            </div>
+        </div>
+    </div>
+    <div class="con pt-5 pb-5">
+        <div class="slide-holder">
+            <div class="slide-pager">
+                <div class="slide-control-prev">«</div>
+                <div class="slide-control-next">»</div>
+            </div>
+            <div class="slide-container">
+                <div class="slide-stage">
+                    <div class="slide-image"><img class="slide_an_1" src="~/Images/DT_an_9.png" /></div>
+                    <div class="slide-image"><img class="slide_an_2" src="~/Images/DT_an_2.png" /></div>
+                    <div class="slide-image"><img class="slide_an_3" src="~/Images/DT_an_4.png" /></div>
+                    <div class="slide-image"><img class="slide_an_4" src="~/Images/DT_an_3.png" /></div>
+                    <div class="slide-image"><img class="slide_an_5" src="~/Images/DT_an_5.png" /></div>
+                    <div class="slide-image"><img class="slide_an_6" src="~/Images/DT_an_6.png" /></div>
+                    <div class="slide-image"><img class="slide_an_7" src="~/Images/DT_an_7.png" /></div>
+                    <div class="slide-image"><img class="slide_an_8" src="~/Images/doitac/TMVTayNam.jpg" /></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
