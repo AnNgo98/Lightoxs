@@ -17,7 +17,6 @@ namespace LightTox.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        [ValidateInput(false)]
         public string SaveNewPost(string contentPost)
         {
             string s = contentPost.ToString();
