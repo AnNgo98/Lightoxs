@@ -34,7 +34,7 @@
                                                                 </select>
                                                             </div>
                                                         </div>
-                                                        <div id="summernote">
+                                                        <div id="summernote2">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -70,15 +70,17 @@
 </div>
 <!-- tinymce End-->
 <script>
+
     var TeamDetailPostBackURL = '/Admin/Home/SaveNewPost';
     $(function () {
         $("#submitTest").click(function () {
             var $buttonClicked = $(this);
             $.ajax({
                 type: "POST",
+                async: false,
                 url: TeamDetailPostBackURL,
                 contentType: "application/json; charset=utf-8",
-                data: { "contentPost": $('#summernote').summernote('code') },
+                data: JSON.stringify({ 'contentPost': $('#summernote2').summernote('code')}),
                 datatype: "json",
                 success: function (data) {
                 },
