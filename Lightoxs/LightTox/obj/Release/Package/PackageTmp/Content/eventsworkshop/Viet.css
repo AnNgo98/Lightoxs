@@ -1,0 +1,25 @@
+.event1_1{
+    width: 100%;
+    height: auto;
+}
+.event1_2{
+    width: 100%;
+    height: auto;
+}
+.event1{
+    width: 100%;
+    height: auto;
+}
+.title{
+    text-align: center;
+    color: #25cbd3;
+}
+#time{
+    color: black;
+}
+#bodyevent{
+   background-color: white;
+}
+.tintuc1 {
+    background-color: #F0F1F5;
+}

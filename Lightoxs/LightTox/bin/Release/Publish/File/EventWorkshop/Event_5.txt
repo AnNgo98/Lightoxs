@@ -1,0 +1,38 @@
+﻿<div class="tintuc1 pt-5 pb-5">
+            <div class="con abc">
+                <div class="r pt-3">
+                    <div class="c-s-12 c-m-2 c-l-2"></div>
+                    <div class="c-s-12 c-m-8 c-l-8 txt_evt_an_1">
+                        <h4 style="color: #25cbd3">EVENTS & WORKSHOP</h4>
+                        <h2 style="color: #25cbd3" class="evt4_1">Các bác sĩ chính của Nhật Bản đến thăm và có cuộc họp
+                            ở Hàn quốc</h2>
+                        <h4>POST 17 MONTH 11 YEARS 2018 BY ADMIN</h4>
+                        <img class="img_evt_an_1 pt-3" src="/Images/eventsworkshop/ing_evt_an_5.png">
+                    </div>
+                    <div class="c-s-12 c-m-2 c-l-2"></div>
+                </div>
+                <div class="r">
+                    <div class="c-s-12 c-m-2 c-l-2"></div>
+                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
+                        <p>- Các bác sĩ chính của Nhật Bản đến thăm và có cuộc họp ở Hàn quốc</p>
+                        <p class="pt-2">- 20~21/04/2016</p>
+                        <p class="pt-2">- Cuộc họp với Giáo sư Kim tại Đại học Chung-Ang / Wonik, Hàn quốc</p>
+                    </div>
+                    <div class="c-s-12 c-m-2 c-l-2"></div>
+                </div>
+                <div class="r">
+                    <div class="c-s-12 c-m-2 c-l-2"></div>
+                    <div class="c-s-12 c-m-8 c-l-8">
+                        <div class="r pt-3 pb-3">
+                            <div class="c-s-12 c-m-6 c-l-6 pr-1">
+                                <img class="img_evt_an_2" src="/Images/eventsworkshop/img_evt_an_6.png">
+                            </div>
+                            <div class="c-s-12 c-m-6 c-l-6 pl-1">
+                                <img class="img_evt_an_3" src="/Images/eventsworkshop/img_evt_an_7.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-s-12 c-m-2 c-l-2"></div>
+                </div>
+            </div>
+        </div>

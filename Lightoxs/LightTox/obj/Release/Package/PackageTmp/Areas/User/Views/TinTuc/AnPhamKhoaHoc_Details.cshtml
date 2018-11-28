@@ -1,0 +1,24 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "Ấn Phẩm Khoa Học Details | MEDIBLESS Viet Nam";
+    Layout = "~/Areas/User/Views/Shared/_Layout.cshtml";
+}
+
+
+<link href="~/Content/certification/Viet.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script src="~/Scripts/certification/AnPham.js"></script>
+<script>
+    $(function () {
+        console.log('da hover');
+        $('._1khoi').hover(function () {
+            $('.txt_cer').css('color', 'red');
+        }, function () {
+            // on mouseout, reset the background colour
+            $('.txt_cer').css('color', 'black');
+        });
+    });
+</script>
+
+@Html.Raw(Model)

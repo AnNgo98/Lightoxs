@@ -1,0 +1,214 @@
+.DT_an_1 {
+    width: 100%;
+    height: auto;
+}
+
+.DT_an_2 {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.DT_an_3 {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    margin-top: -8%;
+    margin-left: 20%;
+}
+
+.DT_an_4 {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    padding-top: 20%;
+}
+
+.DT_an_5 {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    margin-right: 35%;
+}
+
+.DT_an_6 {
+    width: 80%;
+    height: auto;
+    margin-top: 1%;
+}
+
+.DT_an_7 {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+    margin-right: 20%;
+}
+
+.DT_an_8 {
+    margin-top: 15%;
+    width: 85%;
+    height: auto;
+}
+
+#myCarousel .thumbnail {
+    margin-bottom: 0;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+}
+
+.carousel-control {
+    color: #fff;
+    top: 40%;
+    color: #428BCA;
+    bottom: auto;
+    padding-top: 4px;
+    width: 30px;
+    height: 30px;
+    text-shadow: none;
+    opacity: 1;
+}
+
+    .carousel-control:hover {
+        color: #d9534f;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        background-image: none !important;
+    }
+
+    .carousel-control.right {
+        left: auto;
+        right: -32px;
+    }
+
+    .carousel-control.left {
+        right: auto;
+        left: -32px;
+    }
+
+.carousel-indicators {
+    bottom: -30px;
+}
+
+    .carousel-indicators li {
+        border-radius: 0;
+        width: 10px;
+        height: 10px;
+        background: #ccc;
+        border: 1px solid #ccc;
+    }
+
+    .carousel-indicators .active {
+        width: 12px;
+        height: 12px;
+        background: #3276b1;
+        border-color: #3276b1;
+    }
+
+
+
+.slide-holder {
+    margin: 0 auto;
+}
+
+.slide-container { /*slide-container là khối bao mà slide-stage có thể "trượt" bên trong */
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-stage {
+    position: absolute;
+}
+
+.slide-image { /*Độ rộng của .slide-image có thể được thay đổi theo nhu cầu, ảnh hưởng đến độ rộng chung của slideshow*/
+    float: left;
+    width: 180px;
+    height: 150px;
+    text-align: center;
+}
+
+    .slide-image img {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+img.slide_an_1 {
+    width: 80%;
+}
+
+img.slide_an_2 {
+    width: 80%;
+    padding-top: 11%;
+}
+
+img.slide_an_3 {
+    width: 80%;
+    padding-top: 30%;
+    margin-left: 15%;
+}
+
+img.slide_an_4 {
+    width: 80%;
+    padding-top: 3%;
+    margin-left: 20%;
+}
+
+img.slide_an_5 {
+    width: 80%;
+}
+
+img.slide_an_6 {
+    width: 80%;
+    padding-top: 20%;
+}
+
+img.slide_an_7 {
+    padding-top: 5%;
+    width: 80%;
+}
+
+.slide-pager {
+    position: relative;
+}
+
+.slide-control-prev {
+    position: absolute;
+    text-align: center;
+    width: 25px;
+    height: 60px;
+    line-height: 60px;
+    color: #000000;
+    cursor: pointer;
+    top: 35px;
+    left: -30px;
+}
+
+    .slide-control-prev:hover {
+        background-color: lightgrey;
+    }
+
+.slide-control-next {
+    position: absolute;
+    text-align: center;
+    width: 25px;
+    height: 60px;
+    line-height: 60px;
+    color: #000000;
+    cursor: pointer;
+    right: -30px;
+    top: 35px;
+}
+
+    .slide-control-next:hover {
+        background-color: lightgrey;
+    }
+
+
+.abc {
+    background-color: white;
+}

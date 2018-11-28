@@ -1,0 +1,62 @@
+﻿<form>
+    <input type="file" name="file[]" id="file" multiple class="d-n" />
+</form>
+<div class="filemanager">
+    <nav id="menu-image">
+        <div class="con-close">
+            <i class="fa fa-2x fa-times-circle-o text-lighdark" aria-hidden="true"></i>
+        </div>
+        <div class="d-f flex-row">
+
+            <div class="dropdown ml-1">
+                <button class="btn d-f align-items-center btn-purple" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-2x fa-th mr-2" aria-hidden="true"></i>
+                    <span>Quản lý tệp</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                    <a class="d-f dropdown-item file-manager" href="javascript:void(0)"><i class="fa fa-2x fa-folder mr-2" aria-hidden="true" style="color:#fee898"></i>Thêm tệp</a>
+                    <a class="d-f dropdown-item file-manager" href="#"><i class="fa fa-2x fa-file-image-o mr-2" aria-hidden="true" style="color:#808080"></i>Thêm thư mục</a>
+                </div>
+            </div>
+
+
+            <button class="btn d-f align-items-center" type="button" aria-expanded="false" data-name="upload">
+                <i class="fa fa-2x fa-cloud-upload mr-2" aria-hidden="true"></i>
+                <span> Tải lên</span>
+            </button>
+        </div>
+        <div class="d-f flex-row mt-1 action">
+            <button type="button" class="btn bg-primary1 align-items-center" id="addFolder" data-name="addFolder"><i class="fa fa-plus" aria-hidden="true"></i></button>
+            <button type="button" class="btn bg-primary1 align-items-center" id="deleteFolder" data-name="deleteFolder"><i class="fa fa-trash" aria-hidden="true"></i></button>
+            <button type="button" class="btn bg-primary1 align-items-center" id="renameFolder" data-name="renameFolder"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+        </div>
+
+    </nav>
+
+    <div id="FileManager" class="r-n-g ml-0 mr-0">
+        <div class="c-m-4 c-l-3 pl-0 pr-0 d-n d-m-b">
+            <div id="jstree_div">
+
+            </div>
+        </div>
+        <div class="pl-0 pr-0 c-12 c-m-8 c-l-9">
+            <div id="ListView1" class="list-view">
+                <div class="d-f flex-row flex-wrap">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ToolUpload pl-4">
+
+        <div class="con-close">
+            <i class="fa fa-2x fa-times text-lighdark" aria-hidden="true"></i>
+        </div>
+        <div class="d-f flex-row  mt-5 mb-2">
+            <span class="d-f align-self-center text-lighdark f-s-130 ">Tiến trình</span>
+            <button type="button" data-name="StartUpload" class="btn ml-auto bg-primary1 justify-content-end mr-3">Bắt đầu</button>
+        </div>
+
+
+    </div>
+</div>

@@ -1,0 +1,165 @@
+﻿
+@{
+    ViewBag.Title = "Trang chủ | MEDIBLESS Viet Nam";
+    Layout = "~/Areas/User/Views/Shared/_LayoutHomepage.cshtml";
+}
+
+<link rel="stylesheet" href="~/Content/DoiTac.css">
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="~/Scripts/DoiTac.js"></script>
+
+<div class="partical-con pb-2">
+    <div class="confull">
+        <div class="slider pt-5 pb-5">
+            <ul>
+                <li data-video="c8E2j2slRk0"></li>
+                <li data-video="A9sUlNl5QpU"></li>
+                <li data-video="zsExwuZ3MA8"></li>
+            </ul>
+            <div id="player" class="player"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- PRODUCT 3 LAYER -->
+<div id="product_inno" class="products1">
+    <div class="container">
+        <div class="r-n-g">
+            <div class="c-s-6 c-m-5 c-l-5">
+                <div class="r">
+                    <div class="c-s-12 c-m-12 c-l-12 pr-5">
+                        <a>
+                            <img class="box-rounded animated wow fadeInLeft" data-wow-offset="250"
+                                 data-wow-delay="200ms" src="~/Images/product_3.png">
+                        </a>
+                    </div>
+                    <div class="c-s-12 c-m-12 c-l-12 pt-5">
+                        <a>
+                            <img class="box-rounded1 animated wow fadeInLeft" data-wow-offset="250"
+                                 data-wow-delay="200ms" src="~/Images/product_4.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="c-s-6 c-m-2 c-l-2">
+                <a>
+                    <img class="box-rounded2 animated wow fadeInUp" data-wow-offset="250" data-wow-delay="200ms"
+                         src="~/Images/innojector.png">
+                </a>
+            </div>
+            <div class="c-s-12 c-m-5 c-l-5">
+                <a>
+                    <img class="box-rounded3 animated wow fadeInRight" data-wow-offset="250" data-wow-delay="200ms"
+                         src="~/Images/product_logo.png">
+                </a>
+                <div class="btn-ct3">
+                    <a class="btn btn-second animated wow fadeIn" data-wow-offset="250"
+                       data-wow-delay="100ms" href="@Url.Action("Innojector", "SanPham")">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="background_main">
+
+    <!-- PRODUCT 2 LAYER -->
+    <div id="product_lightoxs" class="product2 pt-5">
+        <div class="container">
+            <div class="r pt-1 pr-1 pl-1 pb-0">
+                <div class="c-s-12 c-m-7 c-l-7">
+                    <img class="hinh1 animated wow fadeInLeft shadow" src="~/Images/backgroundlightoxs.jpg" />
+                    <div>
+                        <img class="imageLT animated wow fadeInRight" data-wow-delay="1s" src="~/Images/ImageLT.png" />
+                    </div>
+                    <div>
+                        <img class="txtLT animated wow fadeInRight" data-wow-delay="1s" src="~/Images/lightoxs_logo.png">
+                    </div>
+                </div>
+                <div class="c-s-12 c-m-5 c-l-̀5 pl-1 pt-3 pr-1 background2">
+                    <div class="bottom-right animated wow fadeInUp pl-5" data-wow-delay="0.5s">
+                        Bạn
+                        này thì khỏi phải nói rồi<br />Thời
+                        này rồi cần gì tiêm FILLER nữa<br />Trị lão hóa thay Botox luôn<br />Bôi hai tuần là da
+                        căng mướt, trẻ lại chồng yêu
+                    </div>
+                    <div class="btn-ct2 animated wow zoomIn" data-wow-delay="1s">
+                        @Html.ActionLink("Xem chi tiết", "Lightoxs", "SanPham", null, htmlAttributes: new { @class = "btn btn-second" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="product_purience" class="product4 pt-5">
+        <div class="container">
+            <div class="r pt-1 pr-1 pl-1 pb-2">
+                <div class="c-s-12 c-m-5 c-l-̀5 location_text">
+                    <div class="text-xl-right text-justify bottom-right1 animated wow fadeInRight"
+                         data-wow-delay="1s">
+                        Trị nám hiệu quả lắm
+                        <br />
+                        Pu đoạt giải nobel về công nghệ tự
+                        thục bảo của Nhật <br />Nám mà gặp chụy là bay hết nha mấy cưng
+                    </div>
+                    <div class="btn-ct1 animated wow fadeInLeft" data-wow-delay="1s">
+                        @Html.ActionLink("Xem chi tiết", "Purience", "SanPham", null, htmlAttributes: new { @class = "btn btn-second" })
+                    </div>
+                </div>
+                <div class="c-s-12 c-m-7 c-l-7 location_img shadow">
+                    <a> <img class="hinh2 animated wow fadeInLeft" src="~/Images/img_pu_nen.png" /> </a>
+                    <div>
+                        <img class="img_pu_nen_2 animated wow fadeInLeft" data-wow-delay="1s" src="~/Images/img_pu_3.png">
+                    </div>
+                    <div>
+                        <img class="img_pu_nen_1 animated wow fadeInRight" data-wow-delay="1s" src="~/Images/img_pu_index.png" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="product_vital" class="product3 pt-5 pb-5 pl-2 pr-2">
+        <div class="container">
+            <div class="r pb-2">
+                <div class="c-s-12 c-m-12 c-l-12">
+                    <!-- animated wow fadeInUp shadow -->
+                    <img class="hinh3 " src="~/Images/vital_2.png" />
+                    <div>
+                        <img class="hinhthem1 animated wow fadeInLeft" data-wow-delay="1s" src="~/Images/vital_3.png">
+                    </div>
+                    <div>
+                        <img class="hinhthem2 animated wow fadeInLeft" data-wow-delay="1s" src="~/Images/vital_1.png">
+                    </div>
+                    <div class="btn-ct animated wow fadeInRight" data-wow-delay="1s">
+                        @Html.ActionLink("Xem chi tiết", "Vital", "SanPham", null, htmlAttributes: new { @class = "btn btn-second" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="con pt-2 pb-5">
+        <h1 class="text-dark text-lg-center">ĐỐI TÁC</h1>
+        <div class="slide-holder">
+            <div class="slide-pager">
+                <div class="slide-control-prev">«</div>
+                <div class="slide-control-next">»</div>
+            </div>
+            <div class="slide-container">
+                <div class="slide-stage">
+                    <div class="slide-image"><img class="slide_an_1" src="~/Images/DT_an_9.png" /></div>
+                    <div class="slide-image"><img class="slide_an_2" src="~/Images/DT_an_2.png" /></div>
+                    <div class="slide-image"><img class="slide_an_3" src="~/Images/DT_an_4.png" /></div>
+                    <div class="slide-image"><img class="slide_an_4" src="~/Images/DT_an_3.png" /></div>
+                    <div class="slide-image"><img class="slide_an_5" src="~/Images/DT_an_5.png" /></div>
+                    <div class="slide-image"><img class="slide_an_6" src="~/Images/DT_an_6.png" /></div>
+                    <div class="slide-image"><img class="slide_an_7" src="~/Images/DT_an_7.png" /></div>
+                    <div class="slide-image"><img class="slide_an_8" src="~/Images/doitac/TMVTayNam.jpg" /></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

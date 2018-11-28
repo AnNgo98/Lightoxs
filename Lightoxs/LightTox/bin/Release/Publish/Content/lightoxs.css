@@ -1,0 +1,182 @@
+/*img.intro
+{
+   margin: auto;
+}
+div.title2
+{
+   width: 1000px;
+   margin: auto;
+}
+*/
+div#DoiTuongbackground {
+    background-color: #f5f4f2;
+    
+    
+}
+.bg-primary {
+    color: #fff;
+    background-color: black;
+}
+img.intro 
+{
+    width: 100%;
+   
+}
+ul.listInfo {
+    padding-top: 25%;
+    font-size: 18px;
+}
+#rowDetail
+{
+    padding: 0 45px;
+    border: 1px solid #e3e0e0;
+    background: #ffffff;
+}
+.khung
+{
+    font-size: 30px;
+    color: gray;
+}
+.target
+{
+    font-size: 25px;   
+    border-style: solid;
+    border-color:rgb(121, 22, 22);
+    background-color: #CD853F;
+    color: white;
+    width: 42%;
+    text-align: center;
+    margin-left: -3%;
+}
+.ChiTietSD
+{
+    font-size: 18px;  
+    list-style-type: decimal; 
+}
+.DoiTuongdiv {
+    padding-top: 12%;
+    padding-left: 6%;
+}
+.stepPhai
+{
+    padding-top: 7%;
+}
+
+li.listStep {
+    height: 140px;
+    font-size: 20px;
+}
+img.stepTrai {
+    margin-right: 25px;
+}
+
+.effect1 {
+    width: 100%;
+}
+.effect2 {
+    padding-top: 45%;
+    width: 100%;
+}
+
+.center-block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textEffect
+{
+    text-align: center;
+    border: solid white;
+    padding: 4%;
+}
+.gradientUp 
+{
+    background-image: linear-gradient(to top left, gray, white);
+}
+.gradientDown
+{
+    background-image: linear-gradient(to bottom right, gray, white);
+}
+.ThongTin
+{
+    font-size: 14pt;
+}
+.LoaiDa
+{
+    font-size: 25px;   
+    border-style: solid;
+    border-color:rgb(121, 22, 22);
+    background-color: #CD853F;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+.ListDa
+{
+    list-style-type: decimal;
+}
+.tieuDeCL
+{
+    text-align: center;
+    border: none;
+    background-color: #a6a6a6;
+    padding: 2%;
+    color: white;
+}
+.noiDungCLct {
+    font-size: 125%;
+}
+div#background {
+    background-color: #f5f4f2;
+}
+.ContainCL {
+    background-color: white;
+}
+.anhKhacBiet
+{
+    
+}
+#effectblack
+{
+    padding-top: 36%;
+}
+@media only screen and (max-width: 763px)
+{
+    .target
+    {
+        font-size: 16px;
+    }
+    .ChiTietSD {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 990px)
+{
+        #effectblack
+     {
+        padding-top: 36%;
+    }
+}
+@media only screen and (max-width: 767px)
+{
+        #effectblack
+     {
+        padding-top: 3%;
+    }
+}
+@media only screen and (max-width: 991px)
+{
+    ul.listInfo 
+    {
+        padding-top: 2%;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 767px)
+{
+    ul.listInfo 
+    {
+        padding-top: 2%;
+        font-size: 15px;
+    }
+}

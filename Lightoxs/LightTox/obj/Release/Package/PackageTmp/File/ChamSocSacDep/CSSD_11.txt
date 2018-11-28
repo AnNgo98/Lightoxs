@@ -1,0 +1,85 @@
+﻿<div style="background-color: white;padding-left: 15px;padding-right: 15px;" class="con">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xs-12">
+            
+                    <h2 class="wow fadeInUp  animated" style="text-align: center;font-size: 40px" > Medibless - Vẻ đẹp TỰ NHIÊN cùng làn da THUẦN KHIẾT</h2><br>
+                    <p class="center-block wow fadeInUp  animated" style="color:gray; font-style: italic;text-align: center;width: 60%; " >Không có vẻ đẹp nào là chuẩn mực, nhưng một nét đẹp tự nhiên, thuần khiết lại là điều mà phái
+                        đẹp lẫn phái mạnh đều cần phải chăm sóc, bảo vệ và gìn giữ.</p>
+                   
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="khoi1">
+                        <div class="title wow fadeInUp  animated">
+                            "BẠN ĐẸP NHẤT LÀ KHI MANG TRONG MÌNH VẺ ĐẸP RIÊNG"
+                        </div> 
+                        <p class="dropCaps wow fadeInLeft animated">
+                            Đây chính giá trị là mà thương hiệu dược mỹ phẩm <b>MEDIBLESS</b> hướng đến.<br>
+                            Medibless thuộc tập đoàn dược INIST Pharm - Hàn Quốc nghiên cứu và cho ra những giải pháp
+                            chăm sóc da chuyên sâu để nét đẹp tự nhiên của bạn trở nên <strong>hoàn hảo</strong> và làn da thuần khiết
+                            vẫn tràn đầy <strong>sức sống</strong>.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12 wow fadeInRight animated">
+                    <img style="width: 100%" src="/Images/chamsocsacdep/baobao/medibless.png" alt="">
+                </div>
+            </div>
+            <div class="row wow fadeInUp  animated">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <img style="width: 100%" src="/Images/chamsocsacdep/baobao/purience.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <p class="dropCaps">Bằng những sản phẩm an toàn, lành tính chiết xuất từ thiên nhiên, kết hợp cùng các
+                        phát minh công nghệ độc quyền hàng đầu, Medibless đã được tin dùng
+                        bởi các bác sĩ chuyên khoa da liễu hàng đầu tại Hàn Quốc và người dùng tại
+                        15 quốc gia như Nhật bản, Đài Loan, HongKong, Campuchia, Thổ Nhĩ Kì,...
+                    </p>
+                    <p class="dropCaps">
+                        Với hy vọng mang đến nhiều giá trị hơn cho làn da và cơ thể của khách hàng, mỗi sản phẩm của
+                        Medibless đều có điểm <strong>khác biệt</strong> vượt trội trong ngành mỹ phẩm giải quyết triệt để, chuyên sâu
+                        từng vấn đề về da.<br>
+                        💓 MEDIBLESS - HONEST TO YOUR SKIN
+                    </p>
+                </div>
+            </div>
+            <div class="row wow fadeInUp  animated">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <img style="width: 100%" src="/Images/chamsocsacdep/baobao/lightox.png" alt="">
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <img style="width: 100%" src="/Images/chamsocsacdep/baobao/vital.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xs-12 LienHe">
+                    <p>
+                        <hr>
+                        Nhà cung cấp thiết bị thẩm mỹ & mỹ phẩm chăm sóc da chuyên sâu: G&BVietNam.,JSC - Global
+                        Business Healthcare <br>
+                        ▪ Liên hệ ngay hoặc để lại thông tin để được tư vấn trực tiếp<br>
+                        ▪ Hotline: 0903.491.910 - 024.2225 0813<br>
+                        ▪ Email: gnb.cosmetic@gmail.com<br>
+                        ▪ Web: http://gnbvn.com/<br>
+                        ▪ Địa chỉ: Tầng 9, tòa nhà Hoàng Ngọc, Ngõ 92 Trần Thái Tông, Phường Dịch Vọng Hậu, Cầu Giấy,
+                        HN
+                    </p>
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xs-12   ">
+                   
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                    <hr style="border: none" >
+                </div>
+            </div>
+        </div>
