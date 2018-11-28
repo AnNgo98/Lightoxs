@@ -6716,8 +6716,6 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
         text-align: left !important;
         font-size: 165%;
-        
-        text-align: right !important;
     }
     .btn-second1 {
         box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
