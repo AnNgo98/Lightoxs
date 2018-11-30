@@ -1,0 +1,151 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Login | Real Estate</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon
+        ============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/Images/Censor/favicon.ico">
+    <!-- Google Fonts
+        ============================================ -->
+    <link href="https://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet">
+    <!-- Bootstrap CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/bootstrap.min.css">
+    <!-- Bootstrap CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/font-awesome.min.css">
+    <!-- owl.carousel CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/owl.carousel.css">
+    <link rel="stylesheet" href="~/Content/Censor/owl.theme.css">
+    <link rel="stylesheet" href="~/Content/Censor/owl.transitions.css">
+    <!-- animate CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/animate.css">
+    <!-- normalize CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/normalize.css">
+    <!-- main CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/main.css">
+    <!-- morrisjs CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/morrisjs/morris.css">
+    <!-- mCustomScrollbar CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- metisMenu CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="~/Content/Censor/metisMenu/metisMenu-vertical.css">
+    <!-- calendar CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="~/Content/Censor/calendar/fullcalendar.print.min.css">
+    <!-- forms CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/form/all-type-forms.css">
+    <!-- style CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/style.css">
+    <!-- responsive CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Censor/responsive.css">
+    <!-- modernizr JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <div class="error-pagewrap">
+        <div class="error-page-int">
+            <div class="text-center m-b-md custom-login">
+                <h3>EMPLOYEE LOGIN | REAL ESTATE</h3>
+                <p>Have a nice day!</p>
+            </div>
+            <p class="text-warning">@ViewBag.Error</p>
+            <div class="content-error">
+                <div class="hpanel">
+                    <div class="panel-body">
+                        <form action="" method="post" id="loginForm">
+                            <div class="form-group">
+                                <label class="control-label" for="username">Username</label>
+                                <input type="text" placeholder="example@gmail.com" title="Please enter you username" required="" value="" name="username" id="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="password">Password</label>
+                                <input type="password" title="Please enter your password" placeholder="******" required="" value="" name="password" id="password" class="form-control">
+                            </div>
+                            <div class="checkbox">
+                                <label class="pad-l10">
+                                    <input type="checkbox"> Remember me
+                                </label>
+                            </div>
+                            <button class="btn btn-success btn-block loginbtn">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center login-footer">
+                <p>Copyright © 2018. All rights reserved. Design with <i class="fa fa-heart"></i> by <a href="https://www.facebook.com/thuydx.98" target="_blank">Thuy Dao Xuan</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- jquery
+        ============================================ -->
+    <script src="~/Scripts/Censor/vendor/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/bootstrap.min.js"></script>
+    <!-- wow JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/wow.min.js"></script>
+    <!-- price-slider JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/jquery-price-slider.js"></script>
+    <!-- meanmenu JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/jquery.meanmenu.js"></script>
+    <!-- owl.carousel JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/owl.carousel.min.js"></script>
+    <!-- sticky JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/jquery.sticky.js"></script>
+    <!-- scrollUp JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/jquery.scrollUp.min.js"></script>
+    <!-- mCustomScrollbar JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="~/Scripts/Censor/scrollbar/mCustomScrollbar-active.js"></script>
+    <!-- metisMenu JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/metisMenu/metisMenu.min.js"></script>
+    <script src="~/Scripts/Censor/metisMenu/metisMenu-active.js"></script>
+    <!-- tab JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/tab.js"></script>
+    <!-- icheck JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/icheck/icheck.min.js"></script>
+    <script src="~/Scripts/Censor/icheck/icheck-active.js"></script>
+    <!-- plugins JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/plugins.js"></script>
+    <!-- main JS
+        ============================================ -->
+    <script src="~/Scripts/Censor/main.js"></script>
+</body>
+
+</html>

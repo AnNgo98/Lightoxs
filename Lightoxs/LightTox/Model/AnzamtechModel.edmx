@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="AnzamtechModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="BaiViet">
+          <Key>
+            <PropertyRef Name="MaBV" />
+          </Key>
+          <Property Name="MaBV" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MaDMA" Type="int" />
+          <Property Name="MaNV" Type="int" Nullable="false" />
+          <Property Name="TenBV" Type="nvarchar" MaxLength="70" Nullable="false" />
+          <Property Name="NgayDang" Type="datetime" Nullable="false" />
+          <Property Name="MaDMBV" Type="int" />
+          <Property Name="MoTa" Type="nvarchar" MaxLength="300" />
+          <Property Name="NoiDung_URL" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="LinkFB" Type="nvarchar" MaxLength="1000" />
+          <Property Name="TrangThai" Type="int" />
+        </EntityType>
+        <EntityType Name="DanhMucBaiViet">
+          <Key>
+            <PropertyRef Name="MaDMBV" />
+          </Key>
+          <Property Name="MaDMBV" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TenDanhMuc" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="NhanVien">
+          <Key>
+            <PropertyRef Name="MaNV" />
+          </Key>
+          <Property Name="MaNV" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="HoTen" Type="nvarchar" MaxLength="30" />
+          <Property Name="Code" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="TenDN" Type="varchar" MaxLength="25" />
+          <Property Name="MatKhau" Type="varchar" MaxLength="35" />
+          <Property Name="LinkFB" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_BaiViet_DanhMucBaiViet">
+          <End Role="DanhMucBaiViet" Type="Self.DanhMucBaiViet" Multiplicity="0..1" />
+          <End Role="BaiViet" Type="Self.BaiViet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DanhMucBaiViet">
+              <PropertyRef Name="MaDMBV" />
+            </Principal>
+            <Dependent Role="BaiViet">
+              <PropertyRef Name="MaDMBV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BaiViet_NhanVien">
+          <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="1" />
+          <End Role="BaiViet" Type="Self.BaiViet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NhanVien">
+              <PropertyRef Name="MaNV" />
+            </Principal>
+            <Dependent Role="BaiViet">
+              <PropertyRef Name="MaNV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="AnzamtechModelStoreContainer">
+          <EntitySet Name="BaiViet" EntityType="Self.BaiViet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DanhMucBaiViet" EntityType="Self.DanhMucBaiViet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NhanVien" EntityType="Self.NhanVien" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_BaiViet_DanhMucBaiViet" Association="Self.FK_BaiViet_DanhMucBaiViet">
+            <End Role="DanhMucBaiViet" EntitySet="DanhMucBaiViet" />
+            <End Role="BaiViet" EntitySet="BaiViet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BaiViet_NhanVien" Association="Self.FK_BaiViet_NhanVien">
+            <End Role="NhanVien" EntitySet="NhanVien" />
+            <End Role="BaiViet" EntitySet="BaiViet" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AnzamtechModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="BaiViet">
+          <Key>
+            <PropertyRef Name="MaBV" />
+          </Key>
+          <Property Name="MaBV" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MaDMA" Type="Int32" />
+          <Property Name="TenBV" Type="String" MaxLength="70" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NgayDang" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="MoTa" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="NoiDung_URL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LinkFB" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="TrangThai" Type="Int32" />
+          <NavigationProperty Name="DanhMucBaiViet" Relationship="Self.FK_BaiViet_DanhMucBaiViet" FromRole="BaiViet" ToRole="DanhMucBaiViet" />
+          <NavigationProperty Name="NhanVien" Relationship="Self.FK_BaiViet_NhanVien" FromRole="BaiViet" ToRole="NhanVien" />
+        </EntityType>
+        <EntityType Name="DanhMucBaiViet">
+          <Key>
+            <PropertyRef Name="MaDMBV" />
+          </Key>
+          <Property Name="MaDMBV" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TenDanhMuc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="BaiViets" Relationship="Self.FK_BaiViet_DanhMucBaiViet" FromRole="DanhMucBaiViet" ToRole="BaiViet" />
+        </EntityType>
+        <EntityType Name="NhanVien">
+          <Key>
+            <PropertyRef Name="MaNV" />
+          </Key>
+          <Property Name="MaNV" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="HoTen" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="Code" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TenDN" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="MatKhau" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="LinkFB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="BaiViets" Relationship="Self.FK_BaiViet_NhanVien" FromRole="NhanVien" ToRole="BaiViet" />
+        </EntityType>
+        <Association Name="FK_BaiViet_DanhMucBaiViet">
+          <End Role="DanhMucBaiViet" Type="Self.DanhMucBaiViet" Multiplicity="0..1" />
+          <End Role="BaiViet" Type="Self.BaiViet" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_BaiViet_NhanVien">
+          <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="1" />
+          <End Role="BaiViet" Type="Self.BaiViet" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="AnzamtechEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="BaiViets" EntityType="Self.BaiViet" />
+          <EntitySet Name="DanhMucBaiViets" EntityType="Self.DanhMucBaiViet" />
+          <EntitySet Name="NhanViens" EntityType="Self.NhanVien" />
+          <AssociationSet Name="FK_BaiViet_DanhMucBaiViet" Association="Self.FK_BaiViet_DanhMucBaiViet">
+            <End Role="DanhMucBaiViet" EntitySet="DanhMucBaiViets" />
+            <End Role="BaiViet" EntitySet="BaiViets" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BaiViet_NhanVien" Association="Self.FK_BaiViet_NhanVien">
+            <End Role="NhanVien" EntitySet="NhanViens" />
+            <End Role="BaiViet" EntitySet="BaiViets" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AnzamtechModelStoreContainer" CdmEntityContainer="AnzamtechEntities">
+          <EntitySetMapping Name="BaiViets">
+            <EntityTypeMapping TypeName="AnzamtechModel.BaiViet">
+              <MappingFragment StoreEntitySet="BaiViet">
+                <ScalarProperty Name="MaBV" ColumnName="MaBV" />
+                <ScalarProperty Name="MaDMA" ColumnName="MaDMA" />
+                <ScalarProperty Name="TenBV" ColumnName="TenBV" />
+                <ScalarProperty Name="NgayDang" ColumnName="NgayDang" />
+                <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+                <ScalarProperty Name="NoiDung_URL" ColumnName="NoiDung_URL" />
+                <ScalarProperty Name="LinkFB" ColumnName="LinkFB" />
+                <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DanhMucBaiViets">
+            <EntityTypeMapping TypeName="AnzamtechModel.DanhMucBaiViet">
+              <MappingFragment StoreEntitySet="DanhMucBaiViet">
+                <ScalarProperty Name="MaDMBV" ColumnName="MaDMBV" />
+                <ScalarProperty Name="TenDanhMuc" ColumnName="TenDanhMuc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NhanViens">
+            <EntityTypeMapping TypeName="AnzamtechModel.NhanVien">
+              <MappingFragment StoreEntitySet="NhanVien">
+                <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+                <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+                <ScalarProperty Name="Code" ColumnName="Code" />
+                <ScalarProperty Name="TenDN" ColumnName="TenDN" />
+                <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+                <ScalarProperty Name="LinkFB" ColumnName="LinkFB" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="FK_BaiViet_DanhMucBaiViet" TypeName="AnzamtechModel.FK_BaiViet_DanhMucBaiViet" StoreEntitySet="BaiViet">
+            <EndProperty Name="DanhMucBaiViet">
+              <ScalarProperty Name="MaDMBV" ColumnName="MaDMBV" />
+            </EndProperty>
+            <EndProperty Name="BaiViet">
+              <ScalarProperty Name="MaBV" ColumnName="MaBV" />
+            </EndProperty>
+            <Condition IsNull="false" ColumnName="MaDMBV" />
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_BaiViet_NhanVien" TypeName="AnzamtechModel.FK_BaiViet_NhanVien" StoreEntitySet="BaiViet">
+            <EndProperty Name="NhanVien">
+              <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+            </EndProperty>
+            <EndProperty Name="BaiViet">
+              <ScalarProperty Name="MaBV" ColumnName="MaBV" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="false" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
