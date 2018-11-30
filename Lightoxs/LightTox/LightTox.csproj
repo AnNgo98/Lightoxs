@@ -162,6 +162,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helper\Breadcrumb.cs" />
+    <Compile Include="Model\BCrypt.cs" />
+    <Compile Include="Model\CommonFunction.cs" />
+    <Compile Include="Model\Constants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

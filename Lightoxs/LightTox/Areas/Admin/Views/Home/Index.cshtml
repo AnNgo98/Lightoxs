@@ -17,35 +17,38 @@
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="review-content-section">
                                         <div id="dropzone1" class="pro-ad">
-                                            <div class="row">
-                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                    <div class="tinymce-single responsive-mg-b-30">
-                                                        <div class="alert-title">
-                                                            <div class="form-group">
-                                                                <input name="firstname" type="text" class="form-control" placeholder="Title ...">
+                                            <form action="@Url.Action("SaveNewPost", "Home")" method="post">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="tinymce-single responsive-mg-b-30">
+                                                            <div class="alert-title">
+                                                                <div class="form-group">
+                                                                    <input name="title" type="text" class="form-control" placeholder="Title ...">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <select name="typeOfNews" class="form-control">
+                                                                        <option value="none" selected="" disabled="">Chọn loại tin tức</option>
+                                                                        <option value="1">Events & Workshop</option>
+                                                                        <option value="2">Ấn phẩm khoa học</option>
+                                                                        <option value="3">Chăm sóc sắc đẹp</option>
+                                                                        <option value="4">Câu hỏi thường gặp</option>
+                                                                    </select>
+                                                                </div>
                                                             </div>
-                                                            <div class="form-group">
-                                                                <select name="country" class="form-control">
-                                                                    <option value="none" selected="" disabled="">Chọn loại tin tức</option>
-                                                                    <option value="1">Events & Workshop</option>
-                                                                    <option value="2">Ấn phẩm khoa học</option>
-                                                                    <option value="3">Chăm sóc sắc đẹp</option>
-                                                                    <option value="4">Câu hỏi thường gặp</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div id="summernote2">
+
+                                                            <textarea type="text" id="summernote" name="contentPost"></textarea>
+
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="payment-adress">
-                                                        <button id="submitTest" class="btn btn-primary waves-effect waves-light">Submit</button>
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="payment-adress">
+                                                            <button type="submit" id="submitTest" class="btn btn-primary waves-effect waves-light">Submit</button>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
@@ -69,25 +72,25 @@
     </div>
 </div>
 <!-- tinymce End-->
-<script>
+@*<script>
 
-    var TeamDetailPostBackURL = '/Admin/Home/SaveNewPost';
-    $(function () {
-        $("#submitTest").click(function () {
-            var $buttonClicked = $(this);
-            $.ajax({
-                type: "POST",
-                async: false,
-                url: TeamDetailPostBackURL,
-                contentType: "application/json; charset=utf-8",
-                data: JSON.stringify({ 'contentPost': $('#summernote2').summernote('code')}),
-                datatype: "json",
-                success: function (data) {
-                },
-                error: function () {
-                    alert("Error: Get content of this Post failed. Please try again!");
-                }
+        var TeamDetailPostBackURL = '/Admin/Home/SaveNewPost';
+        $(function () {
+            $("#submitTest").click(function () {
+                var $buttonClicked = $(this);
+                $.ajax({
+                    type: "POST", processData: false,
+                    async: false,
+                    url: TeamDetailPostBackURL,
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify({ 'contentPost': $('#summernote2').summernote('code')}),
+                    datatype: "json",
+                    success: function (data) {
+                    },
+                    error: function () {
+                        alert("Error: Get content of this Post failed. Please try again!");
+                    }
+                });
             });
         });
-    });
-</script>
+    </script>*@
