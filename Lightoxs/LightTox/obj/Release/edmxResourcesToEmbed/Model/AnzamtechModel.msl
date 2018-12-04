@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AnzamtechModelStoreContainer" CdmEntityContainer="AnzamtechEntities">
+    <EntitySetMapping Name="BaiViets">
+      <EntityTypeMapping TypeName="AnzamtechModel.BaiViet">
+        <MappingFragment StoreEntitySet="BaiViet">
+          <ScalarProperty Name="NgayDienRa" ColumnName="NgayDienRa" />
+          <ScalarProperty Name="MaBV" ColumnName="MaBV" />
+          <ScalarProperty Name="MaDMA" ColumnName="MaDMA" />
+          <ScalarProperty Name="TenBV" ColumnName="TenBV" />
+          <ScalarProperty Name="NgayDang" ColumnName="NgayDang" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="NoiDung" ColumnName="NoiDung" />
+          <ScalarProperty Name="LinkFB" ColumnName="LinkFB" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DanhMucBaiViets">
+      <EntityTypeMapping TypeName="AnzamtechModel.DanhMucBaiViet">
+        <MappingFragment StoreEntitySet="DanhMucBaiViet">
+          <ScalarProperty Name="MaDMBV" ColumnName="MaDMBV" />
+          <ScalarProperty Name="TenDanhMuc" ColumnName="TenDanhMuc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhanViens">
+      <EntityTypeMapping TypeName="AnzamtechModel.NhanVien">
+        <MappingFragment StoreEntitySet="NhanVien">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="TenDN" ColumnName="TenDN" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="LinkFB" ColumnName="LinkFB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TinNhans">
+      <EntityTypeMapping TypeName="AnzamtechModel.TinNhan">
+        <MappingFragment StoreEntitySet="TinNhan">
+          <ScalarProperty Name="TinNhan_ID" ColumnName="TinNhan_ID" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="TieuDe" ColumnName="TieuDe" />
+          <ScalarProperty Name="NoiDung" ColumnName="NoiDung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK_BaiViet_DanhMucBaiViet" TypeName="AnzamtechModel.FK_BaiViet_DanhMucBaiViet" StoreEntitySet="BaiViet">
+      <EndProperty Name="DanhMucBaiViet">
+        <ScalarProperty Name="MaDMBV" ColumnName="MaDMBV" />
+      </EndProperty>
+      <EndProperty Name="BaiViet">
+        <ScalarProperty Name="MaBV" ColumnName="MaBV" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_BaiViet_NhanVien" TypeName="AnzamtechModel.FK_BaiViet_NhanVien" StoreEntitySet="BaiViet">
+      <EndProperty Name="NhanVien">
+        <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+      </EndProperty>
+      <EndProperty Name="BaiViet">
+        <ScalarProperty Name="MaBV" ColumnName="MaBV" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

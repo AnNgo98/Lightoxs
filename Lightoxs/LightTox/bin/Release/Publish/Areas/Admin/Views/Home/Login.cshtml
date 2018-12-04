@@ -1,0 +1,95 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Login | MEDIBLESS Viet Nam</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts
+        ============================================ -->
+    <link href="https://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet">
+    <!-- Bootstrap CSS
+            ============================================ -->
+    <link href="~/Content/Admin/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap CSS
+        ============================================ -->
+    <link href="~/Content/Admin/font-awesome.min.css" rel="stylesheet" />
+    <!-- owl.carousel CSS
+        ============================================ -->
+    <link href="~/Content/Admin/owl.carousel.css" rel="stylesheet" />
+    <link href="~/Content/Admin/owl.transitions.css" rel="stylesheet" />
+    <link href="~/Content/Admin/owl.theme.css" rel="stylesheet" />
+    <!-- animate CSS
+        ============================================ -->
+    <link href="~/Content/Admin/animate.css" rel="stylesheet" />
+    <!-- normalize CSS
+        ============================================ -->
+    <link href="~/Content/Admin/normalize.css" rel="stylesheet" />
+    <!-- main CSS
+         ============================================ -->
+    <link href="~/Content/Admin/main.css" rel="stylesheet" />
+    <!-- morrisjs CSS
+         ============================================ -->
+    <link href="~/Content/Admin/morrisjs/morris.css" rel="stylesheet" />
+    <!-- mCustomScrollbar CSS
+         ============================================ -->
+    <link href="~/Content/Admin/scrollbar/jquery.mCustomScrollbar.min.css" rel="stylesheet" />
+    <!-- metisMenu CSS
+        ============================================ -->
+    <link href="~/Content/Admin/metisMenu/metisMenu.min.css" rel="stylesheet" />
+    <link href="~/Content/Admin/metisMenu/metisMenu-vertical.css" rel="stylesheet" />
+    <!-- calendar CSS
+        ============================================ -->
+    <link href="~/Content/Admin/calendar/fullcalendar.min.css" rel="stylesheet" />
+    <link href="~/Content/Admin/calendar/fullcalendar.print.min.css" rel="stylesheet" />
+    <!-- forms CSS
+        ============================================ -->
+    <link href="~/Content/Admin/form/all-type-forms.css" rel="stylesheet" />
+    <!-- style CSS
+        ============================================ -->
+    <link href="~/Content/Admin/style.css" rel="stylesheet" />
+    <!-- responsive CSS
+        ============================================ -->
+    <link href="~/Content/Admin/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="error-pagewrap">
+        <div class="error-page-int">
+            <div class="text-center m-b-md custom-login">
+                <h3>ADMIN LOGIN | MEDIBLESS VIET NAM</h3>
+                <p>Have a nice day!</p>
+            </div>
+            <p class="text-danger">@ViewBag.Error</p>
+            <div class="content-error">
+                <div class="hpanel">
+                    <div class="panel-body">
+                        <form action="" method="post" id="loginForm">
+                            <div class="form-group">
+                                <label class="control-label" for="username">Username</label>
+                                <input type="text" placeholder="example@gmail.com" title="Please enter you username" required="" value="" name="username" id="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="password">Password</label>
+                                <input type="password" title="Please enter your password" placeholder="******" required="" value="" name="password" id="password" class="form-control">
+                            </div>
+                            <button class="btn btn-success btn-block loginbtn">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center login-footer">
+                <p>Copyright © 2018 Nho Tim Company</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

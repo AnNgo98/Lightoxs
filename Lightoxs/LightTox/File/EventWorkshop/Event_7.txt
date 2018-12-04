@@ -1,153 +1,140 @@
-﻿<div class="tintuc1 pt-5 pb-5">
-            <div class="con abc">
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3 txt_evt_an_1">
-                        <h4 style="color: #25cbd3">EVENTS & WORKSHOP</h4>
-                        <h2 style="color: #25cbd3" class="evt4_1">KIMES 2017 (16~19/03/2017)</h2>
-                        <h5>POST 17 MONTH 11 YEARS 2018 BY ADMIN</h5>
-                        <img class="img_evt_an_1 pt-3" src="/Images/eventsworkshop/img_evt_an_11.png">
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <p>- KIMES 2017 được tổ chức tại phòng triển lãm COEX tại Samseong-dong, Seoul, Hàn quốc từ
-                            ngày 16.03 đến ngày 19.03 đã có 1,292 công ty từ 41 quốc gia như US, Trung Quốc, Đức,
-                            Nhật Bản, Đài Loan, UK, Ý, Thụy Sĩ, etc. cũng 579 nhà sản xuất trong nước.</p>
-                        <p class="pt-2">- Triển lãm trưng bày hơn 30,000 mặt hàng bao gồm các thiết bị y tế tiên tiến,
-                            thiết bị
-                            bệnh viện, hệ thống thông tin y tế, thiết bị phục hồi chức năng y tế</p>
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_11.png">
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <p>- Tập đoàn WONIK tham gia triển lãm này trưng bày và giới thiệu sản phẩm của mình; tập
-                            trung vào ‘INNOJECTOR’ là thiết bị y tế cho các điều trị da liễu, được xuất khẩu từ
-                            cuối năm ngoái, ‘TheRay’ là thiết bị X-quang cầm tay siêu nhẹ cho phòng khám nha khoa,
-                            thiết bị phẫu thuật điện tử cho mục đích da liễu, ‘Silkwave’ là bộ kích thích tần số
-                            cao, etc.</p>
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_12.png">
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <p>- Trưởng nhóm Marketing Park Jong-Han đã nói, “Hơn 100 máy INNOJECTORS đã được phân phối
-                            tại Hàn quốc và được đưa ra thị trường nước ngoài như Hong Kong, Thái Lan và Nhật bản
-                            và khoảng 20 đơn vị đã được xuất khẩu. Giờ đây, WONIK đang thúc đẩy xuất khẩu mạnh mẽ.
-                            Trong bối cảnh này, chúng tôi đã tham gia triển lãm để đảm bảo tiềm năng xuất khẩu và
-                            quan hệ đối tác kinh doanh toàn cầu của INNOJECTOR.”</p>
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_13.png">
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <p>- ‘INNOJECTOR’ là thiết bị dựa trên nguyên lý thúc đẩy việc sản sinh collagen trong lớp da
-                            thông qua kích thích vật lý của áp suất không khí xoáy mà không có tổn thương nhiệt
-                            được tạo ra từ laser và tần số cao.Sản phẩm này đã được công nhận là phương pháp cải
-                            tiến cho nếp nhăn cổ, nếp nhăn mắt, sẹo mụn, sẹo phẫu thuật và điều trị nâng cơ. Tính
-                            năng quan trọng nhất của nó là đưa các dưỡng chất khác nhau vào lớp da dưới dạng xoáy
-                            thông qua công nghệ Vortex tái tạo da đã được cấp bằng sáng chế. Ngoài ra nó cũng được
-                            chứng minh là có thể tối đa hóa hiệu quả khi kết hợp với các dung dịch điều trị khác
-                            như nước muối sinh lý, hyaluronic acid, chiết xuất nhau thai, etc. Và vì xuất huyết
-                            hiếm khi xảy ra, trang điểm cơ bản là đủ che phủ cho nên ưu điểm lớn nhất là không có
-                            hạn chế về các hoạt động trong ngày.</p>
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_14.png">
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <p>- Để phân phối INNOJECTOR tại Đại lục Trung quốc như Hong Kong và Trung quốc, etc, WONIK
-                            đã thành lập một liên doanh có tên là ‘Wonik & Harmony’ cùng với HMI, nhà phân phối
-                            chăm sóc sức khỏe toàn cầu của Hong Kong. Các đại diện của Wonik và Harmony cũng tham
-                            gia triển lãm này. Wonik và Harmony có trụ sở tại Trung quốc và sẽ chịu trách nhiệm về
-                            tiếp thị và dịch vụ sau bán hàng của Trung quốc thông qua quy trình CFDA cho Tổng cục
-                            Thực phẩm và Dược phẩm Trung quốc trong năm nay.</p>
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_15.png">
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <p>- Đặc biệt, WONIK cũng tham gia ‘Arab Health’, triển lãm thiết bị y tế được tổ chức tại
-                            Dubai vào tháng 1 và khám phá ra khả năng INNOJECTOR ở các thị trường nước ngoài. Nhân
-                            viên của nhóm xuất khẩu, Baek Sung-hyeon nói, “Thông qua Arab Health”, chúng tôi đã thu
-                            hút sự chú ý của người Trung Đông, Ả rập và châu Âu đối với INNOJECTOR. Chúng tôi đã
-                            đạt được những thành tựu tốt bằng các hợp đồng phân phối với các nước Trung Đông và
-                            Đông Âu.</p>
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_16.png">
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <p>- Ngoài INNOJECTOR, WONIK exhibit ‘TheRay’ and ‘Silkwave’ trong triển lãm này để tìm kiếm
-                            tiềm năng xuất khẩu. TheRay là thiết bị chụp x-quang siêu nhẹ của NANORAY để điều trị
-                            nha khoa. Nó nhẹ và có thể được thực hiện bằng một tay. Silkwave được sử dụng cho điều
-                            trị mụn trứng cá, nâng cơ, và làm trắng da, vv hiện đang trải qua chứng nhận.</p>
-                        <p class="pt-2">- Liên quan đến vấn đề này, Yoo Yeon Seong, trưởng nhóm xuất khẩu cho biết,
-                            “Năm nay,
-                            TheRay đã bắt đầu phân phối trong nước và xuất khẩu ra nước ngoài thông qua thỏa thuận
-                            chính thức với nhà sản xuất, NANORAY. Không giống như thiết bị X quang nha khoa hiện
-                            có, sản phẩm này có lợi thế là bác sĩ chỉ cần một tay cầm có thể điều trị vùng mong
-                            muốn. Do đó, sản phẩm này dự kiến sẽ được chào đón ở thị trường nước ngoài.”</p>
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-                <div class="r pb-3">
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                    <div class="c-s-12 c-m-8 c-l-8 pt-3">
-                        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_17.png">
-                    </div>
-                    <div class="c-s-12 c-m-2 c-l-2"></div>
-                </div>
-            </div>
-        </div>
+﻿<div class="r">
+    
+    <div class="c-12 pt-3">
+        <img class="img_evt_an_1 pt-3" src="/Images/eventsworkshop/img_evt_an_11.png">
+        <p>- KIMES 2017 được tổ chức tại phòng triển lãm COEX tại Samseong-dong, Seoul, Hàn quốc từ
+            ngày 16.03 đến ngày 19.03 đã có 1,292 công ty từ 41 quốc gia như US, Trung Quốc, Đức,
+            Nhật Bản, Đài Loan, UK, Ý, Thụy Sĩ, etc. cũng 579 nhà sản xuất trong nước.</p>
+        <p class="pt-2">- Triển lãm trưng bày hơn 30,000 mặt hàng bao gồm các thiết bị y tế tiên tiến,
+            thiết bị
+            bệnh viện, hệ thống thông tin y tế, thiết bị phục hồi chức năng y tế</p>
+    </div>
+    
+</div>
+<div class="r">
+    
+    <div class="c-12 pt-3">
+        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_11.png">
+    </div>
+    
+</div>
+<div class="r">
+    
+    <div class="c-12 pt-3">
+        <p>- Tập đoàn WONIK tham gia triển lãm này trưng bày và giới thiệu sản phẩm của mình; tập
+            trung vào ‘INNOJECTOR’ là thiết bị y tế cho các điều trị da liễu, được xuất khẩu từ
+            cuối năm ngoái, ‘TheRay’ là thiết bị X-quang cầm tay siêu nhẹ cho phòng khám nha khoa,
+            thiết bị phẫu thuật điện tử cho mục đích da liễu, ‘Silkwave’ là bộ kích thích tần số
+            cao, etc.</p>
+    </div>
+    
+</div>
+<div class="r">
+    
+    <div class="c-12 pt-3">
+        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_12.png">
+    </div>
+    
+</div>
+<div class="r">
+    
+    <div class="c-12 pt-3">
+        <p>- Trưởng nhóm Marketing Park Jong-Han đã nói, “Hơn 100 máy INNOJECTORS đã được phân phối
+            tại Hàn quốc và được đưa ra thị trường nước ngoài như Hong Kong, Thái Lan và Nhật bản
+            và khoảng 20 đơn vị đã được xuất khẩu. Giờ đây, WONIK đang thúc đẩy xuất khẩu mạnh mẽ.
+            Trong bối cảnh này, chúng tôi đã tham gia triển lãm để đảm bảo tiềm năng xuất khẩu và
+            quan hệ đối tác kinh doanh toàn cầu của INNOJECTOR.”</p>
+    </div>
+    
+</div>
+<div class="r">
+    
+    <div class="c-12 pt-3">
+        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_13.png">
+    </div>
+    
+</div>
+<div class="r">
+    
+    <div class="c-12 pt-3">
+        <p>- ‘INNOJECTOR’ là thiết bị dựa trên nguyên lý thúc đẩy việc sản sinh collagen trong lớp da
+            thông qua kích thích vật lý của áp suất không khí xoáy mà không có tổn thương nhiệt
+            được tạo ra từ laser và tần số cao.Sản phẩm này đã được công nhận là phương pháp cải
+            tiến cho nếp nhăn cổ, nếp nhăn mắt, sẹo mụn, sẹo phẫu thuật và điều trị nâng cơ. Tính
+            năng quan trọng nhất của nó là đưa các dưỡng chất khác nhau vào lớp da dưới dạng xoáy
+            thông qua công nghệ Vortex tái tạo da đã được cấp bằng sáng chế. Ngoài ra nó cũng được
+            chứng minh là có thể tối đa hóa hiệu quả khi kết hợp với các dung dịch điều trị khác
+            như nước muối sinh lý, hyaluronic acid, chiết xuất nhau thai, etc. Và vì xuất huyết
+            hiếm khi xảy ra, trang điểm cơ bản là đủ che phủ cho nên ưu điểm lớn nhất là không có
+            hạn chế về các hoạt động trong ngày.</p>
+    </div>
+    
+</div>
+<div class="r">
+    
+    <div class="c-12 pt-3">
+        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_14.png">
+    </div>
+    
+</div>
+<div class="r">
+    
+    <div class="c-12 pt-3">
+        <p>- Để phân phối INNOJECTOR tại Đại lục Trung quốc như Hong Kong và Trung quốc, etc, WONIK
+            đã thành lập một liên doanh có tên là ‘Wonik & Harmony’ cùng với HMI, nhà phân phối
+            chăm sóc sức khỏe toàn cầu của Hong Kong. Các đại diện của Wonik và Harmony cũng tham
+            gia triển lãm này. Wonik và Harmony có trụ sở tại Trung quốc và sẽ chịu trách nhiệm về
+            tiếp thị và dịch vụ sau bán hàng của Trung quốc thông qua quy trình CFDA cho Tổng cục
+            Thực phẩm và Dược phẩm Trung quốc trong năm nay.</p>
+    </div>
+    
+</div>
+<div class="r">
+    
+    <div class="c-12 pt-3">
+        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_15.png">
+    </div>
+    
+</div>
+<div class="r">
+    
+    <div class="c-12 pt-3">
+        <p>- Đặc biệt, WONIK cũng tham gia ‘Arab Health’, triển lãm thiết bị y tế được tổ chức tại
+            Dubai vào tháng 1 và khám phá ra khả năng INNOJECTOR ở các thị trường nước ngoài. Nhân
+            viên của nhóm xuất khẩu, Baek Sung-hyeon nói, “Thông qua Arab Health”, chúng tôi đã thu
+            hút sự chú ý của người Trung Đông, Ả rập và châu Âu đối với INNOJECTOR. Chúng tôi đã
+            đạt được những thành tựu tốt bằng các hợp đồng phân phối với các nước Trung Đông và
+            Đông Âu.</p>
+    </div>
+    
+</div>
+<div class="r">
+    
+    <div class="c-12 pt-3">
+        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_16.png">
+    </div>
+    
+</div>
+<div class="r">
+    
+    <div class="c-12 pt-3">
+        <p>- Ngoài INNOJECTOR, WONIK exhibit ‘TheRay’ and ‘Silkwave’ trong triển lãm này để tìm kiếm
+            tiềm năng xuất khẩu. TheRay là thiết bị chụp x-quang siêu nhẹ của NANORAY để điều trị
+            nha khoa. Nó nhẹ và có thể được thực hiện bằng một tay. Silkwave được sử dụng cho điều
+            trị mụn trứng cá, nâng cơ, và làm trắng da, vv hiện đang trải qua chứng nhận.</p>
+        <p class="pt-2">- Liên quan đến vấn đề này, Yoo Yeon Seong, trưởng nhóm xuất khẩu cho biết,
+            “Năm nay,
+            TheRay đã bắt đầu phân phối trong nước và xuất khẩu ra nước ngoài thông qua thỏa thuận
+            chính thức với nhà sản xuất, NANORAY. Không giống như thiết bị X quang nha khoa hiện
+            có, sản phẩm này có lợi thế là bác sĩ chỉ cần một tay cầm có thể điều trị vùng mong
+            muốn. Do đó, sản phẩm này dự kiến sẽ được chào đón ở thị trường nước ngoài.”</p>
+    </div>
+    
+</div>
+<div class="r pb-3">
+    
+    <div class="c-12 pt-3">
+        <img class="img_evt_an_1" src="/Images/eventsworkshop/img_evt_an_17.png">
+    </div>
+    
+</div>

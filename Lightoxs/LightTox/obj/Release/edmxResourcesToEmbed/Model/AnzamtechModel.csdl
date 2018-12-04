@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AnzamtechModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BaiViet">
+    <Key>
+      <PropertyRef Name="MaBV" />
+    </Key>
+    <Property Name="MaBV" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaDMA" Type="Int32" />
+    <Property Name="TenBV" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NgayDang" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="MoTa" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="NoiDung" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LinkFB" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThai" Type="Int32" />
+    <NavigationProperty Name="DanhMucBaiViet" Relationship="Self.FK_BaiViet_DanhMucBaiViet" FromRole="BaiViet" ToRole="DanhMucBaiViet" />
+    <NavigationProperty Name="NhanVien" Relationship="Self.FK_BaiViet_NhanVien" FromRole="BaiViet" ToRole="NhanVien" />
+    <Property Name="NgayDienRa" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="DanhMucBaiViet">
+    <Key>
+      <PropertyRef Name="MaDMBV" />
+    </Key>
+    <Property Name="MaDMBV" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenDanhMuc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="BaiViets" Relationship="Self.FK_BaiViet_DanhMucBaiViet" FromRole="DanhMucBaiViet" ToRole="BaiViet" />
+  </EntityType>
+  <EntityType Name="NhanVien">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HoTen" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Code" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenDN" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="MatKhau" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="LinkFB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="BaiViets" Relationship="Self.FK_BaiViet_NhanVien" FromRole="NhanVien" ToRole="BaiViet" />
+  </EntityType>
+  <EntityType Name="TinNhan">
+    <Key>
+      <PropertyRef Name="TinNhan_ID" />
+    </Key>
+    <Property Name="TinNhan_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HoTen" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TieuDe" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NoiDung" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_BaiViet_DanhMucBaiViet">
+    <End Role="DanhMucBaiViet" Type="Self.DanhMucBaiViet" Multiplicity="1" />
+    <End Role="BaiViet" Type="Self.BaiViet" Multiplicity="*" />
+  </Association>
+  <Association Name="FK_BaiViet_NhanVien">
+    <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="1" />
+    <End Role="BaiViet" Type="Self.BaiViet" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="AnzamtechEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BaiViets" EntityType="Self.BaiViet" />
+    <EntitySet Name="DanhMucBaiViets" EntityType="Self.DanhMucBaiViet" />
+    <EntitySet Name="NhanViens" EntityType="Self.NhanVien" />
+    <EntitySet Name="TinNhans" EntityType="Self.TinNhan" />
+    <AssociationSet Name="FK_BaiViet_DanhMucBaiViet" Association="Self.FK_BaiViet_DanhMucBaiViet">
+      <End Role="DanhMucBaiViet" EntitySet="DanhMucBaiViets" />
+      <End Role="BaiViet" EntitySet="BaiViets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BaiViet_NhanVien" Association="Self.FK_BaiViet_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanViens" />
+      <End Role="BaiViet" EntitySet="BaiViets" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

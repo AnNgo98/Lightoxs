@@ -30,9 +30,6 @@ h1, h2,h3,ul,li{
 h1 {
     margin: 2% 5% 0% 0%;
 }
-.stickyBody ul li{
-    margin-left: 5%;
-}
 p {
     padding: 4px 0px 4px 0px;
     line-height: 2.5;

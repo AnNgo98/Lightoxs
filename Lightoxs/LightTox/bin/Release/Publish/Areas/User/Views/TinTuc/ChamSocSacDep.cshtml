@@ -1,4 +1,5 @@
-﻿
+﻿@model List<Lightoxs.Model.BaiViet>
+
 @{
     ViewBag.Title = "Chăm Sóc Sắc Đẹp | MEDIBLESS Viet Nam";
     Layout = "~/Areas/User/Views/Shared/_Layout.cshtml";
@@ -9,512 +10,47 @@
         <div class="con">
             <div class="r">
                 <div class="c-12"><h1 class="text-center text-blue text-primary1 pb-5">CHĂM SÓC SẮC ĐẸP</h1></div>
-                <div id="page1">
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5>
-                                    <a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 1})">
-                                        Nỗi khổ của các nàng có làn da cằn cỗi như
-                                        sa mạc Sahara
-                                    </a>
-                                </h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Nov 13, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    👉 Da thô sần, khô và nhăn 👉 Khô nứt bong tróc da vào những ngày nắng nóng
-                                    👉 Hay tê rát, ngứa và khó chịu. Điều này sẽ khiến ta luôn khó chịu và cảm thấy
-                                    không thoải mái mỗi khi bước ra đường.
-                                    🥊 Và bạn cần biết rằng làn da khô khó ưa kia phải được sửa chữa ngay hàng rào
-                                    chất
-                                    béo (lipid) bị hỏng và ngăn ngừa độ ẩm bị mất....
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 1})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5>
-                                    <a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 2})">
-                                        PURIENCE - Mỹ phẩm với thành phần xuất sắc
-                                        toàn Châu Á 2016 ⚜️
-                                    </a>
-                                </h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Oct 25, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    🔰 Tự hào là nhà tài trợ chương trình Asia Next Top Model 2017 mang đến
-                                    vẻ
-                                    đẹp thuần khiết nhất cho làn da.
-                                    🔰 Dòng dược mỹ phẩm đã mang lại kỳ tích và ghi điểm lớn đối với
-                                    các
-                                    Siêu mẫu khắp 15 nước trên Châu Á
-                                    🔰 Ứng dụng thành công công nghệ đạt giải Nobel y học 2016 - AUTOPHAGY với ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 2})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 3})">"VỰC DẬY" LÀN DA LÃO HÓA 🌞 </a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Oct 01, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    Cùng 3 THÀNH PHẦN lần đầu tiên kết hợp tạo nên CỰC PHẨM #Purience
-                                    Nếu các nàng đôi mươi, ba mươi đã để làn da bị chôn vùi quá lâu trong sự lão
-                                    hóa,
-                                    sần sùi, thâm mụn và đang loay hoay tìm kiếm cho mình mọi giải pháp nhưng không
-                                    có
-                                    hồi kết. 🌸 Thì hãy để Purience giúp bạn "vực dậy" nguồn năng lượng cho làn da
-                                    cùng
-                                    3 thành phần "kỳ diệu" #lần_đầu_tiên được kết hợp: ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 3})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5>
-                                    <a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 4})">
-                                        🎉 🎉CÔNG NGHỆ TÁI TẠO DA MỚI NHẤT 2018
-                                    </a>
-                                </h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Sep 22, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    ☘️ ☘️ Xu hướng thẩm mĩ không xâm lấn - đánh thức vẻ đẹp tự nhiên từ bên trong.
-                                    ➡️ Không đau
-                                    ➡️ Không tổn thương nhiệt
-                                    ➡️ Thời gian nghỉ dưỡng tối thiểu
-                                    ➡️ Điều trị linh hoạt
-                                    ☘️ ☘️ Trị liệu da hiệu quả
-                                    👨‍⚕️ Điều trị sẹo (sẹo mụn, lồi, lõm)
-                                    👩‍⚕️ Điều trị rạn da (đặc biệt là vùng rạn da bụng, đùi)
-                                    ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 4})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 5})">Mùa hè có nên sử dụng kem dưỡng ẩm không ?</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Sep 13, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    ⚠️Hẳn không ít bạn gái có cùng suy nghĩ, mùa hè mà bôi kem dưỡng ẩm là việc
-                                    thừa
-                                    thãi bởi chúng sẽ khiến da đổ nhiều mồ hôi gây nhờn rít khó chịu. Nhưng thực
-                                    chất,
-                                    theo các chuyên gia da liễu thì kem dưỡng ẩm là bước chăm sóc da vô cùng quan
-                                    trọng
-                                    và cần thiết cho cả mùa đông lẫn mùa hè. Bởi: ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 5})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div id="page2" style="display: none">
+                @foreach (var bv in Model)
+                {
                     <div class="c-m-12 pl-3 pr-3">
                         <div class="blog-box d-m-f">
                             <div class="blog-content">
                                 <h5>
-                                    <a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 6})">
-                                        Inno Jector - Giải pháp hoàn hảo cho làn da trẻ lại 10 tuổi, đẹp mịn
-                                        màng
+                                    <a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @baiVietID = bv.MaBV})">
+                                        @bv.TenBV
                                     </a>
                                 </h5>
                                 <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Aug 25, 2018</li>
+                                    <li class=""><i class="fa fa-calendar"></i>@String.Format("{0:ddd, MMM d, yyyy}", bv.NgayDang)</li>
                                     <li class="">
                                         <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
+                                                                       target="blank">@bv.NhanVien.HoTen</a>
                                     </li>
                                 </ul>
                                 <p>
-                                    Làn da đóng vai trò quyết định vẻ đẹp bên ngoài của mỗi người. Giữ gìn da sáng
-                                    khoẻ là bí quyết giúp bạn trẻ trung hơn đến 10 tuổi.
-                                    Dưới đây là một số cách đơn giản, dễ áp dụng để các bạn nữ luôn giữ được làn da
-                                    tươi đẹp ...
+                                    @bv.MoTa ...
                                 </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 6})">Chi tiết</a></span>
+                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @baiVietID = bv.MaBV })">Chi tiết</a></span>
                             </div>
                         </div>
                     </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5>
-                                    <a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 7})">
-                                        KHÁT THÌ CÓ NƯỚC, BỤI THÌ CÓ KHẨU TRANG, LÀN DA THIẾU NƯỚC THÌ CẦN
-                                        GÌ ?
-                                    </a>
-                                </h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Aug 21, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    ❌ ❌ Cấp ẩm thông thường thôi là chưa đủ
-                                    Nỗi khổ làn da khô sần sùi, bong tróc, xỉn màu, tiết nhiều dầu vì hằng ngày
-                                    phải bị "hành hạ" bởi những lớp trang điểm, ánh nắng mặt trời, khói bụi ở khắp
-                                    mọi nơi dù có cố gắng bảo vệ cỡ nào.
-                                    Và sự thật là dù ta có dưỡng ẩm và chăm sóc qua bao nhiêu bước thì cũng không
-                                    thể ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 7})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 8})">"XIN ĐỪNG ❗ Chăm sóc làn da một cách "nửa vời"</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Sep 15, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    Chắc chắn rất nhiều bạn gái hiện nay đã sở hữu cho mình không ít hơn 3 loại mỹ
-                                    phẩm nào là toner, xịt khoáng, tẩy tế bào chết, dưỡng ẩm hay serum,...
-                                    ❎ Nhưng các nàng ơi, dù là vậy nhưng chúng ta đang chưa thật sự được "skincare"
-                                    một cách tối đa và triệt để.
-                                    ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 8})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>;
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 9})">#Bất #tiện #khi #sử #dụng #mặt #nạ ????</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Sep 22, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    ❗️Tớ thường gặp rất nhiều bạn phụ nữ phàn nàn hay kể cả bản thân
-                                    tớ cũng thấy rất bất tiện và khó chịu khi sử dụng mặt nạ (mask )
-                                    dưỡng da :
-                                    ⛔️ Các bạn khi mở gói mặt nạ ra thường tách vỏ và lấy tay móc hết
-                                    những tinh chất bám lại trên vỏ để đỡ phí vì các mặt nạ thông
-                                    thường thường có độ bám tinh chất không ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 9})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 10})">Dưỡng cấp ẩm tới 72h , bạn tin ko ?</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Sep 13, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    ☘️ ☘️ ☘️ ☘️ ☘️ ☘️ ☘️ ☘️
-                                    Da dầu, da mụn đều rất sợ dưỡng ẩm vì đa số kết cấu nặng, nhưng nhưng với
-                                    #Vital_Barrier thì không 1 sản phẩm cực nhẹ, và yêu thích nó ngay lần đầu sử
-                                    dụng. Sản phẩm được kiểm chứng lâm sàng sử dụng an toàn và hiệu quả ngay trên
-                                    da nhạy cảm. Mỹ phẩm Vital Barrier dưỡng ẩm 72 giờ ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 10})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="page3" style="display: none">
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 11})"> Medibless - Vẻ đẹp TỰ NHIÊN cùng làn da THUẦN KHIẾT</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Nov 13, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    Không có vẻ đẹp nào là chuẩn mực, nhưng một nét đẹp tự nhiên, thuần khiết lại là
-                                    điều mà phái đẹp lẫn phái mạnh đều cần phải chăm sóc, bảo vệ và gìn giữ.
-                                    "BẠN ĐẸP NHẤT LÀ KHI MANG TRONG MÌNH VẺ ĐẸP RIÊNG"
-                                    👉 Và đây chính giá trị là mà thương hiệu dược mỹ phẩm #MEDIBLESS hướng đến.
-                                    ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 11})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 12})">이니스트 BIO COSMETIC </a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Oct 25, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    ☘️ ☘️ SKINCARE SOLUTION PROFESSIONAL FOR SPA & Homecare
-                                    👨‍⚕️ 👩‍⚕️ Thương hiệu được tin dùng bởi các bác sĩ chuyên khoa da liễu hàng
-                                    đầu tại Hàn Quốc
-                                    🎉 DƯỢC MĨ PHẨM SINH HỌC THUỘC TẬP ĐOÀN DƯỢC INIST PHARM - HÀN QUỐC
-                                    **TỰ HÀO LÀ THƯƠNG HIỆU HÀNG ĐẦU VỚI SÁNG CHẾ ĐỘC QUYỀN
-                                    THÀNH PHẦN TẠO NÊN SỰ KHÁC BIỆT
-                                    ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 12})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 13})">LẤY LẠI SỰ TƯƠI TRẺ - PHỤC HỒI SỨC KHỎE CHO LÀN DA 🌻</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Oct 01, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    ---->> Dược Mỹ phẩm #5_IN_2
-                                    #PURIENCE chính là bộ mỹ phẩm Hàn Quốc đã làm "điên đảo" chị em Châu Á trong
-                                    thời gian gần đây bởi 5 công dụng giải quyết "tất tần tật" vấn đề về da mà chị
-                                    em nào cũng gặp phải nhưng chỉ trong 2 sản phẩm:
-                                    💓 Tái tạo làn da, cải thiện nếp nhăn (tăng độ săn chắc & sáng bóng)
-                                    ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 13})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 14})">MỸ PHẨM NÀO MỚI THẬT SỰ PHÙ HỢP VỚI LÀN DA CỦA BẠN?</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Sep 22, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    --->>> Không ít những cô gái đang rất "khổ sở" trong thời gian khá lâu để tìm
-                                    kiếm câu trả lời thỏa đáng cho vấn đề này
-                                    💬 Nhiều bạn cứ nghĩ mỹ phẩm thương hiệu nổi tiếng, uy tín và được nhiều người
-                                    sử dụng là sẽ hiệu quả với mình nhưng sự thật nó đang mang đến nhiều hậu quả tệ
-                                    hại mà bạn không hề hay biết:
-                                    ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 14})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 15})">TÁI SINH LÀN DA TRẮNG SÁNG VÀ THUẦN KHIẾT THU HÚT MỌI ÁNH NHÌN</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Sep 13, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    Sở hữu làn da trắng sứ mịn màng luôn là niềm tự hào của phụ nữ Á đông, tuy nhiên
-                                    để da luôn trắng khoẻ tự nhiên căng tràn sức sống, nàng hãy thuộc nằm lòng
-                                    những quy tắc dưới đây:
-                                    ▪️ Chống nắng mỗi ngày, không bao giờ được quên!
-                                    ▪️ Tẩy tế bào chết đều đặn 1-2 lần/tuần:
-                                    ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 15})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="page4" style="display: none">
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 16})">"VỊ CỨU TINH" CHO CÁC LÀN DA ĐANG BỊ HƯ TỔN 🌸</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Nov 13, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    Bạn có biết làn da của chúng ta khi sinh ra đã được bảo vệ bởi một lớp rào chắn
-                                    bên ngoài nhưng nó sẽ rất dễ bị hư hại bằng những tác động rất "đời thường":
-                                    🌿 Rửa mặt nhiều lần trong ngày
-                                    🌿 Đắp mặt nạ trái cây thường xuyên
-                                    🌿 Sử dụng kem chống nắng
-                                    🌿 Tẩy tế bào chết
-                                    ....
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 16})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 17})"> BÍ QUYẾT CHO LÀN DA CĂNG TRÀN SỨC SỐNG 💓</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Oct 25, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    💌 Dù cho bạn đang ở độ tuổi nào thì Medibless tin chắc rằng ai cũng cần thường
-                                    xuyên cung cấp dưỡng chất cho da vì nó sẽ mang lại cho làn da của bạn năng
-                                    lượng, mịn màng và luôn căng tràn sức sống mỗi ngày.
-                                    ✨ ✨ Với #PURIENCE bộ kem và mặt nạ tái tạo da hiệu quả kép không chỉ cung cấp
-                                    các dưỡng chất cần thiết nhất cho làn da của bạn mà còn có thể ...
-                                </p>
-                                <span><a href="17">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 18})"> 🇰🇷이노젝터️(INNOjector) - WAKE SKIN CELL UP FROM THE INSIDE</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Oct 01, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    🎉 🎉CÔNG NGHỆ TÁI TẠO DA MỚI NHẤT 2018
-                                    ☘️ ☘️ Xu hướng thẩm mĩ không xâm lấn - đánh thức vẻ đẹp tự nhiên từ bên trong.
-                                    ➡️ Không đau
-                                    ➡️ Không tổn thương nhiệt
-                                    ➡️ Thời gian nghỉ dưỡng tối thiểu
-                                    ➡️ Điều trị linh hoạt ☘️ ☘️ Trị liệu da hiệu quả
-                                    👨‍⚕️ Điều trị sẹo (sẹo mụn, lồi, lõm)
-                                    ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 18})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 19})"> 🍃 #INIST_Pharm Tập đoàn dược phẩm lâu đời hàng đầu Hàn Quốc</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Sep 22, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    “Bạn có quyền được khỏe mạnh hơn và INIST có nghĩa vụ phải tạo ra một cuộc sống
-                                    khỏe mạnh hơn.” - Mr. Kim KuK Hyun, CEO
-                                    🔬 Với hơn #80_năm tập trung vào phát triển và phân phối các thành phần dược
-                                    phẩm, thực phẩm chức năng và dược mỹ phẩm dựa trên nền tảng nghiên
-                                    ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 19})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-m-12 pl-3 pr-3">
-                        <div class="blog-box d-m-f">
-                            <div class="blog-content">
-                                <h5><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 20})">Xây "Vạn Lý Trường Thành" chỉ với 3 cấp độ bảo vệ da 🛡</a></h5>
-                                <ul class="d-f">
-                                    <li class=""><i class="fa fa-calendar"></i>Sep 13, 2018</li>
-                                    <li class="">
-                                        <i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                                                       target="blank">Trà Đức Anh</a>
-                                    </li>
-                                </ul>
-                                <p>
-                                    Dưỡng ẩm lâu nay luôn được 90% các chị em xem như là bước chăm sóc da "thần
-                                    thánh" không chỉ bảo vệ da và mà còn giúp da luôn căng mịn và "tràn đầy nước".
-                                    🔱 Nhưng với hàng tá những mỹ phẩm cấp ẩm ngoài kia thì #VITAL_BARRIER sẽ "độc
-                                    nhất vô nhị" xây cho các nàng cả một "vạn  ...
-                                </p>
-                                <span><a href="@Url.Action("ChamSocSacDep_Details", "TinTuc", new { @numOfCSSD = 20})">Chi tiết</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
+                }
 
                 <div class="c-m-12 pl-3 pr-3">
                     <div class="pagination-box text-center">
                         <ul class="d-f justify-content-center">
-                            <li id="pagenum1" class="mr-2 active"><button>1</button></li>
-                            <li id="pagenum2" class="mr-2"><button>2</button></li>
-                            <li id="pagenum3" class="mr-2"><button>3</button></li>
-                            <li id="pagenum4" class="mr-2"><button>4</button></li>
+                            @for(int i = 0; i < ViewBag.Total; i++)
+                            {
+                                if ( i + 1 == Convert.ToInt32(ViewBag.Page))
+                                {
+                                    <li class="mr-2 active"><a href="@Url.Action("ChamSocSacDep", "TinTuc", new { @page = i + 1})">@(i + 1)</a></li>
+                                }
+                                else
+                                {
+                                    <li class="mr-2"><a href="@Url.Action("ChamSocSacDep", "TinTuc", new { @page = i + 1})">@(i + 1)</a></li>
+                                }
+                            }
                         </ul>
                     </div>
                 </div>

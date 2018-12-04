@@ -14,124 +14,127 @@
 </head>
 
 <body>
-    <header>
-        <div id="trangchu" class="bg-second header1">
-            <div class="con">
-                <div class="r-n-g pt-3 pb-3">
-                    <div class="c-12 c-s-8  ">
-                        <div class="d-f flex-row align-content-center f-s-90 justify-content-center justify-content-sm-start">
+    <div class="wrapper">
+        <header>
+            <div id="trangchu" class="bg-second header1">
+                <div class="con">
+                    <div class="r-n-g pt-3 pb-3">
+                        <div class="c-12 c-s-8  ">
+                            <div class="d-f flex-row align-content-center f-s-90 justify-content-center justify-content-sm-start">
 
-                            <span class="text-white">
-                                <i class="fa fa-clock-o pr-2 text-white" aria-hidden="true"></i>Giờ
-                                mở cửa: T2 - T7 8h00 - 16h00
-                            </span>
+                                <span class="text-white">
+                                    <i class="fa fa-clock-o pr-2 text-white" aria-hidden="true"></i>Giờ
+                                    mở cửa: T2 - T7 8h00 - 16h00
+                                </span>
+                            </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div id="StickyHeader" class="StickyHeader">
-            <nav class="bg-primary header3">
-                <div class="con">
-                    <div class="r-n-g ">
-                        <div class="c-a d-b d-l-n mr-auto">
-                            <ul class="main-menu-mobile">
-                                <li>
-                                    <a id="main-menu-mobile">
-                                        <span class="menu-icon-bars">
-                                            <span class="menu-icon-bar"></span>
-                                            <span class="menu-icon-bar"></span>
-                                            <span class="menu-icon-bar"></span>
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="c-a d-n d-l-b mr-auto">
-                            <ul class="desktop-menu d-f flex-row">
-                                <li>@Html.ActionLink("Trang chủ", "Index", "Home")</li>
-                                <li>@Html.ActionLink("INNOjector", "Innojector", "SanPham")</li>
-                                <div class="dropdown center_col">
-                                    <button class="dropbtn">
-                                        Dược Mỹ phẩm <i class="fa fa-caret-down"></i>
-                                    </button>
-                                    <div class="dropdown-content">
-                                        @Html.ActionLink("Lightoxs", "Lightoxs", "SanPham")
-                                        @Html.ActionLink("Purience", "Purience", "SanPham")
-                                        @Html.ActionLink("Vital", "Vital", "SanPham")
+            <div id="StickyHeader" class="StickyHeader">
+                <nav class="bg-primary header3">
+                    <div class="con">
+                        <div class="r-n-g ">
+                            <div class="c-a d-b d-l-n mr-auto">
+                                <ul class="main-menu-mobile">
+                                    <li>
+                                        <a id="main-menu-mobile">
+                                            <span class="menu-icon-bars">
+                                                <span class="menu-icon-bar"></span>
+                                                <span class="menu-icon-bar"></span>
+                                                <span class="menu-icon-bar"></span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="c-a d-n d-l-b mr-auto">
+                                <ul class="desktop-menu d-f flex-row">
+                                    <li>@Html.ActionLink("Trang chủ", "Index", "Home")</li>
+                                    <li>@Html.ActionLink("INNOjector", "Innojector", "SanPham")</li>
+                                    <div class="dropdown center_col">
+                                        <button class="dropbtn">
+                                            Dược Mỹ phẩm <i class="fa fa-caret-down"></i>
+                                        </button>
+                                        <div class="dropdown-content">
+                                            @Html.ActionLink("Lightoxs", "Lightoxs", "SanPham")
+                                            @Html.ActionLink("Purience", "Purience", "SanPham")
+                                            @Html.ActionLink("Vital", "Vital", "SanPham")
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="dropdown center_col">
-                                    <button class="dropbtn">
-                                        Tin tức
-                                        <i class="fa fa-caret-down"></i>
-                                    </button>
-                                    <div class="dropdown-content">
-                                        @Html.ActionLink("Events & Workshop", "EventsWorkshop", "TinTuc")
-                                        @Html.ActionLink("Ấn phẩm khoa học", "AnPhamKhoaHoc", "TinTuc")
-                                        @Html.ActionLink("Chăm sóc sắc đẹp", "ChamSocSacDep", "TinTuc")
-                                        @Html.ActionLink("Câu hỏi thường gặp", "CauHoiThuongGap", "TinTuc")
+                                    <div class="dropdown center_col">
+                                        <button class="dropbtn">
+                                            Tin tức
+                                            <i class="fa fa-caret-down"></i>
+                                        </button>
+                                        <div class="dropdown-content">
+                                            @Html.ActionLink("Events & Workshop", "EventsWorkshop", "TinTuc")
+                                            @Html.ActionLink("Ấn phẩm khoa học", "AnPhamKhoaHoc", "TinTuc")
+                                            @Html.ActionLink("Chăm sóc sắc đẹp", "ChamSocSacDep", "TinTuc")
+                                            @Html.ActionLink("Câu hỏi thường gặp", "CauHoiThuongGap", "TinTuc")
+                                        </div>
                                     </div>
-                                </div>
-                                <li>@Html.ActionLink("Đối tác", "Index", "DoiTac")</li>
-                                <li>@Html.ActionLink("Liên hệ", "Index", "LienHe")</li>
+                                    <li>@Html.ActionLink("Đối tác", "Index", "DoiTac")</li>
+                                    <li>@Html.ActionLink("Liên hệ", "Index", "LienHe")</li>
 
-                            </ul>
+                                </ul>
+                            </div>
+                            <div class="c-a align-self-center">
+                                <a href="@Url.Action("Index", "Home")"><img src="~/Images/logo_web.png"></a>
+                            </div>
                         </div>
-                        <div class="c-a align-self-center">
-                            <a href="@Url.Action("Index", "Home")"><img src="~/Images/logo_web.png"></a>
+                        <div class="r-n-g">
+                            <div id="mobile-menu" class="c-12 d-l-n d-x-n" style="display: none">
+                                <ul class="navbar-nav" style="display: block;">
+                                    @Html.ActionLink("Trang chủ", "Index", "Home")
+                                    @Html.ActionLink("INNOjector", "Innojector", "SanPham")
+                                    <li class="nav-item nav-menu-item has-dropdown-menu">
+                                        <a href="javascript:void(0)" class="nav-link">Dược Mỹ phẩm</a>
+                                        <ul class="dropdown-menu sub1 p-0 m-0">
+                                            <li class="nav-item has-dropdown-menu">
+                                                <ul>@Html.ActionLink("Lightoxs", "Lightoxs", "SanPham")</ul>
+                                                <ul>@Html.ActionLink("Purience", "Purience", "SanPham")</ul>
+                                                <ul>@Html.ActionLink("Vital", "Vital", "SanPham")</ul>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item nav-menu-item has-dropdown-menu">
+                                        <a href="javascript:void(0)" class="nav-link">Tin tức</a>
+                                        <ul class="dropdown-menu sub1 p-0 m-0">
+                                            <li class="nav-item has-dropdown-menu">
+                                                <ul>@Html.ActionLink("Events & Workshop", "EventsWorkshop", "TinTuc")</ul>
+                                                <ul>@Html.ActionLink("Ấn phẩm khoa học", "AnPhamKhoaHoc", "TinTuc")</ul>
+                                                <ul>@Html.ActionLink("Chăm sóc sắc đẹp", "ChamSocSacDep", "TinTuc")</ul>
+                                                <ul>@Html.ActionLink("Câu hỏi thường gặp", "CauHoiThuongGap", "TinTuc")</ul>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    @Html.ActionLink("Đối tác", "Index", "DoiTac")
+                                    @Html.ActionLink("Liên hệ", "Index", "LienHe")
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="r-n-g">
-                        <div id="mobile-menu" class="c-12 d-l-n d-x-n" style="display: none">
-                            <ul class="navbar-nav" style="display: block;">
-                                @Html.ActionLink("Trang chủ", "Index", "Home")
-                                @Html.ActionLink("INNOjector", "Innojector", "SanPham")
-                                <li class="nav-item nav-menu-item has-dropdown-menu">
-                                    <a href="javascript:void(0)" class="nav-link">Dược Mỹ phẩm</a>
-                                    <ul class="dropdown-menu sub1 p-0 m-0">
-                                        <li class="nav-item has-dropdown-menu">
-                                            <ul>@Html.ActionLink("Lightoxs", "Lightoxs", "SanPham")</ul>
-                                            <ul>@Html.ActionLink("Purience", "Purience", "SanPham")</ul>
-                                            <ul>@Html.ActionLink("Vital", "Vital", "SanPham")</ul>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                                <li class="nav-item nav-menu-item has-dropdown-menu">
-                                    <a href="javascript:void(0)" class="nav-link">Tin tức</a>
-                                    <ul class="dropdown-menu sub1 p-0 m-0">
-                                        <li class="nav-item has-dropdown-menu">
-                                            <ul>@Html.ActionLink("Events & Workshop", "EventsWorkshop", "TinTuc")</ul>
-                                            <ul>@Html.ActionLink("Ấn phẩm khoa học", "AnPhamKhoaHoc", "TinTuc")</ul>
-                                            <ul>@Html.ActionLink("Chăm sóc sắc đẹp", "ChamSocSacDep", "TinTuc")</ul>
-                                            <ul>@Html.ActionLink("Câu hỏi thường gặp", "CauHoiThuongGap", "TinTuc")</ul>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                                @Html.ActionLink("Đối tác", "Index", "DoiTac")
-                                @Html.ActionLink("Liên hệ", "Index", "LienHe")
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+                </nav>
+            </div>
+        </header>
 
 
-    <content>
+        <content>
 
-        <!--slide video test Youtube-->
-        <div id="stickyBody">
-            @RenderBody()
-        </div>
+            <!--slide video test Youtube-->
+            <div id="stickyBody">
+                @RenderBody()
+            </div>
 
-    </content>
-    <footer id="lienhe">
+        </content>
+        <div class="push"></div>
+    </div>
+    <footer id="lienhe" class="footer">
         <div class="bg-primary1">
             <div class="con">
                 <div class="r-n-g">
@@ -171,11 +174,11 @@
                     <div class="c-6">
                         <div class="d-f flex-row mt-3 align-content-center center_col">
                             <i class="fa fa-phone text-white" aria-hidden="true"></i>
-                            <span class="ml-3 text-lighdark">028 6684 6639</span>
+                            <span class="ml-3 text-lighdark"><a href="tel: 028 6684 6639"> 028 6684 6639</a></span>
                         </div>
                         <div class="d-f flex-row mt-3 align-content-center center_col">
                             <i class="fa fa-mobile-alt text-white" aria-hidden="true"></i>
-                            <span class="ml-3 text-lighdark">0825 58 39 90 (Ms. Ngọc)<br>0932 69 25 40 (Mr. Cường)</span><br>
+                            <span class="ml-3 text-lighdark"><a href="tel: 0825 58 39 90"> 0825 58 39 90</a> (Ms. Ngọc)<br><a href="tel: 0932 69 25 40">0932 69 25 40</a> (Mr. Cường)</span><br>
                         </div>
                     </div>
                 </div>

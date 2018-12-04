@@ -1,5 +1,6 @@
 ﻿/*ANZ-Font*/
 html {
+    height: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -ms-overflow-style: scrollbar;
@@ -14,6 +15,19 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -455px;
+}
+
+.footer,
+.push {
+    height: 455px;
 }
 
 div, button, i, img {
@@ -2391,6 +2405,13 @@ footer .bg-primary1 {
 .p-2 {
     padding: 0.5rem !important;
 }
+#VetGiua {
+    font-size: 123%;
+    padding-left: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: 2;
+}
 
 .pt-2,
 .py-2 {
@@ -4610,7 +4631,7 @@ header.fixed .header3 {
         margin-top: 40px;
     }
 
-        .blog-three .pagination-box ul li button {
+        .blog-three .pagination-box ul li a {
             font-size: 18px;
             color: #00a3c8;
             width: 40px;
@@ -4625,12 +4646,12 @@ header.fixed .header3 {
             border: none;
         }
 
-            .blog-three .pagination-box ul li button:hover {
+            .blog-three .pagination-box ul li a:hover {
                 background: #00a3c8;
                 color: #fff;
             }
 
-        .blog-three .pagination-box ul li.active button {
+        .blog-three .pagination-box ul li.active a {
             background: #00a3c8;
             color: #fff;
         }
@@ -4670,7 +4691,7 @@ header.fixed .header3 {
         height: 45px;
         border: 1px solid #dddddd;
         padding-left: 15px;
-        margin-bottom: 25px;
+        margin-top: 25px;
     }
 
 input::placeholder, textarea::placeholder {
@@ -6716,8 +6737,6 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
         text-align: left !important;
         font-size: 165%;
-        
-        text-align: right !important;
     }
     .btn-second1 {
         box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
@@ -7018,7 +7037,6 @@ a.xemthem {
     border-radius: 20px;
     border-width: 20px;
     float:right;
-    margin-right: 40px;
   /*  position: relative;
     bottom: -30px;
       z-index: -1; */
@@ -7037,10 +7055,9 @@ a.xemthem {
     
 } 
 .vetba{
-    position: absolute;
     bottom: 39%;
-    margin-left: 9%;
-    font-size: 138%;    
+    font-size: 123%; 
+    line-height: 2;
 }
 .vitalmodel
 {
@@ -7151,7 +7168,6 @@ a.xemthem {
         margin-left: 10%;  
     }
     .vetba{
-        position: absolute;
     bottom: 47%;
     margin-left: 9%;
     font-size: 48%;
@@ -7181,7 +7197,6 @@ a.xemthem {
         width:85%;
     }
     .vetba{
-        position: absolute;
         bottom: 44%;
         margin-left: 9%;
         font-size: 60%;
@@ -7210,10 +7225,9 @@ a.xemthem {
         width:86%;
     }
     .vetba{
-        position: absolute;
         bottom: 39%;
         margin-left: 9%;
-        font-size: 72%;
+        font-size: 123%;
     }
     #readmore{
         padding: 2% 4%;
@@ -7235,10 +7249,12 @@ a.xemthem {
     font-size: 62%;
 }
     .vetba{
-        position: absolute;
     bottom: 36%;
     margin-left: 9%;
     font-size: 94%;
+    }
+    #VetGiua{
+        font-size: 94%;
     }
     /*VitalDetail*/
     #readmore{
@@ -7260,10 +7276,8 @@ a.xemthem {
         font-size: 80%;
 }
     .vetba{
-        position: absolute;
     bottom: 36%;
-    margin-left: 9%;
-    font-size: 103%;
+    font-size: 123%;
     }
     #readmore{
         padding: 2% 4%;
@@ -7286,10 +7300,9 @@ a.xemthem {
     font-size: 91%;    
     }
     .vetba{
-        position: absolute;
         bottom: 40%;
         margin-left: 9%;
-        font-size: 110%;
+        font-size: 123%;
     
     }
 }
@@ -7603,4 +7616,19 @@ p.vt_param13 {
 
 #inno_model {
     width: 100%;
+}
+
+
+
+#vet2 {
+    background-color: white;
+}
+
+.vital2 {
+    width: 100%;
+    height: auto;
+}
+
+#vet3 {
+    background-color: #7dc2ff;
 }

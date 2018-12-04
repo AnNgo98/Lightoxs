@@ -1,4 +1,4 @@
-﻿@model string
+﻿@model Lightoxs.Model.BaiViet
 
 @{
     ViewBag.Title = "Events & Workshop Details | MEDIBLESS Viet Nam";
@@ -9,4 +9,21 @@
 <link href="~/Content/eventsworkshop/Viet.css" rel="stylesheet" />
 <script src="~/Scripts/tintuc.js"></script>
 
-@Html.Raw(Model)
+<div class="tintuc1 pt-5 pb-5">
+    <div class="con" id="bodyevent">
+        <div class="r pt-3">
+            <div class="c-s-2 c-m-2 c-l-2"></div>
+            <div class="c-s-8 c-m-8 c-l-8">
+                <div class="title pb-3">
+                    <h4>EVENTS & WORKSHOP</h4>
+                    <h2>@Model.TenBV</h2>
+                    <hr>
+                    <h4 style="color: black">POSTED ON @String.Format("{0:D}", Model.NgayDang) BY @Model.NhanVien.HoTen</h4>
+                </div>
+                @Html.Raw(ViewBag.NoiDung)
+            </div>
+            <div class="c-s-2 c-m-2 c-l-2"></div>
+        </div>
+    </div>
+</div>
+

@@ -585,6 +585,8 @@
     <Content Include="Images\vet_3.png" />
     <Content Include="Images\vital-avatar.png" />
     <Content Include="Images\vital-barier.png" />
+    <Content Include="Images\vital1.jpg" />
+    <Content Include="Images\vital2.jpg" />
     <Content Include="Images\Vitalbarrier.png" />
     <Content Include="Images\vitalbarrier1.png" />
     <Content Include="Images\vitalbarrier_2.png" />

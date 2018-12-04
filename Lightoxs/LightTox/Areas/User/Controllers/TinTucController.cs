@@ -21,10 +21,15 @@ namespace LightTox.Areas.User.Controllers
             List<BaiViet> lstBaiViet = db.BaiViets.Where(n => n.DanhMucBaiViet.MaDMBV == 1).OrderByDescending(n => n.MaBV).ToList();
             return View(lstBaiViet);
         }
-        public ActionResult EventsWorkshop_Details(int numOfEvents)
+        public ActionResult EventsWorkshop_Details(int baiVietID)
         {
-            string text = System.IO.File.ReadAllText(Server.MapPath(eventURL + numOfEvents + ".txt"));
-            return View((object)text);
+            BaiViet baiViet = db.BaiViets.Find(baiVietID);
+
+            string text = System.IO.File.ReadAllText(Server.MapPath(eventURL + baiViet.NoiDung));
+
+            ViewBag.NoiDung = (object)text;
+
+            return View(baiViet);
         }
 
         public ViewResult AnPhamKhoaHoc()

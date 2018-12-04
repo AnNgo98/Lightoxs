@@ -1,99 +1,88 @@
-﻿<div class="tintuc4 pt-5 pb-5">
-            <div class="con pl-5 pr-5 tintuc4_1">
-                <div class="r pt-5 post4_1">
-                    <div class="c-s-12 c-m-12 c-l-12">
-                        <h2 class="animated wow fadeInLeft" data-wow delay="1s">XIN ĐỪNG CHĂM SÓC LÀN DA MỘT CÁCH "NỬA
-                            VỜI"</h2>
-                    </div>
-                </div>
-                <div class="r pt-4">
-                    <div class="c-s-12 c-m-7 c-l-7 pt-2 post_4_1">
-                        <p style="text-indent: 50px">Chắc chắn rất nhiều bạn gái hiện nay đã sở hữu cho mình
-                            không ít hơn 3 loại mỹ phẩm
-                            nào là toner, xịt khoáng, tẩy tế bào chết, dưỡng ẩm hay serum,...</p>
-                        <p style="text-indent: 50px">Nhưng các nàng ơi, dù là vậy nhưng chúng ta đang chưa thật
-                            sự được "skincare" một cách tối đa và triệt để</p>
-                        <p style="text-indent: 50px">Chúng mình đã quên rằng làn da từ 20 tuổi trở đi đã bắt đầu bị
-                            lão hóa, đặc biệt với
-                            thời tiết, môi trường và nhiều tác động xấu như hiện nay thì lão hóa sẽ diễn ra rất
-                            nhanh. Và "đỉnh điểm" ở mốc 30 tuổi, làn da sẽ "tuột dốc không phanh"</p>
-                    </div>
-                    <div class="c-s-12 c-m-5 c-l-5">
-                        <img class="animated wow fadeInLeft img_post_4" data-wow delay="1s" src="/Images/chamsocsacdep/An_post_4.png">
-                    </div>
-                </div>
-                <div class="r pt-4">
-                    <div class="c-s-12 c-m-4 c-l-4">
-                        <img class="animated wow fadeInLeft img_post_5" data-wow delay="1s" src="/Images/chamsocsacdep/An_post_7.png">
-                    </div>
-                    <div class="c-s-12 c-m-8 c-l-8">
-                        <p>
-                            - Bộ kem và mặt nạ tái tạo da của PURIENCE đến từ Hàn Quốc sẽ "lo toan" hộ bạn tất cả
-                            vấn đề này nhé!<br>
-                            - Medibless đã kết hợp đỉnh cao công nghệ tự thực bào (Đoạt giải Nobel Y học
-                            2016) cùng với thành phần siêu cấp ẩm Beta Glucan mang đến cho bạn làn da căng
-                            tràn "sức trẻ", trắng mịn và thuần khiết hơn bao giờ hết vì khả năng:<br>
-                            + Thẩm thấu tinh chất và dưỡng phục hồi cấu trúc da<br>
-                            + Hỗ trợ giúp tuần hoàn máu da mặt, thải độc, thanh lọc làn da<br>
-                            + Se khít lỗ chân lông, nâng tông da, tăng độ đàn hồi và săn chắc của da<br>
-                            + Dưỡng ẩm tạo màng kéo dài<br>
-                            + Tái tạo da, chống nhăn và lão hoá: cải thiện tình trạng da thô sần, tăng độ
-                            săn<br>
-                            chắc và sáng bóng cho da, cải thiện nếp nhăn trên da bị lão hoá<br>
-                            ➡ Sản phẩm đã được kiểm chứng hiệu quả ngay cả trên da nhạy cảm. Hãy để PURIENCE CREAM
-                            & MASK thay bạn chăm sóc làn da mỗi ngày!<br>
-                        </p>
-                    </div>
-                </div>
-                <div class="r pt-4 pb-3">
-                    <div class="c-s-12 c-m-3 c-l-3">
-                        <img class="animated wow fadeInLeft img_post_6" data-wow delay="1s" src="/Images/chamsocsacdep/An_post_6.png">
-                    </div>
-                    <div class="c-s-12 c-m-3 c-l-3 An_post_8">
-                        <h4 style="text-align: center"><i class="fas fa-caret-right"></i>PURIENCE_CREAM</h4>
-                        - Sử dụng sản phẩm sáng và tối<br>
-                        - Làm sạch da mặt &dưỡng da cơ bản<br>
-                        - Lấy 1 lượng nhỏ kem như hạt ngọc trai chấm lên vùng trán, hai má và cằm<br>
-                        - Thoa đều nhẹ nhàng theo chuyển động tròn từ trong ra ngoài để dưỡng chất thẩm thấu
-                        sâu vào da<br>
-                    </div>
-                    <div class="c-s-12 c-m-3 c-l-3">
-                        <img class="animated wow fadeInLeft img_post_7" data-wow delay="1s" src="/Images/chamsocsacdep/An_post_5.png">
-                    </div>
-                    <div class="c-s-12 c-m-3 c-l-3 An_post_9">
-                        <h4 style="text-align: center"><i class="fas fa-caret-right"></i>MẶT NẠ DƯỠNG DA:</h4>
-                        - Làm sạch da cơ bản<br>
-                        - Đắp mặt nạ, căn chỉnh vừa với khuôn mặt<br>
-                        - Vỗ nhẹ và chờ 5-15 p cho tinh chất thẩm thấu<br>
-                        - Massage tinh chất nhẹ và đều toàn vùng mặt và cổ<br>
-                        - Rửa sạch mặt bằng nước<br>
-                    </div>
+﻿<div class="r pt-4">
+    <div class="c-s-12 c-m-7 c-l-7 pt-2 post_4_1">
+        <p style="text-indent: 50px">Chắc chắn rất nhiều bạn gái hiện nay đã sở hữu cho mình
+            không ít hơn 3 loại mỹ phẩm
+            nào là toner, xịt khoáng, tẩy tế bào chết, dưỡng ẩm hay serum,...</p>
+        <p style="text-indent: 50px">Nhưng các nàng ơi, dù là vậy nhưng chúng ta đang chưa thật
+            sự được "skincare" một cách tối đa và triệt để</p>
+        <p style="text-indent: 50px">Chúng mình đã quên rằng làn da từ 20 tuổi trở đi đã bắt đầu bị
+            lão hóa, đặc biệt với
+            thời tiết, môi trường và nhiều tác động xấu như hiện nay thì lão hóa sẽ diễn ra rất
+            nhanh. Và "đỉnh điểm" ở mốc 30 tuổi, làn da sẽ "tuột dốc không phanh"</p>
+    </div>
+    <div class="c-s-12 c-m-5 c-l-5">
+        <img class="animated wow fadeInLeft img_post_4" data-wow delay="1s" src="/Images/chamsocsacdep/An_post_4.png">
+    </div>
+</div>
+<div class="r pt-4">
+    <div class="c-s-12 c-m-4 c-l-4">
+        <img class="animated wow fadeInLeft img_post_5" data-wow delay="1s" src="/Images/chamsocsacdep/An_post_7.png">
+    </div>
+    <div class="c-s-12 c-m-8 c-l-8">
+        <p>
+            - Bộ kem và mặt nạ tái tạo da của PURIENCE đến từ Hàn Quốc sẽ "lo toan" hộ bạn tất cả
+            vấn đề này nhé!<br>
+            - Medibless đã kết hợp đỉnh cao công nghệ tự thực bào (Đoạt giải Nobel Y học
+            2016) cùng với thành phần siêu cấp ẩm Beta Glucan mang đến cho bạn làn da căng
+            tràn "sức trẻ", trắng mịn và thuần khiết hơn bao giờ hết vì khả năng:<br>
+            + Thẩm thấu tinh chất và dưỡng phục hồi cấu trúc da<br>
+            + Hỗ trợ giúp tuần hoàn máu da mặt, thải độc, thanh lọc làn da<br>
+            + Se khít lỗ chân lông, nâng tông da, tăng độ đàn hồi và săn chắc của da<br>
+            + Dưỡng ẩm tạo màng kéo dài<br>
+            + Tái tạo da, chống nhăn và lão hoá: cải thiện tình trạng da thô sần, tăng độ
+            săn<br>
+            chắc và sáng bóng cho da, cải thiện nếp nhăn trên da bị lão hoá<br>
+            ➡ Sản phẩm đã được kiểm chứng hiệu quả ngay cả trên da nhạy cảm. Hãy để PURIENCE CREAM
+            & MASK thay bạn chăm sóc làn da mỗi ngày!<br>
+        </p>
+    </div>
+</div>
+<div class="r pt-4 pb-3">
+    <div class="c-s-12 c-m-3 c-l-3">
+        <img class="animated wow fadeInLeft img_post_6" data-wow delay="1s" src="/Images/chamsocsacdep/An_post_6.png">
+    </div>
+    <div class="c-s-12 c-m-3 c-l-3 An_post_8">
+        <h4 style="text-align: center"><i class="fas fa-caret-right"></i>PURIENCE_CREAM</h4>
+        - Sử dụng sản phẩm sáng và tối<br>
+        - Làm sạch da mặt &dưỡng da cơ bản<br>
+        - Lấy 1 lượng nhỏ kem như hạt ngọc trai chấm lên vùng trán, hai má và cằm<br>
+        - Thoa đều nhẹ nhàng theo chuyển động tròn từ trong ra ngoài để dưỡng chất thẩm thấu
+        sâu vào da<br>
+    </div>
+    <div class="c-s-12 c-m-3 c-l-3">
+        <img class="animated wow fadeInLeft img_post_7" data-wow delay="1s" src="/Images/chamsocsacdep/An_post_5.png">
+    </div>
+    <div class="c-s-12 c-m-3 c-l-3 An_post_9">
+        <h4 style="text-align: center"><i class="fas fa-caret-right"></i>MẶT NẠ DƯỠNG DA:</h4>
+        - Làm sạch da cơ bản<br>
+        - Đắp mặt nạ, căn chỉnh vừa với khuôn mặt<br>
+        - Vỗ nhẹ và chờ 5-15 p cho tinh chất thẩm thấu<br>
+        - Massage tinh chất nhẹ và đều toàn vùng mặt và cổ<br>
+        - Rửa sạch mặt bằng nước<br>
+    </div>
 
-                </div>
-                <div class="r pb-4 post4_2">
-                    <div class="c-s-12 c-m-12 c-l-12">
-                        <h4 class="text-center mt-4 mb-3 text-blue text-dark  mr-5 f-s-180  wow fadeInLeft animated"
-                            style="visibility: visible; animation-name: fadeInLeft;">
-                            LIÊN HỆ NGAY
-                        </h4>
+</div>
+<div class="r pb-4 post4_2">
+    <div class="c-s-12 c-m-12 c-l-12">
+        <h4 class="text-center mt-4 mb-3 text-blue text-dark  mr-5 f-s-180  wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+            LIÊN HỆ NGAY
+        </h4>
 
-                        <h3 class="text-center mb-2">Nhà cung cấp thiết bị thẩm mỹ & mỹ phẩm chăm sóc da chuyên
-                            sâu: <br>G&BVietNam,
-                            JSC - Global
-                            Business Healthcare</h3>
-                        <div class="center" style="width: fit-content">
-                            <i class="mt-1 mb-1 fa fa-2x fa-envelope text-blue" aria-hidden="true"></i>
-                            <span class="ml-3 text-dark">Email: ngocmedibless@gmail.com</span><br>
-                            <i class="mt-1 mb-1 fa fa-2x fa-phone text-blue" aria-hidden="true"></i>
-                            <span class="ml-3 text-dark">Hotline: 028 6684 6639</span><br>
-                            <i class="mt-1 mb-1 fa fa-2x fa-mobile-alt text-blue" aria-hidden="true"></i>
-                            <span class="ml-3 text-dark">Mobile Phone: 0825 58 39 90 (Ms. Ngọc) - 0932 69 25 40
-                                (Mr. Cường)</span><br>
-                            <i class="mt-1 mb-1 fa fa-2x fa-map-marker text-blue center_col" aria-hidden="true"></i>
-                            <span class="ml-3 text-dark">Địa chỉ: 101 Khu công nghệ phần mềm, KP6, Linh Trung, Thủ
-                                Đức, HCM</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <h3 class="text-center mb-2">Nhà cung cấp thiết bị thẩm mỹ & mỹ phẩm chăm sóc da chuyên
+            sâu: <br>G&BVietNam,
+            JSC - Global
+            Business Healthcare</h3>
+        <div class="center" style="width: fit-content">
+            <i class="mt-1 mb-1 fa fa-2x fa-envelope text-blue" aria-hidden="true"></i>
+            <span class="ml-3 text-dark">Email: ngocmedibless@gmail.com</span><br>
+            <i class="mt-1 mb-1 fa fa-2x fa-phone text-blue" aria-hidden="true"></i>
+            <span class="ml-3 text-dark">Hotline: 028 6684 6639</span><br>
+            <i class="mt-1 mb-1 fa fa-2x fa-mobile-alt text-blue" aria-hidden="true"></i>
+            <span class="ml-3 text-dark">Mobile Phone: 0825 58 39 90 (Ms. Ngọc) - 0932 69 25 40
+                (Mr. Cường)</span><br>
+            <i class="mt-1 mb-1 fa fa-2x fa-map-marker text-blue center_col" aria-hidden="true"></i>
+            <span class="ml-3 text-dark">Địa chỉ: 101 Khu công nghệ phần mềm, KP6, Linh Trung, Thủ
+                Đức, HCM</span>
         </div>
+    </div>
+</div>
