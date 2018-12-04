@@ -162,6 +162,33 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helper\Breadcrumb.cs" />
+    <Compile Include="Model\AnzamtechModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnzamtechModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AnzamtechModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnzamtechModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AnzamtechModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnzamtechModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BaiViet.cs">
+      <DependentUpon>AnzamtechModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BCrypt.cs" />
+    <Compile Include="Model\CommonFunction.cs" />
+    <Compile Include="Model\Constants.cs" />
+    <Compile Include="Model\DanhMucBaiViet.cs">
+      <DependentUpon>AnzamtechModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\NhanVien.cs">
+      <DependentUpon>AnzamtechModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -174,6 +201,8 @@
     <Content Include="Content\Admin\fonts\educate-icon.svg" />
     <Content Include="Content\Admin\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\Admin\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Admin\notifications\Lobibox.min.css" />
+    <Content Include="Content\Admin\notifications\notifications.css" />
     <Content Include="Content\fonts\educate-icon.svg" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
@@ -265,6 +294,7 @@
     <Content Include="Images\01.jpg" />
     <Content Include="Images\0819fb80f43c480677c0385b060aebd6.jpg" />
     <Content Include="Images\6lo.png" />
+    <Content Include="Images\Admin\Employee\xthuy.jpg" />
     <Content Include="Images\backgroundlightoxs.jpg" />
     <Content Include="Images\background_inno.jpg" />
     <Content Include="Images\background_main.jpg" />
@@ -560,6 +590,16 @@
     <Content Include="Images\vital_banner.jpg" />
     <Content Include="Images\vt.png" />
     <Content Include="Images\vt_model2.png" />
+    <Content Include="Model\AnzamtechModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AnzamtechModel.edmx</DependentUpon>
+      <LastGenOutput>AnzamtechModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model\AnzamtechModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AnzamtechModel.edmx</DependentUpon>
+      <LastGenOutput>AnzamtechModel.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\Admin\bootstrap.min.js" />
     <Content Include="Scripts\Admin\jquery-price-slider.js" />
     <Content Include="Scripts\Admin\jquery.meanmenu.js" />
@@ -568,6 +608,8 @@
     <Content Include="Scripts\Admin\main.js" />
     <Content Include="Scripts\Admin\metisMenu\metisMenu-active.js" />
     <Content Include="Scripts\Admin\metisMenu\metisMenu.min.js" />
+    <Content Include="Scripts\Admin\notifications\Lobibox.js" />
+    <Content Include="Scripts\Admin\notifications\notification-active.js" />
     <Content Include="Scripts\Admin\owl.carousel.min.js" />
     <Content Include="Scripts\Admin\plugins.js" />
     <Content Include="Scripts\Admin\scrollbar\jquery.mCustomScrollbar.concat.min.js" />
@@ -593,23 +635,14 @@
     <Content Include="Scripts\swiper.min.js" />
     <Content Include="Scripts\tintuc.js" />
     <Content Include="Scripts\wow.min.js" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\User\Models\" />
+    <Folder Include="File\CauHoiThuongGap\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\User\Views\web.config" />
     <Content Include="Areas\User\Views\_ViewStart.cshtml" />
     <Content Include="Areas\User\Views\Shared\_LayoutHomepage.cshtml" />
@@ -617,7 +650,6 @@
     <Content Include="Areas\User\Views\LienHe\Index.cshtml" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Admin\Views\Shared\UploadLayout.cshtml" />
     <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
     <Content Include="Areas\User\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\User\Views\SanPham\Innojector.cshtml" />
@@ -661,10 +693,26 @@
     <Content Include="Content\Admin\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\Admin\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\Admin\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <EntityDeploy Include="Model\AnzamtechModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AnzamtechModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Model\AnzamtechModel.edmx.diagram">
+      <DependentUpon>AnzamtechModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Areas\Admin\Views\Home\Login.cshtml" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="Scripts\paritcals.json" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
