@@ -1,63 +1,47 @@
 ﻿<div class="container" id="bai1">
-            <div class="con" id="main1">
-                <div class="r">
-                    <div class="c-s-12 c-m-12 c-l-12" id="header1">
-                        <div class="stickyBody" id="stickyBody" style="margin-top: 68px">
-                            <h2 class="animated bounceInDown delay-0.8s" id="title">TÁI SINH LÀN DA TRẮNG SÁNG VÀ THUẦN KHIẾT THU HÚT MỌI ÁNH NHÌN</h2>
-                            <br>
-                            <ul class="d-f ml-2 mb-0 mt-2">
-                                <li class=""><i class="fa fa-calendar pr-1"></i>Nov 13, 2018</li>
-                                <li class="ml-3"><i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                        target="blank">Trà Đức Anh</a></li>
-                            </ul>
-                            <hr>
-                        </div>
-                    </div>
-                </div>
-                <div class="c-s-12 c-m-12 c-l-12">
-                    <h3 id="subtitle">Làm sao để sở dữu làn da tươi trắng?</h3><br>
-                    <div class="r">
-                        <div class="c-s-2 c-m-2 c-l-2"></div>
-                        <div class="c-s-8 c-m-8 c-l-8">
-                            <p>Sở hữu làn da trắng sứ mịn màng luôn là niềm tự hào của phụ nữ Á đông, tuy nhiên để da
-                                luôn
-                                trắng khoẻ tự nhiên căng tràn sức sống, nàng hãy thuộc nằm lòng những quy tắc dưới đây:
-                            </p>
-                            <ul>
-                                <li>👉Chống nắng mỗi ngày, không bao giờ được quên!</li>
-                                <li>👉Tẩy tế bào chết đều đặn 1-2 lần/tuần: Tăng khả năng tái sinh của da.</li>
-                                <li>👉Uống nhiều nước và bổ sung các sản phẩm chứa nhiều vitamin C. </li>
-                                <li>👉Dưỡng ẩm đầy đủ.</li>
-                                <li>👉Sử dụng các sản phẩm dưỡng trắng chuyên sâu uy tín: Nói không với các sản phẩm
-                                    trôi
-                                    nổi và
-                                    chỉ đem lại hiệu quả nhất thời.</li>
-                            </ul>
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="c-s-2 c-m-2 c-l-2"></div>
-
-                    <h4 class="text-center mt-3 mb-3 text-blue text-dark  mr-5 f-s-180  wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
-                        LIÊN HỆ NGAY
-                    </h4>
-                    <h3 class="text-center mb-2">Nhà cung cấp thiết bị thẩm mỹ & mỹ phẩm chăm sóc da chuyên
-                        sâu: <br>G&BVietNam,
-                        JSC - Global
-                        Business Healthcare</h3>
-                    <div class="center" style="width: fit-content">
-                        <i class="mt-1 mb-1 fa fa-2x fa-envelope text-blue" aria-hidden="true"></i>
-                        <span class="ml-3 text-dark">Email: ngocmedibless@gmail.com</span><br>
-                        <i class="mt-1 mb-1 fa fa-2x fa-phone text-blue" aria-hidden="true"></i>
-                        <span class="ml-3 text-dark">Hotline: 028 6684 6639</span><br>
-                        <i class="mt-1 mb-1 fa fa-2x fa-mobile-alt text-blue" aria-hidden="true"></i>
-                        <span class="ml-3 text-dark">Mobile Phone: 0825 58 39 90 (Ms. Ngọc) - 0932 69 25 40
-                            (Mr. Cường)</span><br>
-                        <i class="mt-1 mb-3 fa fa-2x fa-map-marker text-blue center_col" aria-hidden="true"></i>
-                        <span class="ml-3 text-dark">Địa chỉ: 101 Khu công nghệ phần mềm, KP6, Linh Trung,
-                            Thủ
-                            Đức, HCM</span>
-                    </div>
+    <div class="con" id="main1">
+        <div class="c-s-12 c-m-12 c-l-12">
+            <h3 id="subtitle">Làm sao để sở dữu làn da tươi trắng?</h3><br>
+            <div class="r">
+                <div class="c-12">
+                    <p>Sở hữu làn da trắng sứ mịn màng luôn là niềm tự hào của phụ nữ Á đông, tuy nhiên để da
+                        luôn
+                        trắng khoẻ tự nhiên căng tràn sức sống, nàng hãy thuộc nằm lòng những quy tắc dưới đây:
+                    </p>
+                    <ul>
+                        <li>👉Chống nắng mỗi ngày, không bao giờ được quên!</li>
+                        <li>👉Tẩy tế bào chết đều đặn 1-2 lần/tuần: Tăng khả năng tái sinh của da.</li>
+                        <li>👉Uống nhiều nước và bổ sung các sản phẩm chứa nhiều vitamin C. </li>
+                        <li>👉Dưỡng ẩm đầy đủ.</li>
+                        <li>👉Sử dụng các sản phẩm dưỡng trắng chuyên sâu uy tín: Nói không với các sản phẩm
+                            trôi
+                            nổi và
+                            chỉ đem lại hiệu quả nhất thời.</li>
+                    </ul>
+                    <hr>
                 </div>
             </div>
+
+            <h4 class="text-center mt-3 mb-3 text-blue text-dark  mr-5 f-s-180  wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+                LIÊN HỆ NGAY
+            </h4>
+            <h3 class="text-center mb-2">Nhà cung cấp thiết bị thẩm mỹ & mỹ phẩm chăm sóc da chuyên
+                sâu: <br>G&BVietNam,
+                JSC - Global
+                Business Healthcare</h3>
+            <div class="center" style="width: fit-content">
+                <i class="mt-1 mb-1 fa fa-2x fa-envelope text-blue" aria-hidden="true"></i>
+                <span class="ml-3 text-dark">Email: ngocmedibless@gmail.com</span><br>
+                <i class="mt-1 mb-1 fa fa-2x fa-phone text-blue" aria-hidden="true"></i>
+                <span class="ml-3 text-dark">Hotline: 028 6684 6639</span><br>
+                <i class="mt-1 mb-1 fa fa-2x fa-mobile-alt text-blue" aria-hidden="true"></i>
+                <span class="ml-3 text-dark">Mobile Phone: 0825 58 39 90 (Ms. Ngọc) - 0932 69 25 40
+                    (Mr. Cường)</span><br>
+                <i class="mt-1 mb-3 fa fa-2x fa-map-marker text-blue center_col" aria-hidden="true"></i>
+                <span class="ml-3 text-dark">Địa chỉ: 101 Khu công nghệ phần mềm, KP6, Linh Trung,
+                    Thủ
+                    Đức, HCM</span>
+            </div>
         </div>
+    </div>
+</div>

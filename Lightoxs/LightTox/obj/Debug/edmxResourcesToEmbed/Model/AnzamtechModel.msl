@@ -4,12 +4,13 @@
     <EntitySetMapping Name="BaiViets">
       <EntityTypeMapping TypeName="AnzamtechModel.BaiViet">
         <MappingFragment StoreEntitySet="BaiViet">
+          <ScalarProperty Name="NgayDienRa" ColumnName="NgayDienRa" />
           <ScalarProperty Name="MaBV" ColumnName="MaBV" />
           <ScalarProperty Name="MaDMA" ColumnName="MaDMA" />
           <ScalarProperty Name="TenBV" ColumnName="TenBV" />
           <ScalarProperty Name="NgayDang" ColumnName="NgayDang" />
           <ScalarProperty Name="MoTa" ColumnName="MoTa" />
-          <ScalarProperty Name="NoiDung_URL" ColumnName="NoiDung_URL" />
+          <ScalarProperty Name="NoiDung" ColumnName="NoiDung" />
           <ScalarProperty Name="LinkFB" ColumnName="LinkFB" />
           <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
         </MappingFragment>
@@ -35,6 +36,17 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="TinNhans">
+      <EntityTypeMapping TypeName="AnzamtechModel.TinNhan">
+        <MappingFragment StoreEntitySet="TinNhan">
+          <ScalarProperty Name="TinNhan_ID" ColumnName="TinNhan_ID" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="TieuDe" ColumnName="TieuDe" />
+          <ScalarProperty Name="NoiDung" ColumnName="NoiDung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <AssociationSetMapping Name="FK_BaiViet_DanhMucBaiViet" TypeName="AnzamtechModel.FK_BaiViet_DanhMucBaiViet" StoreEntitySet="BaiViet">
       <EndProperty Name="DanhMucBaiViet">
         <ScalarProperty Name="MaDMBV" ColumnName="MaDMBV" />
@@ -42,7 +54,6 @@
       <EndProperty Name="BaiViet">
         <ScalarProperty Name="MaBV" ColumnName="MaBV" />
       </EndProperty>
-      <Condition IsNull="false" ColumnName="MaDMBV" />
     </AssociationSetMapping>
     <AssociationSetMapping Name="FK_BaiViet_NhanVien" TypeName="AnzamtechModel.FK_BaiViet_NhanVien" StoreEntitySet="BaiViet">
       <EndProperty Name="NhanVien">

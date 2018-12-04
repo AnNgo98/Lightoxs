@@ -4610,7 +4610,7 @@ header.fixed .header3 {
         margin-top: 40px;
     }
 
-        .blog-three .pagination-box ul li button {
+        .blog-three .pagination-box ul li a {
             font-size: 18px;
             color: #00a3c8;
             width: 40px;
@@ -4625,12 +4625,12 @@ header.fixed .header3 {
             border: none;
         }
 
-            .blog-three .pagination-box ul li button:hover {
+            .blog-three .pagination-box ul li a:hover {
                 background: #00a3c8;
                 color: #fff;
             }
 
-        .blog-three .pagination-box ul li.active button {
+        .blog-three .pagination-box ul li.active a {
             background: #00a3c8;
             color: #fff;
         }
@@ -4670,7 +4670,7 @@ header.fixed .header3 {
         height: 45px;
         border: 1px solid #dddddd;
         padding-left: 15px;
-        margin-bottom: 25px;
+        margin-top: 25px;
     }
 
 input::placeholder, textarea::placeholder {

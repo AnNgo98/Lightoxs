@@ -19,9 +19,10 @@ namespace Lightoxs.Model
         public string TenBV { get; set; }
         public System.DateTime NgayDang { get; set; }
         public string MoTa { get; set; }
-        public string NoiDung_URL { get; set; }
+        public string NoiDung { get; set; }
         public string LinkFB { get; set; }
         public Nullable<int> TrangThai { get; set; }
+        public Nullable<System.DateTime> NgayDienRa { get; set; }
     
         public virtual DanhMucBaiViet DanhMucBaiViet { get; set; }
         public virtual NhanVien NhanVien { get; set; }

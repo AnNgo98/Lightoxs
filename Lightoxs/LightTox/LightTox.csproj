@@ -180,13 +180,16 @@
     <Compile Include="Model\BaiViet.cs">
       <DependentUpon>AnzamtechModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\BCrypt.cs" />
     <Compile Include="Model\CommonFunction.cs" />
     <Compile Include="Model\Constants.cs" />
     <Compile Include="Model\DanhMucBaiViet.cs">
       <DependentUpon>AnzamtechModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\NhanVien.cs">
+      <DependentUpon>AnzamtechModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\StringUrl.cs" />
+    <Compile Include="Model\TinNhan.cs">
       <DependentUpon>AnzamtechModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -201,6 +204,8 @@
     <Content Include="Content\Admin\fonts\educate-icon.svg" />
     <Content Include="Content\Admin\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\Admin\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Admin\form\all-type-forms.css" />
+    <Content Include="Content\Admin\form\themesaller-forms.css" />
     <Content Include="Content\Admin\notifications\Lobibox.min.css" />
     <Content Include="Content\Admin\notifications\notifications.css" />
     <Content Include="Content\fonts\educate-icon.svg" />
@@ -294,7 +299,7 @@
     <Content Include="Images\01.jpg" />
     <Content Include="Images\0819fb80f43c480677c0385b060aebd6.jpg" />
     <Content Include="Images\6lo.png" />
-    <Content Include="Images\Admin\Employee\xthuy.jpg" />
+    <Content Include="Images\Admin\Employee\admin.png" />
     <Content Include="Images\backgroundlightoxs.jpg" />
     <Content Include="Images\background_inno.jpg" />
     <Content Include="Images\background_main.jpg" />
@@ -640,7 +645,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\User\Models\" />
-    <Folder Include="File\CauHoiThuongGap\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\User\Views\web.config" />
@@ -694,6 +698,7 @@
     <Content Include="Content\Admin\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\Admin\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Home\Login.cshtml" />
     <EntityDeploy Include="Model\AnzamtechModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>AnzamtechModel.Designer.cs</LastGenOutput>
@@ -701,7 +706,6 @@
     <Content Include="Model\AnzamtechModel.edmx.diagram">
       <DependentUpon>AnzamtechModel.edmx</DependentUpon>
     </Content>
-    <Content Include="Areas\Admin\Views\Home\Login.cshtml" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="Scripts\paritcals.json" />

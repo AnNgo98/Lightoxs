@@ -28,5 +28,6 @@ namespace Lightoxs.Model
         public virtual DbSet<BaiViet> BaiViets { get; set; }
         public virtual DbSet<DanhMucBaiViet> DanhMucBaiViets { get; set; }
         public virtual DbSet<NhanVien> NhanViens { get; set; }
+        public virtual DbSet<TinNhan> TinNhans { get; set; }
     }
 }

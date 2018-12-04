@@ -13,44 +13,68 @@ namespace LightTox.Areas.Admin.Controllers
     {
         AnzamtechEntities db = new AnzamtechEntities();
 
-        // GET: Admin/Home
+
         [HttpGet]
         public ActionResult Index()
         {
+            if (TempData["addNewPost"] != null && TempData["addNewPost"].ToString() != "")
+            {
+                ViewBag.AddNewPost = TempData["addNewPost"].ToString();
+            }
+
             return View();
         }
 
         [HttpPost, ValidateInput(false)]
-        public ActionResult Index(string title, string contentPost, string typeOfNews)
+        public ActionResult Index(string title, string description, string contentPost, string typeOfNews)
         {
             string path = "";
+
+            string fileName = CommonFunction.Instance.RemoveUnicode((title + "-" + DateTime.Now.ToString())).Replace(" ", "-") + ".txt";
+
             if (typeOfNews == "1")
             {
-                path = Path.Combine(Server.MapPath(Constants.NEWS_EvWo_FILE_URL), CommonFunction.hashSHA256("XT~|KT") + ".txt");
-                ViewBag.typeOfNews = "EvWo";
+                path = Path.Combine(Server.MapPath(Constants.NEWS_EvWo_FILE_URL), fileName);
             }
             else if (typeOfNews == "2")
             {
-                path = Path.Combine(Server.MapPath(Constants.NEWS_APKH_FILE_URL), CommonFunction.hashSHA256("XT~|KT") + ".txt");
-                ViewBag.typeOfNews = "APKH";
+                path = Path.Combine(Server.MapPath(Constants.NEWS_APKH_FILE_URL), fileName);
             }
             else if (typeOfNews == "3")
             {
-                path = Path.Combine(Server.MapPath(Constants.NEWS_CSSD_FILE_URL), CommonFunction.hashSHA256("XT~|KT") + ".txt");
-                ViewBag.typeOfNews = "CSSD";
+                path = Path.Combine(Server.MapPath(Constants.NEWS_CSSD_FILE_URL), fileName);
             }
             else if (typeOfNews == "4")
             {
-                path = Path.Combine(Server.MapPath(Constants.NEWS_CHTG_FILE_URL), CommonFunction.hashSHA256("XT~|KT") + ".txt");
-                ViewBag.typeOfNews = "CHTG";
+                path = Path.Combine(Server.MapPath(Constants.NEWS_CHTG_FILE_URL), fileName);
             }
+
+
 
             using (var tw = new StreamWriter(path, true))
             {
                 tw.WriteLine(contentPost);
             }
 
-            return View("Index");
+            NhanVien nv = Session["Account"] as NhanVien;
+
+            BaiViet bv = new BaiViet();
+            bv.NhanVien = db.NhanViens.Find(nv.MaNV);
+            bv.TenBV = title;
+            bv.NgayDang = DateTime.Now;
+            bv.DanhMucBaiViet = db.DanhMucBaiViets.Single(n => n.MaDMBV.ToString() == typeOfNews);
+
+            bv.MoTa = contentPost.Substring(0, 320);
+
+            bv.NoiDung = fileName;
+
+            db.BaiViets.Add(bv);
+
+            db.SaveChanges();
+
+            TempData["addNewPost"] = "OK";
+
+            return RedirectToAction("Index");
         }
 
         [HttpGet]

@@ -37,7 +37,7 @@
                                                             </div>
 
                                                             <textarea type="text" id="summernote" name="contentPost"></textarea>
-
+                                                            <input id="plainText" type="text" name="description" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -75,10 +75,18 @@
 
 
 <script type="text/javascript">
-    var type = '@ViewBag.typeOfNews';
+
+    var type = '@ViewBag.AddNewPost';
     if (type !== null && type !== "") {
         Lobibox.notify('success', {
             msg: 'Add new post successed'
         });
     }
+    
+    $(function () {
+        // When the summernote instance loses focus, update the content of your <textarea>
+        $("#summernote").on('summernote.blur', function () {
+            $("#plainText").val($($("#summernote").summernote("code")).text());
+        });
+    });
 </script> 

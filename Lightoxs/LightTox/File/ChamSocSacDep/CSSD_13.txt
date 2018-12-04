@@ -1,134 +1,124 @@
 ﻿<div class="container" id="bai1">
-            <div class="con" id="main1">
+    <div class="con" id="main1">
+        <div class="r">
+            <div class="c-s-12 c-m-12 c-l-12" id="header1">
+                <div class="c-s-12 c-m-12 c-l-12">
+                    <h3 id="subtitle">PURIENCE CREAM & MASK - Thay bạn chăm sóc làn da mỗi ngày</h3><br>
+                    <div class="r">
+                        <div class="c-s-12 c-m-2 c-l-2"></div>
+                        <div class="c-s-12 c-m-8 c-l-8">
+                            <img src="/Images/chamsocsacdep/Viet1.png" class="Hinh1_1"></div>
+                        <div class="c-s-12 c-m-2 c-l-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c-s-12 c-m-12 c-l-12">
                 <div class="r">
-                    <div class="c-s-12 c-m-12 c-l-12" id="header1">
-                        <div class="stickyBody" id="stickyBody" style="margin-top: 78px">
-                            <h2 class="animated bounceInDown delay-0.8s" id="title">LẤY LẠI SỰ TƯƠI TRẺ - PHỤC HỒI SỨC KHỎE CHO LÀN DA </h2>
-                            <ul class="d-f ml-2 mb-0 mt-2">
-                                <li class=""><i class="fa fa-calendar pr-1"></i>Nov 13, 2018</li>
-                                <li class="ml-3"><i class="fa fa-user-o"></i><a href="https://www.facebook.com/ducanh.tra.3"
-                                        target="blank">Trà Đức Anh</a></li>
-                            </ul>
-                            <br>
-                            <hr><br>
-                        </div>
-                        <div class="c-s-12 c-m-12 c-l-12">
-                            <h3 id="subtitle">PURIENCE CREAM & MASK - Thay bạn chăm sóc làn da mỗi ngày</h3><br>
-                            <div class="r">
-                                <div class="c-s-12 c-m-2 c-l-2"></div>
-                                <div class="c-s-12 c-m-8 c-l-8">
-                                    <img src="/Images/chamsocsacdep/Viet1.png" class="Hinh1_1"></div>
-                                <div class="c-s-12 c-m-2 c-l-2"></div>
-                            </div>
-                        </div>
+                    <div class="c-s-2 c-m-2 c-l-2"></div>
+                    <div class="c-s-8 c-m-8 c-l-8" id="list1">
+                        <p>PURIENCE chính là bộ mỹ phẩm Hàn Quốc đã làm "điên đảo" chị em Châu Á trong thời
+                            gian
+                            gần đây
+                            bởi 5
+                            công dụng giải quyết "tất tần tật" vấn đề về da mà chị em nào cũng gặp phải nhưng
+                            chỉ
+                            trong 2
+                            sản phẩm:</p>
+                        <ul>
+                            <li> 💓 Tái tạo làn da, cải thiện nếp nhăn (tăng độ săn chắc & sáng bóng)</li>
+                            <li> 💓 Tăng cường tính chống oxi hóa (làm trắng căng da, se khít lỗ chân lông)</li>
+                            <li> 💓 Chống viêm, điều trị thâm, mụn (lên đến 65%)</li>
+                            <li> 💓 Dưỡng ẩm cho da, phục hồi cấu trúc da</li>
+                            <li> 💓 Tạo lớp màng bảo vệ da 1 cách tự nhiên và tăng khả năng phục hồi da bị tổn
+                                thương</li>
+                        </ul>
                     </div>
-
-                    <div class="c-s-12 c-m-12 c-l-12">
-                        <div class="r">
-                            <div class="c-s-2 c-m-2 c-l-2"></div>
-                            <div class="c-s-8 c-m-8 c-l-8" id="list1">
-                                <p>PURIENCE chính là bộ mỹ phẩm Hàn Quốc đã làm "điên đảo" chị em Châu Á trong thời
-                                    gian
-                                    gần đây
-                                    bởi 5
-                                    công dụng giải quyết "tất tần tật" vấn đề về da mà chị em nào cũng gặp phải nhưng
-                                    chỉ
-                                    trong 2
-                                    sản phẩm:</p>
-                                <ul>
-                                    <li> 💓 Tái tạo làn da, cải thiện nếp nhăn (tăng độ săn chắc & sáng bóng)</li>
-                                    <li> 💓 Tăng cường tính chống oxi hóa (làm trắng căng da, se khít lỗ chân lông)</li>
-                                    <li> 💓 Chống viêm, điều trị thâm, mụn (lên đến 65%)</li>
-                                    <li> 💓 Dưỡng ẩm cho da, phục hồi cấu trúc da</li>
-                                    <li> 💓 Tạo lớp màng bảo vệ da 1 cách tự nhiên và tăng khả năng phục hồi da bị tổn
-                                        thương</li>
-                                </ul>
-                            </div>
-                            <div class="c-s-2 c-m-2 c-l-2"></div>
-                        </div>
-                    </div>
+                    <div class="c-s-2 c-m-2 c-l-2"></div>
                 </div>
-                <div class="c-s-12 c-m-12 c-l-12">
-                    <div class="r">
-                        <div class="c-s-2 c-m-2 c-l-2"></div>
-                        <div class="c-s-8 c-m-8 c-l-8">
-                            <img class="purrience_cream" src="/Images/chamsocsacdep/purrience_cream.png">
-                        </div>
-                        <div class="c-s-2 c-m-2 c-l-2"></div>
-                    </div>
-                    <div class="c-s-12 c-m-12 c-l-12">
-                        <div class="r">
-                            <div class="c-s-2 c-m-2 c-l-2"></div>
-                            <div class="c-s-8 c-m-8 c-l-8" id="param1_2">
-                                <p>"Cặp bày trùng" này trở nên đặc biệt là nhờ thành phần: </p>
-                                <ul>
-                                    <li> ✔ AQUATIDE 5000 kết hợp với AUTOPHAGY - cơ chế tự thực bào (Đoạt giải
-                                        Nobel Y
-                                        học
-                                        2016): thay đổi cấu trúc tế bào và tự sản sinh thành những tế bào mới giúp ngăn
-                                        ngừa
-                                        lão
-                                        hóa của làn da.</li>
-                                    <li> ✔ Siêu cấp ẩm Beta Glucan: thẩm thấu tinh chất và dưỡng phục hồi cấu
-                                        trúc da</li>
-                                </ul>
-                                <p> ➡ Nếu làn da các cô gái đang bị hư tổn và cần phục hồi thì purience hứa hẹn sẽ mang
-                                    đến
-                                    hiệu
-                                    quả cho bạn đến bất ngờ!</p>
-
-                                <p> ➡ Sản phẩm đã được kiểm chứng hiệu quả ngay cả trên da nhạy cảm</p>
-                                <div class="c-s-2 c-m-2 c-l-2"></div>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="c-s-12 c-m-12 c-l-12">
+            <div class="r">
+                <div class="c-s-2 c-m-2 c-l-2"></div>
+                <div class="c-s-8 c-m-8 c-l-8">
+                    <img class="purrience_cream" src="/Images/chamsocsacdep/purrience_cream.png">
                 </div>
+                <div class="c-s-2 c-m-2 c-l-2"></div>
+            </div>
+            <div class="c-s-12 c-m-12 c-l-12">
+                <div class="r">
+                    <div class="c-s-2 c-m-2 c-l-2"></div>
+                    <div class="c-s-8 c-m-8 c-l-8" id="param1_2">
+                        <p>"Cặp bày trùng" này trở nên đặc biệt là nhờ thành phần: </p>
+                        <ul>
+                            <li> ✔ AQUATIDE 5000 kết hợp với AUTOPHAGY - cơ chế tự thực bào (Đoạt giải
+                                Nobel Y
+                                học
+                                2016): thay đổi cấu trúc tế bào và tự sản sinh thành những tế bào mới giúp ngăn
+                                ngừa
+                                lão
+                                hóa của làn da.</li>
+                            <li> ✔ Siêu cấp ẩm Beta Glucan: thẩm thấu tinh chất và dưỡng phục hồi cấu
+                                trúc da</li>
+                        </ul>
+                        <p> ➡ Nếu làn da các cô gái đang bị hư tổn và cần phục hồi thì purience hứa hẹn sẽ mang
+                            đến
+                            hiệu
+                            quả cho bạn đến bất ngờ!</p>
 
-                <div class="c-s-12 c-m-12 c-l-12">
-                    <div class="r">
+                        <p> ➡ Sản phẩm đã được kiểm chứng hiệu quả ngay cả trên da nhạy cảm</p>
                         <div class="c-s-2 c-m-2 c-l-2"></div>
-                        <div class="c-s-8 c-m-8 c-l-8">
-                            <img class="purrience_mask" src="/Images/chamsocsacdep/purrience_mask.png">
-                        </div>
-                        <div class="c-s-2 c-m-2 c-l-2"></div>
-                    </div>
-                    <div class="c-s-12 c-m-12 c-l-12">
-                        <div class="r">
-                            <div class="c-s-2 c-m-2 c-l-2"></div>
-                            <div class="c-s-8 c-m-8 c-l-8" id="param1_3">
-                                <p>👉🏻Hiệu_quả đã được kiểm nghiệm lâm sàng:</p>
-                                <p> 🌸1-2 tuần sau khi sử dụng kem sẽ có tác dụng rõ rệt trong việc dưỡng ẩm và làm
-                                    trắng, trẻ
-                                    hóa
-                                    giảm nhăn</p>
-                                <p> 🌸Từ 2-4 tuần có kết quả rõ rệt trong việc làm dịu các vấn đề về mụn</p>
-
-                                <hr>
-                                <h4 class="text-center mt-3 mb-3 text-blue text-dark  mr-5 f-s-180  wow fadeInLeft animated"
-                                    style="visibility: visible; animation-name: fadeInLeft;">
-                                    LIÊN HỆ NGAY
-                                </h4>
-                                <h3 class="text-center mb-2">Nhà cung cấp thiết bị thẩm mỹ & mỹ phẩm chăm sóc da chuyên
-                                    sâu: <br>G&BVietNam,
-                                    JSC - Global
-                                    Business Healthcare</h3>
-                                <div class="center" style="width: fit-content">
-                                    <i class="mt-1 mb-1 fa fa-2x fa-envelope text-blue" aria-hidden="true"></i>
-                                    <span class="ml-3 text-dark">Email: ngocmedibless@gmail.com</span><br>
-                                    <i class="mt-1 mb-1 fa fa-2x fa-phone text-blue" aria-hidden="true"></i>
-                                    <span class="ml-3 text-dark">Hotline: 028 6684 6639</span><br>
-                                    <i class="mt-1 mb-1 fa fa-2x fa-mobile-alt text-blue" aria-hidden="true"></i>
-                                    <span class="ml-3 text-dark">Mobile Phone: 0825 58 39 90 (Ms. Ngọc) - 0932 69 25 40
-                                        (Mr. Cường)</span><br>
-                                    <i class="mt-1 mb-3 fa fa-2x fa-map-marker text-blue center_col" aria-hidden="true"></i>
-                                    <span class="ml-3 text-dark">Địa chỉ: 101 Khu công nghệ phần mềm, KP6, Linh Trung,
-                                        Thủ
-                                        Đức, HCM</span>
-                                </div>
-                                <div class="c-s-2 c-m-2 c-l-2"></div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="c-s-12 c-m-12 c-l-12">
+            <div class="r">
+                <div class="c-s-2 c-m-2 c-l-2"></div>
+                <div class="c-s-8 c-m-8 c-l-8">
+                    <img class="purrience_mask" src="/Images/chamsocsacdep/purrience_mask.png">
+                </div>
+                <div class="c-s-2 c-m-2 c-l-2"></div>
+            </div>
+            <div class="c-s-12 c-m-12 c-l-12">
+                <div class="r">
+                    <div class="c-s-2 c-m-2 c-l-2"></div>
+                    <div class="c-s-8 c-m-8 c-l-8" id="param1_3">
+                        <p>👉🏻Hiệu_quả đã được kiểm nghiệm lâm sàng:</p>
+                        <p> 🌸1-2 tuần sau khi sử dụng kem sẽ có tác dụng rõ rệt trong việc dưỡng ẩm và làm
+                            trắng, trẻ
+                            hóa
+                            giảm nhăn</p>
+                        <p> 🌸Từ 2-4 tuần có kết quả rõ rệt trong việc làm dịu các vấn đề về mụn</p>
+
+                        <hr>
+                        <h4 class="text-center mt-3 mb-3 text-blue text-dark  mr-5 f-s-180  wow fadeInLeft animated"
+                            style="visibility: visible; animation-name: fadeInLeft;">
+                            LIÊN HỆ NGAY
+                        </h4>
+                        <h3 class="text-center mb-2">Nhà cung cấp thiết bị thẩm mỹ & mỹ phẩm chăm sóc da chuyên
+                            sâu: <br>G&BVietNam,
+                            JSC - Global
+                            Business Healthcare</h3>
+                        <div class="center" style="width: fit-content">
+                            <i class="mt-1 mb-1 fa fa-2x fa-envelope text-blue" aria-hidden="true"></i>
+                            <span class="ml-3 text-dark">Email: ngocmedibless@gmail.com</span><br>
+                            <i class="mt-1 mb-1 fa fa-2x fa-phone text-blue" aria-hidden="true"></i>
+                            <span class="ml-3 text-dark">Hotline: 028 6684 6639</span><br>
+                            <i class="mt-1 mb-1 fa fa-2x fa-mobile-alt text-blue" aria-hidden="true"></i>
+                            <span class="ml-3 text-dark">Mobile Phone: 0825 58 39 90 (Ms. Ngọc) - 0932 69 25 40
+                                (Mr. Cường)</span><br>
+                            <i class="mt-1 mb-3 fa fa-2x fa-map-marker text-blue center_col" aria-hidden="true"></i>
+                            <span class="ml-3 text-dark">Địa chỉ: 101 Khu công nghệ phần mềm, KP6, Linh Trung,
+                                Thủ
+                                Đức, HCM</span>
+                        </div>
+                        <div class="c-s-2 c-m-2 c-l-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

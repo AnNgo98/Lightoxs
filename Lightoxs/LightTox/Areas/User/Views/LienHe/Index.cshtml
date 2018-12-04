@@ -1,36 +1,43 @@
-﻿@{
+﻿@model Lightoxs.Model.TinNhan
+
+@{
     ViewBag.Title = "Liên hệ | MEDIBLESS Viet Nam";
 }
+
+<!-- notifications CSS
+    ============================================ -->
+<link href="~/Content/Admin/notifications/Lobibox.min.css" rel="stylesheet" />
+<link href="~/Content/Admin/notifications/notifications.css" rel="stylesheet" />
 
 <section class="contact-three">
     <div class="con">
         <div class="r-n-g">
             <div class="c-l-8 c-m-12 mb-12 pb-5">
-
-                <div class="r contact-form pb-5">
-                    <h4 class="c-12">GỬI TIN NHẮN CHO CHÚNG TÔI</h4>
-                    <div class="c-m-6 c-s-12">
-                        <input type="text" name="fullname" placeholder="Họ tên" required />
+                @using (Html.BeginForm("Index", "LienHe", FormMethod.Post, htmlAttributes: new { enctype = "multipart/form-data" }))
+                {
+                    <div class="r contact-form pb-5">
+                        <h4 class="c-12">GỬI TIN NHẮN CHO CHÚNG TÔI</h4>
+                        <div class="c-m-6 c-s-12">
+                            @Html.TextBoxFor(n => n.HoTen, htmlAttributes: new { @placeholder = "Họ tên" })
+                            @Html.ValidationMessageFor(n => n.HoTen, "", htmlAttributes: new { @class = "text-danger" })
+                        </div>
+                        <div class="c-m-6 c-s-12 pl-m-2 pl-s-0">
+                            @Html.TextBoxFor(n => n.Email, htmlAttributes: new { @placeholder = "Email" })
+                        </div>
+                        <div class="c-m-12">
+                            @Html.TextBoxFor(n => n.TieuDe, htmlAttributes: new { @placeholder = "Tiêu đề" })
+                            @Html.ValidationMessageFor(n => n.TieuDe, "", htmlAttributes: new { @class = "text-danger" })
+                        </div>
+                        <div class="c-m-12">
+                            @Html.TextBoxFor(n => n.NoiDung, htmlAttributes: new { @placeholder = "Nội dung" })
+                            @Html.ValidationMessageFor(n => n.NoiDung, "", htmlAttributes: new { @class = "text-danger" })
+                        </div>
+                        <div class="c-m-12">
+                            <button type="submit" class="btn mt-3">Gửi đi</button>
+                        </div>
 
                     </div>
-                    <div class="c-m-6 c-s-12 pl-m-2 pl-s-0">
-
-                        <input type="text" name="email" placeholder="Email" required />
-
-                    </div>
-                    <div class="c-m-12">
-
-                        <input type="text" name="subject" placeholder="Tiêu đề" required />
-                    </div>
-                    <div class="c-m-12">
-                        <textarea name="Message" placeholder="Nội dung" required></textarea>
-
-                    </div>
-                    <div class="c-m-12">
-                        <button type="submit" class="btn">Gửi đi</button>
-                    </div>
-
-                </div>
+                }
             </div>
             <div class="c-l-4 c-m-12 pl-m-4 pl-s-0">
                 <div class="contact-box-tp">
@@ -81,3 +88,20 @@
         </div>
     </div>
 </section>
+
+
+<!-- jquery
+    ============================================ -->
+<script src="~/Scripts/Admin/vendor/jquery-1.12.4.min.js"></script>
+
+<!-- notification JS ============================================ -->
+<script src="~/Scripts/Admin/notifications/Lobibox.js"></script>
+
+<script type="text/javascript">
+    var type = '@ViewBag.SendMessage';
+    if (type !== null && type !== "") {
+        Lobibox.notify('success', {
+            msg: 'Tin nhắn đã gửi thành công'
+        });
+    }
+</script> 

@@ -1,4 +1,4 @@
-﻿@model string
+﻿@model Lightoxs.Model.BaiViet
 
 @{
     ViewBag.Title = "Chăm Sóc Sắc Đẹp Details | MEDIBLESS Viet Nam";
@@ -34,4 +34,21 @@
         }(document, 'script', 'facebook-jssdk'));
 </script>
 
-@Html.Raw(Model)
+<div class="con background-gray">
+    <div class="r pr-5 pl-5 pt-3 pb-3 mb-3">
+        <div class="c-12">
+            <h1 class="text-blue">Nỗi khổ của các nàng có làn da cằn cỗi như sa mạc Sahara</h1>
+            <ul class="d-f ml-3 mb-5">
+                <li class=""><i class="fa fa-calendar"></i>@String.Format("{0:ddd, MMM d, yyyy}", Model.NgayDang)</li>
+                <li class="">
+                    <i class="fa fa-user-o"></i>
+                    <a href="https://www.facebook.com/ducanh.tra.3" target="blank">@Model.NhanVien.HoTen</a>
+                </li>
+            </ul>
+
+            @Html.Raw(ViewBag.NoiDung)
+
+        </div>
+    </div>
+</div>
+
