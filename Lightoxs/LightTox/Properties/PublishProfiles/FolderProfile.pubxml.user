@@ -112,10 +112,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/04/2017 14:44:16</publishTime>
     </File>
     <File Include="bin/Lightoxs.dll">
-      <publishTime>12/04/2018 23:07:43</publishTime>
+      <publishTime>12/05/2018 14:30:30</publishTime>
     </File>
     <File Include="bin/Lightoxs.pdb">
-      <publishTime>12/04/2018 23:07:43</publishTime>
+      <publishTime>12/05/2018 14:30:30</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>11/30/2016 16:07:42</publishTime>
@@ -1633,7 +1633,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/20/2018 11:33:33</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/04/2018 23:07:44</publishTime>
+      <publishTime>12/05/2018 14:30:30</publishTime>
     </File>
   </ItemGroup>
 </Project>
