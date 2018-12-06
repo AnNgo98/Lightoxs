@@ -26,7 +26,7 @@ namespace LightTox.Areas.Admin.Controllers
         }
 
         [HttpPost, ValidateInput(false)]
-        public ActionResult Index(string title, string description, string contentPost, string typeOfNews)
+        public ActionResult Index(string title, string description, string contentPost, string typeOfNews, string finish)
         {
             NhanVien nv = Session["Account"] as NhanVien;
 
@@ -50,13 +50,54 @@ namespace LightTox.Areas.Admin.Controllers
             {
                 path = Path.Combine(Server.MapPath(Constants.NEWS_EvWo_FILE_URL), fileName);
 
-                bv.MoTa = contentPost.Substring(0, 320);
+                if (Request.Files.Count > 0)
+                {
+                    var file = Request.Files[Request.Files.Count - 1];
+
+                    if (file != null)
+                    {
+                        string pic = Path.GetFileName(file.FileName);
+
+                        string extensionFileName = CommonFunction.getExtensionFileName(pic);
+
+                        pic = CommonFunction.hashSHA256(pic) + extensionFileName;
+
+                        string path = Path.Combine(Server.MapPath(Constants.CUS_IMG_URL_ADD), pic);
+                        customer.Avatar_URL = pic;
+
+                        file.SaveAs(path);
+                    }
+                }
+
+                bv.MoTa = 
+                bv.NgayDienRa = DateTime.Parse(finish);
             }
             else if (typeOfNews == "2")
             {
                 path = Path.Combine(Server.MapPath(Constants.NEWS_APKH_FILE_URL), fileName);
 
-                bv.MoTa = contentPost.Substring(0, 320);
+                if (Request.Files.Count > 0)
+                {
+                    var file = Request.Files[Request.Files.Count - 1];
+
+                    if (file != null)
+                    {
+                        string pic = Path.GetFileName(file.FileName);
+
+                        string extensionFileName = CommonFunction.getExtensionFileName(pic);
+
+                        pic = CommonFunction.hashSHA256(pic) + extensionFileName;
+
+                        string path = Path.Combine(Server.MapPath(Constants.CUS_IMG_URL_ADD), pic);
+                        customer.Avatar_URL = pic;
+
+                        file.SaveAs(path);
+                    }
+                }
+
+                bv.MoTa = 
+
+                bv.NgayDienRa = DateTime.Parse(finish);
             }
             else if (typeOfNews == "3")
             {
@@ -64,18 +105,19 @@ namespace LightTox.Areas.Admin.Controllers
 
                 bv.MoTa = contentPost.Substring(0, 320);
             }
-            else if (typeOfNews == "4")
+            
+            if (typeOfNews != "4")
             {
-                path = Path.Combine(Server.MapPath(Constants.NEWS_CHTG_FILE_URL), fileName);
+                using (var tw = new StreamWriter(path, true))
+                {
+                    tw.WriteLine(contentPost);
+                }
+                bv.NoiDung = fileName;
             }
-
-
-            using (var tw = new StreamWriter(path, true))
+            else
             {
-                tw.WriteLine(contentPost);
+                bv.NoiDung = contentPost;
             }
-
-            bv.NoiDung = fileName;
 
             db.BaiViets.Add(bv);
 

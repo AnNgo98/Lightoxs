@@ -212,6 +212,8 @@
     <Content Include="Scripts\Admin\calendar\fullcalendar-active.js" />
     <Content Include="Scripts\Admin\calendar\fullcalendar.min.js" />
     <Content Include="Scripts\Admin\calendar\moment.min.js" />
+    <Content Include="Scripts\Admin\datepicker\datepicker-active.js" />
+    <Content Include="Scripts\Admin\datepicker\jquery-ui.min.js" />
     <Content Include="Scripts\Admin\dropzone\dropzone.js" />
     <Content Include="Scripts\Admin\form-validation\form-active.js" />
     <Content Include="Scripts\Admin\form-validation\jquery.form.min.js" />
@@ -621,8 +623,6 @@
       <LastGenOutput>AnzamtechModel.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\Admin\bootstrap.min.js" />
-    <Content Include="Scripts\Admin\datapicker\bootstrap-datepicker.js" />
-    <Content Include="Scripts\Admin\datapicker\datepicker-active.js" />
     <Content Include="Scripts\Admin\jquery-price-slider.js" />
     <Content Include="Scripts\Admin\jquery.meanmenu.js" />
     <Content Include="Scripts\Admin\jquery.scrollUp.min.js" />
