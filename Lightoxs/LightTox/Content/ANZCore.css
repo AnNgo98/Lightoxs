@@ -6987,130 +6987,7 @@ div.imgMinhHoa img {
     height: 80%;
 }
 
-
-
 /*Content Vital*/
-
-/*Scroll bar*/
-.parentscrollbar {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
-.hinhbia{
-    width: 100%;
-    height: auto;
-}
- .bavet{
-    height: auto;
-    width: 100%;
-} 
-.bavet1{
-    height: auto;
-    width: 100%;
-    color: black;
-}
-.bavet2{
-    height: auto;
-    width: 85%;
-    background-repeat: no-repeat;
-    text-indent: 10px;
-    text-align: left;
-    color: black;
-    z-index: -1;
-}
-a.xemthem {
-    color:white;
-}
-.button_readmore {
-    background-color: #3dc4e1;
-    border: none;
-    color: white;
-    padding: 22px 52px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: bold;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;    
-}
-#readmore {
-    border-radius: 20px;
-    border-width: 20px;
-    float:right;
-  /*  position: relative;
-    bottom: -30px;
-      z-index: -1; */
-}
-.vetmot{
-    position: absolute;
-    bottom: 26%;
-    margin-left: 20%;
-    font-size: 184%;
-    
-}
-.vethai{
-    position: absolute;
-    bottom: 34%;
-    margin-left: 19%;
-    
-} 
-.vetba{
-    bottom: 39%;
-    font-size: 123%; 
-    line-height: 2;
-}
-.vitalmodel
-{
-    height: auto;
-    width: 100%;
-} 
-.vitalbarrier{
-    width: 100%;
-    height: auto;
-}
-.param1{
-    margin-left: 3%;
-}
-.param2{
-    margin-left: 10%;
-}
-.param3{
-    margin-left: 29%;
-}
-/*VetMot*/
-/* @media screen and (max-width: 454px) {
-    .vetmot {
-        position: absolute;
-        bottom: 85%;
-        margin-left: 15%;
-        font-size: 61%;
-        
-    }
-    .location_img {
-        order: 0;
-        -webkit-box-ordinal-group: 1;
-    }
-    .location_text {
-        order: 1;
-        -webkit-box-ordinal-group: 2;
-    }
-    
-}
-@media screen and (min-width:455px) and (max-width: 500px) {
-    .vetmot {
-        position: absolute;
-        bottom: 84%;
-        margin-left: 15%;
-        font-size: 65%;
-        
-    }
-    .location_img {
-        order: 0;
-        -webkit-box-ordinal-group: 1;
-    }
-    /*Content Vital*/
 
 /*Scroll bar*/
 .parentscrollbar {
@@ -7167,28 +7044,25 @@ a.xemthem {
     border-radius: 20px;
     border-width: 20px;
     float: right;
-    /*  position: relative;
-    bottom: -30px;
-      z-index: -1; */
+    margin-right: 40px;
 }
-
-.vetmot {
+/*.vetmot {
     position: absolute;
-    bottom: 26%;
-    margin-left: 20%;
-    font-size: 184%;
-}
-
+    bottom: 8%;
+    margin-left: 5%;
+    font-size: 178%;
+}*/
 .vethai {
-    position: absolute;
-    bottom: 34%;
-    margin-left: 19%;
+    /*position: absolute;
+    bottom: 34%;*/
+    margin-left: 2%;
 }
 
 .vetba {
-    bottom: 39%;
-    font-size: 123%;
-    line-height: 2;
+    /*position: absolute;
+    bottom: 9%;*/
+    margin-left: 5%;
+    font-size: 138%;
 }
 
 .vitalmodel {
@@ -7197,7 +7071,8 @@ a.xemthem {
 }
 
 .vitalbarrier {
-    width: 100%;
+    margin-top: 5%;
+    width: 143%;
     height: auto;
 }
 
@@ -7212,61 +7087,6 @@ a.xemthem {
 .param3 {
     margin-left: 29%;
 }
-/*VetMot*/
-/* @media screen and (max-width: 454px) {
-    .vetmot {
-        position: absolute;
-        bottom: 85%;
-        margin-left: 15%;
-        font-size: 61%;
-        
-    }
-    .location_img {
-        order: 0;
-        -webkit-box-ordinal-group: 1;
-    }
-    .location_text {
-        order: 1;
-        -webkit-box-ordinal-group: 2;
-    }
-    
-}
-@media screen and (min-width:455px) and (max-width: 500px) {
-    .vetmot {
-        position: absolute;
-        bottom: 84%;
-        margin-left: 15%;
-        font-size: 65%;
-        
-    }
-    .location_img {
-        order: 0;
-        -webkit-box-ordinal-group: 1;
-    }
-
-    .location_text {
-        order: 1;
-        -webkit-box-ordinal-group: 2;
-    }
-}
-@media screen and (min-width:500px) and (max-width: 600px) {
-    .vetmot {
-        position: absolute;
-        bottom: 82%;
-        margin-left: 15%;
-        font-size: 83%;
-        
-    }
-    .location_img {
-        order: 0;
-        -webkit-box-ordinal-group: 1;
-    }
-
-    .location_text {
-        order: 1;
-        -webkit-box-ordinal-group: 2;
-    }
-} */
 
 @media only screen and (max-width: 576px) {
     .location_img {
@@ -7278,8 +7098,6 @@ a.xemthem {
         -webkit-box-ordinal-group: 2;
     }
     .vetmot {
-        position: absolute;
-        bottom: 26%;
         margin-left: 22%;
         font-size: 93%;
     }
@@ -7298,10 +7116,7 @@ a.xemthem {
     }
 
     .vethai {
-        position: absolute;
-        bottom: 15%;
-        margin-left: 18%;
-        font-size: 57%;
+        font-size: 79%;
         order: 0;
         -webkit-box-ordinal-group: 1;
     }
@@ -7309,17 +7124,25 @@ a.xemthem {
     #Chai {
         order: 1;
         -webkit-box-ordinal-group: 2;
+        margin-right: 26%;
+        margin-top: 0px;
     }
 
     img.vitalbarrier {
-        width: 67%;
-        margin-left: 10%;
+    }
+
+    img.vital2.animated.bounceInRight.delay-1s {
+        width: 55%;
+        margin-left: 21%;
+        padding-top: 3%;
     }
 
     .vetba {
-        bottom: 47%;
+        /*position: absolute;
+    bottom: 47%;*/
         margin-left: 9%;
-        font-size: 48%;
+        font-size: 100%;
+        padding-top: 2%;
     }
 
     #readmore {
@@ -7331,7 +7154,7 @@ a.xemthem {
 @media screen and (min-width:576px) and (max-width: 650px) {
     .vetmot {
         position: absolute;
-        bottom: 22%;
+        bottom: 6%;
         margin-left: 19%;
         font-size: 87%;
     }
@@ -7341,18 +7164,19 @@ a.xemthem {
     }
 
     .vethai {
-        position: absolute;
-        bottom: 15%;
+        /*position: absolute;
+        bottom: 15%;*/
         margin-left: 18%;
         font-size: 53%;
     }
 
     img.vitalbarrier {
-        width: 85%;
+        width: 152%;
     }
 
     .vetba {
-        bottom: 44%;
+        position: absolute;
+        bottom: 13%;
         margin-left: 9%;
         font-size: 60%;
     }
@@ -7366,26 +7190,27 @@ a.xemthem {
 @media screen and (min-width:650px) and (max-width: 768px) {
     .vetmot {
         position: absolute;
-        bottom: 22%;
+        bottom: 4%;
         margin-left: 20%;
         font-size: 103%;
     }
 
     .vethai {
-        position: absolute;
-        bottom: 15%;
+        /*position: absolute;
+        bottom: 15%;*/
         margin-left: 18%;
         font-size: 57%;
     }
 
     img.vitalbarrier {
-        width: 86%;
+        width: 157%;
     }
 
     .vetba {
-        bottom: 39%;
+        position: absolute;
+        bottom: 7%;
         margin-left: 9%;
-        font-size: 123%;
+        font-size: 72%;
     }
 
     #readmore {
@@ -7397,26 +7222,23 @@ a.xemthem {
 @media screen and (min-width:768px) and (max-width: 900px) {
     .vetmot {
         position: absolute;
-        bottom: 23%;
+        bottom: 12%;
         margin-left: 20%;
         font-size: 119%;
     }
 
     .vethai {
-        position: absolute;
-        bottom: 31%;
+        /*position: absolute;
+    bottom: 31%;*/
         margin-left: 18%;
         font-size: 62%;
     }
 
     .vetba {
-        bottom: 36%;
-        margin-left: 9%;
-        font-size: 94%;
-    }
-
-    #VetGiua {
-        font-size: 94%;
+        position: absolute;
+        bottom: 3%;
+        margin-left: 17%;
+        font-size: 90%;
     }
     /*VitalDetail*/
     #readmore {
@@ -7425,24 +7247,32 @@ a.xemthem {
     }
 }
 
-@media screen and (min-width:900px) and (max-width: 1100px) {
+@media screen and (min-width:900px) and (max-width: 989px) {
     .vetmot {
         position: absolute;
-        bottom: 23%;
-        margin-left: 22%;
+        bottom: 7%;
+        margin-left: 6%;
         font-size: 142%;
     }
 
     .vethai {
-        position: absolute;
-        bottom: 31%;
+        /*position: absolute;
+        bottom: 31%;*/
         margin-left: 18%;
-        font-size: 80%;
+        font-size: 91%;
+    }
+
+    .vitalbarrier {
+        margin-left: -41%;
+        width: 202%;
     }
 
     .vetba {
-        bottom: 36%;
-        font-size: 123%;
+        /*position: absolute;
+    bottom: 36%;*/
+        margin-left: 5%;
+        font-size: 122%;
+        padding-top: 5%;
     }
 
     #readmore {
@@ -7453,25 +7283,54 @@ a.xemthem {
 
 }
 
-@media screen and (min-width:1100px) and (max-width: 1250px) {
+@media screen and (min-width:990px) and (max-width: 1200px) {
     .vetmot {
         position: absolute;
-        bottom: 24%;
-        margin-left: 22%;
-        font-size: 165%;
+        bottom: 7%;
+        margin-left: 7%;
+        font-size: 160%;
     }
 
     .vethai {
-        position: absolute;
-        bottom: 31%;
+        /*position: absolute;
+    bottom: 31%;*/
         margin-left: 18%;
         font-size: 91%;
     }
 
     .vetba {
-        bottom: 40%;
-        margin-left: 9%;
-        font-size: 123%;
+        margin-left: 5%;
+        font-size: 122%;
+        padding-top: 5%;
+    }
+
+    .vitalbarrier {
+        width: 150%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .vetmot {
+        position: absolute;
+        bottom: 7%;
+        margin-left: 7%;
+        font-size: 190%;
+    }
+
+    .vethai {
+        margin-left: 27%;
+        font-size: 107%;
+    }
+
+    .vetba {
+        margin-left: 5%;
+        font-size: 145%;
+        padding-top: 5%;
+    }
+
+    .vitalbarrier {
+        margin-left: 8%;
+        width: 139%;
     }
 }
 /*ReadMore*/
@@ -7850,7 +7709,10 @@ p.vt_param13 {
     width: 100%;
 }
 
-
+#VetGiua {
+    font-size: 123%;
+    padding-top: 2%;
+}
 
 #vet2 {
     background-color: white;
