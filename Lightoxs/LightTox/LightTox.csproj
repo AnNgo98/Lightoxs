@@ -199,6 +199,7 @@
     <Content Include="Content\Admin\bootstrap.min.css" />
     <Content Include="Content\Admin\calendar\fullcalendar.min.css" />
     <Content Include="Content\Admin\calendar\fullcalendar.print.min.css" />
+    <Content Include="Content\Admin\dropzone\dropzone.css" />
     <Content Include="Content\Admin\educate-custon-icon.css" />
     <Content Include="Content\Admin\font-awesome.min.css" />
     <Content Include="Content\Admin\fonts\educate-icon.svg" />
@@ -208,6 +209,18 @@
     <Content Include="Content\Admin\form\themesaller-forms.css" />
     <Content Include="Content\Admin\notifications\Lobibox.min.css" />
     <Content Include="Content\Admin\notifications\notifications.css" />
+    <Content Include="Scripts\Admin\calendar\fullcalendar-active.js" />
+    <Content Include="Scripts\Admin\calendar\fullcalendar.min.js" />
+    <Content Include="Scripts\Admin\calendar\moment.min.js" />
+    <Content Include="Scripts\Admin\dropzone\dropzone.js" />
+    <Content Include="Scripts\Admin\form-validation\form-active.js" />
+    <Content Include="Scripts\Admin\form-validation\jquery.form.min.js" />
+    <Content Include="Scripts\Admin\form-validation\jquery.validate.min.js" />
+    <Content Include="Scripts\Admin\jquery.maskedinput.min.js" />
+    <Content Include="Scripts\Admin\masking-active.js" />
+    <Content Include="Scripts\Admin\sparkline\jquery.charts-sparkline.js" />
+    <Content Include="Scripts\Admin\sparkline\jquery.sparkline.min.js" />
+    <Content Include="Scripts\Admin\sparkline\sparkline-active.js" />
     <Content Include="Content\fonts\educate-icon.svg" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
@@ -608,6 +621,8 @@
       <LastGenOutput>AnzamtechModel.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\Admin\bootstrap.min.js" />
+    <Content Include="Scripts\Admin\datapicker\bootstrap-datepicker.js" />
+    <Content Include="Scripts\Admin\datapicker\datepicker-active.js" />
     <Content Include="Scripts\Admin\jquery-price-slider.js" />
     <Content Include="Scripts\Admin\jquery.meanmenu.js" />
     <Content Include="Scripts\Admin\jquery.scrollUp.min.js" />
