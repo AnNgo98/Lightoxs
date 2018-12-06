@@ -3987,6 +3987,7 @@ footer .bg-primary1 {
     display: block;
     position: relative;
     width: 100%;
+    background-color:black;
 }
 
 #particles-js canvas {
@@ -6121,6 +6122,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
             display: block;
         }
 }
+
 @media only screen and (min-width:768px) and (max-width:992px) {
     .hinhthem1 {
         position: absolute;
@@ -6264,11 +6266,11 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-right: 10%;
         text-align: right;
         color: black;
-        font-size: 122%;
+        font-size: 115%;
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
     .btn-ct2 {
-        padding-left: 50%;
+        padding-left: 40%;
         padding-top: 8%;
         display: block;
         font-size: 88%;
@@ -6313,7 +6315,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-left: 10%;
         padding-top: 15%;
         color: black;
-        font-size: 122%;
+        font-size: 115%;
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
         text-align: left !important;
     }
@@ -7087,6 +7089,14 @@ a.xemthem {
 }
 
 @media only screen and (max-width: 576px) {
+    .location_img {
+        order: 0;
+        -webkit-box-ordinal-group: 1;
+    }
+    .location_text {
+        order: 1;
+        -webkit-box-ordinal-group: 2;
+    }
     .vetmot {
         margin-left: 22%;
         font-size: 93%;
@@ -7715,4 +7725,9 @@ p.vt_param13 {
 
 #vet3 {
     background-color: #7dc2ff;
+}
+.fix-khung {
+    padding-left:4%;
+    padding-right:4%;
+    background-color:black;
 }
