@@ -4,6 +4,11 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
+<style>
+    .note-editing-area {
+        height: 285px;
+    }
+</style>
 
 <!-- Single pro tab review Start-->
 <div class="single-pro-review-area mt-t-30 mg-b-15">
@@ -26,7 +31,7 @@
                                                                     <input name="title" type="text" class="form-control" placeholder="Title ...">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <select name="typeOfNews" class="form-control">
+                                                                    <select id="typeOfNews" name="typeOfNews" class="form-control">
                                                                         <option value="none" selected="" disabled="">Chọn loại tin tức</option>
                                                                         <option value="1">Events & Workshop</option>
                                                                         <option value="2">Ấn phẩm khoa học</option>
@@ -34,10 +39,16 @@
                                                                         <option value="4">Câu hỏi thường gặp</option>
                                                                     </select>
                                                                 </div>
+                                                                <div class="form-group">
+                                                                    <input name="pickDate" id="pickDate" type="text" class="form-control hasDatepicker" placeholder="Ngày diễn ra Sự kiện / Ấn phẩm">
+                                                                </div>
+                                                                <div class="form-group" id="fileImage">
+                                                                    <label for="file">Chọn ảnh đại diện cho bài viết:</label> <input type="file" name="image" multiple="multiple" />
+                                                                </div>
                                                             </div>
 
                                                             <textarea type="text" id="summernote" name="contentPost"></textarea>
-                                                            <input id="plainText" type="text" name="description" />
+                                                            <input id="plainText" type="text" style="display: none" name="description" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -76,13 +87,24 @@
 
 <script type="text/javascript">
 
+    $('#typeOfNews').change(function () {
+        var item = $(this).val();
+        if (item === "1" || item === "2") {
+            $("#fileImage").show();
+            $("#pickDate").show();
+        } else {
+            $("#fileImage").hide();
+            $("#pickDate").hide();
+        }
+    });
+
     var type = '@ViewBag.AddNewPost';
     if (type !== null && type !== "") {
         Lobibox.notify('success', {
             msg: 'Add new post successed'
         });
     }
-    
+
     $(function () {
         // When the summernote instance loses focus, update the content of your <textarea>
         $("#summernote").on('summernote.blur', function () {

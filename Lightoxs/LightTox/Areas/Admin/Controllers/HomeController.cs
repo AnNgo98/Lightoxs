@@ -28,34 +28,6 @@ namespace LightTox.Areas.Admin.Controllers
         [HttpPost, ValidateInput(false)]
         public ActionResult Index(string title, string description, string contentPost, string typeOfNews)
         {
-            string path = "";
-
-            string fileName = CommonFunction.Instance.RemoveUnicode((title + "-" + DateTime.Now.ToString())).Replace(" ", "-") + ".txt";
-
-            if (typeOfNews == "1")
-            {
-                path = Path.Combine(Server.MapPath(Constants.NEWS_EvWo_FILE_URL), fileName);
-            }
-            else if (typeOfNews == "2")
-            {
-                path = Path.Combine(Server.MapPath(Constants.NEWS_APKH_FILE_URL), fileName);
-            }
-            else if (typeOfNews == "3")
-            {
-                path = Path.Combine(Server.MapPath(Constants.NEWS_CSSD_FILE_URL), fileName);
-            }
-            else if (typeOfNews == "4")
-            {
-                path = Path.Combine(Server.MapPath(Constants.NEWS_CHTG_FILE_URL), fileName);
-            }
-
-
-
-            using (var tw = new StreamWriter(path, true))
-            {
-                tw.WriteLine(contentPost);
-            }
-
             NhanVien nv = Session["Account"] as NhanVien;
 
             BaiViet bv = new BaiViet();
@@ -64,7 +36,44 @@ namespace LightTox.Areas.Admin.Controllers
             bv.NgayDang = DateTime.Now;
             bv.DanhMucBaiViet = db.DanhMucBaiViets.Single(n => n.MaDMBV.ToString() == typeOfNews);
 
-            bv.MoTa = contentPost.Substring(0, 320);
+
+
+            
+
+
+
+            string path = "";
+
+            string fileName = CommonFunction.Instance.RemoveUnicode((title + "-" + DateTime.Now.ToString())).Replace(" ", "-") + ".txt";
+
+            if (typeOfNews == "1")
+            {
+                path = Path.Combine(Server.MapPath(Constants.NEWS_EvWo_FILE_URL), fileName);
+
+                bv.MoTa = contentPost.Substring(0, 320);
+            }
+            else if (typeOfNews == "2")
+            {
+                path = Path.Combine(Server.MapPath(Constants.NEWS_APKH_FILE_URL), fileName);
+
+                bv.MoTa = contentPost.Substring(0, 320);
+            }
+            else if (typeOfNews == "3")
+            {
+                path = Path.Combine(Server.MapPath(Constants.NEWS_CSSD_FILE_URL), fileName);
+
+                bv.MoTa = contentPost.Substring(0, 320);
+            }
+            else if (typeOfNews == "4")
+            {
+                path = Path.Combine(Server.MapPath(Constants.NEWS_CHTG_FILE_URL), fileName);
+            }
+
+
+            using (var tw = new StreamWriter(path, true))
+            {
+                tw.WriteLine(contentPost);
+            }
 
             bv.NoiDung = fileName;
 
