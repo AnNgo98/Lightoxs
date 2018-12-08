@@ -13,7 +13,6 @@ namespace LightTox.Areas.Admin.Controllers
     {
         AnzamtechEntities db = new AnzamtechEntities();
 
-
         [HttpGet]
         public ActionResult Index()
         {
@@ -35,88 +34,92 @@ namespace LightTox.Areas.Admin.Controllers
             bv.TenBV = title;
             bv.NgayDang = DateTime.Now;
             bv.DanhMucBaiViet = db.DanhMucBaiViets.Single(n => n.MaDMBV.ToString() == typeOfNews);
-
-
-
             
-
-
-
-            string path = "";
-
-            string fileName = CommonFunction.Instance.RemoveUnicode((title + "-" + DateTime.Now.ToString())).Replace(" ", "-") + ".txt";
+            string pathNoiDung = "";
+            string extensionFileName = "";
+            string fileName = CommonFunction.Instance.RemoveUnicode((title + "-" + DateTime.Now.ToString())).Replace(" ", "-");
+            
 
             if (typeOfNews == "1")
             {
-                path = Path.Combine(Server.MapPath(Constants.NEWS_EvWo_FILE_URL), fileName);
+                pathNoiDung = Path.Combine(Server.MapPath(Constants.NEWS_EvWo_FILE_URL), fileName + ".txt");
+                
 
                 if (Request.Files.Count > 0)
                 {
-                    var file = Request.Files[Request.Files.Count - 1];
+                    var file = Request.Files[0];
 
                     if (file != null)
                     {
                         string pic = Path.GetFileName(file.FileName);
 
-                        string extensionFileName = CommonFunction.getExtensionFileName(pic);
+                        extensionFileName = CommonFunction.Instance.getExtensionFileName(pic);
 
-                        pic = CommonFunction.hashSHA256(pic) + extensionFileName;
+                        pic = fileName + "-MoTa" + extensionFileName;
 
-                        string path = Path.Combine(Server.MapPath(Constants.CUS_IMG_URL_ADD), pic);
-                        customer.Avatar_URL = pic;
+                        string pathMoTa = Path.Combine(Server.MapPath(Constants.NEWS_EvWo_IMG_MOTA_URL), pic);
 
-                        file.SaveAs(path);
+                        file.SaveAs(pathMoTa);
+
+                        bv.MoTa = pic;
                     }
                 }
 
-                bv.MoTa = 
                 bv.NgayDienRa = DateTime.Parse(finish);
             }
             else if (typeOfNews == "2")
             {
-                path = Path.Combine(Server.MapPath(Constants.NEWS_APKH_FILE_URL), fileName);
+                pathNoiDung = Path.Combine(Server.MapPath(Constants.NEWS_APKH_FILE_URL), fileName + ".txt");
 
                 if (Request.Files.Count > 0)
                 {
-                    var file = Request.Files[Request.Files.Count - 1];
+                    var file = Request.Files[0];
 
                     if (file != null)
                     {
                         string pic = Path.GetFileName(file.FileName);
 
-                        string extensionFileName = CommonFunction.getExtensionFileName(pic);
+                        extensionFileName = CommonFunction.Instance.getExtensionFileName(pic);
 
-                        pic = CommonFunction.hashSHA256(pic) + extensionFileName;
+                        pic = fileName + "-MoTa" + extensionFileName;
 
-                        string path = Path.Combine(Server.MapPath(Constants.CUS_IMG_URL_ADD), pic);
-                        customer.Avatar_URL = pic;
+                        string path = Path.Combine(Server.MapPath(Constants.NEWS_APKH_IMG_MOTA_URL), pic);
 
                         file.SaveAs(path);
+
+                        bv.MoTa = pic;
                     }
                 }
-
-                bv.MoTa = 
 
                 bv.NgayDienRa = DateTime.Parse(finish);
             }
             else if (typeOfNews == "3")
             {
-                path = Path.Combine(Server.MapPath(Constants.NEWS_CSSD_FILE_URL), fileName);
+                pathNoiDung = Path.Combine(Server.MapPath(Constants.NEWS_CSSD_FILE_URL), fileName + ".txt");
 
-                bv.MoTa = contentPost.Substring(0, 320);
+                if(description.Length > 320)
+                {
+                    bv.MoTa = description.Substring(0, 320);
+                }
+                else
+                {
+                    bv.MoTa = description;
+                }
+                    
             }
             
             if (typeOfNews != "4")
             {
-                using (var tw = new StreamWriter(path, true))
+                using (var tw = new StreamWriter(pathNoiDung, true))
                 {
                     tw.WriteLine(contentPost);
                 }
-                bv.NoiDung = fileName;
+                bv.NoiDung = fileName + ".txt";
             }
             else
             {
-                bv.NoiDung = contentPost;
+                bv.MoTa = "";
+                bv.NoiDung = description;
             }
 
             db.BaiViets.Add(bv);

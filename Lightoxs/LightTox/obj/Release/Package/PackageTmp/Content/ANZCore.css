@@ -3987,6 +3987,7 @@ footer .bg-primary1 {
     display: block;
     position: relative;
     width: 100%;
+    background-color:black;
 }
 
 #particles-js canvas {
@@ -6121,6 +6122,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
             display: block;
         }
 }
+
 @media only screen and (min-width:768px) and (max-width:992px) {
     .hinhthem1 {
         position: absolute;
@@ -6264,11 +6266,11 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-right: 10%;
         text-align: right;
         color: black;
-        font-size: 122%;
+        font-size: 115%;
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
     }
     .btn-ct2 {
-        padding-left: 50%;
+        padding-left: 40%;
         padding-top: 8%;
         display: block;
         font-size: 88%;
@@ -6313,7 +6315,7 @@ input::-o-input-placeholder, textarea::-o-input-placeholder {
         padding-left: 10%;
         padding-top: 15%;
         color: black;
-        font-size: 122%;
+        font-size: 115%;
         font-family: 'Times New Roman', 'Arial', 'Helvetica', 'Courier New', 'Verdana', 'Georgia', 'Tahoma', 'Calibri', 'Garamond', 'Bookman';
         text-align: left !important;
     }
@@ -6985,8 +6987,6 @@ div.imgMinhHoa img {
     height: 80%;
 }
 
-
-
 /*Content Vital*/
 
 /*Scroll bar*/
@@ -6995,20 +6995,24 @@ div.imgMinhHoa img {
     width: 100%;
     overflow: hidden;
 }
-.hinhbia{
+
+.hinhbia {
     width: 100%;
     height: auto;
 }
- .bavet{
+
+.bavet {
     height: auto;
     width: 100%;
-} 
-.bavet1{
+}
+
+.bavet1 {
     height: auto;
     width: 100%;
     color: black;
 }
-.bavet2{
+
+.bavet2 {
     height: auto;
     width: 85%;
     background-repeat: no-repeat;
@@ -7017,9 +7021,11 @@ div.imgMinhHoa img {
     color: black;
     z-index: -1;
 }
+
 a.xemthem {
-    color:white;
+    color: white;
 }
+
 .button_readmore {
     background-color: #3dc4e1;
     border: none;
@@ -7031,310 +7037,334 @@ a.xemthem {
     font-weight: bold;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;    
+    cursor: pointer;
 }
+
 #readmore {
     border-radius: 20px;
     border-width: 20px;
-    float:right;
-  /*  position: relative;
-    bottom: -30px;
-      z-index: -1; */
+    float: right;
+    margin-right: 40px;
 }
-.vetmot{
+/*.vetmot {
     position: absolute;
-    bottom: 26%;
-    margin-left: 20%;
-    font-size: 184%;
-    
+    bottom: 8%;
+    margin-left: 5%;
+    font-size: 178%;
+}*/
+.vethai {
+    /*position: absolute;
+    bottom: 34%;*/
+    margin-left: 2%;
 }
-.vethai{
-    position: absolute;
-    bottom: 34%;
-    margin-left: 19%;
-    
-} 
-.vetba{
-    bottom: 39%;
-    font-size: 123%; 
-    line-height: 2;
+
+.vetba {
+    /*position: absolute;
+    bottom: 9%;*/
+    margin-left: 5%;
+    font-size: 138%;
 }
-.vitalmodel
-{
+
+.vitalmodel {
     height: auto;
     width: 100%;
-} 
-.vitalbarrier{
-    width: 100%;
+}
+
+.vitalbarrier {
+    margin-top: 5%;
+    width: 143%;
     height: auto;
 }
-.param1{
+
+.param1 {
     margin-left: 3%;
 }
-.param2{
+
+.param2 {
     margin-left: 10%;
 }
-.param3{
+
+.param3 {
     margin-left: 29%;
 }
-/*VetMot*/
-/* @media screen and (max-width: 454px) {
-    .vetmot {
-        position: absolute;
-        bottom: 85%;
-        margin-left: 15%;
-        font-size: 61%;
-        
-    }
-    .location_img {
-        order: 0;
-        -webkit-box-ordinal-group: 1;
-    }
-    .location_text {
-        order: 1;
-        -webkit-box-ordinal-group: 2;
-    }
-    
-}
-@media screen and (min-width:455px) and (max-width: 500px) {
-    .vetmot {
-        position: absolute;
-        bottom: 84%;
-        margin-left: 15%;
-        font-size: 65%;
-        
-    }
-    .location_img {
-        order: 0;
-        -webkit-box-ordinal-group: 1;
-    }
-
-    .location_text {
-        order: 1;
-        -webkit-box-ordinal-group: 2;
-    }
-}
-@media screen and (min-width:500px) and (max-width: 600px) {
-    .vetmot {
-        position: absolute;
-        bottom: 82%;
-        margin-left: 15%;
-        font-size: 83%;
-        
-    }
-    .location_img {
-        order: 0;
-        -webkit-box-ordinal-group: 1;
-    }
-
-    .location_text {
-        order: 1;
-        -webkit-box-ordinal-group: 2;
-    }
-} */
 
 @media only screen and (max-width: 576px) {
-    .vetmot {
-    position: absolute;
-    bottom: 26%;
-    margin-left: 22%;
-    font-size: 93%;
+    .location_img {
+        order: 0;
+        -webkit-box-ordinal-group: 1;
     }
-    img.vitalmodel{
+    .location_text {
+        order: 1;
+        -webkit-box-ordinal-group: 2;
+    }
+    .vetmot {
+        margin-left: 22%;
+        font-size: 93%;
+    }
+
+    img.vitalmodel {
         width: 67%;
         margin: auto;
     }
-    .bavet1{
+
+    .bavet1 {
         order: 0;
         -webkit-box-ordinal-group: 1;
         height: auto;
         width: 100%;
         color: black;
     }
-    .vethai{
-        position: absolute;
-        bottom: 15%;
-        margin-left: 18%;
-        font-size: 57%;
+
+    .vethai {
+        font-size: 79%;
         order: 0;
         -webkit-box-ordinal-group: 1;
     }
-    #Chai{
+
+    #Chai {
         order: 1;
         -webkit-box-ordinal-group: 2;
+        margin-right: 26%;
+        margin-top: 0px;
     }
-    img.vitalbarrier{
-        width:67%;    
-        margin-left: 10%;  
+
+    img.vitalbarrier {
     }
-    .vetba{
-    bottom: 47%;
-    margin-left: 9%;
-    font-size: 48%;
+
+    img.vital2.animated.bounceInRight.delay-1s {
+        width: 55%;
+        margin-left: 21%;
+        padding-top: 3%;
     }
-    #readmore{
+
+    .vetba {
+        /*position: absolute;
+    bottom: 47%;*/
+        margin-left: 9%;
+        font-size: 100%;
+        padding-top: 2%;
+    }
+
+    #readmore {
         padding: 3% 4%;
-    font-size: 80%;
+        font-size: 80%;
     }
 }
+
 @media screen and (min-width:576px) and (max-width: 650px) {
     .vetmot {
         position: absolute;
-    bottom: 22%;
-    margin-left: 19%;
-    font-size: 87%;
+        bottom: 6%;
+        margin-left: 19%;
+        font-size: 87%;
     }
-    img.vitalmodel{
+
+    img.vitalmodel {
         width: 80%;
     }
-    .vethai{
-        position: absolute;
-        bottom: 15%;
+
+    .vethai {
+        /*position: absolute;
+        bottom: 15%;*/
         margin-left: 18%;
         font-size: 53%;
     }
-    img.vitalbarrier{
-        width:85%;
+
+    img.vitalbarrier {
+        width: 152%;
     }
-    .vetba{
-        bottom: 44%;
+
+    .vetba {
+        position: absolute;
+        bottom: 13%;
         margin-left: 9%;
         font-size: 60%;
     }
-    #readmore{
+
+    #readmore {
         padding: 3% 4%;
-    font-size: 80%;
+        font-size: 80%;
     }
 }
+
 @media screen and (min-width:650px) and (max-width: 768px) {
     .vetmot {
         position: absolute;
-        bottom: 22%;
+        bottom: 4%;
         margin-left: 20%;
         font-size: 103%;
-
     }
-    .vethai{
-        position: absolute;
-        bottom: 15%;
+
+    .vethai {
+        /*position: absolute;
+        bottom: 15%;*/
         margin-left: 18%;
         font-size: 57%;
+    }
 
+    img.vitalbarrier {
+        width: 157%;
     }
-    img.vitalbarrier{
-        width:86%;
-    }
-    .vetba{
-        bottom: 39%;
+
+    .vetba {
+        position: absolute;
+        bottom: 7%;
         margin-left: 9%;
-        font-size: 123%;
+        font-size: 72%;
     }
-    #readmore{
+
+    #readmore {
         padding: 2% 4%;
         font-size: 80%;
     }
 }
+
 @media screen and (min-width:768px) and (max-width: 900px) {
     .vetmot {
         position: absolute;
-        bottom: 23%;
+        bottom: 12%;
         margin-left: 20%;
         font-size: 119%;
+    }
 
-    }
-    .vethai{
-        position: absolute;
-    bottom: 31%;
-    margin-left: 18%;
-    font-size: 62%;
-}
-    .vetba{
-    bottom: 36%;
-    margin-left: 9%;
-    font-size: 94%;
-    }
-    #VetGiua{
-        font-size: 94%;
-    }
-    /*VitalDetail*/
-    #readmore{
-        padding: 2% 4%;
-        font-size: 80%;
-    }
-}
-@media screen and (min-width:900px) and (max-width: 1100px) {
-    .vetmot {
-        position: absolute;
-    bottom: 23%;
-    margin-left: 22%;
-    font-size: 142%;
-    }
-    .vethai{
-        position: absolute;
-        bottom: 31%;
+    .vethai {
+        /*position: absolute;
+    bottom: 31%;*/
         margin-left: 18%;
-        font-size: 80%;
-}
-    .vetba{
-    bottom: 36%;
-    font-size: 123%;
+        font-size: 62%;
     }
-    #readmore{
+
+    .vetba {
+        position: absolute;
+        bottom: 3%;
+        margin-left: 17%;
+        font-size: 90%;
+    }
+    /*VitalDetail*/
+    #readmore {
+        padding: 2% 4%;
+        font-size: 80%;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width: 989px) {
+    .vetmot {
+        position: absolute;
+        bottom: 7%;
+        margin-left: 6%;
+        font-size: 142%;
+    }
+
+    .vethai {
+        /*position: absolute;
+        bottom: 31%;*/
+        margin-left: 18%;
+        font-size: 91%;
+    }
+
+    .vitalbarrier {
+        margin-left: -41%;
+        width: 202%;
+    }
+
+    .vetba {
+        /*position: absolute;
+    bottom: 36%;*/
+        margin-left: 5%;
+        font-size: 122%;
+        padding-top: 5%;
+    }
+
+    #readmore {
         padding: 2% 4%;
         font-size: 80%;
     }
     /*VitalDetail*/
 
 }
-@media screen and (min-width:1100px) and (max-width: 1250px){
+
+@media screen and (min-width:990px) and (max-width: 1200px) {
     .vetmot {
         position: absolute;
-        bottom: 24%;
-        margin-left: 22%;
-        font-size: 165%;        
+        bottom: 7%;
+        margin-left: 7%;
+        font-size: 160%;
     }
-    .vethai{
+
+    .vethai {
+        /*position: absolute;
+    bottom: 31%;*/
+        margin-left: 18%;
+        font-size: 91%;
+    }
+
+    .vetba {
+        margin-left: 5%;
+        font-size: 122%;
+        padding-top: 5%;
+    }
+
+    .vitalbarrier {
+        width: 150%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .vetmot {
         position: absolute;
-    bottom: 31%;
-    margin-left: 18%;
-    font-size: 91%;    
+        bottom: 7%;
+        margin-left: 7%;
+        font-size: 190%;
     }
-    .vetba{
-        bottom: 40%;
-        margin-left: 9%;
-        font-size: 123%;
-    
+
+    .vethai {
+        margin-left: 27%;
+        font-size: 107%;
+    }
+
+    .vetba {
+        margin-left: 5%;
+        font-size: 145%;
+        padding-top: 5%;
+    }
+
+    .vitalbarrier {
+        margin-left: 8%;
+        width: 139%;
     }
 }
 /*ReadMore*/
-@media screen and (max-width: 500px){
-    .button#readmore{
+@media screen and (max-width: 500px) {
+    .button#readmore {
         border-radius: 20px;
-    border-width: 20px;
-    float: right;
-    margin-right: 40px;
-    margin-right: 20px;
-    padding: 10px;
-    font-size: x-small;
-    }
-} 
-@media screen and (min-width:500px)and (max-width: 800px){
-    .button#readmore{
-    border-radius: 20px;
-    border-width: 20px;
-    float: right;
-    margin-right: 40px;
-    margin-right: 20px;
-    padding: 15px 25px;
-    font-size: smaller;
+        border-width: 20px;
+        float: right;
+        margin-right: 40px;
+        margin-right: 20px;
+        padding: 10px;
+        font-size: x-small;
     }
 }
-#vitalmodel{
+
+@media screen and (min-width:500px)and (max-width: 800px) {
+    .button#readmore {
+        border-radius: 20px;
+        border-width: 20px;
+        float: right;
+        margin-right: 40px;
+        margin-right: 20px;
+        padding: 15px 25px;
+        font-size: smaller;
+    }
+}
+
+#vitalmodel {
     width: 100px;
-    height: auto;;
+    height: auto;
+    ;
 }
 /*Màu nền*/
-.wrap{
+.wrap {
     background-color: #f1f1f1;
 }
 
@@ -7346,268 +7376,329 @@ div#vdmain {
     border: 1px solid whitesmoke;
     background-color: whitesmoke;
 }
-div#vitaldetail{
+
+div#vitaldetail {
     background-image: url("http://www.medibless.co.kr/resources/images/common/BG_subTitle.gif")
 }
-.vital-avatar{
-width: 100%;
-height: auto;
+
+.vital-avatar {
+    width: 100%;
+    height: auto;
 }
-.vd-info{
+
+.vd-info {
     padding: 14%;
 }
+
 .vt_param12 {
     font-size: 154%;
     padding-top: 5%;
 }
+
 div#vd_img1 {
     padding: 40px 0px 0px 0px;
     margin: 0px 5px;
 }
-#vd_param{
+
+#vd_param {
     text-align: center;
-    color:#3dc4e1;
+    color: #3dc4e1;
     font-size: 170%;
     padding: 20px 0px;
 }
+
 p.vt_param13 {
     padding: 2%;
 }
+
 div#vd_param1 {
     text-align: center;
     font-size: 113%;
 }
+
 div#vd_param2 {
     padding: 0px 1%;
 }
+
 p#param2_1 {
-    color:#3dc4e1;
+    color: #3dc4e1;
     font-size: 145%;
     padding-left: 1%;
 }
+
 p#param2_2 {
-    color:#3dc4e1;
+    color: #3dc4e1;
     font-size: 145%;
     padding-left: 2%;
 }
+
 .dotvt {
     height: auto;
     width: 100%;
     background-color: #3dc4e1;
     border-radius: 50%;
     margin-bottom: 7px;
-    font-size: 96%;    
-  }
-  p.param2_3{
+    font-size: 96%;
+}
+
+p.param2_3 {
     margin: 28% 6%;
     text-align: center;
     color: white;
 }
-p.param2_4{
+
+p.param2_4 {
     margin: 28% 6%;
     text-align: center;
     color: white;
 }
-p.param2_5{
+
+p.param2_5 {
     margin: 28% 6%;
     text-align: center;
     color: white;
 }
-p.param2_6{
+
+p.param2_6 {
     margin: 28% 6%;
     text-align: center;
     color: white;
 }
-p.param2_7{
+
+p.param2_7 {
     margin: 28% 6%;
     text-align: center;
     color: white;
 }
-p.param2_8{
+
+p.param2_8 {
     margin: 28% 6%;
     text-align: center;
     color: white;
 }
+
 div#param2_9 {
     font-size: 305%;
 }
+
 div#param2_10 {
     font-size: 200%;
-} 
-.sixpath{
+}
+
+.sixpath {
     text-align: center;
     margin: auto;
 }
-div#vt_right{
-    margin-left: 8%;    
+
+div#vt_right {
+    margin-left: 8%;
 }
+
 div#param7lo {
     padding: 2% 0%;
     text-align: center;
     color: #3dc4e1;
     font-size: 144%;
 }
-img#vt_7lo{
+
+img#vt_7lo {
     margin: 0% auto;
     width: 100%;
 }
-div#vt_hd{
+
+div#vt_hd {
     text-align: center;
     color: #3dc4e1;
     font-size: 144%
 }
-img.vt_model2{
+
+img.vt_model2 {
     width: 98%;
     height: auto;
     padding-left: 10%;
 }
+
 .vt_param11 {
     color: black;
     text-align: left;
     padding-left: 7%;
     font-size: 105%;
 }
-  @media screen and (min-width:1000px)and (max-width: 1200px){
-    .dotvt{
+
+@media screen and (min-width:1000px)and (max-width: 1200px) {
+    .dotvt {
         height: auto;
         width: 100%;
         background-color: #3dc4e1;
         border-radius: 50%;
         margin-bottom: 7px;
-        font-size: 86%;    
+        font-size: 86%;
     }
-    .vt_param12{
+
+    .vt_param12 {
         font-size: 130%;
     }
-    p#param2_2{
+
+    p#param2_2 {
         font-size: 130%;
     }
-    p#param2_1{
+
+    p#param2_1 {
         font-size: 130%;
     }
 }
+
 p.vt_param13 {
     padding: 2%;
 }
-@media screen and (min-width:768px) and (max-width:1000px){
-    .dotvt{
+
+@media screen and (min-width:768px) and (max-width:1000px) {
+    .dotvt {
         height: auto;
         width: 100%;
         background-color: #3dc4e1;
         border-radius: 50%;
         margin-bottom: 7px;
-        font-size: 49%;    
+        font-size: 49%;
     }
-    .vt_param12{
+
+    .vt_param12 {
         font-size: 97%;
     }
-    p#param2_2{
+
+    p#param2_2 {
         font-size: 97%;
     }
-    p#param2_1{
+
+    p#param2_1 {
         font-size: 97%;
     }
 }
-    @media screen and (min-width:575px) and (max-width:768px){
-        .dotvt{
-            height: auto;
-            width: 100%;
-            background-color: #3dc4e1;
-            border-radius: 50%;
-            margin-bottom: 9px;
-            font-size: 49%;  
-        }
-        .vd-info{
-            font-size: 84%;
-        }
-        div#param7lo
-        {
-            font-size:120%;
-        }
-        div#vt_hd{
-            font-size: 120%;
-        }
-        .vt_param12{
-            font-size: 95%;
-            padding-top: 0%;
-        }
-        p#param2_2{
-            font-size: 100%;
-        }
-        p#param2_1{
-            font-size: 97%;
-        }
-        .sixpath{
-            font-size: 70%;
-        }
-        p.vt_param14 {
-            font-size: 82%;
-        }       
-        .vt_param11{
-            font-size:80%;
-        }        
-        div#vt_right {
-            margin-left: 8%;
-            padding-top: 6%;
-        }
-        #vd_param{
-            font-size: 120%;
-        }
-        div#vd_param1{
-            font-size: 95%;
-        }
+
+@media screen and (min-width:575px) and (max-width:768px) {
+    .dotvt {
+        height: auto;
+        width: 100%;
+        background-color: #3dc4e1;
+        border-radius: 50%;
+        margin-bottom: 9px;
+        font-size: 49%;
     }
-    @media screen and (max-width:576px){
-        .dotvt{
-            height: auto;
-            width: 26%;
-            background-color: #3dc4e1;
-            border-radius: 50%;
-            font-size: 75%; 
-            margin-right: 1%;
-        }
-        .vt_param12{
-            font-size: 98%;
-            padding-bottom: 2%;
-        }
-        p#param2_2{
-            font-size: 98%;
-        }
-        p#param2_1{
-            font-size: 98%;
-        }
-        #vd_param{
+
+    .vd-info {
+        font-size: 84%;
+    }
+
+    div#param7lo {
+        font-size: 120%;
+    }
+
+    div#vt_hd {
+        font-size: 120%;
+    }
+
+    .vt_param12 {
+        font-size: 95%;
+        padding-top: 0%;
+    }
+
+    p#param2_2 {
+        font-size: 100%;
+    }
+
+    p#param2_1 {
+        font-size: 97%;
+    }
+
+    .sixpath {
+        font-size: 70%;
+    }
+
+    p.vt_param14 {
+        font-size: 82%;
+    }
+
+    .vt_param11 {
+        font-size: 80%;
+    }
+
+    div#vt_right {
+        margin-left: 8%;
+        padding-top: 6%;
+    }
+
+    #vd_param {
+        font-size: 120%;
+    }
+
+    div#vd_param1 {
+        font-size: 95%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .dotvt {
+        height: auto;
+        width: 26%;
+        background-color: #3dc4e1;
+        border-radius: 50%;
+        font-size: 75%;
+        margin-right: 1%;
+    }
+
+    .vt_param12 {
+        font-size: 98%;
+        padding-bottom: 2%;
+    }
+
+    p#param2_2 {
+        font-size: 98%;
+    }
+
+    p#param2_1 {
+        font-size: 98%;
+    }
+
+    #vd_param {
         font-size: 135%;
-        }
-        div#vd_param1 {
-            font-size: 98%;
-        }
-        div#param7lo{
-            font-size: 98%;
-        }
-        p.param2_3{
-            margin: 28% 6%;
-            text-align: center;
-            color: white;
-        }
-        p.vt_param13{
-           font-size: 98%;
-        }
-        .vt_param11{
-            font-size: 77%;
-        }
-        p.vt_param14{
-            font-size: 95%;
-        }
-        .sixpath{
-            padding-top: 0%;
-            padding-right: 21%;
-        }
-        img.vt_model2.animated.bounceInLeft.delay-2s{
-            width: 90%;
-            padding-left: 10%;
-        }
     }
+
+    div#vd_param1 {
+        font-size: 98%;
+    }
+
+    div#param7lo {
+        font-size: 98%;
+    }
+
+    p.param2_3 {
+        margin: 28% 6%;
+        text-align: center;
+        color: white;
+    }
+
+    p.vt_param13 {
+        font-size: 98%;
+    }
+
+    .vt_param11 {
+        font-size: 77%;
+    }
+
+    p.vt_param14 {
+        font-size: 95%;
+    }
+
+    .sixpath {
+        padding-top: 0%;
+        padding-right: 21%;
+    }
+
+    img.vt_model2.animated.bounceInLeft.delay-2s {
+        width: 90%;
+        padding-left: 10%;
+    }
+}
 
 
 .obj1 {
@@ -7618,7 +7709,10 @@ p.vt_param13 {
     width: 100%;
 }
 
-
+#VetGiua {
+    font-size: 123%;
+    padding-top: 2%;
+}
 
 #vet2 {
     background-color: white;
@@ -7631,4 +7725,9 @@ p.vt_param13 {
 
 #vet3 {
     background-color: #7dc2ff;
+}
+.fix-khung {
+    padding-left:4%;
+    padding-right:4%;
+    background-color:black;
 }

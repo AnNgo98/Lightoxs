@@ -75,6 +75,25 @@ namespace Lightoxs.Model
             return sb.ToString();
         }
 
+        public string getExtensionFileName(string nameOfFile)
+        {
+            string result = "";
+
+            for (int i = nameOfFile.Length - 1; i >= 0; i--)
+            {
+                if (nameOfFile[i] == '.')
+                {
+                    result = "." + result;
+                    break;
+                }
+                else
+                {
+                    result = nameOfFile[i] + result;
+                }
+            }
+
+            return result;
+        }
         #endregion
 
     }

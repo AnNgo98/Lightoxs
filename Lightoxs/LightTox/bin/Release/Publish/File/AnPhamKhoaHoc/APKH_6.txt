@@ -1,2 +1,0 @@
-﻿<img id="cer4" src="/Images/certification/6.png">
-<p class="pb-5">Link Pdf xem chi tiết : <a id="pdf4" href="https://demo.wsas.vn/inno/wp-content/uploads/2018/05/LSM-22517_review.pdf">Seok_et_al-2016-Dermatologic_Therapy</a></p>                    

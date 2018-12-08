@@ -497,13 +497,12 @@
     <Content Include="Images\img_badgirl.png" />
     <Content Include="Images\img_daudakim.png" />
     <Content Include="Images\img_daukhongkim.jpg" />
-    <Content Include="Images\img_evt_1.png" />
-    <Content Include="Images\img_evt_2.png" />
-    <Content Include="Images\img_evt_3.png" />
-    <Content Include="Images\img_evt_4.png" />
-    <Content Include="Images\img_evt_5.png" />
-    <Content Include="Images\img_evt_6.png" />
-    <Content Include="Images\img_evt_7.png" />
+    <Content Include="Images\eventsworkshop\img_evt_2.png" />
+    <Content Include="Images\eventsworkshop\img_evt_3.png" />
+    <Content Include="Images\eventsworkshop\img_evt_4.png" />
+    <Content Include="Images\eventsworkshop\img_evt_5.png" />
+    <Content Include="Images\eventsworkshop\img_evt_6.png" />
+    <Content Include="Images\eventsworkshop\img_evt_7.png" />
     <Content Include="Images\img_pu_1.png" />
     <Content Include="Images\img_pu_2.png" />
     <Content Include="Images\img_pu_3.png" />
@@ -727,7 +726,9 @@
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="Scripts\paritcals.json" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
